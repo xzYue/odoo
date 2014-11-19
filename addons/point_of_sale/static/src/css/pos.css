@@ -1113,7 +1113,14 @@ td {
     word-wrap: break-word;
 }
 
+@page {
+    margin: 0;
+}
+
 @media print {
+    * {
+        color: black !important;
+    }
     .oe_leftbar,
     .pos .pos-topheader, 
     .pos .pos-leftpane, 
