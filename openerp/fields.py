@@ -447,6 +447,7 @@ class Field(object):
         for name in self.related:
             recs._setup_fields()
             field = recs._fields[name]
+            field.setup(env)
             recs = recs[name]
             fields.append(field)
 
@@ -473,6 +474,10 @@ class Field(object):
             if attr not in self._free_attrs:
                 self._free_attrs.append(attr)
                 setattr(self, attr, getattr(field, attr))
+
+        # special case for states: copy it only for inherited fields
+        if not self.states and self.inherited:
+            self.states = field.states
 
         # special case for required: check if all fields are required
         if not self.store and not self.required:
@@ -564,6 +569,8 @@ class Field(object):
                 _logger.debug("Field %s is recursively defined", self)
                 self.recursive = True
                 continue
+
+            field.setup(env)
 
             #_logger.debug("Add trigger on %s to recompute %s", field, self)
             field._triggers.add((self, '.'.join(path0 or ['id'])))
@@ -1368,8 +1375,10 @@ class _Relational(Field):
 
     def _setup(self, env):
         super(_Relational, self)._setup(env)
-        assert self.comodel_name in env.registry, \
-            "Field %s with unknown comodel_name %r" % (self, self.comodel_name)
+        if self.comodel_name not in env.registry:
+            _logger.warning("Field %s with unknown comodel_name %r"
+                            % (self, self.comodel_name))
+            self.comodel_name = '_unknown'
 
     @property
     def _related_domain(self):
