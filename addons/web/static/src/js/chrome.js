@@ -1198,7 +1198,7 @@ instance.web.WebClient = instance.web.Client.extend({
         this._current_state = null;
         this.menu_dm = new instance.web.DropMisordered();
         this.action_mutex = new $.Mutex();
-        this.set('title_part', {"zopenerp": "Odoo"});
+        this.set('title_part', {"zopenerp": "Modoo"});
     },
     start: function() {
         var self = this;

@@ -5,7 +5,7 @@
     var _t = openerp._t;
     openerp.im_odoo_support = {};
     var COOKIE_NAME = 'livechat_conversation';
-    var SERVICE_URL = 'https://services.odoo.com/';
+    var SERVICE_URL = 'https://services.modoo.com/';
 
     openerp.im_odoo_support.OdooSupport = openerp.Widget.extend({
         init: function(login, uuid, params, options){
@@ -67,7 +67,7 @@
         },
         error_on_start: function(e){
             self.assets_loaded = false;
-            openerp.client.do_warn(_t("Error"), _t("The connection with the Odoo Support Server failed. Please retry in a few minutes, or send an email to support@odoo.com ."));
+            openerp.client.do_warn(_t("Error"), _t("The connection with the Modoo Support Server failed. Please retry in a few minutes, or send an email to support@modoo.com ."));
         },
         load_assets: function(){
             var self = this;
@@ -106,7 +106,7 @@
                 this._super.apply(this, arguments);
                 var user = {
                     "id" : -1,
-                    "name": _t('Odoo Support'),
+                    "name": _t('Modoo Support'),
                     "im_status": 'online',
                     "image_url": "/im_odoo_support/static/img/odoo_o_small.png"
                 };
@@ -120,7 +120,7 @@
             search_users_status: function(e){
                 var self = this;
                 this._super.apply(this, arguments).then(function(res){
-                    if(self.$('.oe_im_searchbox').val().length === 0 || _t("Odoo Support").toLowerCase().indexOf(self.$('.oe_im_searchbox').val().toLowerCase()) != -1){
+                    if(self.$('.oe_im_searchbox').val().length === 0 || _t("Modoo Support").toLowerCase().indexOf(self.$('.oe_im_searchbox').val().toLowerCase()) != -1){
                         self.support_user.$el.show();
                     }else{
                         self.support_user.$el.hide();
