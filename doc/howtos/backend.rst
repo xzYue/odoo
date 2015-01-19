@@ -9,7 +9,7 @@ Building a Module
     This tutorial requires :ref:`having installed Modoo <setup/install>`
 
 Start/Stop the Modoo server
-==========================
+===========================
 
 Modoo uses a client/server architecture in which clients are web browsers
 accessing the Modoo server via RPC.
@@ -30,7 +30,7 @@ The server is stopped by hitting ``Ctrl-C`` twice from the terminal, or by
 killing the corresponding OS process.
 
 Build an Modoo module
-====================
+=====================
 
 Both server and client extensions are packaged as *modules* which are
 optionally loaded in a *database*.
@@ -74,31 +74,9 @@ option.
     most command-line options can also be set using :ref:`a configuration
     file <reference/cmdline/config>`
 
-An Modoo module is declared by its :ref:`manifest <reference/module/manifest>`. It
-is mandatory and contains a single python dictionary declaring various
-metadata for the module: the module's name and description, list of Modoo
-modules required for this one to work properly, references to data files, …
-
-The manifest's general structure is::
-
-    {
-        'name': "MyModule",
-        'version': '1.0',
-        'depends': ['base'],
-        'author': "Author Name",
-        'category': 'Category',
-        'description': """
-        Description text
-        """,
-        # data files always loaded at installation
-        'data': [
-            'mymodule_view.xml',
-        ],
-        # data files containing optionally loaded demonstration data
-        'demo': [
-            'demo_data.xml',
-        ],
-    }
+An Modoo module is declared by its :ref:`manifest <reference/module/manifest>`.
+See the :ref:`manifest documentation <reference/module/manifest>` information
+about it.
 
 A module is also a
 `Python package <http://docs.python.org/2/tutorial/modules.html#packages>`_
@@ -108,15 +86,15 @@ files in the module.
 For instance, if the module has a single ``mymodule.py`` file ``__init__.py``
 might contain::
 
-    import mymodule
+    from . import mymodule
 
-Fortunately, there is a mechanism to help you set up an module. The command
-``modoo.py`` has a subcommand :ref:`scaffold <reference/cmdline/scaffold>` to
-create an empty module:
+Modoo provides a mechanism to help set up a new module, :ref:`modoo.py
+<reference/cmdline/server>` has a subcommand :ref:`scaffold
+<reference/cmdline/scaffold>` to create an empty module:
 
-.. code:: bash
+.. code-block:: console
 
-    modoo.py scaffold <module name> <where to put it>
+    $ modoo.py scaffold <module name> <where to put it>
 
 The command creates a subdirectory for your module, and automatically creates a
 bunch of standard files for a module. Most of them simply contain commented code
