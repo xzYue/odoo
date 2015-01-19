@@ -36,7 +36,7 @@ meeting minutes.
 Notes can be found in the 'Home' menu.
 """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/notes',
+    'website': 'https://www.modoo.com/page/notes',
     'summary': 'Sticky notes, Collaborative, Memos',
     'sequence': 9,
     'depends': [

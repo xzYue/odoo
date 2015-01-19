@@ -355,11 +355,11 @@ msgstr "Почетен датум"
 msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
-"device using Odoo's web service features."
+"device using Modoo's web service features."
 msgstr ""
 "Функционалноста за следење на време има за цел да управува со присутноста на "
 "вработените од Влез/Излез акциите. Исто така можете да ја поврзете оваа "
-"функција со уред за работно време преку вебсервис можностите на Odoo."
+"функција со уред за работно време преку вебсервис можностите на Modoo."
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_time_tracking

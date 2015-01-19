@@ -74,7 +74,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
+msgid "<p>If you do not contribute or develop in Modoo, skip this page.</p>"
 msgstr ""
 
 #. module: survey
@@ -94,8 +94,8 @@ msgstr ""
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to "
-"remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of Modoo. Try to "
+"remind your firsts days on Modoo and\n"
 "what have been your difficulties.</p>"
 msgstr ""
 
@@ -150,7 +150,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
+msgid "About your Modoo usage"
 msgstr ""
 
 #. module: survey
@@ -237,7 +237,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
+msgid "Are you using Modoo on a daily basis?"
 msgstr ""
 
 #. module: survey
@@ -681,7 +681,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
+msgid "How do you contribute or plan to contribute to Modoo?"
 msgstr ""
 
 #. module: survey
@@ -716,7 +716,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
+msgid "I use Launchpad, like all official Modoo projects"
 msgstr ""
 
 #. module: survey
@@ -726,7 +726,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
+msgid "I use the contextual help in Modoo"
 msgstr ""
 
 #. module: survey
@@ -1861,7 +1861,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
+msgid "They help new users to understand Modoo"
 msgstr ""
 
 #. module: survey
@@ -2119,7 +2119,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Modoo, available in the web "
 "client ?"
 msgstr ""
 
@@ -2156,7 +2156,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
+msgid "Yes, I use the online version of Modoo"
 msgstr ""
 
 #. module: survey

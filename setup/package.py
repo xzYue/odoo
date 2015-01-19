@@ -230,9 +230,9 @@ class KVMWinTestExe(KVM):
 
         self.rsync('"%s" %s@127.0.0.1:' % (setuppath, self.login))
         self.ssh("TEMP=/tmp ./%s /S" % setupfile)
-        self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"Odoo %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
-        self.ssh('/cygdrive/c/"Program Files"/"Odoo %s"/server/openerp-server.exe -d mycompany -i base --stop-after-init' % setupversion)
-        self.ssh('net start odoo-server-8.0')
+        self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"Modoo %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
+        self.ssh('/cygdrive/c/"Program Files"/"Modoo %s"/server/openerp-server.exe -d mycompany -i base --stop-after-init' % setupversion)
+        self.ssh('net start modoo-server-8.0')
         _rpc_count_modules(port=18069)
 
 #----------------------------------------------------------
@@ -246,12 +246,12 @@ def _prepare_build_dir(o):
 
 def build_tgz(o):
     system(['python2', 'setup.py', 'sdist', '--quiet', '--formats=gztar,zip'], o.build_dir)
-    system(['mv', glob('%s/dist/odoo-*.tar.gz' % o.build_dir)[0], '%s/odoo_%s.%s.tar.gz' % (o.build_dir, version, timestamp)])
-    system(['mv', glob('%s/dist/odoo-*.zip' % o.build_dir)[0], '%s/odoo_%s.%s.zip' % (o.build_dir, version, timestamp)])
+    system(['mv', glob('%s/dist/modoo-*.tar.gz' % o.build_dir)[0], '%s/odoo_%s.%s.tar.gz' % (o.build_dir, version, timestamp)])
+    system(['mv', glob('%s/dist/modoo-*.zip' % o.build_dir)[0], '%s/odoo_%s.%s.zip' % (o.build_dir, version, timestamp)])
 
 def build_deb(o):
     # Append timestamp to version for the .dsc to refer the right .tar.gz
-    cmd=['sed', '-i', '1s/^.*$/odoo (%s.%s) stable; urgency=low/'%(version,timestamp), 'debian/changelog']
+    cmd=['sed', '-i', '1s/^.*$/modoo (%s.%s) stable; urgency=low/'%(version,timestamp), 'debian/changelog']
     subprocess.call(cmd, cwd=o.build_dir)
     deb = pexpect.spawn('dpkg-buildpackage -rfakeroot -k%s' % GPGID, cwd=o.build_dir)
     deb.logfile = stdout
@@ -267,7 +267,7 @@ def build_deb(o):
 
 def build_rpm(o):
     system(['python2', 'setup.py', '--quiet', 'bdist_rpm'], o.build_dir)
-    system(['mv', glob('%s/dist/odoo-*.noarch.rpm' % o.build_dir)[0], '%s/odoo_%s.%s.noarch.rpm' % (o.build_dir, version, timestamp)])
+    system(['mv', glob('%s/dist/modoo-*.noarch.rpm' % o.build_dir)[0], '%s/odoo_%s.%s.noarch.rpm' % (o.build_dir, version, timestamp)])
 
 def build_exe(o):
     KVMWinBuildExe(o, o.vm_winxp_image, o.vm_winxp_ssh_key, o.vm_winxp_login).start()
@@ -284,49 +284,49 @@ def _prepare_testing(o):
         # Use rsync to copy requirements.txt in order to keep original permissions
         subprocess.call(["rsync", "-a", "requirements.txt", os.path.join(o.build_dir, "docker_debian")],
                         cwd=os.path.join(o.odoo_dir))
-        subprocess.call(["docker", "build", "-t", "odoo-debian-nightly-tests", "."],
+        subprocess.call(["docker", "build", "-t", "modoo-debian-nightly-tests", "."],
                         cwd=os.path.join(o.build_dir, "docker_debian"))
     if not o.no_rpm:
         subprocess.call(["mkdir", "docker_centos"], cwd=o.build_dir)
         subprocess.call(["cp", "package.dfcentos", os.path.join(o.build_dir, "docker_centos", "Dockerfile")],
                         cwd=os.path.join(o.odoo_dir, "setup"))
-        subprocess.call(["docker", "build", "-t", "odoo-centos-nightly-tests", "."],
+        subprocess.call(["docker", "build", "-t", "modoo-centos-nightly-tests", "."],
                         cwd=os.path.join(o.build_dir, "docker_centos"))
 
 def test_tgz(o):
-    with docker('odoo-debian-nightly-tests', o.build_dir, o.pub) as wheezy:
+    with docker('modoo-debian-nightly-tests', o.build_dir, o.pub) as wheezy:
         wheezy.release = '*.tar.gz'
         wheezy.system("service postgresql start")
         wheezy.system('/usr/local/bin/pip install /opt/release/%s' % wheezy.release)
-        wheezy.system("useradd --system --no-create-home odoo")
-        wheezy.system('su postgres -s /bin/bash -c "createuser -s odoo"')
+        wheezy.system("useradd --system --no-create-home modoo")
+        wheezy.system('su postgres -s /bin/bash -c "createuser -s modoo"')
         wheezy.system('su postgres -s /bin/bash -c "createdb mycompany"')
-        wheezy.system('mkdir /var/lib/odoo')
-        wheezy.system('chown odoo:odoo /var/lib/odoo')
-        wheezy.system('su odoo -s /bin/bash -c "odoo.py --addons-path=/usr/local/lib/python2.7/dist-packages/openerp/addons -d mycompany -i base --stop-after-init"')
-        wheezy.system('su odoo -s /bin/bash -c "odoo.py --addons-path=/usr/local/lib/python2.7/dist-packages/openerp/addons -d mycompany &"')
+        wheezy.system('mkdir /var/lib/modoo')
+        wheezy.system('chown modoo:modoo /var/lib/modoo')
+        wheezy.system('su modoo -s /bin/bash -c "modoo.py --addons-path=/usr/local/lib/python2.7/dist-packages/openerp/addons -d mycompany -i base --stop-after-init"')
+        wheezy.system('su modoo -s /bin/bash -c "modoo.py --addons-path=/usr/local/lib/python2.7/dist-packages/openerp/addons -d mycompany &"')
 
 def test_deb(o):
-    with docker('odoo-debian-nightly-tests', o.build_dir, o.pub) as wheezy:
+    with docker('modoo-debian-nightly-tests', o.build_dir, o.pub) as wheezy:
         wheezy.release = '*.deb'
         wheezy.system("service postgresql start")
         wheezy.system('su postgres -s /bin/bash -c "createdb mycompany"')
         wheezy.system('/usr/bin/dpkg -i /opt/release/%s' % wheezy.release)
         wheezy.system('/usr/bin/apt-get install -f -y')
-        wheezy.system('su odoo -s /bin/bash -c "odoo.py -c /etc/odoo/openerp-server.conf -d mycompany -i base --stop-after-init"')
-        wheezy.system('su odoo -s /bin/bash -c "odoo.py -c /etc/odoo/openerp-server.conf -d mycompany &"')
+        wheezy.system('su modoo -s /bin/bash -c "modoo.py -c /etc/modoo/openerp-server.conf -d mycompany -i base --stop-after-init"')
+        wheezy.system('su modoo -s /bin/bash -c "modoo.py -c /etc/modoo/openerp-server.conf -d mycompany &"')
 
 def test_rpm(o):
-    with docker('odoo-centos-nightly-tests', o.build_dir, o.pub) as centos7:
+    with docker('modoo-centos-nightly-tests', o.build_dir, o.pub) as centos7:
         centos7.release = '*.noarch.rpm'
         # Start postgresql
         centos7.system('su postgres -c "/usr/bin/pg_ctl -D /var/lib/postgres/data start"')
         centos7.system('sleep 5')
         centos7.system('su postgres -c "createdb mycompany"')
-        # Odoo install
+        # Modoo install
         centos7.system('yum install -d 0 -e 0 /opt/release/%s -y' % centos7.release)
-        centos7.system('su odoo -s /bin/bash -c "openerp-server -c /etc/odoo/openerp-server.conf -d mycompany -i base --stop-after-init"')
-        centos7.system('su odoo -s /bin/bash -c "openerp-server -c /etc/odoo/openerp-server.conf -d mycompany &"')
+        centos7.system('su modoo -s /bin/bash -c "openerp-server -c /etc/modoo/openerp-server.conf -d mycompany -i base --stop-after-init"')
+        centos7.system('su modoo -s /bin/bash -c "openerp-server -c /etc/modoo/openerp-server.conf -d mycompany &"')
 
 def test_exe(o):
     KVMWinTestExe(o, o.vm_winxp_image, o.vm_winxp_ssh_key, o.vm_winxp_login).start()
@@ -406,8 +406,8 @@ def options():
     op.add_option("", "--no-windows", action="store_true", help="don't build the windows package")
 
     # Windows VM
-    op.add_option("", "--vm-winxp-image", default='/home/odoo/vm/winxp27/winxp27.vdi', help="%default")
-    op.add_option("", "--vm-winxp-ssh-key", default='/home/odoo/vm/winxp27/id_rsa', help="%default")
+    op.add_option("", "--vm-winxp-image", default='/home/modoo/vm/winxp27/winxp27.vdi', help="%default")
+    op.add_option("", "--vm-winxp-ssh-key", default='/home/modoo/vm/winxp27/id_rsa', help="%default")
     op.add_option("", "--vm-winxp-login", default='Naresh', help="Windows login (%default)")
     op.add_option("", "--vm-winxp-python-version", default='2.7', help="Windows Python version installed in the VM (default: %default)")
 

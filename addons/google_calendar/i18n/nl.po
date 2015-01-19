@@ -239,10 +239,10 @@ msgstr "Selecteer het submenu API's uit het linkermenu en activeer het."
 #: help:res.users,google_calendar_cal_id:0
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and Modoo Google Internal ID"
 msgstr ""
 "Laatste kalender ID dat is gesynchroniseerd. Als dit veranderd is "
-"verwijderen we alle links tussen het Google ID en Odoo Google intern ID"
+"verwijderen we alle links tussen het Google ID en Modoo Google intern ID"
 
 #. module: google_calendar
 #: field:res.users,google_calendar_last_sync_date:0
@@ -251,13 +251,13 @@ msgstr "Laatste synchronisatie datum"
 
 #. module: google_calendar
 #: field:calendar.attendee,oe_synchro_date:0
-msgid "Odoo Synchro Date"
-msgstr "Odoo synchronisatie datum"
+msgid "Modoo Synchro Date"
+msgstr "Modoo synchronisatie datum"
 
 #. module: google_calendar
 #: field:calendar.event,oe_update_date:0
-msgid "Odoo Update Date"
-msgstr "Odoo update datum"
+msgid "Modoo Update Date"
+msgstr "Modoo update datum"
 
 #. module: google_calendar
 #: view:base.config.settings:google_calendar.view_calendar_config_settings

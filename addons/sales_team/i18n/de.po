@@ -305,11 +305,11 @@ msgstr "Das Kürzel für das Vertriebsteam muss eindeutig sein!"
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Modoo about "
 "cases in this sales team"
 msgstr ""
 "Die 'Antwort An' Einstellung zur Entgegennahme von Antworten auf versendete "
-"Odoo E-Mails"
+"Modoo E-Mails"
 
 #. module: sales_team
 #: field:crm.case.section,message_unread:0

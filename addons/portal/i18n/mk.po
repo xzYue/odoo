@@ -169,7 +169,7 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"Modoo - Open Source Business Applications\n"
 "http://www.openerp.com\n"
 msgstr ""
 "Драги %(name)s,\n"
@@ -187,7 +187,7 @@ msgstr ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Бизнис Апликација\n"
+"Modoo - Open Source Бизнис Апликација\n"
 "http://www.openerp.com\n"
 
 #. module: portal
@@ -445,8 +445,8 @@ msgstr ""
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
-msgstr "Вашиот Odoo налог при %(company)s"
+msgid "Your Modoo account at %(company)s"
+msgstr "Вашиот Modoo налог при %(company)s"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:46

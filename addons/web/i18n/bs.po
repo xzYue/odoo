@@ -253,8 +253,8 @@ msgstr "O programu"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:360
 #, python-format
-msgid "About Odoo"
-msgstr "O Odoo-u"
+msgid "About Modoo"
+msgstr "O Modoo-u"
 
 #. module: web
 #. openerp-web
@@ -541,8 +541,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Označite ovaj okvir da ocijenite Odoo."
+msgid "Check this box to evaluate Modoo."
+msgstr "Označite ovaj okvir da ocijenite Modoo."
 
 #. module: web
 #. openerp-web
@@ -877,8 +877,8 @@ msgstr "Odbaci"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:426
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Otkrijte Odoo događaje širom svijeta..."
+msgid "Discover Events of Modoo around the world..."
+msgstr "Otkrijte Modoo događaje širom svijeta..."
 
 #. module: web
 #. openerp-web
@@ -1199,14 +1199,14 @@ msgstr "Datoteka:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an Modoo database. You can\n"
 "                    create databases for different companies or for "
 "different\n"
 "                    goals (testing, production). Once the database is "
 "created,\n"
 "                    you will be able to install your first application."
 msgstr ""
-"Ispunite ovu formu za kreiranje Odoo baze podataka.\n"
+"Ispunite ovu formu za kreiranje Modoo baze podataka.\n"
 "                    Možete kreirati baze podataka za različite kompanije "
 "ili\n"
 "                    za različite svrhe (testna, produkcijska). Nakon "
@@ -1633,8 +1633,8 @@ msgstr "Više"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:359
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Moj Odoo.com nalog"
+msgid "My Modoo.com account"
+msgstr "Moj Modoo.com nalog"
 
 #. module: web
 #. openerp-web
@@ -1745,33 +1745,33 @@ msgstr "Objekt:"
 #: view:website:web.layout
 #: view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:377
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (prvobitno OpenERP)"
+msgid "Modoo (Formerly OpenERP)"
+msgstr "Modoo (prvobitno OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web Testovi"
+msgid "Modoo Web Tests"
+msgstr "Modoo Web Testovi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:411
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo je trgovački znak"
+msgid "Modoo is a trademark of the"
+msgstr "Modoo je trgovački znak"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:413
 #, python-format
-msgid "Odoo.com"
+msgid "Modoo.com"
 msgstr ""
 
 #. module: web
@@ -2763,9 +2763,9 @@ msgstr "Morate izabrati makar jedan zapis."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Modoo session expired. Please refresh the current web page."
 msgstr ""
-"Vaša Odoo sesija je istekla. Molimo vas da osvježite trenutnu web stranicu "
+"Vaša Modoo sesija je istekla. Molimo vas da osvježite trenutnu web stranicu "
 "(F5 ili Ctrl+R)."
 
 #. module: web

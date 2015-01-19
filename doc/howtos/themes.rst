@@ -7,12 +7,12 @@ Building Themes
 Basic set up
 ============
 
-Create a basic theme module with :command:`odoo.py scaffold` and the ``theme``
-template: from the root Odoo folder, use
+Create a basic theme module with :command:`modoo.py scaffold` and the ``theme``
+template: from the root Modoo folder, use
 
 .. code-block:: console
 
-    $ ./odoo.py scaffold -t theme "Dummy Theme" addons
+    $ ./modoo.py scaffold -t theme "Dummy Theme" addons
 
 this should create a new folder ``dummy_theme`` in the ``addons`` directory
 with the structure:
@@ -31,7 +31,7 @@ with the structure:
         `-- snippets.xml
 
 ``static/styles`` contains your stylesheet(s), ``views`` contains the various
-XML files describing the theme and theme features to Odoo.
+XML files describing the theme and theme features to Modoo.
 
 Static Page
 -----------
@@ -39,9 +39,9 @@ Static Page
 Creating a new template
 '''''''''''''''''''''''
 
-Create a new file :file:`odoo/addons/theme_dummy/views/pages.xml` and open it.
+Create a new file :file:`modoo/addons/theme_dummy/views/pages.xml` and open it.
 
-In odoo, a page means a new template. You don't need special skills, simply
+In modoo, a page means a new template. You don't need special skills, simply
 copy paste the lines::
 
   <template id="website.hello" name="Homepage" page="True">
@@ -96,8 +96,8 @@ Pimp Your Theme
 Easy styling with less
 ''''''''''''''''''''''
 
-In ``odoo/addons/theme_dummy/static`` create a new folder and name it
-``style``. In the new folder ``odoo/addons/theme_dummy/static/style`` create a
+In ``modoo/addons/theme_dummy/static`` create a new folder and name it
+``style``. In the new folder ``modoo/addons/theme_dummy/static/style`` create a
 file and name it ``custom.less``. Open ``custom.less`` in the text editor and
 modify these lines as below:
 
@@ -131,7 +131,7 @@ container. Here we try with the 'wrapwrap' id.
 Easy layout with bootstrap
 ''''''''''''''''''''''''''
 
-Open :file:`odoo/addons/theme_dummy/views/pages.xml` and add a new section::
+Open :file:`modoo/addons/theme_dummy/views/pages.xml` and add a new section::
 
   <section>
       <div class="container">
@@ -153,7 +153,7 @@ Refresh the page and check how it looks.
 
 The background of the alert component is the default Bootstrap primary color.
 The two other div your created have no custom styles applied yet.  Open
-:file:`odoo/addons/theme_dummy/static/style/custom.less` and add these lines:
+:file:`modoo/addons/theme_dummy/static/style/custom.less` and add these lines:
 
 .. code-block:: css
 
@@ -191,7 +191,7 @@ Open ``__openerp__.py`` and add a new line as below:
        'application': True,
    }
 
-In ``odoo/addons/theme_learn/views`` create a new xml file, name it
+In ``modoo/addons/theme_learn/views`` create a new xml file, name it
 ``snippets.xml`` and open it in a text editor
 
 Add your snippet in the menu
@@ -233,7 +233,7 @@ The snippet body
 ''''''''''''''''
 
 A snippet has to be in a section with the class ``oe_snippet_body`` to work
-correctly.  As Odoo use the Bootstrap framework, you have use containers and
+correctly.  As Modoo use the Bootstrap framework, you have use containers and
 rows to hold your content. Please refer the the Bootstrap documentation::
 
   <xpath expr="//div[@id='snippet_structure']" position="inside">
@@ -267,9 +267,9 @@ Adding images to your snippet
 You can easely add images in your snippets simply by setting up css
 backgrounds images.
 
-In ``odoo/addons/theme_dummy/static/`` create a new folder and name it
+In ``modoo/addons/theme_dummy/static/`` create a new folder and name it
 ``img``. Put your images there, in sub-folders if needed.  Open
-:file:`odoo/addons/theme_dummy/static/style/custom.less`, add these lines
+:file:`modoo/addons/theme_dummy/static/style/custom.less`, add these lines
 
 .. code-block:: css
 
@@ -279,7 +279,7 @@ In ``odoo/addons/theme_dummy/static/`` create a new folder and name it
    @img-02: url("../img/img-girl.png");
    .dummy-girl { background-image: @img-02; }
 
-In :file:`odoo/addons/theme_dummy/views/pages.xml` change the correspondant
+In :file:`modoo/addons/theme_dummy/views/pages.xml` change the correspondant
 lines as below::
 
     <section>
@@ -316,7 +316,7 @@ Understanding XPath
 
 As your stylesheets are running on the whole website, giving more option to
 your snippets and applying them independently will push your design
-forward. In ``odoo/addons/theme_dummy/views/`` create a new file, name it
+forward. In ``modoo/addons/theme_dummy/views/`` create a new file, name it
 ``options.xml`` and add these lines::
 
     <template id="gourman_website_options_pattern" inherit_id="website.snippet_options">
@@ -368,7 +368,7 @@ XPath & inherits
 You can also add images in your variables and use them on certain part of your
 pages, snippets or any html element.
 
-In :file:`odoo/addons/theme_dummy/static/style/custom.css` add these new lines
+In :file:`modoo/addons/theme_dummy/static/style/custom.css` add these new lines
 
 .. code:: css
 
@@ -381,7 +381,7 @@ In :file:`odoo/addons/theme_dummy/static/style/custom.css` add these new lines
 Now that you have set the background image, you can decide how and where the
 user can use it, for example, on a simple div.
 
-Open :file:`odoo/addons/theme_dummy/views/options.xml` and add this new xpath::
+Open :file:`modoo/addons/theme_dummy/views/options.xml` and add this new xpath::
 
   <xpath expr="//div[@data-option='background-dummy']//ul" position="after">
       <ul class="dropdown-menu">
@@ -394,7 +394,7 @@ Open :file:`odoo/addons/theme_dummy/views/options.xml` and add this new xpath::
 Your option is ready to be applied but you want it to be shown only a certain
 part of a snippet.
 
-Open :file:`odoo/addons/theme_dummy/views/snippets.xml` and add a new snippet
+Open :file:`modoo/addons/theme_dummy/views/snippets.xml` and add a new snippet
 with the method we learned previously::
 
     <xpath expr="//div[@id='snippet_structure']" position="inside">
@@ -442,12 +442,12 @@ The Image Database
 Modifying the image database
 ''''''''''''''''''''''''''''
 
-Odoo provides its own image library but you certainly want to adapt it to your
+Modoo provides its own image library but you certainly want to adapt it to your
 design.  Do not use the Media Manager uploading Tool to add image in your
 theme. The images url's will be lost on reload!  Instead of uploading your
 images, you can create your own library and disable the old ones.
 
-In ``odoo/addons/theme_dummy/views/`` create a new file, name it
+In ``modoo/addons/theme_dummy/views/`` create a new file, name it
 ``images.xml`` and add these lines::
 
   <record id="image_bg_blue" model="ir.attachment">

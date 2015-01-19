@@ -51,7 +51,7 @@ The swiss localization addons are organized this way:
 ``l10n_ch_payment_slip``
   Support of ESR/BVR payment slip report and reconciliation.
 
-``l10n_ch`` is located in the core Odoo modules. The other modules are in:
+``l10n_ch`` is located in the core Modoo modules. The other modules are in:
 https://github.com/OCA/l10n-switzerland
 """,
  'version': '8.0',

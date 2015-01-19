@@ -354,11 +354,11 @@ msgstr "Indulás dátuma"
 msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
-"device using Odoo's web service features."
+"device using Modoo's web service features."
 msgstr ""
 "Az idő követő funkció arra szolgál, hogy kezelje a munkavállaló részvételét "
 "a Belépés/Kilépés műveletek közt. Ezt a tulajdonságot hozzákapcsolhatja egy "
-"részvét figyelő egységgel az Odoo rendszer web szolgáltatásán keresztül."
+"részvét figyelő egységgel az Modoo rendszer web szolgáltatásán keresztül."
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_time_tracking

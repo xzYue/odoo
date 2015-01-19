@@ -130,13 +130,13 @@ msgstr "Nombre"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certifications"
-msgstr "Certificaciones Odoo"
+msgid "Modoo Certifications"
+msgstr "Certificaciones Modoo"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certified Experts"
-msgstr "Expertos Odoo certificados"
+msgid "Modoo Certified Experts"
+msgstr "Expertos Modoo certificados"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
@@ -162,16 +162,16 @@ msgstr "Buscar certificación"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid ""
-"The Odoo certification program allows companies\n"
+"The Modoo certification program allows companies\n"
 "                                    to identify certified professionals and "
 "get\n"
 "                                    the guarantee that their contractors "
 "are\n"
-"                                    qualified to offer Odoo services."
+"                                    qualified to offer Modoo services."
 msgstr ""
-"El programa de certificación de Odoo permite a las compañías identificar a "
+"El programa de certificación de Modoo permite a las compañías identificar a "
 "los profesionales certificados y obtener la garantía de que sus contratistas "
-"están cualificados para ofrecer servicios Odoo."
+"están cualificados para ofrecer servicios Modoo."
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners

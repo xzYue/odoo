@@ -196,13 +196,13 @@ msgstr "Fehler! Sie können keine rekursiven Kategorien erstellen."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to configure in Odoo"
-msgstr "Erklären Sie die Konfiguration von Odoo"
+msgid "Explain how to configure in Modoo"
+msgstr "Erklären Sie die Konfiguration von Modoo"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Erklären Sie die Implementierung von Odoo"
+msgid "Explain how to implement it in Modoo"
+msgstr "Erklären Sie die Implementierung von Modoo"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,forum_id:0
@@ -407,8 +407,8 @@ msgstr "Stufenbezeichnung"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "Die Antwort kann durch Odoo Anfänger verstanden werden."
+msgid "The answer is understandable for someone who does not know Modoo"
+msgstr "Die Antwort kann durch Modoo Anfänger verstanden werden."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question

@@ -1,17 +1,17 @@
 {
-    'name' : 'Odoo Live Support',
+    'name' : 'Modoo Live Support',
     'author': 'OpenERP SA',
     'version': '1.0',
-    'summary': 'Chat with the Odoo collaborators',
+    'summary': 'Chat with the Modoo collaborators',
     'category': 'Tools',
     'complexity': 'medium',
-    'website': 'https://www.odoo.com/',
+    'website': 'https://www.modoo.com/',
     'description':
         """
-Odoo Live Support
+Modoo Live Support
 =================
 
-Ask your functionnal question directly to the Odoo Operators with the livechat support.
+Ask your functionnal question directly to the Modoo Operators with the livechat support.
 
         """,
     'data': [

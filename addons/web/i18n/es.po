@@ -253,8 +253,8 @@ msgstr "Acerca de"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:360
 #, python-format
-msgid "About Odoo"
-msgstr "Acerca de Odoo"
+msgid "About Modoo"
+msgstr "Acerca de Modoo"
 
 #. module: web
 #. openerp-web
@@ -542,8 +542,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Marque esta casilla para evaluar Odoo"
+msgid "Check this box to evaluate Modoo."
+msgstr "Marque esta casilla para evaluar Modoo"
 
 #. module: web
 #. openerp-web
@@ -878,8 +878,8 @@ msgstr "Descartar"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:426
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Descubra Eventos de Odoo en todo el mundo ..."
+msgid "Discover Events of Modoo around the world..."
+msgstr "Descubra Eventos de Modoo en todo el mundo ..."
 
 #. module: web
 #. openerp-web
@@ -1200,14 +1200,14 @@ msgstr "Archivo:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an Modoo database. You can\n"
 "                    create databases for different companies or for "
 "different\n"
 "                    goals (testing, production). Once the database is "
 "created,\n"
 "                    you will be able to install your first application."
 msgstr ""
-"Rellene este formulario para crear una base de datos de Odoo. Puede\n"
+"Rellene este formulario para crear una base de datos de Modoo. Puede\n"
 "crear bases de datos para diferentes compañías o para diferentes\n"
 "objetivos (pruebas, producción). Una vez esté la base de datos creada,\n"
 "podrá instalar la primera aplicación."
@@ -1631,8 +1631,8 @@ msgstr "Más"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:359
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Mi cuenta Odoo.com"
+msgid "My Modoo.com account"
+msgstr "Mi cuenta Modoo.com"
 
 #. module: web
 #. openerp-web
@@ -1743,34 +1743,34 @@ msgstr "Objeto:"
 #: view:website:web.layout
 #: view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:377
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (Anteriormente OpenERP)"
+msgid "Modoo (Formerly OpenERP)"
+msgstr "Modoo (Anteriormente OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Tests web de Odoo"
+msgid "Modoo Web Tests"
+msgstr "Tests web de Modoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:411
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo es una marca registrada de"
+msgid "Modoo is a trademark of the"
+msgstr "Modoo es una marca registrada de"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:413
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "Modoo.com"
+msgstr "Modoo.com"
 
 #. module: web
 #. openerp-web
@@ -2768,8 +2768,8 @@ msgstr "Debe seleccionar al menos un registro."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Su sesión Odoo expiró. Refresque por favor la página web actual."
+msgid "Your Modoo session expired. Please refresh the current web page."
+msgstr "Su sesión Modoo expiró. Refresque por favor la página web actual."
 
 #. module: web
 #. openerp-web

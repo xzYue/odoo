@@ -64,7 +64,7 @@ class OdooStyle(Style):
     }
 
 
-modname = 'pygments.styles.odoo'
+modname = 'pygments.styles.modoo'
 m = imp.new_module(modname)
 m.OdooStyle = OdooStyle
 sys.modules[modname] = m

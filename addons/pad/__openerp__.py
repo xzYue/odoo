@@ -11,7 +11,7 @@ Lets the company customize which Pad installation should be used to link to new
 pads (by default, http://ietherpad.com/).
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/notes',
+    'website': 'https://www.modoo.com/page/notes',
     'depends': ['web'],
     'data': [
         'res_company.xml',

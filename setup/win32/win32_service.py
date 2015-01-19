@@ -25,20 +25,20 @@ class OdooService(win32serviceutil.ServiceFramework):
     def SvcStop(self):
         # Before we do anything, tell the SCM we are starting the stop process.
         self.ReportServiceStatus(win32service.SERVICE_STOP_PENDING)
-        # Stop the running Odoo: say it's a normal exit
+        # Stop the running Modoo: say it's a normal exit
         win32api.TerminateProcess(int(self.odooprocess._handle), 0)
-        servicemanager.LogInfoMsg("Odoo stopped correctly")
+        servicemanager.LogInfoMsg("Modoo stopped correctly")
 
     def SvcDoRun(self):
-        # We start Odoo as an independent process, but we keep its handle
+        # We start Modoo as an independent process, but we keep its handle
         service_dir = dirname(sys.argv[0])
         server_dir = split(service_dir)[0]
         server_path = join(server_dir, 'server', 'openerp-server.exe')
         self.odooprocess = subprocess.Popen(
             [server_path], cwd=server_dir, creationflags=win32process.CREATE_NO_WINDOW
         )
-        servicemanager.LogInfoMsg('Odoo up and running')
-        # exit with same exit code as Odoo process
+        servicemanager.LogInfoMsg('Modoo up and running')
+        # exit with same exit code as Modoo process
         sys.exit(self.odooprocess.wait())
 
 

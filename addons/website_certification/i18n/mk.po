@@ -131,13 +131,13 @@ msgstr "Име"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certifications"
-msgstr "Odoo сертификации"
+msgid "Modoo Certifications"
+msgstr "Modoo сертификации"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certified Experts"
-msgstr "Odoo сертифицирани експерти"
+msgid "Modoo Certified Experts"
+msgstr "Modoo сертифицирани експерти"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
@@ -163,19 +163,19 @@ msgstr "Пребарај сертификации"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid ""
-"The Odoo certification program allows companies\n"
+"The Modoo certification program allows companies\n"
 "                                    to identify certified professionals and "
 "get\n"
 "                                    the guarantee that their contractors "
 "are\n"
-"                                    qualified to offer Odoo services."
+"                                    qualified to offer Modoo services."
 msgstr ""
-"Odoo програмата за сертификација им дозволува на компаниите\n"
+"Modoo програмата за сертификација им дозволува на компаниите\n"
 "                                    да ги идентификуваат сертифицираните "
 "професионалци и\n"
 "                                    да добијат гаранција дека склучуваат "
 "договор со лица кои\n"
-"                                    се квалификувани да понудат Odoo услуги."
+"                                    се квалификувани да понудат Modoo услуги."
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners

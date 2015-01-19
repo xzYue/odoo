@@ -101,17 +101,17 @@ msgstr "Última atualização em"
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_wizard
-msgid "Odoo Report Designer"
+msgid "Modoo Report Designer"
 msgstr "Módulo para desenhar retatórios"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
-msgid "Odoo Report Designer Configuration"
+msgid "Modoo Report Designer Configuration"
 msgstr "Configuração do módulo para desenhar relatórios"
 
 #. module: base_report_designer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_installer
-msgid "Odoo Report Designer Installation"
+msgid "Modoo Report Designer Installation"
 msgstr "Instalação do módulo para desenhar relatórios"
 
 #. module: base_report_designer
@@ -174,18 +174,18 @@ msgstr "O relatório RML"
 msgid ""
 "This is the template of your requested report.\n"
 "Save it as a .SXW file and open it with OpenOffice.\n"
-"Don't forget to install the Odoo SA OpenOffice package to modify it.\n"
-"Once it is modified, re-upload it in Odoo using this wizard."
+"Don't forget to install the Modoo SA OpenOffice package to modify it.\n"
+"Once it is modified, re-upload it in Modoo using this wizard."
 msgstr ""
 "Este é um modelo de relatório.\n"
 "Salve-o como um arquivo .SXW e abra-o com o OpenOffice.\n"
 "Não esqueça de instalar o plug-in para modificá-lo.\n"
-"Uma vez modificado, recarregue-o no Odoo usando este wizard."
+"Uma vez modificado, recarregue-o no Modoo usando este wizard."
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid ""
-"This plug-in allows you to create/modify Odoo Reports into OpenOffice Writer."
+"This plug-in allows you to create/modify Modoo Reports into OpenOffice Writer."
 msgstr "Este plug-in permite criar/modificar relatórios dentro do OpenOffice"
 
 #. module: base_report_designer

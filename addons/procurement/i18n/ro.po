@@ -459,7 +459,7 @@ msgstr "Referință"
 #: help:procurement.order,origin:0
 msgid ""
 "Reference of the document that created this Procurement.\n"
-"This is automatically completed by Odoo."
+"This is automatically completed by Modoo."
 msgstr ""
 
 #. module: procurement

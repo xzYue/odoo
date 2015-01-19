@@ -124,10 +124,10 @@ msgstr "Vorlaufende Stellen"
 #. module: account_sequence
 #: help:account.sequence.installer,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
-"Odoo fügt automatisch '0' vor 'Nächste Nummer' hinzu, um die erforderliche "
+"Modoo fügt automatisch '0' vor 'Nächste Nummer' hinzu, um die erforderliche "
 "Länge zu haben."
 
 #. module: account_sequence

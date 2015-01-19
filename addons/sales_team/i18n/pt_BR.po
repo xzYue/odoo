@@ -304,11 +304,11 @@ msgstr "O código da equipe de vendas precisa ser único!"
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Modoo about "
 "cases in this sales team"
 msgstr ""
 "O endereço de mail para ser colocado em 'Responder-para' de todos os emails "
-"enviados pelo Odoo sobre os casos nesta equipe de vendas"
+"enviados pelo Modoo sobre os casos nesta equipe de vendas"
 
 #. module: sales_team
 #: field:crm.case.section,message_unread:0

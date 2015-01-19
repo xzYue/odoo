@@ -302,11 +302,11 @@ msgstr "Кодот на тимот за продажба мора да биде 
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Modoo about "
 "cases in this sales team"
 msgstr ""
 "Е-маил адреса што стои во 'Одговори на' на сите е-маил пораки пратени од "
-"Odoo за случаи во овој тим на продажба"
+"Modoo за случаи во овој тим на продажба"
 
 #. module: sales_team
 #: field:crm.case.section,message_unread:0

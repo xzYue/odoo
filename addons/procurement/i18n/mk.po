@@ -486,10 +486,10 @@ msgstr "Референца"
 #: help:procurement.order,origin:0
 msgid ""
 "Reference of the document that created this Procurement.\n"
-"This is automatically completed by Odoo."
+"This is automatically completed by Modoo."
 msgstr ""
 "Референца на документот што ја креирал оваа набавка.\n"
-"Ова е автоматски комплетирано од Odoo."
+"Ова е автоматски комплетирано од Modoo."
 
 #. module: procurement
 #: field:procurement.order,rule_id:0

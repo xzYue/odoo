@@ -616,7 +616,7 @@ msgstr "Ottobre"
 #. module: document
 #: view:document.configuration:document.view_auto_config_form
 msgid ""
-"Odoo's Document Management System supports mapping virtual folders with "
+"Modoo's Document Management System supports mapping virtual folders with "
 "documents. The virtual folder of a document can be used to manage the files "
 "attached to the document, or to print and download any report. This tool "
 "will create directories automatically according to modules installed."

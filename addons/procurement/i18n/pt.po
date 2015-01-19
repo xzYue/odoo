@@ -508,10 +508,10 @@ msgstr "Referência"
 #: help:procurement.order,origin:0
 msgid ""
 "Reference of the document that created this Procurement.\n"
-"This is automatically completed by Odoo."
+"This is automatically completed by Modoo."
 msgstr ""
 "Referência do documento que criou este Aprovisionamento. \n"
-"Este é automaticamente preenchido pelo Odoo."
+"Este é automaticamente preenchido pelo Modoo."
 
 #. module: procurement
 #: field:procurement.order,rule_id:0

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from . import html_domain
 from . import github
-# add Odoo style to pygments
+# add Modoo style to pygments
 from . import odoo_pygments
 
 from . import sphinx_monkeypatch

@@ -2,14 +2,14 @@
 
 set -e
 
-ODOO_CONFIGURATION_DIR=/etc/odoo
+ODOO_CONFIGURATION_DIR=/etc/modoo
 ODOO_CONFIGURATION_FILE=$ODOO_CONFIGURATION_DIR/openerp-server.conf
-ODOO_DATA_DIR=/var/lib/odoo
-ODOO_GROUP="odoo"
-ODOO_LOG_DIR=/var/log/odoo
-ODOO_USER="odoo"
+ODOO_DATA_DIR=/var/lib/modoo
+ODOO_GROUP="modoo"
+ODOO_LOG_DIR=/var/log/modoo
+ODOO_USER="modoo"
 
-if ! getent passwd | grep -q "^odoo:"; then
+if ! getent passwd | grep -q "^modoo:"; then
     groupadd $ODOO_GROUP
     adduser --system --no-create-home $ODOO_USER -g $ODOO_GROUP
 fi
@@ -37,19 +37,19 @@ chmod 0750 $ODOO_LOG_DIR
 mkdir -p $ODOO_DATA_DIR
 chown $ODOO_USER:$ODOO_GROUP $ODOO_DATA_DIR
 
-INIT_FILE=/lib/systemd/system/odoo.service
+INIT_FILE=/lib/systemd/system/modoo.service
 touch $INIT_FILE
 chmod 0700 $INIT_FILE
 cat << 'EOF' > $INIT_FILE
 [Unit]
-Description=Odoo Open Source ERP and CRM
+Description=Modoo Open Source ERP and CRM
 After=network.target
 
 [Service]
 Type=simple
-User=odoo
-Group=odoo
-ExecStart=/usr/bin/odoo.py --config=/etc/odoo/openerp-server.conf
+User=modoo
+Group=modoo
+ExecStart=/usr/bin/modoo.py --config=/etc/modoo/openerp-server.conf
 
 [Install]
 WantedBy=multi-user.target

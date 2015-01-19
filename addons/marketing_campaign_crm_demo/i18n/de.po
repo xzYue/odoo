@@ -22,15 +22,15 @@ msgstr ""
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_4
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and buying the Odoo book.</p>\n"
+"            <p>Thanks for showing interest and buying the Modoo book.</p>\n"
 "            If any further information required kindly revert back.\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
-"            <p>vielen Dank für den Kauf des Odoo Buchs.</p>\n"
+"            <p>vielen Dank für den Kauf des Modoo Buchs.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns ebenfalls "
 "gerne anschreiben.</p>\n"
-"            <p>Viele Grüsse von Ihrem Odoo Team</p>"
+"            <p>Viele Grüsse von Ihrem Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_8
@@ -42,7 +42,7 @@ msgid ""
 "appreciate your co-operation on this.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
 "            <p>vielen Dank für Ihr Interesse an einem technischen "
@@ -52,36 +52,36 @@ msgstr ""
 "            Wir freuen uns auf  Ihre Kooperation.</p>\n"
 "            <p>Sie können auch gerne, durch die Beantwortung dieser E-Mail, "
 "mit uns kooperieren.</p>\n"
-"            <p>Viele Grüße vom Odoo Team</p>"
+"            <p>Viele Grüße vom Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_3
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and for subscribing to the Odoo "
+"            <p>Thanks for showing interest and for subscribing to the Modoo "
 "Discovery Day.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
-"            <p>Vielen Dank für Ihre Anfrage zur Teilnahme am Odoo Discovery "
+"            <p>Vielen Dank für Ihre Anfrage zur Teilnahme am Modoo Discovery "
 "Day.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns gerne "
 "kontaktieren.</p>\n"
-"            <p>Viele Grüsse von Ihrem Odoo Team</p>"
+"            <p>Viele Grüsse von Ihrem Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_1
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for the genuine interest you have shown in Odoo.</p>\n"
+"            <p>Thanks for the genuine interest you have shown in Modoo.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
-"            <p>Vielen Dank für das gezeigte Interesse an Odoo.</p>\n"
+"            <p>Vielen Dank für das gezeigte Interesse an Modoo.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns gerne "
 "kontaktieren.</p>\n"
 "            <p>Viele Grüsse von Ihrem OdooTeam</p>"
@@ -95,14 +95,14 @@ msgid ""
 "on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
 "            <p>Vielen Dank für Ihre Anfrage zur Teilnahme am OpenERP "
 "Discovery Day.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns gerne "
 "kontaktieren.</p>\n"
-"            <p>Viele Grüsse von Ihrem Odoo Team</p>"
+"            <p>Viele Grüsse von Ihrem Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_7
@@ -112,14 +112,14 @@ msgid ""
 "            For our silver partners, we are  offering Gold partnership.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
 "            <p>wir haben ein exklusives Angebot für Silberpartner.</p>\n"
 "            Sie können zu Vorzugskonditionen Goldpartner werden.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns ebenfalls "
 "gerne anschreiben.</p>\n"
-"            <p>Viele Grüsse von Ihrem Odoo Team</p>"
+"            <p>Viele Grüsse von Ihrem Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_6
@@ -130,7 +130,7 @@ msgid ""
 "june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
 "            <p>wir haben ein interessantes Angebot für Silberpartner.</p>\n"
@@ -138,18 +138,18 @@ msgstr ""
 "ein.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns ebenfalls "
 "gerne anschreiben.</p>\n"
-"            <p>Viele Grüsse von Ihrem Odoo Team</p>"
+"            <p>Viele Grüsse von Ihrem Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_2
 msgid ""
 "<p>Hello,</p>\n"
 "            <p>We have very good offer that might suit you.\n"
-"            We suggest you subscribe to the Odoo Discovery Day on May "
+"            We suggest you subscribe to the Modoo Discovery Day on May "
 "2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Hallo,</p>\n"
 "            <p>wir haben ein neues interessantes Angebot.</p>\n"
@@ -157,7 +157,7 @@ msgstr ""
 "Days an.</p>\n"
 "            <p>Sollten Sie weitere Infos benötigen, können Sie uns ebenfalls "
 "gerne anschreiben.</p>\n"
-"            <p>Viele Grüsse von Ihrem Odoo Team</p>"
+"            <p>Viele Grüsse von Ihrem Modoo Team</p>"
 
 #. module: marketing_campaign_crm_demo
 #: report:crm.lead.demo:0
@@ -197,18 +197,18 @@ msgstr ""
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_2
-msgid "Propose to subscribe to the Odoo Discovery Day on May 2010"
-msgstr "Vorschlag zur Anmeldung Odoo Discovery Veranstaltung"
+msgid "Propose to subscribe to the Modoo Discovery Day on May 2010"
+msgstr "Vorschlag zur Anmeldung Modoo Discovery Veranstaltung"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_4
-msgid "Thanks for buying the Odoo book"
-msgstr "Danke für den Kauf des Odoo Buchs"
+msgid "Thanks for buying the Modoo book"
+msgstr "Danke für den Kauf des Modoo Buchs"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_1
-msgid "Thanks for showing interest in Odoo"
-msgstr "Danke für Ihr Interesse an Odoo"
+msgid "Thanks for showing interest in Modoo"
+msgstr "Danke für Ihr Interesse an Modoo"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_8
@@ -217,5 +217,5 @@ msgstr "Danke für Ihre Anmeldung zum technischen Training"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_3
-msgid "Thanks for subscribing to the Odoo Discovery Day"
-msgstr "Danke für die Anmeldung zur Odoo Discovery Veranstaltung"
+msgid "Thanks for subscribing to the Modoo Discovery Day"
+msgstr "Danke für die Anmeldung zur Modoo Discovery Veranstaltung"

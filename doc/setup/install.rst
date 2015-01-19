@@ -1,35 +1,35 @@
 .. _setup/install:
 
 ===============
-Installing Odoo
+Installing Modoo
 ===============
 
-There are mutliple ways to install Odoo, or not install it at all, depending
+There are mutliple ways to install Modoo, or not install it at all, depending
 on the intended use case.
 
 This documents attempts to describe most of the installation options.
 
 :ref:`setup/install/demo`
     the simplest "installation", only suitable for getting a quick feel for
-    Odoo or trying something out
+    Modoo or trying something out
 :ref:`setup/install/saas`
-    trivial to start with and fully managed and migrated by Odoo S.A., can be
-    used to both test Odoo and use it for your business, but restricts the
+    trivial to start with and fully managed and migrated by Modoo S.A., can be
+    used to both test Modoo and use it for your business, but restricts the
     flexibility of the system somewhat (check: no custom modules? what else?).
 
-    Can be used for both testing Odoo and long-term "production" use.
+    Can be used for both testing Modoo and long-term "production" use.
 :ref:`setup/install/packaged`
     simple to get started, allows more flexibility in hosting and deploying
     the system and greater control over where data is stored. The maintenance
     burden is shifted to the user.
 
-    Suitable for testing Odoo, developing modules and can be used for
+    Suitable for testing Modoo, developing modules and can be used for
     long-term production use with additional deployment and maintenance work.
 :ref:`setup/install/source`
     harder to get started than :ref:`setup/install/packaged`, provides
     even greater flexibility: packaged installers don't generally allow
-    multiple running Odoo versions on the same system, and don't provide easy
-    source access to Odoo itself.
+    multiple running Modoo versions on the same system, and don't provide easy
+    source access to Modoo itself.
 
     Good for developing modules, can be used as base for production
     deployment.
@@ -43,7 +43,7 @@ This documents attempts to describe most of the installation options.
 Demo
 ====
 
-To simply get a quick idea of Odoo, demo_ instances are available. They are
+To simply get a quick idea of Modoo, demo_ instances are available. They are
 shared instances which only live for a few hours, and can be used to browse
 around and try things out with no commitment.
 
@@ -54,8 +54,8 @@ Demo_ instances require no local installation, just a web browser.
 SaaS
 ====
 
-Odoo's SaaS_ provides private instances and starts out free. It can be used to
-discover and test Odoo and do non-code customizations without having to
+Modoo's SaaS_ provides private instances and starts out free. It can be used to
+discover and test Modoo and do non-code customizations without having to
 install it locally.
 
 Like demo_ instances, SaaS_ instances require no local installation, a web
@@ -66,19 +66,19 @@ browser is sufficient.
 Packaged installers
 ===================
 
-Odoo provides packaged installers for Windows, deb-based distributions
+Modoo provides packaged installers for Windows, deb-based distributions
 (Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …).
 
 These packages automatically set up all dependencies, but may be difficult to
 keep up-to-date.
 
 Official packages with all relevant dependency requirements are available on
-https://nightly.odoo.com.
+https://nightly.modoo.com.
 
 Windows
 -------
 
-* download https://nightly.odoo.com/8.0/nightly/exe/odoo_8.0.latest.exe
+* download https://nightly.modoo.com/8.0/nightly/exe/odoo_8.0.latest.exe
 * run the downloaded file
 
   .. warning:: on Windows 8, you may see a warning titled "Windows protected
@@ -88,33 +88,33 @@ Windows
 * Accept the UAC_ prompt
 * Go through the various installation steps
 
-Odoo will automatically be started at the end of the installation.
+Modoo will automatically be started at the end of the installation.
 
 Configuration
 '''''''''''''
 
 The :ref:`configuration file <reference/cmdline/config>` can be found at
-:file:`{%PROGRAMFILES%}\\Odoo 8.0-{id}\\server\\openerp-server.conf`.
+:file:`{%PROGRAMFILES%}\\Modoo 8.0-{id}\\server\\openerp-server.conf`.
 
 The configuration file can be edited to connect to a remote Postgresql, edit
 file locations or set a dbfilter.
 
-To reload the configuration file, restart the Odoo service via
-:menuselection:`Services --> odoo server`.
+To reload the configuration file, restart the Modoo service via
+:menuselection:`Services --> modoo server`.
 
 Deb
 ---
 
-To install Odoo 8.0 on Debian-based distribution, execute the following
+To install Modoo 8.0 on Debian-based distribution, execute the following
 commands as root:
 
 .. code-block:: console
 
-    # wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
-    # echo "deb http://nightly.odoo.com/8.0/nightly/deb/ ./" >> /etc/apt/sources.list
-    # apt-get update && apt-get install odoo
+    # wget -O - https://nightly.modoo.com/modoo.key | apt-key add -
+    # echo "deb http://nightly.modoo.com/8.0/nightly/deb/ ./" >> /etc/apt/sources.list
+    # apt-get update && apt-get install modoo
 
-This will automatically install all dependencies, install Odoo itself as a
+This will automatically install all dependencies, install Modoo itself as a
 daemon and automatically start it.
 
 .. danger:: to print PDF reports, you must install wkhtmltopdf_ yourself:
@@ -127,15 +127,15 @@ Configuration
 '''''''''''''
 
 The :ref:`configuration file <reference/cmdline/config>` can be found at
-:file:`/etc/odoo/openerp-server.conf`
+:file:`/etc/modoo/openerp-server.conf`
 
-When the configuration file is edited, Odoo must be restarted using
+When the configuration file is edited, Modoo must be restarted using
 ``service``:
 
 .. code-block:: console
 
-    $ sudo service odoo restart
-    Restarting odoo: ok
+    $ sudo service modoo restart
+    Restarting modoo: ok
 
 RPM
 ---
@@ -143,7 +143,7 @@ RPM
 .. warning::
 
     with RHEL-based distributions (RHEL, CenOS, Scientific Linux), EPEL_ must
-    be added to the distribution's repositories for all of Odoo's
+    be added to the distribution's repositories for all of Modoo's
     dependencies to be available. For CenOS:
 
     .. code-block:: console
@@ -158,10 +158,10 @@ RPM
     $ sudo postgresql-setup initdb
     $ sudo systemctl enable postgresql
     $ sudo systemctl start postgresql
-    $ sudo yum-config-manager --add-repo=https://nightly.odoo.com/8.0/nightly/rpm/odoo.repo
-    $ sudo yum install -y odoo
-    $ sudo systemctl enable odoo
-    $ sudo systemctl start odoo
+    $ sudo yum-config-manager --add-repo=https://nightly.modoo.com/8.0/nightly/rpm/modoo.repo
+    $ sudo yum install -y modoo
+    $ sudo systemctl enable modoo
+    $ sudo systemctl start modoo
 
 .. danger:: to print PDF reports, you must install wkhtmltopdf_ yourself:
             the version of wkhtmltopdf_ available in Fedora/CentOS
@@ -173,13 +173,13 @@ Configuration
 '''''''''''''
 
 The :ref:`configuration file <reference/cmdline/config>` can be found at
-:file:`/etc/odoo/openerp-server.conf`
+:file:`/etc/modoo/openerp-server.conf`
 
-When the configuration file is edited, Odoo must be restarted via SystemD:
+When the configuration file is edited, Modoo must be restarted via SystemD:
 
 .. code-block:: console
 
-    $ sudo systemctl restart odoo
+    $ sudo systemctl restart modoo
 
 
 .. _setup/install/source:
@@ -187,40 +187,40 @@ When the configuration file is edited, Odoo must be restarted via SystemD:
 Source Install
 ==============
 
-The source "installation" really is about not installing Odoo, and running
+The source "installation" really is about not installing Modoo, and running
 it directly from source instead.
 
-This can be more convenient for module developers as the Odoo source is
+This can be more convenient for module developers as the Modoo source is
 more easily accessible than using packaged installation (for information or
 to build this documentation and have it available offline).
 
-It also makes starting and stopping Odoo more flexible and explicit than the
+It also makes starting and stopping Modoo more flexible and explicit than the
 services set up by the packaged installations, and allows overriding settings
 using :ref:`command-line parameters <reference/cmdline>` without needing to
 edit a configuration file.
 
 Finally it provides greater control over the system's set up, and allows more
-easily keeping (and running) multiple versions of Odoo side-by-side.
+easily keeping (and running) multiple versions of Modoo side-by-side.
 
-There are two way to get the odoo sourcei source tarball or git.
+There are two way to get the modoo sourcei source tarball or git.
 
 Using git allows simpler update and easier switching between differents
-versions of Odoo. It also simplifies maintaining non-module patches and
+versions of Modoo. It also simplifies maintaining non-module patches and
 contributions.  The primary drawback of git is that it is significantly larger
-than a tarball as it contains the entire history of the Odoo project.
+than a tarball as it contains the entire history of the Modoo project.
 
-The Odoo tarball can be downloaded from
-https://nightly.odoo.com/8.0/nightly/src/odoo_8.0-latest.tar.gz
+The Modoo tarball can be downloaded from
+https://nightly.modoo.com/8.0/nightly/src/odoo_8.0-latest.tar.gz
 
 On windows `7-Zip <http://www.7-zip.org>`_ may be use to decompress the archive
 as Windows does not handle .tar.gz archives natively.
 
-The git repository is https://github.com/odoo/odoo.git and can be cloned using
+The git repository is https://github.com/modoo/modoo.git and can be cloned using
 the command
 
 .. code-block:: console
 
-    $ git clone https://github.com/odoo/odoo.git
+    $ git clone https://github.com/modoo/modoo.git
 
 
 Installing dependencies
@@ -238,7 +238,7 @@ Source installation requires manually installing dependencies:
 * PostgreSQL, to use a local database
 
   After installation you will need to create a postgres user (also named a
-  role), by default the only user is ``postgres``, and Odoo forbids connecting
+  role), by default the only user is ``postgres``, and Modoo forbids connecting
   as ``postgres``.
 
   - on Linux, use your distribution's package, then create a postgres user
@@ -259,7 +259,7 @@ Source installation requires manually installing dependencies:
     :envvar:`PATH`
 
     Then create a postgres user with a password using the pg admin gui, for
-    example login ``odoo`` and password ``odoo``.
+    example login ``modoo`` and password ``modoo``.
 
     This user and password will be provided with the -w and -r option or in the
     config file.
@@ -352,10 +352,10 @@ Source installation requires manually installing dependencies:
         C:\> npm install -g less less-plugin-clean-css
 
 
-Running Odoo
+Running Modoo
 ------------
 
-Once all dependencies are set up, Odoo can be launched by running ``odoo.py``.
+Once all dependencies are set up, Modoo can be launched by running ``modoo.py``.
 
 :ref:`Configuration <reference/cmdline>` can be provided either through
 :ref:`command-line arguments <reference/cmdline>` or through a
@@ -365,33 +365,33 @@ Common necessary configurations are:
 
 * PostgreSQL host, port, user and password.
 
-  Odoo has no defaults beyond
+  Modoo has no defaults beyond
   `psycopg2's defaults <http://initd.org/psycopg/docs/module.html>`_: connects
   over a UNIX socket on port 5432 with the current user and no password.
 
 * Custom addons path beyond the defaults, to load your own modules
 
-Under Windows a typical way to execute odoo would be:
+Under Windows a typical way to execute modoo would be:
 
     .. code-block:: console
 
-        C:\YourOdooPath> python odoo.py -w odoo -r odoo --addons-path=addons,../mymodules --db-filter=mydb$
+        C:\YourOdooPath> python modoo.py -w modoo -r modoo --addons-path=addons,../mymodules --db-filter=mydb$
 
-Where ``odoo``, ``odoo`` are the postgresql login and password,
+Where ``modoo``, ``modoo`` are the postgresql login and password,
 ``../mymodules`` a directory with additional addons and ``mydb`` the default db
 to serve on localhost:8069
 
-Under Unix a typical way to execute odoo would be:
+Under Unix a typical way to execute modoo would be:
 
     .. code-block:: console
 
-        $ ./odoo.py --addons-path=addons,../mymodules --db-filter=mydb$
+        $ ./modoo.py --addons-path=addons,../mymodules --db-filter=mydb$
 
 Where ``../mymodules`` is a directory with additional addons and ``mydb`` the default db
 to serve on localhost:8069
 
 
-.. _demo: https://demo.odoo.com
+.. _demo: https://demo.modoo.com
 .. _EPEL: https://fedoraproject.org/wiki/EPEL
 .. _PostgreSQL: http://www.postgresql.org
 .. _the official installer:
@@ -400,7 +400,7 @@ to serve on localhost:8069
 .. _PostgreSQL for windows:
     http://www.enterprisedb.com/products-services-training/pgdownload
 .. _Quilt: http://en.wikipedia.org/wiki/Quilt_(software)
-.. _saas: https://www.odoo.com/page/start
+.. _saas: https://www.modoo.com/page/start
 .. _the wkhtmltopdf download page: http://wkhtmltopdf.org/downloads.html
 .. _UAC: http://en.wikipedia.org/wiki/User_Account_Control
 .. _wkhtmltopdf: http://wkhtmltopdf.org
@@ -412,5 +412,5 @@ to serve on localhost:8069
 .. _wheels: https://wheel.readthedocs.org/en/latest/
 .. _virtual environment: http://docs.python-guide.org/en/latest/dev/virtualenvs/
 .. _pywin32: http://sourceforge.net/projects/pywin32/files/pywin32/
-.. _the repository: https://github.com/odoo/odoo
+.. _the repository: https://github.com/modoo/modoo
 .. _git: http://git-scm.com

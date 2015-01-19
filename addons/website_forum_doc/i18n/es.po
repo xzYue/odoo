@@ -193,13 +193,13 @@ msgstr "¡Error! No puede crear categorías recursivas."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to configure in Odoo"
-msgstr "Explique cómo configurarlo en Odoo"
+msgid "Explain how to configure in Modoo"
+msgstr "Explique cómo configurarlo en Modoo"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Explique cómo implementarlo en Odoo"
+msgid "Explain how to implement it in Modoo"
+msgstr "Explique cómo implementarlo en Modoo"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,forum_id:0
@@ -404,8 +404,8 @@ msgstr "Nombre de etapa"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "La respuesta debe ser comprensible para alguien que no conoce Odoo"
+msgid "The answer is understandable for someone who does not know Modoo"
+msgstr "La respuesta debe ser comprensible para alguien que no conoce Modoo"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question

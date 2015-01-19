@@ -172,7 +172,7 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"Modoo - Open Source Business Applications\n"
 "http://www.openerp.com\n"
 msgstr ""
 "Drogi/a %(name)s,\n"
@@ -189,7 +189,7 @@ msgstr ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Aplikacje biznesowe typu Open Source\n"
+"Modoo - Aplikacje biznesowe typu Open Source\n"
 "http://www.openerp.com\n"
 
 #. module: portal
@@ -446,8 +446,8 @@ msgstr "Musisz mieć adres email w swoich preferencjach do wysyłania maili."
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
-msgstr "Twoje konto Odoo na %(company)s"
+msgid "Your Modoo account at %(company)s"
+msgstr "Twoje konto Modoo na %(company)s"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:46

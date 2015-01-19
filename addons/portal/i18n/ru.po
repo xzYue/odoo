@@ -171,7 +171,7 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"Modoo - Open Source Business Applications\n"
 "http://www.openerp.com\n"
 msgstr ""
 "Здравствуйте, %(name)s,\n"
@@ -190,8 +190,8 @@ msgstr ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - приложения с открытым кодом для бизнеса\n"
-"http://www.odoo.com\n"
+"Modoo - приложения с открытым кодом для бизнеса\n"
+"http://www.modoo.com\n"
 
 #. module: portal
 #: view:share.wizard:portal.share_step2_form_portal
@@ -449,8 +449,8 @@ msgstr ""
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
-msgstr "Ваша учетная запись Odoo в компании %(company)s"
+msgid "Your Modoo account at %(company)s"
+msgstr "Ваша учетная запись Modoo в компании %(company)s"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:46

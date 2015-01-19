@@ -62,7 +62,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="{{ pathto(master_doc) }}" class="o_logo navbar-brand">
-        <span class="o_logo_main">odoo</span><span class="o_logo_app">doc</span>
+        <span class="o_logo_main">modoo</span><span class="o_logo_app">doc</span>
       </a>
       {% if versions %}
         <div class="versions navbar-brand">
@@ -93,9 +93,9 @@
           {%- if show_copyright %}
             <li>
               {%- if hasdoc('copyright') %}
-                {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> <a href="https://odoo.com">{{ copyright }}</a>{% endtrans %}
+                {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> <a href="https://modoo.com">{{ copyright }}</a>{% endtrans %}
               {%- else %}
-                {% trans copyright=copyright|e %}&copy; Copyright <a href="https://odoo.com">{{ copyright }}</a>.{% endtrans %}
+                {% trans copyright=copyright|e %}&copy; Copyright <a href="https://modoo.com">{{ copyright }}</a>.{% endtrans %}
               {%- endif %}
             </li>
           {%- endif %}
@@ -113,7 +113,7 @@
           {%- endif %}
         </ul>
       <p>
-        odoo docs theme based on <a href="http://getbootstrap.com">Bootstrap
+        modoo docs theme based on <a href="http://getbootstrap.com">Bootstrap
         3.2 documentation</a> adapted to
         <a href="http://sphinx-doc.org/">Sphinx</a> output with branding and
         color changes.

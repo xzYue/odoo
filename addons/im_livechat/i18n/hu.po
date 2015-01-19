@@ -160,11 +160,11 @@ msgstr "Dátum"
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module. "
+"For website built with Modoo CMS, please install the website_livechat module. "
 "Then go to Settings > Website Settings and select the Live Chat Channel you "
 "want to add on your website."
 msgstr ""
-"Au Odoo CMS-el elkészített weboldalon, kérem telepítse a website_livechat "
+"Au Modoo CMS-el elkészített weboldalon, kérem telepítse a website_livechat "
 "modult. Ezután menjen a Beállítások > Weboldal beállítások és válassza ki az "
 "Élő társalgási csatornát, melyet hozzá szeretne adni a weboldalához."
 
@@ -284,8 +284,8 @@ msgstr ""
 
 #. module: im_livechat
 #: view:website:im_livechat.support_page
-msgid "Odoo"
-msgstr "Odoo rendszer"
+msgid "Modoo"
+msgstr "Modoo rendszer"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form

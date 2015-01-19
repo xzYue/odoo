@@ -28,7 +28,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to create a marketing campaign.\n"
 "          </p><p>\n"
-"            Odoo's marketing campaign allows you to automate communication\n"
+"            Modoo's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) "
 "on\n"
 "            your leads and partners to fullfil the campaign.\n"
@@ -45,7 +45,7 @@ msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Kattintson egy marketing kampány létrehozásához.\n"
 "          </p><p>\n"
-"            Odoo rendszer marketing kampánya lehetővé teszi az üzlet \n"
+"            Modoo rendszer marketing kampánya lehetővé teszi az üzlet \n"
 "            lehetőségeivel kapcsolatos automatikus hírközléseket.\n"
 "            Meghatározhat egy szelvényt az érdeklődők és \n"
 "            ügyfelek (feltételeinek beállításával) a kampány\n"
@@ -1185,7 +1185,7 @@ msgstr "Változó költség"
 
 #. module: marketing_campaign
 #: model:email.template,subject:marketing_campaign.email_template_1
-msgid "Welcome to the Odoo Partner Channel!"
+msgid "Welcome to the Modoo Partner Channel!"
 msgstr "Üdvözöljük az Ügyfél csatornán!"
 
 #. module: marketing_campaign

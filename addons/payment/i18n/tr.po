@@ -255,7 +255,7 @@ msgstr "Buckaroo kullanarak Ödemeleri yönet"
 #. module: payment
 #: field:account.config.settings,module_payment_ogone:0
 msgid "Manage Payments Using Ogone"
-msgstr "Odoo Adyen kullanarak Ödemeleri yönet"
+msgstr "Modoo Adyen kullanarak Ödemeleri yönet"
 
 #. module: payment
 #: field:account.config.settings,module_payment_paypal:0

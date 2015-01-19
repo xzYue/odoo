@@ -2,9 +2,9 @@
 
 set -e
 
-ODOO_LIB_DIR=/var/lib/odoo
-ODOO_USER="odoo"
-ODOO_GROUP="odoo"
+ODOO_LIB_DIR=/var/lib/modoo
+ODOO_USER="modoo"
+ODOO_GROUP="modoo"
 
 case "${1}" in
     remove)

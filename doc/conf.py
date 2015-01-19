@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'odoo'
-copyright = u'Odoo S.A.'
+project = u'modoo'
+copyright = u'Modoo S.A.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -82,7 +82,7 @@ add_function_parentheses = True
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'odoo'
+pygments_style = 'modoo'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -122,7 +122,7 @@ html_theme_path = ['_themes']
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_style = "odoo.css"
+html_style = "modoo.css"
 
 html_add_permalinks = False
 
@@ -182,8 +182,8 @@ intersphinx_mapping = {
     'django': ('https://django.readthedocs.org/en/latest/', None),
 }
 
-github_user = 'odoo'
-github_project = 'odoo'
+github_user = 'modoo'
+github_project = 'modoo'
 
 def setup(app):
     app.connect('html-page-context', canonicalize)

@@ -255,7 +255,7 @@ msgid ""
 msgstr ""
 "\n"
 "CODA valideer fout op beweging van record 2.2, seq nr %s.\n"
-"Rapporteer dit probleem via je Odoo ondersteuningskanaal aub."
+"Rapporteer dit probleem via je Modoo ondersteuningskanaal aub."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,description:l10n_be_coda.actcc_07_58
@@ -620,7 +620,7 @@ msgid ""
 msgstr ""
 "\n"
 "CODA controle fout op informatie van data item 3.3, seq nr %s.\n"
-"Rapporteer dit probleem aub via het Odoo ondersteuningskanaal."
+"Rapporteer dit probleem aub via het Modoo ondersteuningskanaal."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_003
@@ -1154,7 +1154,7 @@ msgid ""
 msgstr ""
 "\n"
 "CODA valideer fout op beweging gegevens van record 2.3, seq nr %s.\n"
-"Rapporteer aub dit probleem via uw Odoo ondersteuningskanaal."
+"Rapporteer aub dit probleem via uw Modoo ondersteuningskanaal."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.code,comment:l10n_be_coda.actcc_80_15
@@ -3345,7 +3345,7 @@ msgid ""
 msgstr ""
 "\n"
 "CODA valideer fout op informatie van record 3.2, seq nr %s.\n"
-"Rapporteer aub dit probleem via uw Odoo ondersteuningskanaal."
+"Rapporteer aub dit probleem via uw Modoo ondersteuningskanaal."
 
 #. module: l10n_be_coda
 #: model:account.coda.trans.category,description:l10n_be_coda.actrca_001

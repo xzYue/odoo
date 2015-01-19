@@ -169,7 +169,7 @@ def main(args):
     sys.exit(rc)
 
 class Server(Command):
-    """Start the odoo server (default command)"""
+    """Start the modoo server (default command)"""
     def run(self, args):
         main(args)
 

@@ -123,10 +123,10 @@ msgstr "Relleno del número"
 #. module: account_sequence
 #: help:account.sequence.installer,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
-"Odoo añadirá automáticamente algunos '0' a la izquierda del 'Próximo número' "
+"Modoo añadirá automáticamente algunos '0' a la izquierda del 'Próximo número' "
 "para obtener el tamaño de relleno necesario."
 
 #. module: account_sequence

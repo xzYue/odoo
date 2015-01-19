@@ -21,15 +21,15 @@ msgstr ""
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_4
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and buying the Odoo book.</p>\n"
+"            <p>Thanks for showing interest and buying the Modoo book.</p>\n"
 "            If any further information required kindly revert back.\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
-"            <p>Köszönjük érdeklődését az Odoo kézikönyv megvásárlása "
+"            <p>Köszönjük érdeklődését az Modoo kézikönyv megvásárlása "
 "után.</p>\n"
 "            További kérdésekben állunk szíves rendelkezésére.\n"
-"            <p>Tisztelttel,Odoo csapata,</p>"
+"            <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_8
@@ -41,7 +41,7 @@ msgid ""
 "appreciate your co-operation on this.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
 "            <p>Köszönjük érdeklődését és részvételi szándékát a technikai "
@@ -50,40 +50,40 @@ msgstr ""
 "szépen köszönjük együttműködését a témában.</p>\n"
 "            <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"              <p>Tisztelttel,Odoo csapata,</p>"
+"              <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_3
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and for subscribing to the Odoo "
+"            <p>Thanks for showing interest and for subscribing to the Modoo "
 "Discovery Day.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
-"            <p>Köszönjük érdeklődését és részvételi szándékát az Odoo "
+"            <p>Köszönjük érdeklődését és részvételi szándékát az Modoo "
 "felfedező napokra.</p>\n"
 "            <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"            <p>Tisztelttel,Odoo csapata,</p>"
+"            <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_1
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for the genuine interest you have shown in Odoo.</p>\n"
+"            <p>Thanks for the genuine interest you have shown in Modoo.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
-"            <p>Köszönjük megtisztelő érdeklődését az Odoo rendszer "
+"            <p>Köszönjük megtisztelő érdeklődését az Modoo rendszer "
 "iránt.</p>\n"
 "            <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"            <p>Tisztelttel,Odoo csapata,</p>"
+"            <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_5
@@ -94,7 +94,7 @@ msgid ""
 "on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
 "            <p>Egy nagyon jó ajánlatunk van, melyre igényt tarthat.\n"
@@ -102,7 +102,7 @@ msgstr ""
 "tartunk 2015 Júniusában.</p>\n"
 "            <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"            <p>Tisztelttel,Odoo csapata,</p>"
+"            <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_7
@@ -112,14 +112,14 @@ msgid ""
 "            For our silver partners, we are  offering Gold partnership.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
 "            <p>Egy nagyon jó ajánlatunk van, melyre igényt tarthat.\n"
 "            Az Ezüst tagsággal rendelkezőknek, Arany tagságot ajánlunk.</p>\n"
 "           <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"           <p>Tisztelttel,Odoo csapata,</p>"
+"           <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_6
@@ -130,7 +130,7 @@ msgid ""
 "june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
 "            <p>Egy nagyon jó ajánlatunk van, melyre igényt tarthat.\n"
@@ -138,26 +138,26 @@ msgstr ""
 "tartunk 2015 júniusában.</p>\n"
 "           <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"           <p>Tisztelttel,Odoo csapata,</p>"
+"           <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_2
 msgid ""
 "<p>Hello,</p>\n"
 "            <p>We have very good offer that might suit you.\n"
-"            We suggest you subscribe to the Odoo Discovery Day on May "
+"            We suggest you subscribe to the Modoo Discovery Day on May "
 "2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Üdvözöljük,</p>\n"
 "            <p>Egy nagyon jó ajánlatunk van, melyre igényt tarthat.\n"
-"            Javasoljuk, hogy jelentkezzen az Odoo felfedező napokra 2010 "
+"            Javasoljuk, hogy jelentkezzen az Modoo felfedező napokra 2010 "
 "májusában.</p>\n"
 "           <p>Ha további információra lenne szüksége, ne várakozzon, "
 "válaszoljon erre az üzenetre.</p>\n"
-"           <p>Tisztelttel,Odoo csapata,</p>"
+"           <p>Tisztelttel,Modoo csapata,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: report:crm.lead.demo:0
@@ -196,19 +196,19 @@ msgstr "Javasolja a költségtérítéses oktatást az Ezüst partnereknek"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_2
-msgid "Propose to subscribe to the Odoo Discovery Day on May 2010"
+msgid "Propose to subscribe to the Modoo Discovery Day on May 2010"
 msgstr ""
-"Javasoljuk, hogy jelentkezzen az Odoo felfedező napokra 2010 májusában"
+"Javasoljuk, hogy jelentkezzen az Modoo felfedező napokra 2010 májusában"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_4
-msgid "Thanks for buying the Odoo book"
-msgstr "Köszönjük az Odoo könyv vásárlását"
+msgid "Thanks for buying the Modoo book"
+msgstr "Köszönjük az Modoo könyv vásárlását"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_1
-msgid "Thanks for showing interest in Odoo"
-msgstr "Köszönjük érteklődését az Odoo rendszer iránt"
+msgid "Thanks for showing interest in Modoo"
+msgstr "Köszönjük érteklődését az Modoo rendszer iránt"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_8
@@ -217,5 +217,5 @@ msgstr "Köszönjük a feliratkozást a műszaki képzésre"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_3
-msgid "Thanks for subscribing to the Odoo Discovery Day"
-msgstr "Köszönjük feliratkozását az Odoo felfedező napra"
+msgid "Thanks for subscribing to the Modoo Discovery Day"
+msgstr "Köszönjük feliratkozását az Modoo felfedező napra"

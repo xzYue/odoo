@@ -719,7 +719,7 @@ msgstr ""
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
+"mode. If unchecked, Modoo uses the normal cashier mode by default."
 msgstr ""
 "Vink deze optie aan indien dit kasregister moet standaard geopend moet "
 "worden in de zelfbedienings modus."
@@ -2206,8 +2206,8 @@ msgstr "Aantal transacties"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo Point of Sale"
+msgid "Modoo POS"
+msgstr "Modoo Point of Sale"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3909,10 +3909,10 @@ msgstr ""
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Modoo but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Deze nummering zal automatisch gegenereerd worden door Odoo, maar u kunt ook "
+"Deze nummering zal automatisch gegenereerd worden door Modoo, maar u kunt ook "
 "uw eigen nummering samenstellen."
 
 #. module: point_of_sale

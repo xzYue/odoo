@@ -241,11 +241,11 @@ msgstr ""
 #: help:res.users,google_calendar_cal_id:0
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and Modoo Google Internal ID"
 msgstr ""
 "El ID del último calendario ha sido sincronizado. Si se cambia, se "
 "eliminarán todos los enlaces entre el ID de Google y el ID de Google interno "
-"de Odoo"
+"de Modoo"
 
 #. module: google_calendar
 #: field:res.users,google_calendar_last_sync_date:0
@@ -254,13 +254,13 @@ msgstr "Fecha de la última sincronización"
 
 #. module: google_calendar
 #: field:calendar.attendee,oe_synchro_date:0
-msgid "Odoo Synchro Date"
-msgstr "Fecha de la sincronización de Odoo"
+msgid "Modoo Synchro Date"
+msgstr "Fecha de la sincronización de Modoo"
 
 #. module: google_calendar
 #: field:calendar.event,oe_update_date:0
-msgid "Odoo Update Date"
-msgstr "Fecha de actualización de Odoo"
+msgid "Modoo Update Date"
+msgstr "Fecha de actualización de Modoo"
 
 #. module: google_calendar
 #: view:base.config.settings:google_calendar.view_calendar_config_settings

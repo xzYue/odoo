@@ -29,7 +29,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to create a marketing campaign.\n"
 "          </p><p>\n"
-"            Odoo's marketing campaign allows you to automate communication\n"
+"            Modoo's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) "
 "on\n"
 "            your leads and partners to fullfil the campaign.\n"
@@ -46,7 +46,7 @@ msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Klicken Sie zur Erstellung einer Marketing Kampagne.\n"
 "          </p><p>\n"
-"            Odoo unterstützt die automatische Kommunikation mit "
+"            Modoo unterstützt die automatische Kommunikation mit "
 "Interessenten. Sie können hierzu\n"
 "            einfach Ihre Kontakte segmentieren, um auf Basis dieser "
 "Zielgruppen die potenziellen\n"
@@ -1188,8 +1188,8 @@ msgstr "Variable Kosten"
 
 #. module: marketing_campaign
 #: model:email.template,subject:marketing_campaign.email_template_1
-msgid "Welcome to the Odoo Partner Channel!"
-msgstr "Herzlich Willkommen im Odoo Partnerkanal!"
+msgid "Welcome to the Modoo Partner Channel!"
+msgstr "Herzlich Willkommen im Modoo Partnerkanal!"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0

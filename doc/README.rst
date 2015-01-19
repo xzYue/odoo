@@ -1,13 +1,13 @@
 :orphan:
 
 ==================
-Odoo Documentation
+Modoo Documentation
 ==================
 
-Odoo Theme
+Modoo Theme
 ==========
 
-The Odoo Documentation theme is a bootstrap-based mix of http://odoo.com and
+The Modoo Documentation theme is a bootstrap-based mix of http://modoo.com and
 http://getbootstrap.com with additional changes and additions, bundled as
 a Sphinx theme.
 
@@ -30,7 +30,7 @@ Sphinx Customizations
 * colspecs are removed from tables, tables should autolayout
 * ``data-`` attributes are copied straight from the docutils node to the
   output HTML node
-* an ``odoo`` pygments style based on the bootstrap_ documentation's
+* an ``modoo`` pygments style based on the bootstrap_ documentation's
 * the normal Sphinx sidebars are suppressed and a new sidebar is injected in
   ``div.document`` (``sidebar1`` is outside in the base Sphinx layout)
 * HTML5 doctype

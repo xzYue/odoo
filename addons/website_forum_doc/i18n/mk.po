@@ -195,13 +195,13 @@ msgstr "Грешка ! Не може да креирате рекурзивни 
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to configure in Odoo"
-msgstr "Објаснете како да се конфигурира во Odoo"
+msgid "Explain how to configure in Modoo"
+msgstr "Објаснете како да се конфигурира во Modoo"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Објаснете како да се имплементира во Odoo"
+msgid "Explain how to implement it in Modoo"
+msgstr "Објаснете како да се имплементира во Modoo"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,forum_id:0
@@ -406,8 +406,8 @@ msgstr "Име на фаза"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "Одговорот е разбирлив за некој што не го знае Odoo"
+msgid "The answer is understandable for someone who does not know Modoo"
+msgstr "Одговорот е разбирлив за некој што не го знае Modoo"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question

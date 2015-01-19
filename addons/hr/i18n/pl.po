@@ -30,7 +30,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the Odoo employee screen, you\n"
+"                With just a quick glance on the Modoo employee screen, you\n"
 "                can easily find all the information you need for each "
 "person;\n"
 "                contact data, job position, availability, etc.\n"
@@ -44,7 +44,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                Odoo's department structure is used to manage all documents\n"
+"                Modoo's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
@@ -1008,8 +1008,8 @@ msgstr "Użytkownicy"
 #. module: hr
 #: code:addons/hr/hr.py:273
 #, python-format
-msgid "Welcome to %s! Please help him/her take the first steps with Odoo!"
-msgstr "Witaj w %s! Prosimy pomóż mu/jej w pierwszym kontakcie z Odoo!"
+msgid "Welcome to %s! Please help him/her take the first steps with Modoo!"
+msgstr "Witaj w %s! Prosimy pomóż mu/jej w pierwszym kontakcie z Modoo!"
 
 #. module: hr
 #: selection:hr.employee,marital:0

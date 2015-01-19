@@ -112,8 +112,8 @@ msgstr "404: Seite wurde nicht gefunden!"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "Bereits 50000+ Unternehmen wollen mit Odoo expandieren."
+msgid "50,000+ companies run Modoo to grow their businesses."
+msgstr "Bereits 50000+ Unternehmen wollen mit Modoo expandieren."
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
@@ -378,8 +378,8 @@ msgstr "Banner"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Odoo Image"
-msgstr "Banner Odoo Bild"
+msgid "Banner Modoo Image"
+msgstr "Banner Modoo Bild"
 
 #. module: website
 #. openerp-web
@@ -1770,54 +1770,54 @@ msgstr "Hinweis: Sie können diese Seite über Anpassen im Topmenü ausblenden."
 
 #. module: website
 #: view:website:website.layout
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: website
 #: view:website:website.info
-msgid "Odoo Version"
-msgstr "Odoo Version"
+msgid "Modoo Version"
+msgstr "Modoo Version"
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                                    Things are better "
 "organized and more visible with it."
 msgstr ""
-"Odoo bietet eine wichtige Plattform für Ihr Projektmanagement.\n"
+"Modoo bietet eine wichtige Plattform für Ihr Projektmanagement.\n"
 "                              Die Aufgaben lassen sich einfacher und "
 "transparenter organisieren."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                            Things are better organized and "
 "more visible with it."
 msgstr ""
-"Odoo bietet eine wichtige Plattform für Ihr Projektmanagement.\n"
+"Modoo bietet eine wichtige Plattform für Ihr Projektmanagement.\n"
 "                              Die Aufgaben lassen sich einfacher und "
 "transparenter organisieren."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                Things are better organized and more visible "
 "with it."
 msgstr ""
-"Odoo bietet eine wichtige Plattform für Ihr Projektmanagement.\n"
+"Modoo bietet eine wichtige Plattform für Ihr Projektmanagement.\n"
 "                              Die Aufgaben lassen sich einfacher und "
 "transparenter organisieren."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Modoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
 msgstr ""
-"Odoo kann als Webapplikation auf allen Endgeräten\n"
+"Modoo kann als Webapplikation auf allen Endgeräten\n"
 "                        mit einem minimalen Installationsaufwand betrieben "
 "werden."
 
@@ -2557,7 +2557,7 @@ msgid ""
 "or\n"
 "                    keyboardless resistive touchscreen terminals."
 msgstr ""
-"Das Point-of-Sale in Odoo arbeitet perfekt auf jeglichem Touchscreen "
+"Das Point-of-Sale in Modoo arbeitet perfekt auf jeglichem Touchscreen "
 "fähigen\n"
 "                         Endgerät, sei es ein mult-touch Tablett wie das "
 "iPad oder \n"
@@ -3025,8 +3025,8 @@ msgstr "Ob diese Ansicht ein komplettes Webseiten Template ist"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Odoo POS support?"
-msgstr "Welche Hardware unterstützt Odoo POS ?"
+msgid "Which hardware does Modoo POS support?"
+msgstr "Welche Hardware unterstützt Modoo POS ?"
 
 #. module: website
 #: view:website:website.snippets
@@ -3243,8 +3243,8 @@ msgstr "http://openerp.com/logo.png"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/odoo"
-msgstr "http://www.linkedin.com/company/odoo"
+msgid "http://www.linkedin.com/company/modoo"
+msgstr "http://www.linkedin.com/company/modoo"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3258,8 +3258,8 @@ msgstr "http://www.youtube.com/channel/HCU842OHPPNrQ"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/odoo"
-msgstr "https://facebook.com/odoo"
+msgid "https://facebook.com/modoo"
+msgstr "https://facebook.com/modoo"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3299,8 +3299,8 @@ msgstr "https://youraccount.github.io"
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Odoo, the"
-msgstr "Odoo Instanz , der"
+msgid "instance of Modoo, the"
+msgstr "Modoo Instanz , der"
 
 #. module: website
 #: view:website:website.snippets
@@ -3360,8 +3360,8 @@ msgstr "Style."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "Das klassische Odoo Interface"
+msgid "the classic Modoo interface"
+msgstr "Das klassische Modoo Interface"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

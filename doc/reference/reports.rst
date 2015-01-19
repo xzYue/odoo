@@ -14,7 +14,7 @@ is a default one set on the company.  If you want a specific report to be
 associated to a specific paper format , just link the ir.actions.report.xml to
 it.
 
-Expressions used in Odoo report templates
+Expressions used in Modoo report templates
 -----------------------------------------
 
 There are some magic variables used in the report rendering. The main ones are
@@ -46,10 +46,10 @@ Custom report
 
 A generic report use the default rendering context, containing the magic
 variables as explained before. If you want a new rendering context containing
-anything you want to process your data Odoo AbstractModel, a custom module is
+anything you want to process your data Modoo AbstractModel, a custom module is
 needed. These reports are called "particular report".
 
-For a particular report, you have to write an Odoo Model containing a
+For a particular report, you have to write an Modoo Model containing a
 render_html method.  Classically, this method returns a call to the original
 **QWeb render** with a **custom rendering context**.
 

@@ -95,7 +95,7 @@ msgstr "Име:"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
-msgid "Odoo Tweet Scroller"
+msgid "Modoo Tweet Scroller"
 msgstr ""
 
 #. module: website_twitter
@@ -267,8 +267,8 @@ msgstr "https://apps.twitter.com/app/new"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.modoo.com"
+msgstr "https://www.modoo.com"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings

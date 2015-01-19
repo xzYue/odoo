@@ -63,10 +63,10 @@ msgstr "Multi Mandanten"
 
 #. module: multi_company
 #: model:product.template,name:multi_company.product_product_odoo1_product_template
-msgid "Odoo Offer"
-msgstr "Odoo Angebot"
+msgid "Modoo Offer"
+msgstr "Modoo Angebot"
 
 #. module: multi_company
 #: model:product.category,name:multi_company.Odoo1
-msgid "Odoo Offers"
-msgstr "Odoo Angebote"
+msgid "Modoo Offers"
+msgstr "Modoo Angebote"

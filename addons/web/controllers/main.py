@@ -1,19 +1,16 @@
 # -*- coding: utf-8 -*-
 
-import ast
 import base64
 import csv
 import functools
 import glob
 import itertools
-import jinja2
 import logging
 import operator
 import datetime
 import hashlib
 import os
 import re
-import simplejson
 import sys
 import time
 import urllib2
@@ -21,9 +18,12 @@ import zlib
 from xml.etree import ElementTree
 from cStringIO import StringIO
 
+import jinja2
+import simplejson
 import babel.messages.pofile
 import werkzeug.utils
 import werkzeug.wrappers
+
 try:
     import xlwt
 except ImportError:
@@ -72,7 +72,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "Modoo Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(simplejson.dumps(error))

@@ -21,9 +21,9 @@ msgstr ""
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_4
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and buying the Odoo book.</p>\n"
+"            <p>Thanks for showing interest and buying the Modoo book.</p>\n"
 "            If any further information required kindly revert back.\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 
 #. module: marketing_campaign_crm_demo
@@ -36,40 +36,40 @@ msgid ""
 "appreciate your co-operation on this.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_3
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and for subscribing to the Odoo "
+"            <p>Thanks for showing interest and for subscribing to the Modoo "
 "Discovery Day.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Здраво,</p>\n"
 "            <p>Ви благодариме што покажувате интерес и што се претплативте "
-"за Odoo ден на откривање.</p>\n"
+"за Modoo ден на откривање.</p>\n"
 "            <p>Ако ви се потребни понатамошни информации, слободно "
 "одговорете на оваа порака.</p>\n"
-"            <p>Со почит, Odoo Тим,</p>"
+"            <p>Со почит, Modoo Тим,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_1
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for the genuine interest you have shown in Odoo.</p>\n"
+"            <p>Thanks for the genuine interest you have shown in Modoo.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Здраво,</p>\n"
-"            <p>Ви благодариме за интересот што го покажавте за Odoo.</p>\n"
+"            <p>Ви благодариме за интересот што го покажавте за Modoo.</p>\n"
 "            <p>Ако ви се потребни понатамошни информации, слободно "
 "одговорете на оваа порака.</p>\n"
-"            <p>Со почит, Odoo Тим,</p>"
+"            <p>Со почит, Modoo Тим,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_5
@@ -80,7 +80,7 @@ msgid ""
 "on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Здраво,</p>\n"
 "            <p>Имаме многу добра понуда што би можела да биде за вас.\n"
@@ -88,7 +88,7 @@ msgstr ""
 "тренинг во јуни, 2010.</p>\n"
 "            <p>Ако ви се потребни понатамошни информации, слободно "
 "одговорете на оваа порака.</p>\n"
-"            <p>Со почит, Odoo Тим,</p>"
+"            <p>Со почит, Modoo Тим,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_7
@@ -98,14 +98,14 @@ msgid ""
 "            For our silver partners, we are  offering Gold partnership.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Здраво,</p>\n"
 "            <p>Имаме многу добра понуда што би можела да биде за вас.\n"
 "            За нашите сребрени партнери, нудиме златно партнерство.</p>\n"
 "            <p>Ако ви се потребни понатамошни информации, слободно "
 "одговорете на оваа порака.</p>\n"
-"            <p>Со почит, Odoo Тим,</p>"
+"            <p>Со почит, Modoo Тим,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_6
@@ -116,7 +116,7 @@ msgid ""
 "june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Здраво,</p>\n"
 "            <p>Имаме многу добра понуда што би можела да биде за вас.\n"
@@ -124,26 +124,26 @@ msgstr ""
 "јуни, 2010.</p>\n"
 "            <p>Ако ви се потребни понатамошни информации, слободно "
 "одговорете на оваа порака.</p>\n"
-"            <p>Со почит, Odoo Тим,</p>"
+"            <p>Со почит, Modoo Тим,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_2
 msgid ""
 "<p>Hello,</p>\n"
 "            <p>We have very good offer that might suit you.\n"
-"            We suggest you subscribe to the Odoo Discovery Day on May "
+"            We suggest you subscribe to the Modoo Discovery Day on May "
 "2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to "
 "reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr ""
 "<p>Здраво,</p>\n"
 "            <p>Имаме многу добра понуда што би можела да биде за вас.\n"
-"            Предлагаме да се претплатите на Odoo ден на откривање во Мај "
+"            Предлагаме да се претплатите на Modoo ден на откривање во Мај "
 "2010.</p>\n"
 "            <p>Ако ви се потребни понатамошни информации, слободно "
 "одговорете на оваа порака.</p>\n"
-"            <p>Со почит, Odoo Тим,</p>"
+"            <p>Со почит, Modoo Тим,</p>"
 
 #. module: marketing_campaign_crm_demo
 #: report:crm.lead.demo:0
@@ -182,18 +182,18 @@ msgstr "Предложи платен тренинг на сребрените �
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_2
-msgid "Propose to subscribe to the Odoo Discovery Day on May 2010"
-msgstr "Предложи претплата на Odoo ден на откривање во Мај 2010"
+msgid "Propose to subscribe to the Modoo Discovery Day on May 2010"
+msgstr "Предложи претплата на Modoo ден на откривање во Мај 2010"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_4
-msgid "Thanks for buying the Odoo book"
-msgstr "Ви благодариме што ја купивте Odoo книгата"
+msgid "Thanks for buying the Modoo book"
+msgstr "Ви благодариме што ја купивте Modoo книгата"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_1
-msgid "Thanks for showing interest in Odoo"
-msgstr "Ви благодариме што покажавте интерес за Odoo"
+msgid "Thanks for showing interest in Modoo"
+msgstr "Ви благодариме што покажавте интерес за Modoo"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_8
@@ -202,5 +202,5 @@ msgstr "Ви благодариме што се претплативте за т
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_3
-msgid "Thanks for subscribing to the Odoo Discovery Day"
-msgstr "Ви благодариме што се претплативте за Odoo ден на откривање"
+msgid "Thanks for subscribing to the Modoo Discovery Day"
+msgstr "Ви благодариме што се претплативте за Modoo ден на откривање"

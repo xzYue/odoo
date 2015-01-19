@@ -4,7 +4,7 @@
 # First author: Jose Ernesto Mendez <tecnologia@obsdr.com> (Open Business Solutions SRL.)
 # Copyright (c) 2012 -TODAY Open Business Solutions, SRL. (http://obsdr.com). All rights reserved.
 #
-# This is a fork to upgrade to odoo 8.0
+# This is a fork to upgrade to modoo 8.0
 # by Marcos Organizador de Negocios - Eneldo Serrata - www.marcos.org.do
 #
 #

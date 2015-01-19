@@ -87,10 +87,10 @@ msgstr "O documento foi importado com sucesso!"
 #: code:addons/edi/models/edi.py:130
 #, python-format
 msgid ""
-"The document you are trying to import requires the Odoo `%s` application. "
+"The document you are trying to import requires the Modoo `%s` application. "
 "You can install it by connecting as the administrator and opening the "
 "configuration assistant."
 msgstr ""
 "O documento que você está tentando importar necessita da aplicação `%s` do "
-"Odoo. Você pode instalar acessando como administrador, e iniciando o "
+"Modoo. Você pode instalar acessando como administrador, e iniciando o "
 "assistente de configuração."

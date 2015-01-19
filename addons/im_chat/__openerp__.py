@@ -6,7 +6,7 @@
     'sequence': '18',
     'category': 'Tools',
     'complexity': 'easy',
-    'website': 'https://www.odoo.com/page/live-chat',
+    'website': 'https://www.modoo.com/page/live-chat',
     'description':
         """
 Instant Messaging

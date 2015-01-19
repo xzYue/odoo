@@ -1,4 +1,4 @@
-// Phantomjs odoo helper
+// Phantomjs modoo helper
 // jshint evil: true, loopfunc: true
 
 function waitFor (condition, callback, timeout, timeoutMessageCallback) {

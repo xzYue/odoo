@@ -7,8 +7,8 @@
     syntax-checked and tested.
     """,
 
-    'author': "Odoo",
-    'website': "http://odoo.com",
+    'author': "Modoo",
+    'website': "http://modoo.com",
 
     'category': 'Tests',
     'version': '0.1',

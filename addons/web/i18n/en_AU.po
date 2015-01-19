@@ -253,7 +253,7 @@ msgstr "About"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:360
 #, python-format
-msgid "About Odoo"
+msgid "About Modoo"
 msgstr ""
 
 #. module: web
@@ -538,7 +538,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
+msgid "Check this box to evaluate Modoo."
 msgstr ""
 
 #. module: web
@@ -874,7 +874,7 @@ msgstr "Discard"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:426
 #, python-format
-msgid "Discover Events of Odoo around the world..."
+msgid "Discover Events of Modoo around the world..."
 msgstr ""
 
 #. module: web
@@ -1196,7 +1196,7 @@ msgstr "File:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an Modoo database. You can\n"
 "                    create databases for different companies or for "
 "different\n"
 "                    goals (testing, production). Once the database is "
@@ -1620,7 +1620,7 @@ msgstr "More"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:359
 #, python-format
-msgid "My Odoo.com account"
+msgid "My Modoo.com account"
 msgstr ""
 
 #. module: web
@@ -1732,33 +1732,33 @@ msgstr "Object:"
 #: view:website:web.layout
 #: view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
+msgid "Modoo"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:377
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
+msgid "Modoo (Formerly OpenERP)"
 msgstr ""
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
+msgid "Modoo Web Tests"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:411
 #, python-format
-msgid "Odoo is a trademark of the"
+msgid "Modoo is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:413
 #, python-format
-msgid "Odoo.com"
+msgid "Modoo.com"
 msgstr ""
 
 #. module: web
@@ -2750,7 +2750,7 @@ msgstr "You must select at least one record."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Modoo session expired. Please refresh the current web page."
 msgstr ""
 
 #. module: web

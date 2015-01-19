@@ -436,7 +436,7 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
-"Az Odoo rendszert legalább két felhasználóval\n"
+"Az Modoo rendszert legalább két felhasználóval\n"
 "indítsa ahhoz, hogy a jelentések pdf formátumait nyomtathassa."
 
 #. module: report

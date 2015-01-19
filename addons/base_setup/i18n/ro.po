@@ -220,13 +220,13 @@ msgstr "Membru"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
+"Modoo allows to automatically create leads (or others documents)\n"
 "                            from incoming emails. You can automatically "
-"synchronize emails with Odoo\n"
+"synchronize emails with Modoo\n"
 "                            using regular POP/IMAP accounts, using a direct "
 "email integration script for your\n"
 "                            email server, or by manually pushing emails to "
-"Odoo using specific\n"
+"Modoo using specific\n"
 "                            plugins for your preferred email application."
 msgstr ""
 

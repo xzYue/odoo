@@ -713,10 +713,10 @@ msgstr ""
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
+"mode. If unchecked, Modoo uses the normal cashier mode by default."
 msgstr ""
 "Означете ако ова место на продажба треба по стандард да се отвара во само "
-"наплатен мод. Ако не е означено, Odoo  стандардно го користи нормалниот мод "
+"наплатен мод. Ако не е означено, Modoo  стандардно го користи нормалниот мод "
 "на касиер."
 
 #. module: point_of_sale
@@ -2175,8 +2175,8 @@ msgstr "Број на трансакција"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo POS"
+msgid "Modoo POS"
+msgstr "Modoo POS"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3879,10 +3879,10 @@ msgstr ""
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Modoo but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Оваа секвенца е автоматски креирана од Odoo но можете да ја промените за да "
+"Оваа секвенца е автоматски креирана од Modoo но можете да ја промените за да "
 "ги персонализирате референтните броеви на вашите нарачки."
 
 #. module: point_of_sale

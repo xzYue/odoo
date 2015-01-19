@@ -94,9 +94,9 @@ msgstr "<p></p>"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
+msgid "<p>If you do not contribute or develop in Modoo, skip this page.</p>"
 msgstr ""
-"<p>Wenn Sie kein Odoo-Entwickler sind, überspringen Sie bitte diese "
+"<p>Wenn Sie kein Modoo-Entwickler sind, überspringen Sie bitte diese "
 "Seite.</p>"
 
 #. module: survey
@@ -120,12 +120,12 @@ msgstr ""
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to "
-"remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of Modoo. Try to "
+"remind your firsts days on Modoo and\n"
 "what have been your difficulties.</p>"
 msgstr ""
 "<p>Diese Fragen beziehen sich auf die Ergonomie und Benutzerfreundlichkeit "
-"von Odoo. Versuchen Sie sich an Ihren ersten Tag mit Odoo zu erinnern. Wo "
+"von Modoo. Versuchen Sie sich an Ihren ersten Tag mit Modoo zu erinnern. Wo "
 "lagen Ihre Schwierigkeiten?</p>"
 
 #. module: survey
@@ -180,8 +180,8 @@ msgstr "Ein Token muss eindeutig sein!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Zu Ihrem Gebrauch von Odoo"
+msgid "About your Modoo usage"
+msgstr "Zu Ihrem Gebrauch von Modoo"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -271,8 +271,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Nutzen Sie Odoo täglich?"
+msgid "Are you using Modoo on a daily basis?"
+msgstr "Nutzen Sie Modoo täglich?"
 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
@@ -726,8 +726,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Wie tragen Sie aktuell und zukünftig zu  Odoo bei ?"
+msgid "How do you contribute or plan to contribute to Modoo?"
+msgstr "Wie tragen Sie aktuell und zukünftig zu  Modoo bei ?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -761,8 +761,8 @@ msgstr "Ich beteilige mich in Diskussionen und Foren"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "Ich benutze Launchpad, wie alle offiziellen Odoo-Projekte"
+msgid "I use Launchpad, like all official Modoo projects"
+msgstr "Ich benutze Launchpad, wie alle offiziellen Modoo-Projekte"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -771,8 +771,8 @@ msgstr "Ich benutze ein anderes Repository-System (SourceFroge...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Ich benutze die kontextbezogene Hilfe in Odoo"
+msgid "I use the contextual help in Modoo"
+msgstr "Ich benutze die kontextbezogene Hilfe in Modoo"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -1929,8 +1929,8 @@ msgstr "Sie sind hilfreich im täglichen Einsatz"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Sie sind hilfreich für neue Odoo Benutzer"
+msgid "They help new users to understand Modoo"
+msgstr "Sie sind hilfreich für neue Modoo Benutzer"
 
 #. module: survey
 #: code:addons/survey/survey.py:700
@@ -2195,9 +2195,9 @@ msgstr "Was denken Sie über die Anwendergruppen ?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Modoo, available in the web "
 "client ?"
-msgstr "Was denken Sie über die Prozessansichten im Odoo Web-Client ?"
+msgstr "Was denken Sie über die Prozessansichten im Modoo Web-Client ?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2232,8 +2232,8 @@ msgstr "Ja, ich benutze 7.0 auf einer lokalen Instanz"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Ja, ich benutze Odoo Online"
+msgid "Yes, I use the online version of Modoo"
+msgstr "Ja, ich benutze Modoo Online"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message

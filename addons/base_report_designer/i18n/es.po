@@ -101,18 +101,18 @@ msgstr "Última actualización en"
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_wizard
-msgid "Odoo Report Designer"
-msgstr "Diseñador de informes de Odoo"
+msgid "Modoo Report Designer"
+msgstr "Diseñador de informes de Modoo"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
-msgid "Odoo Report Designer Configuration"
-msgstr "Configuración del diseñador de informes de Odoo"
+msgid "Modoo Report Designer Configuration"
+msgstr "Configuración del diseñador de informes de Modoo"
 
 #. module: base_report_designer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_installer
-msgid "Odoo Report Designer Installation"
-msgstr "Instalación del diseñador de informes de Odoo"
+msgid "Modoo Report Designer Installation"
+msgstr "Instalación del diseñador de informes de Modoo"
 
 #. module: base_report_designer
 #: field:base_report_designer.installer,plugin_file:0
@@ -174,20 +174,20 @@ msgstr "El informe RML"
 msgid ""
 "This is the template of your requested report.\n"
 "Save it as a .SXW file and open it with OpenOffice.\n"
-"Don't forget to install the Odoo SA OpenOffice package to modify it.\n"
-"Once it is modified, re-upload it in Odoo using this wizard."
+"Don't forget to install the Modoo SA OpenOffice package to modify it.\n"
+"Once it is modified, re-upload it in Modoo using this wizard."
 msgstr ""
 "Ésta es la plantilla del informe solicitado.\n"
 "Guárdela como un archivo  .SXW y ábralo en OpenOffice.\n"
-"No olvide instalar el complemento de Odoo para modificarlo.\n"
-"Una vez modificado, vuelva a subirlo en Odoo usando este asistente."
+"No olvide instalar el complemento de Modoo para modificarlo.\n"
+"Una vez modificado, vuelva a subirlo en Modoo usando este asistente."
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid ""
-"This plug-in allows you to create/modify Odoo Reports into OpenOffice Writer."
+"This plug-in allows you to create/modify Modoo Reports into OpenOffice Writer."
 msgstr ""
-"Este complemento le permite crear/modificar los informes de Odoo en "
+"Este complemento le permite crear/modificar los informes de Modoo en "
 "OpenOffice Writer."
 
 #. module: base_report_designer

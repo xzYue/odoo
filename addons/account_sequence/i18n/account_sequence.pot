@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 #	* account_sequence
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Project-Id-Version: Modoo Server 8.0rc1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-14 13:08+0000\n"
 "PO-Revision-Date: 2014-08-14 13:08+0000\n"
@@ -120,7 +120,7 @@ msgstr ""
 
 #. module: account_sequence
 #: help:account.sequence.installer,padding:0
-msgid "Odoo will automatically adds some '0' on the left of the 'Next Number' to get the required padding size."
+msgid "Modoo will automatically adds some '0' on the left of the 'Next Number' to get the required padding size."
 msgstr ""
 
 #. module: account_sequence

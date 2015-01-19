@@ -49,7 +49,7 @@
                     if ($("input[name='name']").val() === "")
                         $("input[name='name']").val("website_sale-test-shoptest");
                     if ($("input[name='email']").val() === "")
-                        $("input[name='email']").val("website_event_sale_test_shoptest@websiteeventsaletest.odoo.com");
+                        $("input[name='email']").val("website_event_sale_test_shoptest@websiteeventsaletest.modoo.com");
                     $("input[name='phone']").val("123");
                     $("input[name='street2']").val("123");
                     $("input[name='city']").val("123");

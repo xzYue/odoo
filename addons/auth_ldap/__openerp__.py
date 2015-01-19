@@ -24,7 +24,7 @@
     'depends' : ['base'],
     'author' : 'OpenERP SA',
     #'description': < auto-loaded from README file
-    'website' : 'https://www.odoo.com',
+    'website' : 'https://www.modoo.com',
     'category' : 'Authentication',
     'data' : [
         'users_ldap_view.xml',

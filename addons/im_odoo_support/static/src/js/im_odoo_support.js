@@ -88,8 +88,8 @@
                 }
             };
             var defs = [];
-            defs.push(add_asset(SERVICE_URL+"odoo-livechat/assets/js", 'js'));
-            defs.push(add_asset(SERVICE_URL+"odoo-livechat/assets/css", 'css'));
+            defs.push(add_asset(SERVICE_URL+"modoo-livechat/assets/js", 'js'));
+            defs.push(add_asset(SERVICE_URL+"modoo-livechat/assets/css", 'css'));
             return $.when.apply($, defs).then(function(res){
                 self.assets_loaded = true;
                 return res;

@@ -1,7 +1,7 @@
-Upstream-Contact: Odoo <info@odoo.com>
-Upstream-Homepage: http://www.odoo.com/
-Maintainer-Contact: Debian Odoo Maintainers <gnunet@lists.debian-maintainers.org>
-Maintainer-Homepage: http://www.odoo.com/
+Upstream-Contact: Modoo <info@modoo.com>
+Upstream-Homepage: http://www.modoo.com/
+Maintainer-Contact: Debian Modoo Maintainers <gnunet@lists.debian-maintainers.org>
+Maintainer-Homepage: http://www.modoo.com/
 
 Files: *
 Copyright: (C) 2004-2014 OpenERP SA. (www.openerp.com)

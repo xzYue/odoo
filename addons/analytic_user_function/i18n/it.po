@@ -87,7 +87,7 @@ msgstr "Ultima modifica il"
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
 msgid ""
-"Odoo will recursively search on parent accounts\n"
+"Modoo will recursively search on parent accounts\n"
 "                            to check if specific conditions are defined for "
 "a\n"
 "                            specific user. This allows to set invoicing\n"

@@ -181,12 +181,12 @@ msgstr ""
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to configure in Odoo"
+msgid "Explain how to configure in Modoo"
 msgstr ""
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
+msgid "Explain how to implement it in Modoo"
 msgstr ""
 
 #. module: website_forum_doc
@@ -392,7 +392,7 @@ msgstr ""
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
+msgid "The answer is understandable for someone who does not know Modoo"
 msgstr ""
 
 #. module: website_forum_doc

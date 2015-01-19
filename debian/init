@@ -13,12 +13,12 @@
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
 DAEMON=/usr/bin/openerp-server
-NAME=odoo
-DESC=odoo
-CONFIG=/etc/odoo/openerp-server.conf
-LOGFILE=/var/log/odoo/odoo-server.log
+NAME=modoo
+DESC=modoo
+CONFIG=/etc/modoo/openerp-server.conf
+LOGFILE=/var/log/modoo/modoo-server.log
 PIDFILE=/var/run/${NAME}.pid
-USER=odoo
+USER=modoo
 export LOGNAME=$USER
 
 test -x $DAEMON || exit 0

@@ -1,5 +1,5 @@
 ============================
-Odoo Technical Documentation
+Modoo Technical Documentation
 ============================
 
 .. todo:: what's the documentation's license?

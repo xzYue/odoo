@@ -123,10 +123,10 @@ msgstr "Nummergrootte"
 #. module: account_sequence
 #: help:account.sequence.installer,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
-"Odoo voegt automatisch voorloopnullen toe links van het \"Volgende nummer\" "
+"Modoo voegt automatisch voorloopnullen toe links van het \"Volgende nummer\" "
 "om correct uit te lijnen."
 
 #. module: account_sequence

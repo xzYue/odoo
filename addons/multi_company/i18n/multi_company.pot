@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 #	* multi_company
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0rc1\n"
+"Project-Id-Version: Modoo Server 8.0rc1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-14 13:09+0000\n"
 "PO-Revision-Date: 2014-08-14 13:09+0000\n"
@@ -45,11 +45,11 @@ msgstr ""
 
 #. module: multi_company
 #: model:product.template,name:multi_company.product_product_odoo1_product_template
-msgid "Odoo Offer"
+msgid "Modoo Offer"
 msgstr ""
 
 #. module: multi_company
 #: model:product.category,name:multi_company.Odoo1
-msgid "Odoo Offers"
+msgid "Modoo Offers"
 msgstr ""
 

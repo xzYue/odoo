@@ -195,13 +195,13 @@ msgstr "Fout! het is niet mogelijk recursieve categorieën te maken!"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to configure in Odoo"
-msgstr "Leg uit hoe in te stellen in Odoo"
+msgid "Explain how to configure in Modoo"
+msgstr "Leg uit hoe in te stellen in Modoo"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Leg uit hoe te implementeren in Odoo"
+msgid "Explain how to implement it in Modoo"
+msgstr "Leg uit hoe te implementeren in Modoo"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,forum_id:0
@@ -406,8 +406,8 @@ msgstr "Naam fase"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "De vraag is begrijpbaar voor iemand die geen Odoo kent"
+msgid "The answer is understandable for someone who does not know Modoo"
+msgstr "De vraag is begrijpbaar voor iemand die geen Modoo kent"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question

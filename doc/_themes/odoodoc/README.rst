@@ -1,6 +1,6 @@
 :orphan:
 
-Using the Odoo theme
+Using the Modoo theme
 ====================
 
 * copy the theme to one of your theme paths

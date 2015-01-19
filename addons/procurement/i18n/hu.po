@@ -508,10 +508,10 @@ msgstr "Hivatkozás"
 #: help:procurement.order,origin:0
 msgid ""
 "Reference of the document that created this Procurement.\n"
-"This is automatically completed by Odoo."
+"This is automatically completed by Modoo."
 msgstr ""
 "Arra a dokumentumra a hivatkozás, mely előállította ezt a beszerzést.\n"
-"Ezt az Odoo rendszer automatikusan hozza létre."
+"Ezt az Modoo rendszer automatikusan hozza létre."
 
 #. module: procurement
 #: field:procurement.order,rule_id:0

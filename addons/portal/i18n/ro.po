@@ -170,7 +170,7 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"Modoo - Open Source Business Applications\n"
 "http://www.openerp.com\n"
 msgstr ""
 
@@ -425,7 +425,7 @@ msgstr ""
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
+msgid "Your Modoo account at %(company)s"
 msgstr ""
 
 #. module: portal

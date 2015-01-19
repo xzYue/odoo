@@ -94,9 +94,9 @@ msgstr "<p></p>"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
+msgid "<p>If you do not contribute or develop in Modoo, skip this page.</p>"
 msgstr ""
-"<p>Ако не придонесувате или развивате во Odoo, прескокнете ја оваа "
+"<p>Ако не придонесувате или развивате во Modoo, прескокнете ја оваа "
 "страна.</p>"
 
 #. module: survey
@@ -120,8 +120,8 @@ msgstr ""
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to "
-"remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of Modoo. Try to "
+"remind your firsts days on Modoo and\n"
 "what have been your difficulties.</p>"
 msgstr ""
 
@@ -176,8 +176,8 @@ msgstr "Токенот мора да биде уникатен"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "За вашата употреба на Odoo"
+msgid "About your Modoo usage"
+msgstr "За вашата употреба на Modoo"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -267,8 +267,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Дали го користите Odoo секој ден?"
+msgid "Are you using Modoo on a daily basis?"
+msgstr "Дали го користите Modoo секој ден?"
 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
@@ -722,8 +722,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Како придонесувате или планирате да придонесете кон Odoo?"
+msgid "How do you contribute or plan to contribute to Modoo?"
+msgstr "Како придонесувате или планирате да придонесете кон Modoo?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -757,8 +757,8 @@ msgstr "Учествувам во дискусии и форуми"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "Го користам Launchpad, како сите официјални Odoo проекти"
+msgid "I use Launchpad, like all official Modoo projects"
+msgstr "Го користам Launchpad, како сите официјални Modoo проекти"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -767,8 +767,8 @@ msgstr "Јас користам друг репозиторен систем (So
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Ја користам контекстуалната помош во Odoo"
+msgid "I use the contextual help in Modoo"
+msgstr "Ја користам контекстуалната помош во Modoo"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -1919,8 +1919,8 @@ msgstr "Корисни се за секојдневна употреба"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Им помагаат на новите корисници да го разберат Odoo"
+msgid "They help new users to understand Modoo"
+msgstr "Им помагаат на новите корисници да го разберат Modoo"
 
 #. module: survey
 #: code:addons/survey/survey.py:700
@@ -2183,10 +2183,10 @@ msgstr "Што мислите за групите на корисници?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Modoo, available in the web "
 "client ?"
 msgstr ""
-"Што мислите за прегледот на процес во Odoo, достапен во веб клиентот ?"
+"Што мислите за прегледот на процес во Modoo, достапен во веб клиентот ?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2221,8 +2221,8 @@ msgstr "Да ја користам верзијата 7.0 инсталирана
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Да ја користам интернет верзијата на Odoo"
+msgid "Yes, I use the online version of Modoo"
+msgstr "Да ја користам интернет верзијата на Modoo"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message

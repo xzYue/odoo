@@ -504,11 +504,11 @@ msgstr "Referenz"
 #: help:procurement.order,origin:0
 msgid ""
 "Reference of the document that created this Procurement.\n"
-"This is automatically completed by Odoo."
+"This is automatically completed by Modoo."
 msgstr ""
 "Die Referenz zu dem ursprünglichen Geschäftsvorfall für diesen "
 "Beschaffungsauftrag.\n"
-"In Odoo erfolgt automatisch die komplette Vervollständigung."
+"In Modoo erfolgt automatisch die komplette Vervollständigung."
 
 #. module: procurement
 #: field:procurement.order,rule_id:0

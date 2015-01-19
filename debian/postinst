@@ -2,15 +2,15 @@
 
 set -e
 
-ODOO_CONFIGURATION_FILE=/etc/odoo/openerp-server.conf
-ODOO_GROUP="odoo"
-ODOO_DATA_DIR=/var/lib/odoo
-ODOO_LOG_DIR=/var/log/odoo
-ODOO_USER="odoo"
+ODOO_CONFIGURATION_FILE=/etc/modoo/openerp-server.conf
+ODOO_GROUP="modoo"
+ODOO_DATA_DIR=/var/lib/modoo
+ODOO_LOG_DIR=/var/log/modoo
+ODOO_USER="modoo"
 
 case "${1}" in
     configure)
-        if ! getent passwd | grep -q "^odoo:"; then
+        if ! getent passwd | grep -q "^modoo:"; then
             adduser --system --home $ODOO_DATA_DIR --quiet --group $ODOO_USER
         fi
         # Register "$ODOO_USER" as a postgres user with "Create DB" role attribute

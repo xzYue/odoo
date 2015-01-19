@@ -48,7 +48,7 @@ msgstr ""
 msgid ""
 "<p>\n"
 "               You can assign remaining Legal Leaves for each employee, "
-"Odoo\n"
+"Modoo\n"
 "               will automatically create and validate allocation requests.\n"
 "             </p>\n"
 "           "
@@ -709,10 +709,10 @@ msgstr "Número de Dias"
 #. module: hr_holidays
 #: help:hr.holidays.status,categ_id:0
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Modoo will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Uma vez que uma licença é validada, o Odoo irá criar um evento no calendário "
+"Uma vez que uma licença é validada, o Modoo irá criar um evento no calendário "
 "correspondente a esse tipo."
 
 #. module: hr_holidays

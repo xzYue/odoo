@@ -8,14 +8,14 @@ Building a Website
 
     * This guide assumes `basic knowledge of Python
       <http://docs.python.org/2/tutorial/>`_
-    * This guide assumes :ref:`an installed Odoo <setup/install>`
+    * This guide assumes :ref:`an installed Modoo <setup/install>`
 
 Creating a basic module
 =======================
 
-In Odoo, tasks are performed by creating modules.
+In Modoo, tasks are performed by creating modules.
 
-Modules customize the behavior of an Odoo installation, either by adding new
+Modules customize the behavior of an Modoo installation, either by adding new
 behaviors or by altering existing ones (including behaviors added by other
 modules).
 
@@ -33,11 +33,11 @@ then let's create the module's own directory:
 
     $ mkdir my-modules/academy
 
-An Odoo module is a valid `Python package
+An Modoo module is a valid `Python package
 <http://docs.python.org/2/tutorial/modules.html#packages>`_ so it needs an
 empty ``__init__.py`` file.
 
-Finally the mark of an Odoo module is the
+Finally the mark of an Modoo module is the
 :ref:`manifest file <reference/module/manifest>`, a Python dictionary describing
 various module metadata.
 
@@ -50,11 +50,11 @@ We have a "complete" module ready for installation.
 
 Although it does absolutely nothing yet we can install it:
 
-* start the Odoo server
+* start the Modoo server
 
     .. code-block:: console
 
-        $ ./odoo.py --addons-path addons,my-modules
+        $ ./modoo.py --addons-path addons,my-modules
 
 * go to http://localhost:8069
 * create a new database including demonstration data
@@ -66,7 +66,7 @@ Although it does absolutely nothing yet we can install it:
 .. seealso::
 
     * In a production development setting, modules should generally be created
-      using :ref:`Odoo's scaffolding <reference/cmdline/scaffold>` rather than by
+      using :ref:`Modoo's scaffolding <reference/cmdline/scaffold>` rather than by
       hand
 
 To the browser
@@ -75,7 +75,7 @@ To the browser
 :ref:`Controllers <reference/http/controllers>` interpret browser requests and
 send data back.
 
-Add a simple controller and import it (so Odoo can find it):
+Add a simple controller and import it (so Modoo can find it):
 
 .. patch::
 
@@ -83,7 +83,7 @@ Shut down your server (:kbd:`^C`) then restart it:
 
 .. code-block:: console
 
-    $ ./odoo.py --addons-path addons,my-modules
+    $ ./modoo.py --addons-path addons,my-modules
 
 and open a page to http://localhost:8069/academy/, you should see your "page"
 appear:
@@ -96,9 +96,9 @@ Templates
 Generating HTML in Python isn't very pleasant.
 
 The usual solution is templates_, pseudo-documents with placeholders and
-display logic. Odoo allows any Python templating system, but provides its
+display logic. Modoo allows any Python templating system, but provides its
 own :ref:`QWeb <reference/qweb>` templating system which integrates with other
-Odoo features.
+Modoo features.
 
 Let's create an XML file for our first template, register the template in the
 manifest and alter the controller to use our template:
@@ -108,27 +108,27 @@ manifest and alter the controller to use our template:
 The templates iterates (``t-foreach``) on all the teachers (passed through the
 *template context*), and prints each teacher in its own paragraph.
 
-Finally restart Odoo and update the module's data (to install the template)
+Finally restart Modoo and update the module's data (to install the template)
 by going to :menuselection:`Settings --> Modules --> Installed Modules -->
 Academy` and clicking :guilabel:`Upgrade`.
 
 .. tip::
 
-    Alternatively, Odoo can be restarted :option:`and update modules at
-    the same time<odoo.py -u>`:
+    Alternatively, Modoo can be restarted :option:`and update modules at
+    the same time<modoo.py -u>`:
 
     .. code-block:: console
 
-        $ odoo.py --addons-path addons,my-modules -d academy -u academy
+        $ modoo.py --addons-path addons,my-modules -d academy -u academy
 
 Going to http://localhost:8069/academy/ should now result in:
 
 .. image:: website/basic-list.png
 
-Storing data in Odoo
+Storing data in Modoo
 ====================
 
-:ref:`Odoo models <reference/orm/model>` map to database tables.
+:ref:`Modoo models <reference/orm/model>` map to database tables.
 
 In the previous section we just displayed a list of string entered statically
 in the Python code. This doesn't allow modifications and persistent storage
@@ -137,7 +137,7 @@ thereof, so we're now going to move our data to the database.
 Defining the data model
 -----------------------
 
-First define an Odoo model file and import it:
+First define an Modoo model file and import it:
 
 .. patch::
 
@@ -201,9 +201,9 @@ teacher).
 Website support
 ===============
 
-Odoo bundles a module dedicated to building websites.
+Modoo bundles a module dedicated to building websites.
 
-So far we've used controllers fairly directly, but Odoo 8 added deeper
+So far we've used controllers fairly directly, but Modoo 8 added deeper
 integration and a few other services (e.g. default styling, theming) via the
 ``website`` module.
 
@@ -226,7 +226,7 @@ The website layout also provides support for edition tools: click
 :guilabel:`Sign In` (in the top-right), fill the credentials in (``admin`` /
 ``admin`` by default) then click :guilabel:`Log In`.
 
-You're now in Odoo "proper": the administrative interface. For now click on
+You're now in Modoo "proper": the administrative interface. For now click on
 the :guilabel:`Website` menu item (top-left corner.
 
 We're back in the website but as an administrator, with access to advanced
@@ -253,7 +253,7 @@ create a new controller method which takes a bit of URL and prints it out:
 
 .. patch::
 
-restart Odoo, access http://localhost:8069/academy/Alice/ and
+restart Modoo, access http://localhost:8069/academy/Alice/ and
 http://localhost:8069/academy/Bob/ and see the difference.
 
 As the name indicates, `converter patterns`_ don't just do extraction, they
@@ -262,13 +262,13 @@ to only accept integers:
 
 .. patch::
 
-Restart Odoo, access http://localhost:8069/academy/2, note how the old value
+Restart Modoo, access http://localhost:8069/academy/2, note how the old value
 was a string, but the new one was converted to an integers. Try accessing
 http://localhost:8069/academy/Carol/ and note that the page was not found:
 since "Carol" is not an integer, the route was ignored and no route could be
 found.
 
-Odoo provides an additional converter called ``model`` which provides records
+Modoo provides an additional converter called ``model`` which provides records
 directly when given their id, let's use that and create a generic page for
 teacher biographies:
 
@@ -278,7 +278,7 @@ then change the list of model to link to our new controller:
 
 .. patch::
 
-Restart Odoo and upgrade the module, then you can visit each teacher's page.
+Restart Modoo and upgrade the module, then you can visit each teacher's page.
 As an exercise, try adding blocks to a teacher's page to write a biography,
 then go to another teacher's page and so forth. You will discover, that your
 biography is shared between all teachers, because blocks are added to the
@@ -293,7 +293,7 @@ add a new biography field to our teachers:
 
 .. patch::
 
-Restart Odoo and update the views, reload the teacher's page and… the field
+Restart Modoo and update the views, reload the teacher's page and… the field
 is invisible since it contains nothing.
 
 .. todo:: the view has been set to noupdate because modified previously,
@@ -305,7 +305,7 @@ interfaces. Change the *person* template to use ``t-field``:
 
 .. patch::
 
-Restart Odoo and upgrade the module, there is now a placeholder under the
+Restart Modoo and upgrade the module, there is now a placeholder under the
 teacher's name and a new zone for blocks in :guilabel:`Edit` mode. Content
 dropped there is stored in the corresponding teacher's ``biography`` field, and
 thus specific to that teacher.
@@ -330,28 +330,28 @@ or a relative display:
 Administration and ERP integration
 ==================================
 
-A brief and incomplete introduction to the Odoo administration
+A brief and incomplete introduction to the Modoo administration
 --------------------------------------------------------------
 
-The Odoo administration was briefly seen during the `website support` section.
+The Modoo administration was briefly seen during the `website support` section.
 We can go back to it using :menuselection:`Administrator --> Administrator` in
 the menu (or :guilabel:`Sign In` if you're signed out).
 
-The conceptual structure of the Odoo backend is simple:
+The conceptual structure of the Modoo backend is simple:
 
 #. first are menus, a tree (menus can have sub-menus) of records. Menus
    without children map to…
-#. actions. Actions have various types: links, reports, code which Odoo should
+#. actions. Actions have various types: links, reports, code which Modoo should
    execute or data display. Data display actions are called *window actions*,
-   and tell Odoo to display a given *model* according to a set of views…
+   and tell Modoo to display a given *model* according to a set of views…
 #. a view has a type, a broad category to which it corresponds (a list,
    a graph, a calendar) and an *architecture* which customises the way the
    model is displayed inside the view.
 
-Editing in the Odoo administration
+Editing in the Modoo administration
 ----------------------------------
 
-By default, an Odoo model is essentially invisible to a user. To make it
+By default, an Modoo model is essentially invisible to a user. To make it
 visible it must be available through an action, which itself needs to be
 reachable, generally through a menu.
 
@@ -366,7 +366,7 @@ and having opened a listing of teachers. From the listing it is possible to
 view.
 
 If there is no definition of how to present records (a
-:ref:`view <reference/views>`) Odoo will automatically create a basic one
+:ref:`view <reference/views>`) Modoo will automatically create a basic one
 on-the-fly. In our case it works for the "list" view for now (only displays
 the teacher's name) but in the "form" view the HTML ``biography`` field is
 displayed side-by-side with the ``name`` field and not given enough space.
@@ -404,11 +404,11 @@ model:
 Discussions and notifications
 -----------------------------
 
-Odoo provides technical models, which don't fulfill business needs in and of
+Modoo provides technical models, which don't fulfill business needs in and of
 themselves but add capabilities to business objects without having to build
 them by hand.
 
-One of these is the *Chatter* system, part of Odoo's email and messaging
+One of these is the *Chatter* system, part of Modoo's email and messaging
 system, which can add notifications and discussion threads to any model.
 The model simply has to :attr:`~openerp.models.Model._inherit`
 ``mail.thread``, and add the ``message_ids`` field to its form view to display
@@ -426,9 +426,9 @@ discussions linked to specific courses.
 Selling courses
 ---------------
 
-Odoo also provides business models which allow using or opting in business
+Modoo also provides business models which allow using or opting in business
 needs more directly. For instance the ``website_sale`` module sets up an
-e-commerce site based on the products in the Odoo system. We can easily make
+e-commerce site based on the products in the Modoo system. We can easily make
 course subscriptions sellable by making our courses specific kinds of
 products.
 
@@ -441,7 +441,7 @@ products (via ``sale``) and the ecommerce interface:
 
 .. patch::
 
-restart Odoo, update your module, there is now a :guilabel:`Shop` section in
+restart Modoo, update your module, there is now a :guilabel:`Shop` section in
 the website, listing a number of pre-filled (via demonstration data) products.
 
 The second step is to replace the *courses* model by ``product.template``,

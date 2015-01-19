@@ -365,13 +365,13 @@ msgstr "Niet gedeelde groepen"
 #: code:addons/share/wizard/share_wizard.py:869
 #, python-format
 msgid ""
-"Odoo is a powerful and user-friendly suite of Business Applications (CRM, "
+"Modoo is a powerful and user-friendly suite of Business Applications (CRM, "
 "Sales, HR, etc.)\n"
 "It is open source and can be found on http://www.openerp.com."
 msgstr ""
-"Odoo is een krachtig en gebruikersvriendelijke softwarepakket bestaande uit "
+"Modoo is een krachtig en gebruikersvriendelijke softwarepakket bestaande uit "
 "zakelijke applicaties (CRM, Sales, HR, etc.)\n"
-"Het is open source en kan gevonden worden op http://www.odoo.com."
+"Het is open source en kan gevonden worden op http://www.modoo.com."
 
 #. module: share
 #: help:share.wizard,domain:0
@@ -579,13 +579,13 @@ msgstr ""
 #: code:addons/share/wizard/share_wizard.py:856
 #, python-format
 msgid ""
-"The documents are not attached, you can view them online directly on my Odoo "
+"The documents are not attached, you can view them online directly on my Modoo "
 "server at:\n"
 "    %s\n"
 "\n"
 msgstr ""
 "De documenten zijn niet toegevoegd, u kunt ze direct online inzien op uw "
-"Odoo server op:\n"
+"Modoo server op:\n"
 "    %s\n"
 "\n"
 
@@ -593,9 +593,9 @@ msgstr ""
 #: code:addons/share/wizard/share_wizard.py:865
 #, python-format
 msgid ""
-"The documents have been automatically added to your current Odoo documents.\n"
+"The documents have been automatically added to your current Modoo documents.\n"
 msgstr ""
-"De documenten wordt automatisch toegevoegd bij uw huidige Odoo documenten.\n"
+"De documenten wordt automatisch toegevoegd bij uw huidige Modoo documenten.\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:832

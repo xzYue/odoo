@@ -963,11 +963,11 @@ msgstr ""
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Modoo server, "
 "enter the domain name here."
 msgstr ""
 "Se tem a configuração de um catch-all domínio de e-mail redirecionado para o "
-"servidor Odoo , digite o nome de domínio aqui."
+"servidor Modoo , digite o nome de domínio aqui."
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -1783,8 +1783,8 @@ msgstr "Enviada"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "Enviado por %(company)s usando %(odoo)s"
+msgid "Sent by %(company)s using %(modoo)s"
+msgstr "Enviado por %(company)s usando %(modoo)s"
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1917,11 +1917,11 @@ msgstr ""
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"The model (Modoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
-"O modelo (tipo de Documento  Odoo ) para que este apelido corresponde . "
+"O modelo (tipo de Documento  Modoo ) para que este apelido corresponde . "
 "Qualquer e-mail recebido que não responde a um registro existente fará com "
 "que a criação de um novo registro deste modelo (por exemplo, uma tarefa do "
 "projeto )"
@@ -1930,10 +1930,10 @@ msgstr ""
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.modoo.com>"
 msgstr ""
 "O nome do alias de e-mail , por exemplo, Se você quer recolher e-mails para "
-"\" empregos\" < jobs@example.odoo.com >"
+"\" empregos\" < jobs@example.modoo.com >"
 
 #. module: mail
 #: help:mail.alias,alias_user_id:0
@@ -2274,8 +2274,8 @@ msgstr "mais."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.modoo.com"
+msgstr "mycompany.modoo.com"
 
 #. module: mail
 #. openerp-web

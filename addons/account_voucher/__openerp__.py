@@ -41,7 +41,7 @@ This module manages:
     """,
     'category': 'Accounting & Finance',
     'sequence': 4,
-    'website' : 'https://www.odoo.com/page/billing',
+    'website' : 'https://www.modoo.com/page/billing',
     'depends' : ['account'],
     'demo' : [],
     'data' : [

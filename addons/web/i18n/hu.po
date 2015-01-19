@@ -253,8 +253,8 @@ msgstr "Névjegy"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:360
 #, python-format
-msgid "About Odoo"
-msgstr "Odoo-ról"
+msgid "About Modoo"
+msgstr "Modoo-ról"
 
 #. module: web
 #. openerp-web
@@ -541,8 +541,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Jelölje ki a négyzetet az Odoo értékeléséhez."
+msgid "Check this box to evaluate Modoo."
+msgstr "Jelölje ki a négyzetet az Modoo értékeléséhez."
 
 #. module: web
 #. openerp-web
@@ -877,8 +877,8 @@ msgstr "Elvetés"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:426
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Odoo rendszer eseményeiről a világon..."
+msgid "Discover Events of Modoo around the world..."
+msgstr "Modoo rendszer eseményeiről a világon..."
 
 #. module: web
 #. openerp-web
@@ -1199,14 +1199,14 @@ msgstr "Fájl:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an Modoo database. You can\n"
 "                    create databases for different companies or for "
 "different\n"
 "                    goals (testing, production). Once the database is "
 "created,\n"
 "                    you will be able to install your first application."
 msgstr ""
-"Töltse ki ezt a adatlapot az Odoo rendszer adatbázis létrehozásához. Létre\n"
+"Töltse ki ezt a adatlapot az Modoo rendszer adatbázis létrehozásához. Létre\n"
 "                    tud hozni adatbázist különböző vállalatokhoz vagy "
 "különböző\n"
 "                    céloknak (tesztelés, termelés). Miután elkészült az "
@@ -1630,8 +1630,8 @@ msgstr "Egyebek"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:359
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Az Odoo.com fiókom"
+msgid "My Modoo.com account"
+msgstr "Az Modoo.com fiókom"
 
 #. module: web
 #. openerp-web
@@ -1742,34 +1742,34 @@ msgstr "Tárgy:"
 #: view:website:web.layout
 #: view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo rendszer"
+msgid "Modoo"
+msgstr "Modoo rendszer"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:377
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (régebben mint OpenERP)"
+msgid "Modoo (Formerly OpenERP)"
+msgstr "Modoo (régebben mint OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web Teszt"
+msgid "Modoo Web Tests"
+msgstr "Modoo Web Teszt"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:411
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo a védjegye ennek"
+msgid "Modoo is a trademark of the"
+msgstr "Modoo a védjegye ennek"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:413
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "Modoo.com"
+msgstr "Modoo.com"
 
 #. module: web
 #. openerp-web
@@ -2764,9 +2764,9 @@ msgstr "Legalább egy a rekordot válasszon ki."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Modoo session expired. Please refresh the current web page."
 msgstr ""
-"Az Odoo rendszer munkafázisa letelt. Kérem frissítse a jelenlegi weboldalt."
+"Az Modoo rendszer munkafázisa letelt. Kérem frissítse a jelenlegi weboldalt."
 
 #. module: web
 #. openerp-web

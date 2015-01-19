@@ -171,11 +171,11 @@ msgstr "Fecha"
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module. "
+"For website built with Modoo CMS, please install the website_livechat module. "
 "Then go to Settings > Website Settings and select the Live Chat Channel you "
 "want to add on your website."
 msgstr ""
-"Para sitios web creado con el CMS de Odoo, instale el módulo "
+"Para sitios web creado con el CMS de Modoo, instale el módulo "
 "website_livechat. Vaya entonces a Configuración > Configuración del sitio "
 "web y seleccione el canal de charla que quiera añadir a su sitio web."
 
@@ -295,8 +295,8 @@ msgstr ""
 
 #. module: im_livechat
 #: view:website:im_livechat.support_page
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form

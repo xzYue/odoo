@@ -304,10 +304,10 @@ msgstr "Satış takımının kod benzersiz olmalıdır!"
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Modoo about "
 "cases in this sales team"
 msgstr ""
-"Odoo tarafından gönderilen bütün epostaların 'Kime' bölümüne konan eposta "
+"Modoo tarafından gönderilen bütün epostaların 'Kime' bölümüne konan eposta "
 "adresi"
 
 #. module: sales_team

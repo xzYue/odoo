@@ -123,10 +123,10 @@ msgstr "Nummer verspringing"
 #. module: account_sequence
 #: help:account.sequence.installer,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
-"Odoo voegt automatisch een aantal nullen toe aan het 'volgende nummer' om de "
+"Modoo voegt automatisch een aantal nullen toe aan het 'volgende nummer' om de "
 "juiste uitlijning te krijgen."
 
 #. module: account_sequence

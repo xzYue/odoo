@@ -95,8 +95,8 @@ msgstr "Naam:"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
-msgid "Odoo Tweet Scroller"
-msgstr "Odoo Tweet Scroller"
+msgid "Modoo Tweet Scroller"
+msgstr "Modoo Tweet Scroller"
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/twitter_config.py:36
@@ -268,8 +268,8 @@ msgstr "https://apps.twitter.com/app/new"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.modoo.com"
+msgstr "https://www.modoo.com"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings

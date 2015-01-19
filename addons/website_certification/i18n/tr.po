@@ -128,12 +128,12 @@ msgstr "Adı"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certifications"
+msgid "Modoo Certifications"
 msgstr ""
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certified Experts"
+msgid "Modoo Certified Experts"
 msgstr ""
 
 #. module: website_certification
@@ -160,12 +160,12 @@ msgstr ""
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid ""
-"The Odoo certification program allows companies\n"
+"The Modoo certification program allows companies\n"
 "                                    to identify certified professionals and "
 "get\n"
 "                                    the guarantee that their contractors "
 "are\n"
-"                                    qualified to offer Odoo services."
+"                                    qualified to offer Modoo services."
 msgstr ""
 
 #. module: website_certification
