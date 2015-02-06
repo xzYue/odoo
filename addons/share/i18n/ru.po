@@ -368,7 +368,7 @@ msgstr "Обычные группы"
 msgid ""
 "Modoo is a powerful and user-friendly suite of Business Applications (CRM, "
 "Sales, HR, etc.)\n"
-"It is open source and can be found on https://www.odoo.com."
+"It is open source and can be found on https://www.modoo.com."
 msgstr ""
 
 #. module: share

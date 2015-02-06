@@ -299,8 +299,8 @@ msgstr ""
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
-msgstr "Deel of sluit een scherm van Odoo in."
+msgid "Share or embbed any screen of Modoo."
+msgstr "Deel of sluit een scherm van Modoo in."
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -409,4 +409,4 @@ msgid "res_config_contents"
 msgstr "res_config_contents"
 
 #~ msgid "Share or embbed any screen of openerp."
-#~ msgstr "Deel of embbed iedere scherm van Odoo"
+#~ msgstr "Deel of embbed iedere scherm van Modoo"

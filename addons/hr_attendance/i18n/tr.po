@@ -353,7 +353,7 @@ msgid ""
 "device using Modoo's web service features."
 msgstr ""
 "Zaman İzleme işlevi giriş/çıkış işlemlerinden personelin devamlılık durumunu "
-"yönetmeyi amaçlar. Bu işlevi Odoo'nun web hizmetleri özelliğini kullanarak "
+"yönetmeyi amaçlar. Bu işlevi Modoo'nun web hizmetleri özelliğini kullanarak "
 "aynı zamanda bir devam kontrol aygıtına da bağlayabilirsiniz."
 
 #. module: hr_attendance

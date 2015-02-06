@@ -231,7 +231,7 @@ msgid ""
 "                        record, defined by the ID postgresql column"
 msgstr ""
 "Ülke/Veritabanı ID: ID postgresql sütununca tanımlanan \n"
-"                        bir kayıt için benzersiz Odoo ID"
+"                        bir kayıt için benzersiz Modoo ID"
 
 #. module: base_import
 #. openerp-web
@@ -568,7 +568,7 @@ msgid ""
 "                simpler especially when the file has many columns."
 msgstr ""
 "Eğer dosya içeriğinde\n"
-"                sütun isimleri varsa, Odoo her sütuna karşılık gelen\n"
+"                sütun isimleri varsa, Modoo her sütuna karşılık gelen\n"
 "                alanı otomatik belirlemeye çalışabilir. Bu içeaktarmaları\n"
 "                basitleştirir, özellikle dosyada çok sütun varsa."
 
@@ -1189,7 +1189,7 @@ msgid ""
 "                        import an other record that links to the first\n"
 "                        one, use"
 msgstr ""
-"Odoo sütunü. Birinciye\n"
+"Modoo sütunü. Birinciye\n"
 "                        bağlantılı olan bir başka kayıtı içeaktarırken\n"
 "                        bunu kullanın"
 

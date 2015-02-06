@@ -288,7 +288,7 @@ msgstr ""
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
+msgid "Share or embbed any screen of Modoo."
 msgstr ""
 
 #. module: base_setup

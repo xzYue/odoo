@@ -30,16 +30,16 @@ msgstr "Fout"
 #: code:addons/im_odoo_support/static/src/js/im_odoo_support.js:123
 #: code:addons/im_odoo_support/static/src/xml/im_odoo_support.xml:7
 #, python-format
-msgid "Odoo Support"
-msgstr "Odoo Support"
+msgid "Modoo Support"
+msgstr "Modoo Support"
 
 #. module: im_odoo_support
 #. openerp-web
 #: code:addons/im_odoo_support/static/src/js/im_odoo_support.js:70
 #, python-format
 msgid ""
-"The connection with the Odoo Support Server failed. Please retry in a few "
-"minutes, or send an email to support@odoo.com ."
+"The connection with the Modoo Support Server failed. Please retry in a few "
+"minutes, or send an email to support@modoo.com ."
 msgstr ""
-"De connectie met de Odoo support server is mislukt. Probeert u het opnieuw "
-"over een paar minuten, of stuur een e-mail naar support@odoo.com."
+"De connectie met de Modoo support server is mislukt. Probeert u het opnieuw "
+"over een paar minuten, of stuur een e-mail naar support@modoo.com."

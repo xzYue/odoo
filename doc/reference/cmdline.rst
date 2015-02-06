@@ -256,7 +256,7 @@ customize the amout of logging output
     ``openerp`` and ``werkzeug`` loggers (except for ``debug`` which is only
     set on ``openerp``).
 
-    Odoo also provides debugging pseudo-levels which apply to different sets
+    Modoo also provides debugging pseudo-levels which apply to different sets
     of loggers:
 
     ``debug_sql``

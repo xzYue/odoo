@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 #	* im_odoo_support
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Modoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-01-21 14:08+0000\n"
@@ -28,13 +28,13 @@ msgstr ""
 #: code:addons/im_odoo_support/static/src/js/im_odoo_support.js:123
 #: code:addons/im_odoo_support/static/src/xml/im_odoo_support.xml:7
 #, python-format
-msgid "Odoo Support"
+msgid "Modoo Support"
 msgstr ""
 
 #. module: im_odoo_support
 #. openerp-web
 #: code:addons/im_odoo_support/static/src/js/im_odoo_support.js:70
 #, python-format
-msgid "The connection with the Odoo Support Server failed. Please retry in a few minutes, or send an email to support@odoo.com ."
+msgid "The connection with the Modoo Support Server failed. Please retry in a few minutes, or send an email to support@modoo.com ."
 msgstr ""
 

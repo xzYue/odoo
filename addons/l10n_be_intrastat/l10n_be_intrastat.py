@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Odoo, Open Source Business Applications
-#    Copyright (C) 2014-2015 Odoo S.A. <http://www.odoo.com>
+#    Modoo, Open Source Business Applications
+#    Copyright (C) 2014-2015 Modoo S.A. <http://www.modoo.com>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as

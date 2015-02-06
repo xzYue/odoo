@@ -305,10 +305,10 @@ msgstr "Az értékesítési csapat kódjának egyedinek kell lennie !"
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by Modoo about "
 "cases in this sales team"
 msgstr ""
-"A 'Válasz-cím' email címeire az Odoo rendszer elküldi az ehhez az "
+"A 'Válasz-cím' email címeire az Modoo rendszer elküldi az ehhez az "
 "értékesítési csoporthoz vonatkozó ügyeket"
 
 #. module: sales_team
