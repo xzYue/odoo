@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2014-09-23 16:28+0000\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2014-08-25 13:47+0000\n"
 "Last-Translator: Monika Grzelak (OpenGLOBE.pl) "
 "<monika.grzelak@openglobe.pl>\n"
@@ -15,8 +15,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-09-24 09:42+0000\n"
-"X-Generator: Launchpad (build 17196)\n"
+"X-Launchpad-Export-Date: 2015-01-22 08:29+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
+
+#. module: website
+#: view:website:website.snippets
+msgid "\"OpenERP\""
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -107,8 +112,8 @@ msgstr "404: Strona nie znaleziona!"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Modoo to grow their businesses."
-msgstr "50,000+ firm używa Modoo, by ich biznes się rozwijał."
+msgid "50,000+ companies run Odoo to grow their businesses."
+msgstr "50,000+ firm używa Odoo, by ich biznes się rozwijał."
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
@@ -175,6 +180,13 @@ msgstr ""
 "Świetnym sposobem na zwrócenie uwagi czytelnika jest opowiedzenie historii.\n"
 "                            Wszystko, co chciałbyś napisać, można "
 "opowiedzieć jako historię."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"A great way to catch your reader's attention is to tell a story. Everything "
+"you consider writing can be told as a story."
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -365,8 +377,8 @@ msgstr "Baner"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Modoo Image"
-msgstr "Baner z obrazkiem Modoo"
+msgid "Banner Odoo Image"
+msgstr "Baner z obrazkiem Odoo"
 
 #. module: website
 #. openerp-web
@@ -438,6 +450,11 @@ msgstr "Buduj stronę"
 #: view:website:website.snippet_options
 msgid "Business Guy"
 msgstr "Biznesmen"
+
+#. module: website
+#: view:website:website.snippets
+msgid "But"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -515,6 +532,11 @@ msgid "Check Mobile Preview"
 msgstr "Sprawdź podgląd mobilny"
 
 #. module: website
+#: view:website:website.snippets
+msgid "Check now and discover more today!"
+msgstr ""
+
+#. module: website
 #: field:website.menu,child_id:0
 msgid "Child Menus"
 msgstr "Menu podrzędne"
@@ -540,6 +562,11 @@ msgstr "Wybierz obraz ..."
 #: view:website:website.snippet_options
 msgid "Circle"
 msgstr "Kółko"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Click Here"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -720,7 +747,7 @@ msgstr "Tworzenie strony"
 
 #. module: website
 #. openerp-web
-#: code:addons/website/static/src/js/website.editor.js:987
+#: code:addons/website/static/src/js/website.editor.js:981
 #, python-format
 msgid "Create page '%s'"
 msgstr "Utwórz stronę '%s'"
@@ -891,6 +918,11 @@ msgstr "Odrzuć"
 #, python-format
 msgid "Discard edition"
 msgstr "Odrzuć zmiany"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Discover more about Odoo"
+msgstr ""
 
 #. module: website
 #: view:website:website.template_partner_comment
@@ -1086,6 +1118,11 @@ msgid "Extra Small"
 msgstr "Bardzo Mały"
 
 #. module: website
+#: view:website:website.snippet_options
+msgid "Extra-Large"
+msgstr ""
+
+#. module: website
 #: view:website:website.snippets
 msgid "FAQ"
 msgstr "Często zadawane pytania (FAQ)"
@@ -1150,6 +1187,11 @@ msgstr "Płaski i nowoczesny"
 #: view:website:website.themes
 msgid "Flatly"
 msgstr "Wprost"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Float"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippet_options
@@ -1284,6 +1326,11 @@ msgid "Here are the visuals used to help you translate efficiently:"
 msgstr "Te obrazki pomogą ci w wydajnym tłumaczeniu:"
 
 #. module: website
+#: view:website:website.snippet_options
+msgid "Hide link"
+msgstr ""
+
+#. module: website
 #: view:website:website.500
 #: view:website:website.layout
 #: model:website.menu,name:website.menu_homepage
@@ -1374,8 +1421,18 @@ msgstr "Zdjęcie"
 
 #. module: website
 #: view:website:website.snippets
+msgid "Image Floating"
+msgstr ""
+
+#. module: website
+#: view:website:website.snippets
 msgid "Image Gallery"
 msgstr "Galeria Zdjęć"
+
+#. module: website
+#: view:website:website.snippets
+msgid "Image-Floating"
+msgstr ""
 
 #. module: website
 #: view:website:website.snippets
@@ -1497,6 +1554,7 @@ msgstr "Języki"
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:126
+#: view:website:website.snippet_options
 #, python-format
 msgid "Large"
 msgstr "Duży"
@@ -1518,6 +1576,11 @@ msgstr "Ostatnio modyfikowane przez"
 #: field:website.seo.metadata,write_date:0
 msgid "Last Updated on"
 msgstr "Data ostatniej modyfikacji"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Left"
+msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1587,6 +1650,11 @@ msgid "Mango"
 msgstr "Mango"
 
 #. module: website
+#: view:website:website.snippet_options
+msgid "Margin"
+msgstr ""
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.snippets.xml:60
 #, python-format
@@ -1598,6 +1666,11 @@ msgstr "Zmiana szerokości marginesu"
 #: view:website:website.404
 msgid "Maybe you were looking for one of these popular pages ?"
 msgstr "Być może szukałeś którejś z tych popularnych stron?"
+
+#. module: website
+#: view:website:website.snippet_options
+msgid "Medium"
+msgstr ""
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -1684,7 +1757,7 @@ msgstr "Nowe okno"
 
 #. module: website
 #. openerp-web
-#: code:addons/website/static/src/js/website.editor.js:972
+#: code:addons/website/static/src/js/website.editor.js:966
 #, python-format
 msgid "New or existing page"
 msgstr "Nowa lub istniejąca strona"
@@ -1728,54 +1801,55 @@ msgstr ""
 
 #. module: website
 #: view:website:website.layout
-msgid "Modoo"
-msgstr "Modoo"
+#: view:website:website.snippets
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: website
 #: view:website:website.info
-msgid "Modoo Version"
+msgid "Odoo Version"
 msgstr ""
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo provides essential platform for our project management.\n"
+"Odoo provides essential platform for our project management.\n"
 "                                                    Things are better "
 "organized and more visible with it."
 msgstr ""
-"Modoo oferuje podstawową platformę do zarządzania naszymi projektami.\n"
+"Odoo oferuje podstawową platformę do zarządzania naszymi projektami.\n"
 "                                                    Dzięki niemu wszystko "
 "jest lepiej widoczne i zorganizowane."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo provides essential platform for our project management.\n"
+"Odoo provides essential platform for our project management.\n"
 "                                            Things are better organized and "
 "more visible with it."
 msgstr ""
-"Modoo oferuje podstawową platformę do zarządzania naszymi projektami.\n"
+"Odoo oferuje podstawową platformę do zarządzania naszymi projektami.\n"
 "                                            Dzięki niemu wszystko jest "
 "lepiej widoczne i zorganizowane."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo provides essential platform for our project management.\n"
+"Odoo provides essential platform for our project management.\n"
 "                                Things are better organized and more visible "
 "with it."
 msgstr ""
-"Modoo oferuje podstawową platformę do zarządzania naszymi projektami.\n"
+"Odoo oferuje podstawową platformę do zarządzania naszymi projektami.\n"
 "                                Dzięki niemu wszystko jest lepiej widoczne i "
 "zorganizowane."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo's POS is a web application that can run on any device that\n"
+"Odoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
 msgstr ""
-"Point of Sale w Modoo jest aplikacją webową, która będzie działać na każdym "
+"Point of Sale w Odoo jest aplikacją webową, która będzie działać na każdym "
 "urządzeniu,\n"
 "                    które wyświetla strony internetowe po bardzo szybkiej "
 "konfiguracji."
@@ -2146,6 +2220,11 @@ msgid "Resized file content"
 msgstr "Zmieniony rozmiar zawartości pliku"
 
 #. module: website
+#: view:website:website.snippet_options
+msgid "Right"
+msgstr ""
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:328
 #, python-format
@@ -2350,6 +2429,7 @@ msgstr "Powolne"
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:120
+#: view:website:website.snippet_options
 #, python-format
 msgid "Small"
 msgstr "Mały"
@@ -2864,6 +2944,11 @@ msgid "Website Menu"
 msgstr "Menu na stronie"
 
 #. module: website
+#: field:website.config.settings,website_name:0
+msgid "Website Name"
+msgstr ""
+
+#. module: website
 #: model:ir.actions.server,name:website.action_partner_post
 msgid "Website Partner Post and Thanks Demo"
 msgstr "Demo na stronie: Partnerzy i podziękowania"
@@ -2969,8 +3054,8 @@ msgstr "Czy ten widok jest (gotowym) szablonem dla strony internetowej"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Modoo POS support?"
-msgstr "Jakie urządzenia wspiera Point of Sale Modoo?"
+msgid "Which hardware does Odoo POS support?"
+msgstr "Jakie urządzenia wspiera Point of Sale Odoo?"
 
 #. module: website
 #: view:website:website.snippets
@@ -2982,6 +3067,18 @@ msgstr ""
 "Mimo że połączenie z internetem jest niezbędne do rozpoczęcia pracy z \n"
 "                    Point of Sale, będzie on działał dalej nawet po "
 "całkowitym zerwaniu połączenia."
+
+#. module: website
+#: view:website:website.snippets
+msgid ""
+"With Odoo's fully integrated software, you can easily manage your\n"
+"                            meetings, schedule business calls, create "
+"recurring meetings,\n"
+"                            synchronize your agenda and easily keep in touch "
+"with your colleagues,\n"
+"                            partners and other people involved in projects "
+"or business discussions."
+msgstr ""
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3152,6 +3249,11 @@ msgid "describing your page content"
 msgstr "opisując zawartość twojej strony"
 
 #. module: website
+#: view:website:website.snippets
+msgid "don't worry"
+msgstr ""
+
+#. module: website
 #: view:website:website.500
 msgid "factory settings"
 msgstr "ustawienia fabryczne"
@@ -3184,7 +3286,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/modoo"
+msgid "http://www.linkedin.com/company/odoo"
 msgstr ""
 
 #. module: website
@@ -3199,7 +3301,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/modoo"
+msgid "https://facebook.com/odoo"
 msgstr ""
 
 #. module: website
@@ -3240,7 +3342,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Modoo, the"
+msgid "instance of Odoo, the"
 msgstr ""
 
 #. module: website
@@ -3256,6 +3358,8 @@ msgstr "nie to, co chcesz pokazać."
 #: code:addons/website/static/src/xml/website.editor.xml:308
 #: code:addons/website/static/src/xml/website.seo.xml:69
 #: code:addons/website/static/src/xml/website.translator.xml:44
+#: view:website:website.view_website_form
+#: view:website.config.settings:website.view_website_config_settings
 #, python-format
 msgid "or"
 msgstr "lub"
@@ -3301,8 +3405,8 @@ msgstr "styl."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Modoo interface"
-msgstr "klasyczny interfejs Modoo"
+msgid "the classic Odoo interface"
+msgstr "klasyczny interfejs Odoo"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

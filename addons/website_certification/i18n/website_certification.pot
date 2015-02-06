@@ -1,13 +1,13 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* website_certification
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo Server 8.0rc1\n"
+"Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 13:09+0000\n"
-"PO-Revision-Date: 2014-08-14 13:09+0000\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-01-21 14:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -125,12 +125,12 @@ msgstr ""
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Modoo Certifications"
+msgid "Odoo Certifications"
 msgstr ""
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Modoo Certified Experts"
+msgid "Odoo Certified Experts"
 msgstr ""
 
 #. module: website_certification
@@ -156,10 +156,10 @@ msgstr ""
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "The Modoo certification program allows companies\n"
+msgid "The Odoo certification program allows companies\n"
 "                                    to identify certified professionals and get\n"
 "                                    the guarantee that their contractors are\n"
-"                                    qualified to offer Modoo services."
+"                                    qualified to offer Odoo services."
 msgstr ""
 
 #. module: website_certification

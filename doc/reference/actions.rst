@@ -144,7 +144,7 @@ The server-side composition of the ``views`` sequence is the following:
 URL Actions (``ir.actions.act_url``)
 ====================================
 
-Allow opening a URL (website/web page) via an Modoo action. Can be customized
+Allow opening a URL (website/web page) via an Odoo action. Can be customized
 via two fields:
 
 ``url``
@@ -157,11 +157,11 @@ via two fields:
 
     {
         "type": "ir.actions.act_url",
-        "url": "http://modoo.com",
+        "url": "http://odoo.com",
         "target": "self",
     }
 
-will replace the current content section by the Modoo home page.
+will replace the current content section by the Odoo home page.
 
 .. _reference/actions/server:
 
@@ -181,7 +181,7 @@ specific or generic actions based on their ``state``. Some fields (and
 corresponding behaviors) are shared between states:
 
 ``model_id``
-    Modoo model linked to the action, made available in
+    Odoo model linked to the action, made available in
     :ref:`evaluation contexts <reference/actions/server/context>`
 ``condition`` (optional)
     evaluated as Python code using the server action's
@@ -370,10 +370,36 @@ server actions:
 
 .. _reference/actions/report:
 
-Report Actions
-==============
+Report Actions (``ir.actions.report.xml``)
+==========================================
 
-.. todo:: sle-modoo
+Triggers the printing of a report
+
+``name`` (mandatory)
+    only useful as a mnemonic/description of the report when looking for one
+    in a list of some sort
+``model`` (mandatory)
+    the model your report will be about
+``report_type`` (mandatory)
+    either ``qweb-pdf`` for PDF reports or ``qweb-html`` for HTML
+``report_name``
+    the name of your report (which will be the name of the PDF output)
+``groups_id``
+    :class:`~openerp.fields.Many2many` field to the groups allowed to view/use
+    the current report
+``paperformat_id``
+    :class:`~openerp.fields.Many2one` field to the paper format you wish to
+    use for this report (if not specified, the company format will be used)
+``attachment_use``
+    if set to ``True``, the report is only generated once the first time it is
+    requested, and re-printed from the stored report afterwards instead of
+    being re-generated every time.
+
+    Can be used for reports which must only be generated once (e.g. for legal
+    reasons)
+``attachment``
+    python expression that defines the name of the report; the record is
+    accessible as the variable ``object``
 
 .. _reference/actions/client:
 

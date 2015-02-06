@@ -1,13 +1,13 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* hr
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo Server 8.0rc1\n"
+"Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-14 13:08+0000\n"
-"PO-Revision-Date: 2014-08-14 13:08+0000\n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-01-21 14:07+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the Modoo employee screen, you\n"
+"                With just a quick glance on the Odoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc.\n"
 "              </p>\n"
@@ -38,7 +38,7 @@ msgstr ""
 msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                Modoo's department structure is used to manage all documents\n"
+"                Odoo's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
@@ -939,7 +939,7 @@ msgstr ""
 #. module: hr
 #: code:addons/hr/hr.py:273
 #, python-format
-msgid "Welcome to %s! Please help him/her take the first steps with Modoo!"
+msgid "Welcome to %s! Please help him/her take the first steps with Odoo!"
 msgstr ""
 
 #. module: hr
@@ -985,5 +985,10 @@ msgstr ""
 #. module: hr
 #: view:hr.job:hr.view_hr_job_form
 msgid "no_of_recruitment"
+msgstr ""
+
+#. module: hr
+#: view:hr.config.settings:hr.view_human_resources_configuration
+msgid "or"
 msgstr ""
 
