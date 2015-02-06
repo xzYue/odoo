@@ -1183,6 +1183,19 @@ class Binary(http.Controller):
         return out % (simplejson.dumps(callback), simplejson.dumps(args))
 
     @http.route([
+        '/web/binary/company_favicon',
+        '/favicon',
+        '/favicon.ico',
+    ], type='http', auth="none", cors="*")
+    def company_favicon(self, dbname=None, **kw):
+        imgname = 'favicon.ico'
+        placeholder = functools.partial(get_module_resource, 'web', 'static', 'src', 'img')
+
+        response = http.send_file(placeholder(imgname))
+
+        return response
+
+    @http.route([
         '/web/binary/company_logo',
         '/logo',
         '/logo.png',
