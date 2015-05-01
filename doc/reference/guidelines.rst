@@ -1,12 +1,12 @@
 .. highlight:: python
 
 =================
-Odoo Guidelines
+Modoo Guidelines
 =================
 
-This page introduce the new Odoo Coding Guidelines. This guidelines
+This page introduce the new Modoo Coding Guidelines. This guidelines
 aims to improve the quality of the code (better readability of source,
-...) but also to improve Odoo Apps ! Indeed, a proper code will ease
+...) but also to improve Modoo Apps ! Indeed, a proper code will ease
 the maintenance and debugging, lower the complexity and promote the
 reliability.
 
@@ -51,7 +51,7 @@ For *controller*, the only file should be named *main.py*.
 
 For *static files*, the name pattern is *<module_name>.ext* (i.e. :
 static/js/im_chat.js, static/css/im_chat.css, static/xml/im_chat.xml,
-...). Don't link data (image, libraries) outside Odoo : don't use an
+...). Don't link data (image, libraries) outside Modoo : don't use an
 url to an image but copy it in our codebase instead.
 
 The complete tree should looks like
@@ -215,7 +215,7 @@ Python
 PEP8 options
 ------------
 
-Using a linter can help to see syntax and semantic warning or error. Odoo Source Code try to respect Python standard, but some of them can be ignored.
+Using a linter can help to see syntax and semantic warning or error. Modoo Source Code try to respect Python standard, but some of them can be ignored.
 
 - E501: line too long
 - E301: expected 1 blank line, found 0
@@ -232,7 +232,7 @@ The imports are ordered as
 
 #. Externals libs (One per line sorted and splitted in python stdlib)
 #. Imports of ``openerp``
-#. Imports from Odoo modules (rarely, and only if necessary)
+#. Imports from Modoo modules (rarely, and only if necessary)
 
 Inside these 3 groups, the imported lines are alphabetically sorted.
 
@@ -247,7 +247,7 @@ Inside these 3 groups, the imported lines are alphabetically sorted.
     from openerp import api, fields, models # alphabetically ordered
     from openerp.tools.safe_eval import safe_eval as eval
     from openerp.tools.translate import _
-    # 3 :  imports from odoo modules
+    # 3 :  imports from modoo modules
     from openerp.addons.website.models.website import slug
     from openerp.addons.web.controllers.main import login_redirect
 
@@ -270,7 +270,7 @@ Idioms
 Symbols
 -------
 
-- Odoo Python Class : use camelcase for code in api v8, underscore lowercase notation for old api.
+- Modoo Python Class : use camelcase for code in api v8, underscore lowercase notation for old api.
 
 .. code-block:: python
 
@@ -390,7 +390,7 @@ Prefix your commit with
 - **[ADD]** for adding new resources
 - **[REM]** for removing of resources
 - **[MERGE]** for merge commits (only for forward/back-port)
-- **[CLA]** for signing the Odoo Individual Contributor License
+- **[CLA]** for signing the Modoo Individual Contributor License
 
 Then, in the message itself, specify the part of the code impacted by your changes (module name, lib, transversal object, ...) and a description of the changes.
 

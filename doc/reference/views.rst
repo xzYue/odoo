@@ -853,7 +853,7 @@ Possible children of the view element are:
     according to current user parameters, the latter is the direct value from
     a :meth:`~openerp.models.Model.read` (except for date and datetime fields
     that are `formatted according to user's locale
-    <https://github.com/odoo/odoo/blob/8.0/addons/web_kanban/static/src/js/kanban.js#L900>`_)
+    <https://github.com/modoo/modoo/blob/8.0/addons/web_kanban/static/src/js/kanban.js#L900>`_)
   ``read_only_mode``
     self-explanatory
 
