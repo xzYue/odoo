@@ -256,7 +256,7 @@ instance.web.CrashManager = instance.web.Class.extend({
             return;
         }
         if (error.data.name === "openerp.http.SessionExpiredException" || error.data.name === "werkzeug.exceptions.Forbidden") {
-            this.show_warning({type: "Session Expired", data: { message: _t("Your Modoo session expired. Please refresh the current web page.") }});
+            this.show_warning({type: "Session Expired", data: { message: _t("Your Odoo session expired. Please refresh the current web page.") }});
             return;
         }
         if (error.data.exception_type === "except_osv" || error.data.exception_type === "warning" || error.data.exception_type === "access_error") {
@@ -274,7 +274,7 @@ instance.web.CrashManager = instance.web.Class.extend({
         }
         new instance.web.Dialog(this, {
             size: 'medium',
-            title: "Modoo " + (_.str.capitalize(error.type) || "Warning"),
+            title: "Odoo " + (_.str.capitalize(error.type) || "Warning"),
             buttons: [
                 {text: _t("Ok"), click: function() { this.parents('.modal').modal('hide'); }}
             ],
@@ -289,7 +289,7 @@ instance.web.CrashManager = instance.web.Class.extend({
             this.parents('.modal').modal('hide');
         };
         new instance.web.Dialog(this, {
-            title: "Modoo " + _.str.capitalize(error.type),
+            title: "Odoo " + _.str.capitalize(error.type),
             buttons: buttons
         }, QWeb.render('CrashManager.error', {session: instance.session, error: error})).open();
     },
@@ -341,7 +341,7 @@ instance.web.RedirectWarningHandler = instance.web.Dialog.extend(instance.web.Ex
 
         new instance.web.Dialog(this, {
             size: 'medium',
-            title: "Modoo " + (_.str.capitalize(error.type) || "Warning"),
+            title: "Odoo " + (_.str.capitalize(error.type) || "Warning"),
             buttons: [
                 {text: _t("Ok"), click: function() { self.$el.parents('.modal').modal('hide');  self.destroy();}},
                 {text: error.data.arguments[2],
@@ -1046,7 +1046,7 @@ instance.web.UserMenu =  instance.web.Widget.extend({
         this.update_promise = this.update_promise.then(fct, fct);
     },
     on_menu_help: function() {
-        window.open('http://help.modoo.com', '_blank');
+        window.open('http://help.odoo.com', '_blank');
     },
     on_menu_logout: function() {
         this.trigger('user_logout');
@@ -1075,10 +1075,10 @@ instance.web.UserMenu =  instance.web.Widget.extend({
                     state: JSON.stringify(state),
                     scope: 'userinfo',
                 };
-                instance.web.redirect('https://accounts.modoo.com/oauth2/auth?'+$.param(params));
+                instance.web.redirect('https://accounts.odoo.com/oauth2/auth?'+$.param(params));
             }).fail(function(result, ev){
                 ev.preventDefault();
-                instance.web.redirect('https://accounts.modoo.com/web');
+                instance.web.redirect('https://accounts.odoo.com/account');
             });
         }
     },
@@ -1202,6 +1202,7 @@ instance.web.WebClient = instance.web.Client.extend({
         this.on("change:title_part", this, this._title_changed);
         this._title_changed();
 
+
         return $.when(this._super()).then(function() {
             if (jQuery.deparam !== undefined && jQuery.deparam(jQuery.param.querystring()).kitten !== undefined) {
                 self.to_kitten();
@@ -1213,6 +1214,10 @@ instance.web.WebClient = instance.web.Client.extend({
                 self.action_manager.do_action(self.client_options.action);
                 delete(self.client_options.action);
             }
+            instance.web.cordova.ready();
+            instance.web.cordova.on('back', self, function() {
+                self.do_action('history_back');
+            });
         });
     },
     to_kitten: function() {
@@ -1368,6 +1373,7 @@ instance.web.WebClient = instance.web.Client.extend({
     on_logout: function() {
         var self = this;
         if (!this.has_uncommitted_changes()) {
+            instance.web.cordova.logout();
             self.action_manager.do_action('logout');
         }
     },
@@ -1528,6 +1534,76 @@ instance.web.embed = function (origin, dbname, login, key, action, options) {
     var client = new instance.web.EmbeddedClient(null, origin, dbname, login, key, action, options);
     client.insertAfter(currentScript);
 };
+
+
+
+/* 
+ * The Android/iPhone App is a JS/HTML app that launches the
+ * Odoo webclient in an iframe, using the Cordova framework.
+ *
+ * This class acts as a link between the webclient and the
+ * Odoo Android/iPhone App implemented with cordova.
+ */
+instance.web.Cordova = instance.web.Class.extend({}, instance.web.PropertiesMixin, {
+    init: function(parent) {
+        var self = this;
+        instance.web.PropertiesMixin.init.call(this, parent);
+
+        window.addEventListener('message', function(event) {
+            self.receive(event);
+        }, false);
+
+    },
+    // odoo.send('foobar') in cordova will call messages.foobar()
+    messages: {
+        // launch the POS !
+        pos: function() {
+            if (window.location.href.indexOf('/pos/web') < 0) {
+                window.location.href = "/pos/web";
+            }
+        },
+    },
+    // what happens when we receive an event from cordova
+    // -> call messages[event.data]()
+    // -> selfs trigger(event.data)
+    receive: function(event) {
+        if (event.origin !== 'file://') {
+            return;
+        } 
+
+        if (typeof event.data === 'string') {
+            this.trigger(event.data);
+            if (this.messages[event.data]) {
+                this.messages[event.data].call(this);
+            }
+        }
+    },
+    // send a message to cordova
+    send: function(message) {
+        function inIframe(){
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+        }
+        if (inIframe()) {
+            window.parent.postMessage(message,'file://');
+        }
+    },
+
+
+    // notifies cordova that the webclient is ready.
+    ready:      function() { this.send('ready');     },
+    // notifies cordova that we want to exit the app.
+    logout:     function() { this.send('logout');    },
+    // asks cordova to emit a beep.
+    beep:       function() { this.send('beep');      },
+    // ask cordova to vibrate the phone.
+    vibrate:    function() { this.send('vibrate');   },
+});
+
+instance.web.cordova = new instance.web.Cordova();
 
 })();
 

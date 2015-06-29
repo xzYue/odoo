@@ -1,23 +1,22 @@
-# Spanish translation for openobject-addons
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the openobject-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
-#
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_blog
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: openobject-addons\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-04-26 08:16+0000\n"
-"Last-Translator: Alexander Deynichenko <adeynichenko@gmail.com>\n"
-"Language-Team: Russian <http://translate.starlight-"
-"biz.com//projects/modoo/website_blog/ru/>\n"
+"PO-Revision-Date: 2015-05-29 12:59+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/odoo-8/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2015-04-27 05:43+0000\n"
-"X-Generator: Launchpad (build 17430)\n"
+"Content-Transfer-Encoding: \n"
 "Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
@@ -40,12 +39,8 @@ msgstr ", по ссылке в Google."
 #: view:website:website_blog.latest_blogs
 msgid ""
 ";\n"
-"                   You can review titles, keywords and descriptions of all "
-"blogs at once."
-msgstr ""
-";\n"
-"                   Вы можете просмотреть названия, ключевые слова и описания "
-"сразу всех блогов."
+"                   You can review titles, keywords and descriptions of all blogs at once."
+msgstr ";\n                   Вы можете просмотреть названия, ключевые слова и описания сразу всех блогов."
 
 #. module: website_blog
 #: model:ir.actions.act_window,help:website_blog.action_blog_post
@@ -54,19 +49,13 @@ msgid ""
 "                    Click to create a new blog post.\n"
 "                </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
-"                    Нажмите, чтобы создать новую публикацию в блоге.\n"
-"                </p>\n"
-"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Нажмите, чтобы создать новую публикацию в блоге.\n                </p>\n            "
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "<section class=\"mt16 mb16 readable\">\n"
-"            <iframe width=\"361\" height=\"200\" "
-"src=\"http://www.youtube.com/embed/EkbBFmIWoTE\" frameborder=\"0\" "
-"allowfullscreen></iframe>\n"
+"            <iframe width=\"361\" height=\"200\" src=\"http://www.youtube.com/embed/EkbBFmIWoTE\" frameborder=\"0\" allowfullscreen></iframe>\n"
 "            <p data-chatter-id=\"counter_0/section\">\n"
 "                Emails are broken.\n"
 "            </p><p data-chatter-id=\"counter_1/section\">\n"
@@ -87,7 +76,7 @@ msgid ""
 "        </section>\n"
 "        <section class=\"mt16 mb16 readable\">\n"
 "            <p data-chatter-id=\"counter_3/section\">\n"
-"                At Modoo, we build tools to bring productivity to\n"
+"                At Odoo, we build tools to bring productivity to\n"
 "                enterprises. As emails and information flows are one of\n"
 "                the biggest wastes of time in companies, we have to fix\n"
 "                this.\n"
@@ -95,9 +84,9 @@ msgid ""
 "                To disrupt emails, you need more than just another user\n"
 "                interface. We need to rethink the whole communication flow.\n"
 "            </p>\n"
-"            <h3>The Communication Mechanism of Modoo</h3>\n"
+"            <h3>The Communication Mechanism of Odoo</h3>\n"
 "            <p data-chatter-id=\"counter_5/section\">\n"
-"                Here are the ideas behing the Modoo communication tools:\n"
+"                Here are the ideas behing the Odoo communication tools:\n"
 "            </p>\n"
 "            <ul>\n"
 "                <li>\n"
@@ -106,8 +95,7 @@ msgid ""
 "                    read) the inbox and easily mark messages for future\n"
 "                    actions. Every inbox should be empty after having\n"
 "                    been processed; no more overload of information.\n"
-"                    <img class=\"img-responsive\" "
-"src=\"/website_blog/static/src/img/mail-sc-00.png\">\n"
+"                    <img class=\"img-responsive\" src=\"/website_blog/static/src/img/mail-sc-00.png\">\n"
 "                </li><li>\n"
 "                    Keep control of what you want to receive or don't want\n"
 "                    to receive. People should never receive spam. You\n"
@@ -118,12 +106,11 @@ msgid ""
 "                    interface does not require you to click on every mail\n"
 "                    to read a thread. Reading a full thread, replying,\n"
 "                    attaching documents is super fast.\n"
-"                    <img class=\"img-responsive\" "
-"src=\"/website_blog/static/src/img/mail-sc-03.png\">\n"
+"                    <img class=\"img-responsive\" src=\"/website_blog/static/src/img/mail-sc-03.png\">\n"
 "                </li><li>\n"
 "                    A mix of push &amp; pull: Today, people\n"
 "                    are victims of what others decide to push to them.\n"
-"                    Modoo differentiates:\n"
+"                    Odoo differentiates:\n"
 "                    <ul>\n"
 "                        <li>\n"
 "                            Messages \"for information\":\n"
@@ -149,7 +136,7 @@ msgid ""
 "                    every message)\n"
 "                </li><li>\n"
 "                    Folders and mailing lists are great tools but too\n"
-"                    complex in traditional email clients. In Modoo, a\n"
+"                    complex in traditional email clients. In Odoo, a\n"
 "                    group of contacts that share a discussion can be\n"
 "                    created with one click. Every group should have it's\n"
 "                    own email address.\n"
@@ -157,139 +144,21 @@ msgid ""
 "            </ul>\n"
 "        </section>\n"
 "\n"
-msgstr ""
-"<section class=\"mt16 mb16 readable\">\n"
-"            \n"
-"            <p data-chatter-id=\"counter_0/section\">\n"
-"                Адреса электронной почты нарушены.\n"
-"            </p><p data-chatter-id=\"counter_1/section\">\n"
-"                Электронные адреса заставляют меня тратить впустую свое "
-"время. Но они мне\n"
-"                нужны. Учитывая важность, которую электронные адреса имеют в "
-"наших жизнях,\n"
-"                невероятно, что это до сих пор одна из единственных "
-"областей\n"
-"                ПО, которые не развивались за последние 20 лет!\n"
-"            </p><p data-chatter-id=\"counter_2/section\">\n"
-"                Чтение моих входящих писем - самое бесполезное занятие, "
-"которым я занимаюсь\n"
-"                ежедневно. Мне приходится тратить целый час в\n"
-"                день, чтобы обработать свои письма. Весь мусор попадает\n"
-"                одну и ту же папку входящих; спам, бесполезная информация,\n"
-"                указанные ответы указанных ответов, и т.д. Через\n"
-"                час фактически только на 10 электронных писем мне\n"
-"                нужно ответить. С хорошим инструментом я, возможно, сделал\n"
-"                это за 10 минут!\n"
-"            </p>\n"
-"        </section>\n"
-"        <section class=\"mt16 mb16 readable\">\n"
-"            <p data-chatter-id=\"counter_3/section\">\n"
-"                На Modoo мы делаем инструменты, которые помогают повысить "
-"производительность\n"
-"                предприятий. Поскольку электронные письма и потоки "
-"информации - одна из\n"
-"                самых больших трат времени в компаниях, мы должны исправить\n"
-"                это.\n"
-"            </p><p data-chatter-id=\"counter_4/section\">\n"
-"                Чтобы блокировать электронные письма, вам нужны больше, чем "
-"просто другой\n"
-"                интерфейс пользователя. Мы должны заново продумать целый "
-"коммуникационный поток.\n"
-"            </p>\n"
-"            <h3>Коммуникационный механизм Modoo</h3>\n"
-"            <p data-chatter-id=\"counter_5/section\">\n"
-"                Вот такими являются идеи в инструментах связи Modoo:\n"
-"            </p>\n"
-"            <ul>\n"
-"                <li>\n"
-"                    Добейтесь цели: ваша папка входящих писем - это\n"
-"                    У вас должна быть возможность обработать (не только\n"
-"                    прочитать) входящие письма и легко пометить сообщения "
-"для последующих\n"
-"                    действий. Папка входящих должна быть пустой после "
-"обработки\n"
-"                    писем; больше никакой перегрузки информацией.\n"
-"                    <img class=\"img-responsive\" "
-"src=\"/website_blog/static/src/img/mail-sc-00.png\">\n"
-"                </li><li>\n"
-"                    Контролируйте то, что вы хотите получать или не хотите\n"
-"                    получать. Люди никогда не должны получать спам. Вам\n"
-"                    необходимо подписаться/отписаться от любой информации в "
-"одно\n"
-"                    нажатие.\n"
-"                </li><li>\n"
-"                    Производительность является ключевой: наш "
-"интеллектуальный интерфейс\n"
-"                    пользователя не требует от вас нажатия на каждое "
-"письмо,\n"
-"                    чтобы прочитать всю цепочку. Прочтение полной цепочки, "
-"ответ,\n"
-"                    приложение документов делается очень быстро.\n"
-"                    <img class=\"img-responsive\" "
-"src=\"/website_blog/static/src/img/mail-sc-03.png\">\n"
-"                </li><li>\n"
-"                    Смешение приема &amp; отправки: Сегодня люди стали\n"
-"                    жертвами того, что другие решают отправить им.\n"
-"                    Modoo разграничивает:\n"
-"                    <ul>\n"
-"                        <li>\n"
-"                            Сообщения \"для получения информации\":\n"
-"                            вы можете принимать их, когда вам нужна некая "
-"конкретная\n"
-"                            информация; их не обязательно читать\n"
-"                            каждый день. Вы получаете только то, на что вы "
-"решили\n"
-"                            подписаться. Это составляет 90% ваших "
-"ежедневных\n"
-"                            писем. Используйте меню \"Входящие\" для них.\n"
-"                        </li><li>\n"
-"                            Сообщения \"для совершения действий\": на них\n"
-"                            нужно сразу же обратить внимание, и вы должны\n"
-"                            обработать их всех. Это составляет 10%\n"
-"                            от ваших ежедневных писем. Используйте меню "
-"\"Кому: мне\"\n"
-"                            для них.\n"
-"                        </li>\n"
-"                    </ul>\n"
-"                </li><li>\n"
-"                    Обратите особое внимание на содержание: Все\n"
-"                    очищено для того, чтобы выделить реальное сообщение. "
-"Больше никаких\n"
-"                    приветственных введений, поздравлений, подписей и "
-"правовых\n"
-"                    замечаний. Мы стандартизируем структуру каждого "
-"сообщения.\n"
-"                   (подписи находятся в профиле контакта, не в\n"
-"                    каждом сообщении)\n"
-"                </li><li>\n"
-"                    Папки и списки рассылки - важные инструменты, но "
-"слишком\n"
-"                    сложные в традиционных почтовых клиентах. На Modoo,\n"
-"                    группа контактов, которые участвуют в обсуждении, может "
-"быть\n"
-"                    создана в один щелчок. У каждой группы должен быть свой\n"
-"                    собственный адрес электронной почты.\n"
-"                </li>\n"
-"            </ul>\n"
-"        </section>\n"
-"\n"
+msgstr "<section class=\"mt16 mb16 readable\">\n            \n            <p data-chatter-id=\"counter_0/section\">\n                Адреса электронной почты нарушены.\n            </p><p data-chatter-id=\"counter_1/section\">\n                Электронные адреса заставляют меня тратить впустую свое время. Но они мне\n                нужны. Учитывая важность, которую электронные адреса имеют в наших жизнях,\n                невероятно, что это до сих пор одна из единственных областей\n                ПО, которые не развивались за последние 20 лет!\n            </p><p data-chatter-id=\"counter_2/section\">\n                Чтение моих входящих писем - самое бесполезное занятие, которым я занимаюсь\n                ежедневно. Мне приходится тратить целый час в\n                день, чтобы обработать свои письма. Весь мусор попадает\n                одну и ту же папку входящих; спам, бесполезная информация,\n                указанные ответы указанных ответов, и т.д. Через\n                час фактически только на 10 электронных писем мне\n                нужно ответить. С хорошим инструментом я, возможно, сделал\n                это за 10 минут!\n            </p>\n        </section>\n        <section class=\"mt16 mb16 readable\">\n            <p data-chatter-id=\"counter_3/section\">\n                На Odoo мы делаем инструменты, которые помогают повысить производительность\n                предприятий. Поскольку электронные письма и потоки информации - одна из\n                самых больших трат времени в компаниях, мы должны исправить\n                это.\n            </p><p data-chatter-id=\"counter_4/section\">\n                Чтобы блокировать электронные письма, вам нужны больше, чем просто другой\n                интерфейс пользователя. Мы должны заново продумать целый коммуникационный поток.\n            </p>\n            <h3>Коммуникационный механизм Odoo</h3>\n            <p data-chatter-id=\"counter_5/section\">\n                Вот такими являются идеи в инструментах связи Odoo:\n            </p>\n            <ul>\n                <li>\n                    Добейтесь цели: ваша папка входящих писем - это\n                    У вас должна быть возможность обработать (не только\n                    прочитать) входящие письма и легко пометить сообщения для последующих\n                    действий. Папка входящих должна быть пустой после обработки\n                    писем; больше никакой перегрузки информацией.\n                    <img class=\"img-responsive\" src=\"/website_blog/static/src/img/mail-sc-00.png\">\n                </li><li>\n                    Контролируйте то, что вы хотите получать или не хотите\n                    получать. Люди никогда не должны получать спам. Вам\n                    необходимо подписаться/отписаться от любой информации в одно\n                    нажатие.\n                </li><li>\n                    Производительность является ключевой: наш интеллектуальный интерфейс\n                    пользователя не требует от вас нажатия на каждое письмо,\n                    чтобы прочитать всю цепочку. Прочтение полной цепочки, ответ,\n                    приложение документов делается очень быстро.\n                    <img class=\"img-responsive\" src=\"/website_blog/static/src/img/mail-sc-03.png\">\n                </li><li>\n                    Смешение приема &amp; отправки: Сегодня люди стали\n                    жертвами того, что другие решают отправить им.\n                    Odoo разграничивает:\n                    <ul>\n                        <li>\n                            Сообщения \"для получения информации\":\n                            вы можете принимать их, когда вам нужна некая конкретная\n                            информация; их не обязательно читать\n                            каждый день. Вы получаете только то, на что вы решили\n                            подписаться. Это составляет 90% ваших ежедневных\n                            писем. Используйте меню \"Входящие\" для них.\n                        </li><li>\n                            Сообщения \"для совершения действий\": на них\n                            нужно сразу же обратить внимание, и вы должны\n                            обработать их всех. Это составляет 10%\n                            от ваших ежедневных писем. Используйте меню \"Кому: мне\"\n                            для них.\n                        </li>\n                    </ul>\n                </li><li>\n                    Обратите особое внимание на содержание: Все\n                    очищено для того, чтобы выделить реальное сообщение. Больше никаких\n                    приветственных введений, поздравлений, подписей и правовых\n                    замечаний. Мы стандартизируем структуру каждого сообщения.\n                   (подписи находятся в профиле контакта, не в\n                    каждом сообщении)\n                </li><li>\n                    Папки и списки рассылки - важные инструменты, но слишком\n                    сложные в традиционных почтовых клиентах. На Odoo,\n                    группа контактов, которые участвуют в обсуждении, может быть\n                    создана в один щелчок. У каждой группы должен быть свой\n                    собственный адрес электронной почты.\n                </li>\n            </ul>\n        </section>\n\n"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "<section class=\"row readable\">\n"
 "            <div class=\"col-md-12 mb32\">\n"
-"                <img class=\"img-responsive\" "
-"src=\"/website_blog/static/src/img/CMS_WMS_screens.jpg\">\n"
+"                <img class=\"img-responsive\" src=\"/website_blog/static/src/img/CMS_WMS_screens.jpg\">\n"
 "            </div>\n"
 "            <div class=\"col-md-6 col-md-offset-3 mb16 mt16\">\n"
-"                <p class=\"text-center\" data-chatter-"
-"id=\"counter_0/section/div\">\n"
+"                <p class=\"text-center\" data-chatter-id=\"counter_0/section/div\">\n"
 "                    New Features Launched\n"
 "                </p>\n"
-"                <p class=\"text-center\" data-chatter-"
-"id=\"counter_1/section/div\">\n"
-"                    To add to an already comprehensive set of Modoo\n"
+"                <p class=\"text-center\" data-chatter-id=\"counter_1/section/div\">\n"
+"                    To add to an already comprehensive set of Odoo\n"
 "                    features, a website content management system (CMS\n"
 "                    or WMS) has been developed and a beta release is\n"
 "                    available from today, 31st January 2014.\n"
@@ -298,16 +167,14 @@ msgid ""
 "        </section>\n"
 "        <section class=\"readable\">\n"
 "            <p data-chatter-id=\"counter_2/section\">\n"
-"                Modoo claims to be 'the Open Source software that makes\n"
+"                Odoo claims to be 'the Open Source software that makes\n"
 "                building your company's website and selling your products\n"
 "                online easy'. So how true is this statement?\n"
 "            </p><p data-chatter-id=\"counter_3/section\">\n"
-"                \"Modoo's latest launch will allow a business to go from\n"
-"                zero to trading online quicker than ever before,&#8221; "
-"Stuart\n"
-"                Mackintosh, MD of Open Source specialist and Modoo\n"
-"                integration partner, OpusVL, explains. &#8220;The "
-"investment\n"
+"                \"Odoo's latest launch will allow a business to go from\n"
+"                zero to trading online quicker than ever before,&#8221; Stuart\n"
+"                Mackintosh, MD of Open Source specialist and Odoo\n"
+"                integration partner, OpusVL, explains. &#8220;The investment\n"
 "                required to have a fully automated business system is\n"
 "                dramatically reduced, enabling the small and medium\n"
 "                enterprise to compete at a level of functionality and\n"
@@ -315,24 +182,21 @@ msgid ""
 "            </p>\n"
 "            <blockquote>\n"
 "                <p data-chatter-id=\"counter_4/section/blockquote\">\n"
-"                    \"Finally, the leading edge is being brought to the "
-"masses.\n"
-"                    It will now be the turn of the big players to catch up "
-"to\n"
+"                    \"Finally, the leading edge is being brought to the masses.\n"
+"                    It will now be the turn of the big players to catch up to\n"
 "                    the superior technologies of the SME.\"\n"
 "                </p>\n"
 "            </blockquote>\n"
 "            <p data-chatter-id=\"counter_5/section\">\n"
 "                \"This is another clever and highly disruptive move by\n"
-"                Modoo,which will force other technology providers to\n"
+"                Odoo,which will force other technology providers to\n"
 "                take another look at the value they are providing to ensure\n"
 "                that their 'solutions' can still compete.\"\n"
 "            </p><p data-chatter-id=\"counter_6/section\">\n"
-"                \"Modoo now competes on many fronts, with no real\n"
+"                \"Odoo now competes on many fronts, with no real\n"
 "                competition out there to knock them off the top spot.\n"
 "                With the launch of their integrated CMS and Ecommerce\n"
-"                systems,it only elevates their position as one of the "
-"leading\n"
+"                systems,it only elevates their position as one of the leading\n"
 "                lights in the open source revolution. It will be at least 5\n"
 "                years before another ERP or CMS provider will be able to\n"
 "                compete at this level due to the technology currently\n"
@@ -340,7 +204,7 @@ msgid ""
 "            </p>\n"
 "            <h4>Adding to industry leading technology</h4>\n"
 "            <p data-chatter-id=\"counter_7/section\">\n"
-"                Like many modern website editors, with Modoo you can edit\n"
+"                Like many modern website editors, with Odoo you can edit\n"
 "                content in-line, enabling you to see exactly what you are\n"
 "                changing and ensure your changes suit the context.\n"
 "            </p><p data-chatter-id=\"counter_8/section\">\n"
@@ -362,109 +226,7 @@ msgid ""
 "            </p>\n"
 "        </section>\n"
 "\n"
-msgstr ""
-"<section class=\"row readable\">\n"
-"            <div class=\"col-md-12 mb32\">\n"
-"                <img class=\"img-responsive\" "
-"src=\"/website_blog/static/src/img/CMS_WMS_screens.jpg\">\n"
-"            </div>\n"
-"            <div class=\"col-md-6 col-md-offset-3 mb16 mt16\">\n"
-"                <p class=\"text-center\" data-chatter-"
-"id=\"counter_0/section/div\">\n"
-"                    Запуск новых компонентов\n"
-"                </p>\n"
-"                <p class=\"text-center\" data-chatter-"
-"id=\"counter_1/section/div\">↵\n"
-"                    Для добавления компонентов к исчерпывающему комплексу "
-"Modoo\n"
-"                    была разработана система управления контентом веб-сайта\n"
-"                   (CMS или WMS), а с сегодняшнего дня, 31 января 2014 "
-"года,\n"
-"                    доступна бета-версия.\n"
-"                </p>\n"
-"            </div>\n"
-"        </section>\n"
-"        <section class=\"readable\">\n"
-"            <p data-chatter-id=\"counter_2/section\">\n"
-"                Modoo утверждает, что является 'Открытым источником ПО, "
-"которое\n"
-"                помогает вам создать веб-сайт компании и продавать товары\n"
-"                онлайн очень легко'. Итак, насколько правдиво это "
-"заявление?\n"
-"            </p><p data-chatter-id=\"counter_3/section\">\n"
-"                \"Последняя разработка Modoo позволит бизнесу стартовать с\n"
-"                нуля и затем максимально увеличить свои продажи”, объясняет "
-"Стюарт\n"
-"                Макинтош, маркетинговый директор открытого источника и\n"
-"                партнер Modoo по интеграции, OpusVL. “Инвестиции,\n"
-"                необходимые для того, чтобы полностью автоматизировать "
-"бизнес-систему,\n"
-"                значительно сократились, позволяя малому и среднему\n"
-"                бизнесу конкурировать на уровне функциональности и\n"
-"                показателей в работе, ранее закрепленных за крупными "
-"инвесторами IT\".\n"
-"            </p>\n"
-"            <blockquote>\n"
-"                <p data-chatter-id=\"counter_4/section/blockquote\">\n"
-"                    \"Наконец, качественно новый уровень поступает в массы.\n"
-"                    Теперь настанет очередь крупных игроков ловить\n"
-"                    передовые технологии малого и среднего бизнеса\".\n"
-"                </p>\n"
-"            </blockquote>\n"
-"            <p data-chatter-id=\"counter_5/section\">\n"
-"                \"Это еще один умный и революционный шаг\n"
-"                Modoo, который вынудит других поставщиков технологий еще\n"
-"                раз пересмотреть стоимость, которую они предлагают, чтобы "
-"убедиться,\n"
-"                что их 'решения' все еще могут конкурировать\".\n"
-"            </p><p data-chatter-id=\"counter_6/section\">\n"
-"                \"Modoo сегодня конкурирует на многих фронтах, не прилагая\n"
-"                там особых усилий, чтобы сбить их с первых позиций.\n"
-"                С запуском интегрированных систем CMS и Ecommerce\n"
-"                их позиции только поднимаются, как одни из лидирующих\n"
-"                в революции открытых источников. Пройдет еще, по крайней "
-"мере, 5\n"
-"                лет до того, как другой поставщик ERP или CMS систем будет "
-"способен\n"
-"                конкурировать на этом уровне, благодаря технологии, которая "
-"сейчас\n"
-"                используется большинством промышленных поставщиков\".\n"
-"            </p>\n"
-"            <h4>Добавление к лидирующей технологии отрасли</h4>\n"
-"            <p data-chatter-id=\"counter_7/section\">\n"
-"                Как и большинство современных редакторов веб-сайта, с Modoo "
-"вы можете\n"
-"                редактировать встроенное содержимое, что позволит вам точно "
-"видеть, что\n"
-"                вы изменяете, и гарантирует, что ваши изменения подойдут к "
-"контексту.\n"
-"            </p><p data-chatter-id=\"counter_8/section\">\n"
-"                Однако в отличие от других систем управления веб-контентом, "
-"он\n"
-"                полностью интегрируется в серверную базу данных. Это "
-"означает,\n"
-"                что, когда Вы редактируете описание товара, изображение или "
-"цену,\n"
-"                база данных товара обновляется в режиме реального времени, "
-"предоставляя\n"
-"                бизнесу возможность самообслуживания.\n"
-"            </p><p data-chatter-id=\"counter_9/section\">\n"
-"                Это обеспечивает один источник данных для вашей компании и\n"
-"                устраняет необходимость создавать офлайновую синхронизацию "
-"между\n"
-"                веб-сайтом и базой данных товара.\n"
-"            </p><p data-chatter-id=\"counter_10/section\">\n"
-"                Помимо того, существует веб-сайт по умолчанию на базе "
-"Bootstrap\n"
-"                3, последний отраслевой стандарт для быстрой разработки\n"
-"                многоточечных веб-сайтов, поддерживаемых Твиттером, поэтому "
-"может быть\n"
-"                напрямую интегрирован со многими веб-инструментами и "
-"работает на всех\n"
-"                устройствах по умолчанию.\n"
-"            </p>\n"
-"        </section>\n"
-"\n"
+msgstr "<section class=\"row readable\">\n            <div class=\"col-md-12 mb32\">\n                <img class=\"img-responsive\" src=\"/website_blog/static/src/img/CMS_WMS_screens.jpg\">\n            </div>\n            <div class=\"col-md-6 col-md-offset-3 mb16 mt16\">\n                <p class=\"text-center\" data-chatter-id=\"counter_0/section/div\">\n                    Запуск новых компонентов\n                </p>\n                <p class=\"text-center\" data-chatter-id=\"counter_1/section/div\">↵\n                    Для добавления компонентов к исчерпывающему комплексу Odoo\n                    была разработана система управления контентом веб-сайта\n                   (CMS или WMS), а с сегодняшнего дня, 31 января 2014 года,\n                    доступна бета-версия.\n                </p>\n            </div>\n        </section>\n        <section class=\"readable\">\n            <p data-chatter-id=\"counter_2/section\">\n                Odoo утверждает, что является 'Открытым источником ПО, которое\n                помогает вам создать веб-сайт компании и продавать товары\n                онлайн очень легко'. Итак, насколько правдиво это заявление?\n            </p><p data-chatter-id=\"counter_3/section\">\n                \"Последняя разработка Odoo позволит бизнесу стартовать с\n                нуля и затем максимально увеличить свои продажи”, объясняет Стюарт\n                Макинтош, маркетинговый директор открытого источника и\n                партнер Odoo по интеграции, OpusVL. “Инвестиции,\n                необходимые для того, чтобы полностью автоматизировать бизнес-систему,\n                значительно сократились, позволяя малому и среднему\n                бизнесу конкурировать на уровне функциональности и\n                показателей в работе, ранее закрепленных за крупными инвесторами IT\".\n            </p>\n            <blockquote>\n                <p data-chatter-id=\"counter_4/section/blockquote\">\n                    \"Наконец, качественно новый уровень поступает в массы.\n                    Теперь настанет очередь крупных игроков ловить\n                    передовые технологии малого и среднего бизнеса\".\n                </p>\n            </blockquote>\n            <p data-chatter-id=\"counter_5/section\">\n                \"Это еще один умный и революционный шаг\n                Odoo, который вынудит других поставщиков технологий еще\n                раз пересмотреть стоимость, которую они предлагают, чтобы убедиться,\n                что их 'решения' все еще могут конкурировать\".\n            </p><p data-chatter-id=\"counter_6/section\">\n                \"Odoo сегодня конкурирует на многих фронтах, не прилагая\n                там особых усилий, чтобы сбить их с первых позиций.\n                С запуском интегрированных систем CMS и Ecommerce\n                их позиции только поднимаются, как одни из лидирующих\n                в революции открытых источников. Пройдет еще, по крайней мере, 5\n                лет до того, как другой поставщик ERP или CMS систем будет способен\n                конкурировать на этом уровне, благодаря технологии, которая сейчас\n                используется большинством промышленных поставщиков\".\n            </p>\n            <h4>Добавление к лидирующей технологии отрасли</h4>\n            <p data-chatter-id=\"counter_7/section\">\n                Как и большинство современных редакторов веб-сайта, с Odoo вы можете\n                редактировать встроенное содержимое, что позволит вам точно видеть, что\n                вы изменяете, и гарантирует, что ваши изменения подойдут к контексту.\n            </p><p data-chatter-id=\"counter_8/section\">\n                Однако в отличие от других систем управления веб-контентом, он\n                полностью интегрируется в серверную базу данных. Это означает,\n                что, когда Вы редактируете описание товара, изображение или цену,\n                база данных товара обновляется в режиме реального времени, предоставляя\n                бизнесу возможность самообслуживания.\n            </p><p data-chatter-id=\"counter_9/section\">\n                Это обеспечивает один источник данных для вашей компании и\n                устраняет необходимость создавать офлайновую синхронизацию между\n                веб-сайтом и базой данных товара.\n            </p><p data-chatter-id=\"counter_10/section\">\n                Помимо того, существует веб-сайт по умолчанию на базе Bootstrap\n                3, последний отраслевой стандарт для быстрой разработки\n                многоточечных веб-сайтов, поддерживаемых Твиттером, поэтому может быть\n                напрямую интегрирован со многими веб-инструментами и работает на всех\n                устройствах по умолчанию.\n            </p>\n        </section>\n\n"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:211
@@ -498,8 +260,7 @@ msgstr "Архивы"
 
 #. module: website_blog
 #: view:blog.post:website_blog.view_blog_post_search
-#: field:blog.post,author_id:0
-#: field:blog.post,create_uid:0
+#: field:blog.post,author_id:0 field:blog.post,create_uid:0
 msgid "Author"
 msgstr "Автор"
 
@@ -515,8 +276,7 @@ msgstr "Фоновое изображение"
 
 #. module: website_blog
 #: view:blog.blog:website_blog.view_blog_blog_form
-#: view:blog.post:website_blog.view_blog_post_search
-#: field:blog.post,blog_id:0
+#: view:blog.post:website_blog.view_blog_post_search field:blog.post,blog_id:0
 msgid "Blog"
 msgstr "Блог"
 
@@ -562,8 +322,7 @@ msgid "Blog Posts"
 msgstr "Публикации в блоге"
 
 #. module: website_blog
-#: field:blog.blog,subtitle:0
-#: view:blog.post:website_blog.view_blog_post_form
+#: field:blog.blog,subtitle:0 view:blog.post:website_blog.view_blog_post_form
 msgid "Blog Subtitle"
 msgstr "Подзаголовок блога"
 
@@ -588,8 +347,7 @@ msgstr "Блоги"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_2
-msgid ""
-"Building your company's website and selling your products online easy."
+msgid "Building your company's website and selling your products online easy."
 msgstr "Создать веб-сайт компании и продавать товары онлайн легко."
 
 #. module: website_blog
@@ -618,26 +376,21 @@ msgstr ""
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
 msgid "Click on \"Content\" on the top menu to write your first blog post."
-msgstr ""
-"Нажмите на \"Содержание\" в верхнем меню, чтобы написать свою первую "
-"публикацию в блоге."
+msgstr "Нажмите на \"Содержание\" в верхнем меню, чтобы написать свою первую публикацию в блоге."
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:46
 #, python-format
 msgid "Click on this area and set a catchy title for your blog post."
-msgstr ""
-"Нажмите на эту область и придумайте броский заголовок для своей публикации в "
-"блоге."
+msgstr "Нажмите на эту область и придумайте броский заголовок для своей публикации в блоге."
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:88
 #, python-format
 msgid "Click the <em>Save</em> button to record changes on the page."
-msgstr ""
-"Нажмите кнопку <em>Сохранить</em>, чтобы сохранить изменения на странице."
+msgstr "Нажмите кнопку <em>Сохранить</em>, чтобы сохранить изменения на странице."
 
 #. module: website_blog
 #. openerp-web
@@ -652,8 +405,7 @@ msgid "Contact us"
 msgstr "Свяжитесь с нами"
 
 #. module: website_blog
-#: view:blog.post:website_blog.view_blog_post_search
-#: field:blog.post,content:0
+#: view:blog.post:website_blog.view_blog_post_search field:blog.post,content:0
 #: field:blog.post.history,content:0
 msgid "Content"
 msgstr "Содержание"
@@ -680,15 +432,13 @@ msgid "Create a blog post"
 msgstr "Создать публикацию в блоге"
 
 #. module: website_blog
-#: field:blog.blog,create_uid:0
-#: field:blog.post.history.show_diff,create_uid:0
+#: field:blog.blog,create_uid:0 field:blog.post.history.show_diff,create_uid:0
 #: field:blog.tag,create_uid:0
 msgid "Created by"
 msgstr "Создано"
 
 #. module: website_blog
-#: field:blog.blog,create_date:0
-#: field:blog.post,create_date:0
+#: field:blog.blog,create_date:0 field:blog.post,create_date:0
 #: field:blog.post.history.show_diff,create_date:0
 #: field:blog.tag,create_date:0
 msgid "Created on"
@@ -700,8 +450,7 @@ msgid "Date"
 msgstr "Дата"
 
 #. module: website_blog
-#: help:blog.blog,message_last_post:0
-#: help:blog.post,message_last_post:0
+#: help:blog.blog,message_last_post:0 help:blog.post,message_last_post:0
 msgid "Date of the last message posted on the record."
 msgstr "Дата последнего сообщения размещенного в отчете."
 
@@ -788,13 +537,10 @@ msgstr "Подписчики"
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:81
 #, python-format
 msgid ""
-"From this toolbar you can move, duplicate or delete the selected zone. Click "
-"on the garbage can image to delete the block. Or click on the Title and "
+"From this toolbar you can move, duplicate or delete the selected zone. Click"
+" on the garbage can image to delete the block. Or click on the Title and "
 "delete it."
-msgstr ""
-"Из этой панели инструментов вы можете перемещать, дублировать или удалять "
-"выбранную зону. Нажмите на изображение мусорной корзины, чтобы удалить блок. "
-"Или нажмите на название и удалите его."
+msgstr "Из этой панели инструментов вы можете перемещать, дублировать или удалять выбранную зону. Нажмите на изображение мусорной корзины, чтобы удалить блок. Или нажмите на название и удалите его."
 
 #. module: website_blog
 #: view:blog.post:website_blog.view_blog_post_search
@@ -807,32 +553,25 @@ msgid "History"
 msgstr "История"
 
 #. module: website_blog
-#: help:blog.blog,message_summary:0
-#: help:blog.post,message_summary:0
+#: help:blog.blog,message_summary:0 help:blog.post,message_summary:0
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr ""
-"Содержит обзор чата (количество сообщений, ...). Это краткое изложение "
-"непосредственно в HTML формате для того, чтобы вставить в виды kanban."
+msgstr "Содержит обзор чата (количество сообщений, ...). Это краткое изложение непосредственно в HTML формате для того, чтобы вставить в виды kanban."
 
 #. module: website_blog
-#: field:blog.blog,id:0
-#: field:blog.post,id:0
-#: field:blog.post.history,id:0
-#: field:blog.post.history.show_diff,id:0
-#: field:blog.tag,id:0
+#: field:blog.blog,id:0 field:blog.post,id:0 field:blog.post.history,id:0
+#: field:blog.post.history.show_diff,id:0 field:blog.tag,id:0
 msgid "ID"
 msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behing the Modoo communication tools."
-msgstr "Идеи в коммуникационных инструментах Modoo."
+msgid "Ideas behing the Odoo communication tools."
+msgstr "Идеи в коммуникационных инструментах Odoo."
 
 #. module: website_blog
-#: help:blog.blog,message_unread:0
-#: help:blog.post,message_unread:0
+#: help:blog.blog,message_unread:0 help:blog.post,message_unread:0
 msgid "If checked new messages require your attention."
 msgstr "Если проверенные новые сообщения требуют вашего внимания."
 
@@ -842,8 +581,7 @@ msgid "Integrating your CMS and E-Commerce"
 msgstr "Интегрирование ваших CMS и E-Commerce"
 
 #. module: website_blog
-#: field:blog.blog,message_is_follower:0
-#: field:blog.post,message_is_follower:0
+#: field:blog.blog,message_is_follower:0 field:blog.post,message_is_follower:0
 msgid "Is a Follower"
 msgstr "Является подписчиком"
 
@@ -854,8 +592,7 @@ msgid "Last Contributor"
 msgstr "Последний участник"
 
 #. module: website_blog
-#: field:blog.blog,message_last_post:0
-#: field:blog.post,message_last_post:0
+#: field:blog.blog,message_last_post:0 field:blog.post,message_last_post:0
 msgid "Last Message Date"
 msgstr "Дата последнего сообщения"
 
@@ -865,18 +602,14 @@ msgid "Last Modified on"
 msgstr "Последний раз изменено"
 
 #. module: website_blog
-#: field:blog.blog,write_uid:0
-#: field:blog.post.history,write_uid:0
-#: field:blog.post.history.show_diff,write_uid:0
-#: field:blog.tag,write_uid:0
+#: field:blog.blog,write_uid:0 field:blog.post.history,write_uid:0
+#: field:blog.post.history.show_diff,write_uid:0 field:blog.tag,write_uid:0
 msgid "Last Updated by"
 msgstr "Последний раз обновлено"
 
 #. module: website_blog
-#: field:blog.blog,write_date:0
-#: field:blog.post.history,write_date:0
-#: field:blog.post.history.show_diff,write_date:0
-#: field:blog.tag,write_date:0
+#: field:blog.blog,write_date:0 field:blog.post.history,write_date:0
+#: field:blog.post.history.show_diff,write_date:0 field:blog.tag,write_date:0
 msgid "Last Updated on"
 msgstr "Последний раз обновлено"
 
@@ -909,8 +642,7 @@ msgstr "Давайте добавим еще один блок к вашей п�
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:12
 #, python-format
 msgid "Let's go through the first steps to write beautiful blog posts."
-msgstr ""
-"Давайте изучим первые шаги для написания прекрасных публикаций в блоге."
+msgstr "Давайте изучим первые шаги для написания прекрасных публикаций в блоге."
 
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_mail_message
@@ -918,14 +650,12 @@ msgid "Message"
 msgstr "Сообщение"
 
 #. module: website_blog
-#: field:blog.blog,message_ids:0
-#: field:blog.post,message_ids:0
+#: field:blog.blog,message_ids:0 field:blog.post,message_ids:0
 msgid "Messages"
 msgstr "Сообщения"
 
 #. module: website_blog
-#: help:blog.blog,message_ids:0
-#: help:blog.post,message_ids:0
+#: help:blog.blog,message_ids:0 help:blog.post,message_ids:0
 msgid "Messages and communication history"
 msgstr "Сообщения и журнал обращений"
 
@@ -935,8 +665,7 @@ msgid "Modified By"
 msgstr "Изменено"
 
 #. module: website_blog
-#: view:blog.post:website_blog.view_blog_post_form
-#: field:blog.tag,name:0
+#: view:blog.post:website_blog.view_blog_post_form field:blog.tag,name:0
 msgid "Name"
 msgstr "Имя"
 
@@ -951,8 +680,7 @@ msgid "New Blog Post"
 msgstr "Новая публикация в блоге"
 
 #. module: website_blog
-#: view:website:website.layout
-#: model:website.menu,name:website_blog.menu_news
+#: view:website:website.layout model:website.menu,name:website_blog.menu_news
 msgid "News"
 msgstr "Новости"
 
@@ -985,8 +713,8 @@ msgstr "Не опубликовано"
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Modoo, email"
-msgstr "Modoo, адрес электронной почты"
+msgid "Odoo, email"
+msgstr "Odoo, адрес электронной почты"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
@@ -1024,7 +752,7 @@ msgstr "Опубликовать"
 #. module: website_blog
 #: field:blog.tag,post_ids:0
 msgid "Posts"
-msgstr ""
+msgstr "Посты"
 
 #. module: website_blog
 #: field:blog.post,website_published:0
@@ -1125,8 +853,7 @@ msgid "Subtitle"
 msgstr "Подзаголовок"
 
 #. module: website_blog
-#: field:blog.blog,message_summary:0
-#: field:blog.post,message_summary:0
+#: field:blog.blog,message_summary:0 field:blog.post,message_summary:0
 #: field:blog.post.history,summary:0
 msgid "Summary"
 msgstr "Резюме"
@@ -1142,8 +869,7 @@ msgid "Tag List"
 msgstr ""
 
 #. module: website_blog
-#: field:blog.post,tag_ids:0
-#: view:website:website_blog.blog_post_short
+#: field:blog.post,tag_ids:0 view:website:website_blog.blog_post_short
 msgid "Tags"
 msgstr "Теги"
 
@@ -1186,12 +912,9 @@ msgstr "С помощью этой страницы вы с легкостью �
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:101
 #, python-format
 msgid ""
-"This tutorial is finished. To discover more features, improve the content of "
-"this page and try the <em>Promote</em> button in the top right menu."
-msgstr ""
-"Этот обучающий курс закончен. Чтобы узнать больше особенностей, улучшите "
-"содержание этой страницы и попробуйте кнопку <em>Повысить</em> в верхнем "
-"правом меню."
+"This tutorial is finished. To discover more features, improve the content of"
+" this page and try the <em>Promote</em> button in the top right menu."
+msgstr "Этот обучающий курс закончен. Чтобы узнать больше особенностей, улучшите содержание этой страницы и попробуйте кнопку <em>Повысить</em> в верхнем правом меню."
 
 #. module: website_blog
 #: field:blog.post,name:0
@@ -1204,8 +927,7 @@ msgid "True"
 msgstr "Верно"
 
 #. module: website_blog
-#: field:blog.blog,message_unread:0
-#: field:blog.post,message_unread:0
+#: field:blog.blog,message_unread:0 field:blog.post,message_unread:0
 msgid "Unread Messages"
 msgstr "Непрочитанные сообщения"
 
@@ -1216,9 +938,7 @@ msgstr "Непрочитанные сообщения"
 msgid ""
 "Use this <em>'Content'</em> menu to create a new blog post like any other "
 "document (page, menu, products, event, ...)."
-msgstr ""
-"Используйте это меню <em>'Содержание'</em>, чтобы создать новую публикацию в "
-"блоге, как и любой другой документ (страницу, меню, товары, событие, ...)."
+msgstr "Используйте это меню <em>'Содержание'</em>, чтобы создать новую публикацию в блоге, как и любой другой документ (страницу, меню, товары, событие, ...)."
 
 #. module: website_blog
 #. openerp-web
@@ -1227,10 +947,7 @@ msgstr ""
 msgid ""
 "Use well designed building blocks to structure the content of your blog. "
 "Click 'Insert Blocks' to add new content."
-msgstr ""
-"Используйте хорошо проработанные структурные элементы, чтобы структурировать "
-"содержимое вашего блога. Нажмите 'Вставить блоки', чтобы добавить новое "
-"содержимое."
+msgstr "Используйте хорошо проработанные структурные элементы, чтобы структурировать содержимое вашего блога. Нажмите 'Вставить блоки', чтобы добавить новое содержимое."
 
 #. module: website_blog
 #: view:blog.tag:website_blog.blog_tag_form
@@ -1241,9 +958,7 @@ msgstr ""
 #: help:mail.message,path:0
 msgid ""
 "Used to display messages in a paragraph-based chatter using a unique path;"
-msgstr ""
-"Используется, чтобы отобразить сообщения в виде переписки, разбитой на "
-"параграфы, с помощью уникального пути;"
+msgstr "Используется, чтобы отобразить сообщения в виде переписки, разбитой на параграфы, с помощью уникального пути;"
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:265
@@ -1258,14 +973,12 @@ msgid "Website Blogs"
 msgstr "Блоги веб-сайта"
 
 #. module: website_blog
-#: field:blog.blog,website_message_ids:0
-#: field:blog.post,website_message_ids:0
+#: field:blog.blog,website_message_ids:0 field:blog.post,website_message_ids:0
 msgid "Website Messages"
 msgstr "Сообщения сайта"
 
 #. module: website_blog
-#: help:blog.blog,website_message_ids:0
-#: help:blog.post,website_message_ids:0
+#: help:blog.blog,website_message_ids:0 help:blog.post,website_message_ids:0
 msgid "Website communication history"
 msgstr "История переписки сайта"
 
@@ -1284,8 +997,7 @@ msgid "Website meta keywords"
 msgstr "Сайт мета ключевые слова"
 
 #. module: website_blog
-#: field:blog.blog,website_meta_title:0
-#: field:blog.post,website_meta_title:0
+#: field:blog.blog,website_meta_title:0 field:blog.post,website_meta_title:0
 #: field:blog.tag,website_meta_title:0
 msgid "Website meta title"
 msgstr "Сайт мета название"
@@ -1328,9 +1040,7 @@ msgstr "Ваш адрес электронной почты..."
 msgid ""
 "Your blog post is not yet published. You can update this draft version and "
 "publish it once you are ready."
-msgstr ""
-"Ваша публикация в блоге еще не опубликована. Вы можете обновить эту "
-"предварительную версию и опубликовать ее, как только вы будете готовы."
+msgstr "Ваша публикация в блоге еще не опубликована. Вы можете обновить эту предварительную версию и опубликовать ее, как только вы будете готовы."
 
 #. module: website_blog
 #. openerp-web
@@ -1388,9 +1098,7 @@ msgstr "комментарии"
 msgid ""
 "find your website\n"
 "            through your"
-msgstr ""
-"найдите ваш веб-сайт\n"
-"            через ваш"
+msgstr "найдите ваш веб-сайт\n            через ваш"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
@@ -1410,7 +1118,7 @@ msgstr "не опубликовано"
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
 msgid "on"
-msgstr ""
+msgstr "на"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
