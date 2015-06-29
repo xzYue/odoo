@@ -88,7 +88,7 @@
 !define UNINSTALL_BASE_REGISTRY_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall"
 !define UNINSTALL_REGISTRY_KEY "${UNINSTALL_BASE_REGISTRY_KEY}\${DISPLAY_NAME}"
 
-!define UNINSTALL_REGISTRY_KEY_SERVER "${UNINSTALL_BASE_REGISTRY_KEY}\Modoo Server ${VERSION}"
+!define UNINSTALL_REGISTRY_KEY_SERVER "${UNINSTALL_BASE_REGISTRY_KEY}\Mmodoo Server ${VERSION}"
 
 !define REGISTRY_KEY "Software\${DISPLAY_NAME}"
 
@@ -106,7 +106,7 @@ ShowInstDetails show
 
 XPStyle on
 
-InstallDir "$PROGRAMFILES\Modoo ${VERSION}"
+InstallDir "$PROGRAMFILES\Mmodoo ${VERSION}"
 InstallDirRegKey HKCU "${REGISTRY_KEY}" ""
 
 BrandingText '${PRODUCT_NAME} ${VERSION}'

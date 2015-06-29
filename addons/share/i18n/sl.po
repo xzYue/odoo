@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * share
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-05-29 13:13+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/projects/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/projects/p/modoo-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -339,9 +339,9 @@ msgstr "Skupine, ki niso v souporabi"
 #: code:addons/share/wizard/share_wizard.py:868
 #, python-format
 msgid ""
-"Odoo is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
-"It is open source and can be found on https://www.odoo.com."
-msgstr "Odoo je močna in uporabniku prijazna zbirka poslovnih aplikacij (CRM, prodaja, kadrovska služba, itd.)\nJe odprto kodna in se lahko najde na http://www.openerp.com."
+"Modoo is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
+"It is open source and can be found on https://www.modoo.com."
+msgstr "Modoo je močna in uporabniku prijazna zbirka poslovnih aplikacij (CRM, prodaja, kadrovska služba, itd.)\nJe odprto kodna in se lahko najde na http://www.openerp.com."
 
 #. module: share
 #: help:share.wizard,domain:0
@@ -535,7 +535,7 @@ msgstr "Trenutni uporabnik mora imeti nastavljen elektronski naslov v Nastavitva
 #: code:addons/share/wizard/share_wizard.py:855
 #, python-format
 msgid ""
-"The documents are not attached, you can view them online directly on my Odoo server at:\n"
+"The documents are not attached, you can view them online directly on my Modoo server at:\n"
 "    %s\n"
 "\n"
 msgstr "Dokumenti niso priloženi. Dostopni so preko spleta na našem strežniku, na:\n    %s\n\n"
@@ -544,9 +544,9 @@ msgstr "Dokumenti niso priloženi. Dostopni so preko spleta na našem strežniku
 #: code:addons/share/wizard/share_wizard.py:864
 #, python-format
 msgid ""
-"The documents have been automatically added to your current Odoo "
+"The documents have been automatically added to your current Modoo "
 "documents.\n"
-msgstr "Dokumenti so bili samodejno dodani med vaše tekoče Odoo dokumente.\n"
+msgstr "Dokumenti so bili samodejno dodani med vaše tekoče Modoo dokumente.\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:831

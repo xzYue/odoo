@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-05-29 12:59+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/odoo-8/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/modoo-8/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,8 +254,8 @@ msgstr "О программе"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
-msgstr "Об Odoo"
+msgid "About Modoo"
+msgstr "Об Modoo"
 
 #. module: web
 #. openerp-web
@@ -545,8 +545,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Активируйте, если вы хотите оценить Odoo."
+msgid "Check this box to evaluate Modoo."
+msgstr "Активируйте, если вы хотите оценить Modoo."
 
 #. module: web
 #. openerp-web
@@ -881,7 +881,7 @@ msgstr "Отменить"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
+msgid "Discover Events of Modoo around the world..."
 msgstr ""
 
 #. module: web
@@ -1203,11 +1203,11 @@ msgstr "Файл:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an Modoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "Заполните эту форму для создания новой базы данных Odoo. Вы можете создавать базы данных для различных компаний или для различных целей (тестирование или разработка). После создания базы данных вы сможете установить ваше первое приложение."
+msgstr "Заполните эту форму для создания новой базы данных Modoo. Вы можете создавать базы данных для различных компаний или для различных целей (тестирование или разработка). После создания базы данных вы сможете установить ваше первое приложение."
 
 #. module: web
 #. openerp-web
@@ -1617,8 +1617,8 @@ msgstr "Еще"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Моя учетная запись Odoo.com"
+msgid "My Modoo.com account"
+msgstr "Моя учетная запись Modoo.com"
 
 #. module: web
 #. openerp-web
@@ -1728,34 +1728,34 @@ msgstr "Объект:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (Бывшая OpenERP)"
+msgid "Modoo (Formerly OpenERP)"
+msgstr "Modoo (Бывшая OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web тесты"
+msgid "Modoo Web Tests"
+msgstr "Modoo Web тесты"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo это торговая марка"
+msgid "Modoo is a trademark of the"
+msgstr "Modoo это торговая марка"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "Modoo.com"
+msgstr "Modoo.com"
 
 #. module: web
 #. openerp-web
@@ -2728,8 +2728,8 @@ msgstr "Вы должны выбрать хотя бы одну запись ."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Время вашей сессии Odoo истекло. Пожалуйста, обновит текущую веб-страницу."
+msgid "Your Modoo session expired. Please refresh the current web page."
+msgstr "Время вашей сессии Modoo истекло. Пожалуйста, обновит текущую веб-страницу."
 
 #. module: web
 #. openerp-web

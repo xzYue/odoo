@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-05-29 12:58+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/odoo-8/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/modoo-8/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,7 +36,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\nClick per creare una nuova richi
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
 "<p>\n"
-"               You can assign remaining Legal Leaves for each employee, Odoo\n"
+"               You can assign remaining Legal Leaves for each employee, Modoo\n"
 "               will automatically create and validate allocation requests.\n"
 "             </p>\n"
 "           "
@@ -672,9 +672,9 @@ msgstr "Numero Giorni"
 #. module: hr_holidays
 #: help:hr.holidays.status,categ_id:0
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Modoo will create a corresponding meeting of this "
 "type in the calendar."
-msgstr "Una volta che un periodo di assenza è stato validato, Odoo creerà il corrispondente evento sul calendario."
+msgstr "Una volta che un periodo di assenza è stato validato, Modoo creerà il corrispondente evento sul calendario."
 
 #. module: hr_holidays
 #: field:hr.holidays,parent_id:0
