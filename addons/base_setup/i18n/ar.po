@@ -5,14 +5,15 @@
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 # hoxhe aits <hoxhe0@gmail.com>, 2015
+# Mustafa Rawi <mustafa@cubexco.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 13:11+0000\n"
-"Last-Translator: hoxhe aits <hoxhe0@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/odoo-8/language/ar/)\n"
+"PO-Revision-Date: 2015-10-06 05:29+0000\n"
+"Last-Translator: Mustafa Rawi <mustafa@cubexco.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/odoo/odoo-8/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -22,12 +23,12 @@ msgstr ""
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "(reload fonts)"
-msgstr "(إعادة تحميل الحروف"
+msgstr "(إعادة تحميل الخطوط)"
 
 #. module: base_setup
 #: field:base.config.settings,module_portal:0
 msgid "Activate the customer portal"
-msgstr "تفعيل موقع البوابة للعملاء"
+msgstr "تفعيل بوابة العملاء"
 
 #. module: base_setup
 #: field:base.config.settings,module_share:0
@@ -37,12 +38,12 @@ msgstr "السماح بمشاركة المستندات"
 #. module: base_setup
 #: field:base.config.settings,module_google_calendar:0
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
-msgstr "السماح للمستخدمين مزامنة التقويم مع تقويم جوجل"
+msgstr "السماح للمستخدمين بمزامنة التقويم مع تقويم جوجل"
 
 #. module: base_setup
 #: field:base.config.settings,module_base_import:0
 msgid "Allow users to import data from CSV files"
-msgstr "السماح للمستخدمين باستيراد معلومات من ملفات بصيغة CSV"
+msgstr "السماح للمستخدمين باستيراد ملفات CSV"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -53,7 +54,7 @@ msgstr "تطبيق"
 #. module: base_setup
 #: field:base.config.settings,module_google_drive:0
 msgid "Attach Google documents to any record"
-msgstr "إرفاق مستندات جوجل بأى سجٍل"
+msgstr "ارفاق مستندات جوجل بأي سجل"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -63,7 +64,7 @@ msgstr "المصادقة"
 #. module: base_setup
 #: field:sale.config.settings,module_crm:0
 msgid "CRM"
-msgstr "اداره علاقات العملاء"
+msgstr "إدارة علاقات العملاء"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -85,12 +86,12 @@ msgstr "إعداد المبيعات"
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "Configure outgoing email servers"
-msgstr "إعداد خادم البريد الصادر"
+msgstr "إعداد ملقم البريد الصادر"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "Configure your company data"
-msgstr "اعداد معلومات الشركة"
+msgstr "إعداد بيانات مؤسستك"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -102,29 +103,29 @@ msgstr "جهات الاتصال"
 #: field:base.setup.terminology,create_uid:0
 #: field:sale.config.settings,create_uid:0
 msgid "Created by"
-msgstr "أُنشئ بواسطة"
+msgstr "أنشئ بواسطة"
 
 #. module: base_setup
 #: field:base.config.settings,create_date:0
 #: field:base.setup.terminology,create_date:0
 #: field:sale.config.settings,create_date:0
 msgid "Created on"
-msgstr "إنشاؤه في"
+msgstr "أنشئ في"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
 msgid "Customer"
-msgstr "عميل"
+msgstr "العميل"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid "Customer Features"
-msgstr ""
+msgstr "خصائص العملاء"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
 msgid "Donor"
-msgstr "متبرع"
+msgstr "المتبرع"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -134,7 +135,7 @@ msgstr "البريد الإلكتروني"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid "Emails Integration"
-msgstr "دمج بالبريد"
+msgstr "التكامل مع البريد"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -146,7 +147,7 @@ msgstr "الإعدادات العامة"
 #. module: base_setup
 #: help:sale.config.settings,module_mass_mailing:0
 msgid "Get access to statistics with your mass mailing, manage campaigns."
-msgstr "التمكن من الحصول على إحصائيات البريد الجماعى, و إدارة الحملات."
+msgstr "احصل على وصول إلى إحصائيات المراسلات والحملات التسويقية."
 
 #. module: base_setup
 #: field:sale.config.settings,module_web_linkedin:0
@@ -156,7 +157,7 @@ msgstr "احصل على جهات الاتصال من LinkedIn"
 #. module: base_setup
 #: help:base.config.settings,module_portal:0
 msgid "Give your customers access to their documents."
-msgstr "تمكين العملاء من المستندات الخاصة بهم."
+msgstr "منح العملاء وصولاً إلى مستنداتهم لديك"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -171,18 +172,18 @@ msgstr "Google Drive"
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
 msgid "Guest"
-msgstr "زائر"
+msgstr "الزائر"
 
 #. module: base_setup
 #: field:base.setup.terminology,partner:0
 msgid "How do you call a Customer"
-msgstr "كيف يمكنك استدعاء عميل"
+msgstr "ماذا تسمي العميل"
 
 #. module: base_setup
 #: field:base.config.settings,id:0 field:base.setup.terminology,id:0
 #: field:sale.config.settings,id:0
 msgid "ID"
-msgstr "المعرّف"
+msgstr "المعرف"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -201,22 +202,22 @@ msgstr "آخر تحديث بواسطة"
 #: field:base.setup.terminology,write_date:0
 #: field:sale.config.settings,write_date:0
 msgid "Last Updated on"
-msgstr "آخر تحديث فى"
+msgstr "آخر تحديث في"
 
 #. module: base_setup
 #: field:sale.config.settings,module_mass_mailing:0
 msgid "Manage mass mailing campaigns"
-msgstr ""
+msgstr "إدارة حملات البريد الشاملة"
 
 #. module: base_setup
 #: field:base.config.settings,module_multi_company:0
 msgid "Manage multiple companies"
-msgstr "ادارة عدة شركات"
+msgstr "إدارة عدة مؤسسات"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
 msgid "Member"
-msgstr "عضو"
+msgstr "العضو"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -233,12 +234,12 @@ msgstr ""
 msgid ""
 "Once installed, you can configure your API credentials for \"Google "
 "calendar\""
-msgstr ""
+msgstr "بمجرد التركيب، يمكنك تكوين اعتماد API الخاص ب \"تقويم جوجل\""
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "Options"
-msgstr "خيارات"
+msgstr "الخيارات"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
@@ -248,12 +249,12 @@ msgstr "الشريك"
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
 msgid "Patient"
-msgstr "زبون"
+msgstr "المريض"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "Portal access"
-msgstr "استخدام موقع البوابة"
+msgstr "تفعيل بوابة العملاء"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -263,12 +264,12 @@ msgstr "عروض سعر وطلبات الشراء"
 #. module: base_setup
 #: field:base.config.settings,font:0
 msgid "Report Font"
-msgstr ""
+msgstr "خط التقرير"
 
 #. module: base_setup
 #: field:sale.config.settings,module_sale:0
 msgid "SALE"
-msgstr "بيع"
+msgstr "الخصم"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -280,22 +281,22 @@ msgstr "مميزات البيع"
 msgid ""
 "Set the font into the report header, it will be used as default font in the "
 "RML reports of the user company"
-msgstr ""
+msgstr "تعيين الخط في رأس التقرير، سيتم استخدامه كخط افتراضي في تقارير RML لشركة المستخدم"
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
 msgid "Share or embbed any screen of Odoo."
-msgstr ""
+msgstr "مشاركة أو دمج أي واجهة في أودو"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid "Social Network Integration"
-msgstr ""
+msgstr "التكامل مع مواقع التواصل الاجتماعي"
 
 #. module: base_setup
 #: view:base.setup.terminology:base_setup.base_setup_terminology_form
 msgid "Specify Your Terminology"
-msgstr "حدد المصطلحات الخاصة بك"
+msgstr "اختر مصطلحاتك"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
@@ -305,30 +306,30 @@ msgstr "مستأجر"
 #. module: base_setup
 #: help:base.config.settings,module_google_calendar:0
 msgid "This installs the module google_calendar."
-msgstr ""
+msgstr "سيثبت هذا الموديول google_calendar."
 
 #. module: base_setup
 #: help:base.config.settings,module_google_drive:0
 msgid "This installs the module google_docs."
-msgstr ""
+msgstr "سيثبت هذا الموديول google_docs."
 
 #. module: base_setup
 #: model:ir.actions.act_window,name:base_setup.action_partner_terminology_config_form
 msgid "Use another word to say \"Customer\""
-msgstr "استخدام كلمة أخرى لقول \"العميل\""
+msgstr "استخدم كلمة أخرى بدلاً عن عميل."
 
 #. module: base_setup
 #: field:base.config.settings,module_auth_oauth:0
 msgid ""
 "Use external authentication providers, sign in with google, facebook, ..."
-msgstr ""
+msgstr "استخدام موفري المصادقة الخارجية، تسجيل الدخول بجوجل، الفيسبوك، ..."
 
 #. module: base_setup
 #: help:sale.config.settings,module_web_linkedin:0
 msgid ""
 "When you create a new contact (person or company), you will be able to load "
 "all the data from LinkedIn (photos, address, etc)."
-msgstr ""
+msgstr "عند إنشاء جهة اتصال جديدة (شخص أو شركة)، سوف تكون قادرة على تحميل كافة البيانات من لينكد ان (صور، عناوين، الخ)."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -359,7 +360,7 @@ msgstr "يمكنك استخدام صندوق الحوار لتغيير المص�
 msgid ""
 "You will find more options in your company details: address for the header "
 "and footer, overdue payments texts, etc."
-msgstr ""
+msgstr "سوف تجد المزيد من الخيارات في تفاصيل شركتك: عنوان لرأس وتذييل الصفحة والنصوص المدفوعات المتأخرة، الخ."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
