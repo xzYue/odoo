@@ -1,3 +1,5 @@
+:banner: banners/build_interface_ext.jpg
+
 =============================
 Building Interface Extensions
 =============================
@@ -6,10 +8,10 @@ Building Interface Extensions
 
 .. default-domain:: js
 
-This guide is about creating modules for Modoo's web client.
+This guide is about creating modules for Odoo's web client.
 
-To create websites with Modoo, see :doc:`website`; to add business capabilities
-or extend existing business systems of Modoo, see :doc:`backend`.
+To create websites with Odoo, see :doc:`website`; to add business capabilities
+or extend existing business systems of Odoo, see :doc:`backend`.
 
 .. warning::
 
@@ -19,13 +21,13 @@ or extend existing business systems of Modoo, see :doc:`backend`.
     * jQuery_
     * `Underscore.js`_
 
-    It also requires :ref:`an installed Modoo <setup/install>`, and Git_.
+    It also requires :ref:`an installed Odoo <setup/install>`, and Git_.
 
 
 A Simple Module
 ===============
 
-Let's start with a simple Modoo module holding basic web component
+Let's start with a simple Odoo module holding basic web component
 configuration and letting us test the web framework.
 
 The example module is available online and can be downloaded using the
@@ -33,11 +35,11 @@ following command:
 
 .. code-block:: console
 
-    $ git clone http://github.com/modoo/petstore
+    $ git clone http://github.com/odoo/petstore
 
 This will create a ``petstore`` folder wherever you executed the command.
-You then need to add that folder to Modoo's
-:option:`addons path <modoo.py --addons-path>`, create a new database and
+You then need to add that folder to Odoo's
+:option:`addons path <odoo.py --addons-path>`, create a new database and
 install the ``oepetstore`` module.
 
 If you browse the ``petstore`` folder, you should see the following content:
@@ -70,7 +72,7 @@ The module already holds various server customizations. We'll come back to
 these later, for now let's focus on the web-related content, in the ``static``
 folder.
 
-Files used in the "web" side of an Modoo module must be placed in a ``static``
+Files used in the "web" side of an Odoo module must be placed in a ``static``
 folder so they are available to a web browser, files outside that folder can
 not be fetched by browsers. The ``src/css``, ``src/js`` and ``src/xml``
 sub-folders are conventional and not strictly necessary.
@@ -109,9 +111,9 @@ Which only prints a small message in the browser's console.
     One of the drawback is debugging becomes more difficult as
     individual files disappear and the code is made significantly less
     readable. It is possible to disable this process by enabling the
-    "developer mode": log into your Modoo instance (user *admin* password
+    "developer mode": log into your Odoo instance (user *admin* password
     *admin* by default) open the user menu (in the top-right corner of the
-    Modoo screen) and select :guilabel:`About Modoo` then :guilabel:`Activate
+    Odoo screen) and select :guilabel:`About Odoo` then :guilabel:`Activate
     the developer mode`:
 
     .. image:: web/about_odoo.png
@@ -125,7 +127,7 @@ Which only prints a small message in the browser's console.
 
 .. todo:: qweb files hooked via __openerp__.py, but js and CSS use bundles
 
-Modoo JavaScript Module
+Odoo JavaScript Module
 ======================
 
 Javascript doesn't have built-in modules. As a result variables defined in
@@ -133,7 +135,7 @@ different files are all mashed together and may conflict. This has given rise
 to various module patterns used to build clean namespaces and limit risks of
 naming conflicts.
 
-The Modoo framework uses one such pattern to define modules within web addons,
+The Odoo framework uses one such pattern to define modules within web addons,
 in order to both namespace code and correctly order its loading.
 
 ``oepetstore/static/js/petstore.js`` contains a module declaration::
@@ -142,20 +144,20 @@ in order to both namespace code and correctly order its loading.
         local.xxx = ...;
     }
 
-In Modoo web, modules are declared as functions set on the global ``openerp``
+In Odoo web, modules are declared as functions set on the global ``openerp``
 variable. The function's name must be the same as the addon (in this case
 ``oepetstore``) so the framework can find it, and automatically initialize it.
 
-When the web client decides to load your module, it'll call the root function
+When the web client loads your module it will call the root function
 and provide two parameters:
 
-* the first parameter is the current instance of the Modoo web client, it gives
-  access to various capabilities defined by the Modoo (translations,
+* the first parameter is the current instance of the Odoo web client, it gives
+  access to various capabilities defined by the Odoo (translations,
   network services) as well as objects defined by the core or by other
   modules.
 * the second parameter is your own local namespace automatically created by
   the web client. Objects and variables which should be accessible from
-  outside your module (either because the Modoo web client needs to call them
+  outside your module (either because the Odoo web client needs to call them
   or because others may want to customize them) should be set inside that
   namespace.
 
@@ -166,7 +168,7 @@ Much as modules, and contrary to most object-oriented languages, javascript
 does not build in *classes*\ [#classes]_ although it provides roughly
 equivalent (if lower-level and more verbose) mechanisms.
 
-For simplicity and developer-friendliness purposes, Modoo web provides a class
+For simplicity and developer-friendliness Odoo web provides a class
 system based on John Resig's `Simple JavaScript Inheritance`_.
 
 New classes are defined by calling the :func:`~openerp.web.Class.extend`
@@ -273,14 +275,14 @@ call the original method::
 Widgets Basics
 ==============
 
-The Modoo web client bundles jQuery_ for easy DOM manipulation. It is useful
+The Odoo web client bundles jQuery_ for easy DOM manipulation. It is useful
 and provides a better API than standard `W3C DOM`_\ [#dombugs]_, but
 insufficient to structure complex applications leading to difficult
 maintenance.
 
 Much like object-oriented desktop UI toolkits (e.g. Qt_, Cocoa_ or GTK_),
-Modoo Web makes specific components responsible for sections of a page. In
-Modoo web, the base for such components is the :class:`~openerp.Widget`
+Odoo Web makes specific components responsible for sections of a page. In
+Odoo web, the base for such components is the :class:`~openerp.Widget`
 class, a component specialized in handling a page section and displaying
 information for the user.
 
@@ -305,7 +307,7 @@ This line at the end of the file::
         'petstore.homepage', 'instance.oepetstore.HomePage');
 
 registers our basic widget as a client action. Client actions will be
-explained later in the guide, for now this is just what allows our widget to
+explained later, for now this is just what allows our widget to
 be called and displayed when we select the
 :menuselection:`Pet Store --> Pet Store --> Home Page` menu.
 
@@ -333,15 +335,15 @@ section of page they're in charge of (as a jQuery_ object). Widget content
 should be inserted there. By default, :attr:`~openerp.Widget.$el` is an
 empty ``<div>`` element.
 
-A ``<div>`` element is usually invisible for the user if it does not
-have any content (or specific styles giving it a size) which is why nothing
-is displayed on the page when ``HomePage`` is launched.
+A ``<div>`` element is usually invisible to the user if it has no content (or
+without specific styles giving it a size) which is why nothing is displayed
+on the page when ``HomePage`` is launched.
 
 Let's add some content to the widget's root element, using jQuery::
 
     local.HomePage = instance.Widget.extend({
         start: function() {
-            this.$el.append("<div>Hello dear Modoo user!</div>");
+            this.$el.append("<div>Hello dear Odoo user!</div>");
         },
     });
 
@@ -350,11 +352,11 @@ That message will now appear when you open :menuselection:`Pet Store
 
 .. note::
 
-    to refresh the javascript code loaded in Modoo Web, you will need to reload
-    the page. There is no need to restart the Modoo server
+    to refresh the javascript code loaded in Odoo Web, you will need to reload
+    the page. There is no need to restart the Odoo server.
 
-The ``HomePage`` widget is used by Modoo Web and managed automatically, to
-learn how to use a widget "from scratch" let's create a new one::
+The ``HomePage`` widget is used by Odoo Web and managed automatically.
+To learn how to use a widget "from scratch" let's create a new one::
 
     local.GreetingsWidget = instance.Widget.extend({
         start: function() {
@@ -367,7 +369,7 @@ We can now add our ``GreetingsWidget`` to the ``HomePage`` by using the
 
     local.HomePage = instance.Widget.extend({
         start: function() {
-            this.$el.append("<div>Hello dear Modoo user!</div>");
+            this.$el.append("<div>Hello dear Odoo user!</div>");
             var greeting = new local.GreetingsWidget(this);
             return greeting.appendTo(this.$el);
         },
@@ -403,7 +405,7 @@ then :guilabel:`Inspect Element`), it should look like this:
 .. code-block:: html
 
     <div class="oe_petstore_homepage">
-        <div>Hello dear Modoo user!</div>
+        <div>Hello dear Odoo user!</div>
         <div class="oe_petstore_greetings">
             <div>We are so happy to see you again in this menu!</div>
         </div>
@@ -436,7 +438,7 @@ of another widget, and exist on behalf of it. We call the container the
 *parent*, and the contained widget the *child*.
 
 Due to multiple technical and conceptual reasons, it is necessary for a widget
-to know who is his parent and who are its children.
+to know who is its parent and who are its children.
 
 :func:`~openerp.Widget.getParent`
     can be used to get the parent of a widget::
@@ -504,14 +506,14 @@ The QWeb Template Engine
 In the previous section we added content to our widgets by directly
 manipulating (and adding to) their DOM::
 
-    this.$el.append("<div>Hello dear Modoo user!</div>");
+    this.$el.append("<div>Hello dear Odoo user!</div>");
 
-This allows generating and displaying any type of content, but tends to
-rapidly get unwieldy when generating significant amounts of DOM (lots of
-duplication, quoting issues, ...)
+This allows generating and displaying any type of content, but gets unwieldy
+when generating significant amounts of DOM (lots of duplication, quoting
+issues, ...)
 
-As many other environments, Modoo's solution is to use a `template engine`_.
-Modoo's template engine is called :ref:`reference/qweb`.
+As many other environments, Odoo's solution is to use a `template engine`_.
+Odoo's template engine is called :ref:`reference/qweb`.
 
 QWeb is an XML-based templating language, similar to `Genshi
 <http://en.wikipedia.org/wiki/Genshi_(templating_language)>`_, `Thymeleaf
@@ -521,21 +523,21 @@ characteristics:
 
 * It's implemented fully in JavaScript and rendered in the browser
 * Each template file (XML files) contains multiple templates
-* It has special support in Modoo Web's :class:`~openerp.Widget`, though it
-  can be used outside of Modoo's web client (and it's possible to use
+* It has special support in Odoo Web's :class:`~openerp.Widget`, though it
+  can be used outside of Odoo's web client (and it's possible to use
   :class:`~openerp.Widget` without relying on QWeb)
 
 .. note::
 
     The rationale behind using QWeb instead of existing javascript template
     engines is the extensibility of pre-existing (third-party) templates, much
-    like Modoo :ref:`views <reference/views>`.
+    like Odoo :ref:`views <reference/views>`.
 
     Most javascript template engines are text-based which precludes easy
     structural extensibility where an XML-based templating engine can be
     generically altered using e.g. XPath or CSS and a tree-alteration DSL (or
     even just XSLT). This flexibility and extensibility is a core
-    characteristic of Modoo, and losing it was considered unacceptable.
+    characteristic of Odoo, and losing it was considered unacceptable.
 
 Using QWeb
 ----------
@@ -576,7 +578,7 @@ the template can be set directly on the widget via its
         },
     });
 
-Although the result look similar, there are two differences between these
+Although the result looks similar, there are two differences between these
 usages:
 
 * with the second version, the template is rendered right before
@@ -914,9 +916,8 @@ Selecting DOM elements within a widget can be performed by calling the
 
     this.$el.find("input.my_input")...
 
-But because it's an extremely common operation, :class:`~openerp.Widget`
-provides an equivalent shortcut through the :func:`~openerp.Widget.$`
-method::
+But because it's a common operation, :class:`~openerp.Widget` provides an
+equivalent shortcut through the :func:`~openerp.Widget.$` method::
 
     local.MyWidget = instance.Widget.extend({
         start: function() {
@@ -1066,7 +1067,7 @@ any. Example::
     Triggering events on an other widget is generally a bad idea. The main
     exception to that rule is ``openerp.web.bus`` which exists specifically
     to broadcasts evens in which any widget could be interested throughout
-    the Modoo web application.
+    the Odoo web application.
 
 Properties
 ----------
@@ -1107,7 +1108,7 @@ Exercise
     Then, modify the ``HomePage`` widget to instantiate ``ColorInputWidget``
     and display it. The ``HomePage`` widget should also display an empty
     rectangle. That rectangle must always, at any moment, have the same
-    background color than the color in the ``color`` property of the
+    background color as the color in the ``color`` property of the
     ``ColorInputWidget`` instance.
 
     Use QWeb to generate all HTML.
@@ -1185,7 +1186,7 @@ Exercise
 Modify existing widgets and classes
 ===================================
 
-The class system of the Modoo web framework allows direct modification of
+The class system of the Odoo web framework allows direct modification of
 existing classes using the :func:`~openerp.web.Class.include` method::
 
     var TestClass = instance.web.Class.extend({
@@ -1228,7 +1229,7 @@ JavaScript module. They are used thus::
 
     this.$el.text(_t("Hello user!"));
 
-In Modoo, translations files are automatically generated by scanning the source
+In Odoo, translations files are automatically generated by scanning the source
 code. All piece of code that calls a certain function are detected and their
 content is added to a translation file that will then be sent to the
 translators. In Python, the function is ``_()``. In JavaScript the function is
@@ -1260,19 +1261,19 @@ It is used to define translatable terms before the translations system is
 initialized, for class attributes for instance (as modules are loaded before
 the user's language is configured and translations are downloaded).
 
-Communication with the Modoo Server
+Communication with the Odoo Server
 ==================================
 
 Contacting Models
 -----------------
 
-Most operations with Modoo involve communicating with *models* implementing
+Most operations with Odoo involve communicating with *models* implementing
 business concern, these models will then (potentially) interact with some
 storage engine (usually PostgreSQL_).
 
 Although jQuery_ provides a `$.ajax`_ function for network interactions,
-communicating with Modoo requires additional metadata whose setup before every
-call would be verbose and error-prone. As a result, Modoo web provides
+communicating with Odoo requires additional metadata whose setup before every
+call would be verbose and error-prone. As a result, Odoo web provides
 higher-level communication primitives.
 
 To demonstrate this, the file ``petstore.py`` already contains a small model
@@ -1306,12 +1307,12 @@ Here is a sample widget that calls ``my_method()`` and displays the result::
         },
     });
 
-The class used to call Modoo models is :class:`openerp.Model`. It is
-instantiated with the Modoo model's name as first parameter
+The class used to call Odoo models is :class:`openerp.Model`. It is
+instantiated with the Odoo model's name as first parameter
 (``oepetstore.message_of_the_day`` here).
 
 :func:`~openerp.web.Model.call` can be used to call any (public) method of an
-Modoo model. It takes the following positional arguments:
+Odoo model. It takes the following positional arguments:
 
 ``name``
   The name of the method to call, ``my_method`` here
@@ -1361,14 +1362,13 @@ The context is like a "magic" argument that the web client will always give to
 the server when calling a method. The context is a dictionary containing
 multiple keys. One of the most important key is the language of the user, used
 by the server to translate all the messages of the application. Another one is
-the time zone of the user, used to compute correctly dates and times if Modoo
+the time zone of the user, used to compute correctly dates and times if Odoo
 is used by people in different countries.
 
-The ``argument`` is necessary in all methods, because if we forget it bad
-things could happen (like the application not being translated
-correctly). That's why, when you call a model's method, you should always give
-it to that argument. The solution to achieve that is to use
-:class:`openerp.web.CompoundContext`.
+The ``argument`` is necessary in all methods, otherwise bad things could
+happen (such as the application not being translated correctly). That's why,
+when you call a model's method, you should always provide that argument. The
+solution to achieve that is to use :class:`openerp.web.CompoundContext`.
 
 :class:`~openerp.web.CompoundContext` is a class used to pass the user's
 context (with language, time zone, etc...) to the server as well as adding new
@@ -1389,15 +1389,15 @@ merge all those contexts before sending them to the server.
         // will print: {'lang': 'en_US', 'new_key': 'key_value', 'tz': 'Europe/Brussels', 'uid': 1}
 
 You can see the dictionary in the argument ``context`` contains some keys that
-are related to the configuration of the current user in Modoo plus the
+are related to the configuration of the current user in Odoo plus the
 ``new_key`` key that was added when instantiating
 :class:`~openerp.web.CompoundContext`.
 
 Queries
 -------
 
-While :func:`~openerp.Model.call` is sufficient for any interaction with Modoo
-models, Modoo Web provides a helper for simpler and clearer querying of models
+While :func:`~openerp.Model.call` is sufficient for any interaction with Odoo
+models, Odoo Web provides a helper for simpler and clearer querying of models
 (fetching of records based on various conditions):
 :func:`~openerp.Model.query` which acts as a shortcut for the common
 combination of :py:meth:`~openerp.models.Model.search` and
@@ -1431,7 +1431,7 @@ versus::
   :class:`~openerp.web.Query` for its customization options.
 
 When the query is set up as desired, simply call
-:func:`~openerp.web.Query.all` to perform the actual query and return a
+:func:`~openerp.web.Query.all` to execute it and return a
 deferred to its result. The result is the same as
 :py:meth:`~openerp.models.Model.read`'s, an array of dictionaries where each
 dictionary is a requested record, with each requested field a dictionary key.
@@ -1514,10 +1514,10 @@ Exercises
     ``product.product`` using a special category *Pet Toys*. You can see the
     pre-generated toys and add new ones by going to
     :menuselection:`Pet Store --> Pet Store --> Pet Toys`. You will probably
-    need to explore ``product.product`` in order to create the right domain to
+    need to explore ``product.product`` to create the right domain to
     select just pet toys.
 
-    In Modoo, images are generally stored in regular fields encoded as
+    In Odoo, images are generally stored in regular fields encoded as
     base64_, HTML supports displaying images straight from base64 with
     :samp:`<img src="data:{mime_type};base64,{base64_image_data}"/>`
 
@@ -1646,7 +1646,7 @@ Existing web components
 The Action Manager
 ------------------
 
-In Modoo, many operations start from an :ref:`action <reference/actions>`:
+In Odoo, many operations start from an :ref:`action <reference/actions>`:
 opening a menu item (to a view), printing a report, ...
 
 Actions are pieces of data describing how a client should react to the
@@ -1654,7 +1654,7 @@ activation of a piece of content. Actions can be stored (and read through a
 model) or they can be generated on-the fly (locally to the client by
 javascript code, or remotely by a method of a model).
 
-In Modoo Web, the component responsible for handling and reacting to these
+In Odoo Web, the component responsible for handling and reacting to these
 actions is the *Action Manager*.
 
 Using the Action Manager
@@ -1751,11 +1751,11 @@ Client Actions
 
 Throughout this guide, we used a simple ``HomePage`` widget which the web
 client automatically starts when we select the right menu item. But how did
-the Modoo web know to start this widget? Because the widget is registered as
+the Odoo web know to start this widget? Because the widget is registered as
 a *client action*.
 
 A client action is (as its name implies) an action type defined almost
-entirely in the client, in javascript for Modoo web. The server simply sends
+entirely in the client, in javascript for Odoo web. The server simply sends
 an action tag (an arbitrary name), and optionally adds a few parameters, but
 beyond that *everything* is handled by custom client code.
 
@@ -1768,7 +1768,7 @@ Our widget is registered as the handler for the client action through this::
 the action manager looks up client action handlers when it needs to execute
 one. The first parameter of :class:`~openerp.web.Registry.add` is the name
 (tag) of the client action, and the second parameter is the path to the widget
-from the Modoo web client root.
+from the Odoo web client root.
 
 When a client action must be executed, the action manager looks up its tag
 in the registry, walks the specified path and displays the widget it finds at
@@ -1796,7 +1796,7 @@ and a menu opening the action:
 Architecture of the Views
 -------------------------
 
-Much of Modoo web's usefulness (and complexity) resides in views. Each view
+Much of Odoo web's usefulness (and complexity) resides in views. Each view
 type is a way of displaying a model in the client.
 
 The View Manager
@@ -1814,11 +1814,11 @@ multiple views depending on the original action's requirements:
 The Views
 '''''''''
 
-Most :ref:`Modoo views <reference/views>` are implemented through a subclass
+Most :ref:`Odoo views <reference/views>` are implemented through a subclass
 of :class:`openerp.web.View` which provides a bit of generic basic structure
 for handling events and displaying model information.
 
-The *search view* is considered a view type by the main Modoo framework, but
+The *search view* is considered a view type by the main Odoo framework, but
 handled separately by the web client (as it's a more permanent fixture and
 can interact with other views, which regular views don't do).
 
@@ -1838,10 +1838,10 @@ Views may also want to handle search queries by overriding
 The Form View Fields
 --------------------
 
-A common Modoo web need is the extension of the form view to add new ways of
-displaying form fields.
+A common need is the extension of the web form view to add new ways of
+displaying fields.
 
-All built-in fields have a default display implementation, creating a new
+All built-in fields have a default display implementation, a new
 form widget may be necessary to correctly interact with a new field type
 (e.g. a :term:`GIS` field) or to provide new representations and ways to
 interact with existing field types (e.g. validate
@@ -1869,7 +1869,7 @@ simply use the ``widget`` attribute in the view's XML description:
 Fields are instantiated by the form view after it has read its XML description
 and constructed the corresponding HTML representing that description. After
 that, the form view will communicate with the field objects using some
-methods. Theses methods are defined by the ``FieldInterface``
+methods. These methods are defined by the ``FieldInterface``
 interface. Almost all fields inherit the ``AbstractField`` abstract
 class. That class defines some default mechanisms that need to be implemented
 by most fields.
@@ -1878,7 +1878,7 @@ Here are some of the responsibilities of a field class:
 
 * The field class must display and allow the user to edit the value of the field.
 * It must correctly implement the 3 field attributes available in all fields
-  of Modoo. The ``AbstractField`` class already implements an algorithm that
+  of Odoo. The ``AbstractField`` class already implements an algorithm that
   dynamically calculates the value of these attributes (they can change at any
   moment because their value change according to the value of other
   fields). Their values are stored in *Widget Properties* (the widget
@@ -1894,7 +1894,7 @@ Here are some of the responsibilities of a field class:
     ``AbstractField`` class already has a basic implementation of this
     behavior that fits most fields.
   * ``readonly``: When ``true``, the field must not be editable by the
-    user. Most fields in Modoo have a completely different behavior depending
+    user. Most fields in Odoo have a completely different behavior depending
     on the value of ``readonly``. As example, the ``FieldChar`` displays an
     HTML ``<input>`` when it is editable and simply displays the text when
     it is read-only. This also means it has much more code it would need to
@@ -1904,10 +1904,10 @@ Here are some of the responsibilities of a field class:
 * Fields have two methods, ``set_value()`` and ``get_value()``, which are
   called by the form view to give it the value to display and get back the new
   value entered by the user. These methods must be able to handle the value as
-  given by the Modoo server when a ``read()`` is performed on a model and give
+  given by the Odoo server when a ``read()`` is performed on a model and give
   back a valid value for a ``write()``.  Remember that the JavaScript/Python
   data types used to represent the values given by ``read()`` and given to
-  ``write()`` is not necessarily the same in Modoo. As example, when you read a
+  ``write()`` is not necessarily the same in Odoo. As example, when you read a
   many2one, it is always a tuple whose first value is the id of the pointed
   record and the second one is the name get (ie: ``(15, "Agrolait")``). But
   when you write a many2one it must be a single integer, not a tuple
@@ -1917,20 +1917,20 @@ Here are some of the responsibilities of a field class:
 
 Please note that, to better understand how to implement fields, you are
 strongly encouraged to look at the definition of the ``FieldInterface``
-interface and the ``AbstractField`` class directly in the code of the Modoo web
+interface and the ``AbstractField`` class directly in the code of the Odoo web
 client.
 
 Creating a New Type of Field
 ''''''''''''''''''''''''''''
 
 In this part we will explain how to create a new type of field. The example
-here will be to re-implement the ``FieldChar`` class and explain progressively
+here will be to re-implement the ``FieldChar`` class and progressively explain
 each part.
 
 Simple Read-Only Field
 """"""""""""""""""""""
 
-Here is a first implementation that will only be able to display a text. The
+Here is a first implementation that will only display text. The
 user will not be able to modify the content of the field.
 
 .. code-block:: javascript
@@ -1970,16 +1970,16 @@ none is specified by the form view (here we assume the default value of a
 Read-Write Field
 """"""""""""""""
 
-Fields that only display their content and don't give the possibility to the
-user to modify it can be useful, but most fields in Modoo allow edition
-too. This makes the field classes more complicated, mostly because fields are
-supposed to handle both and editable and non-editable mode, those modes are
+Read-only fields, which only display content and don't allow the
+user to modify it can be useful, but most fields in Odoo also allow editing.
+This makes the field classes more complicated, mostly because fields are
+supposed to handle both editable and non-editable mode, those modes are
 often completely different (for design and usability purpose) and the fields
-must be able to switch from one mode to another at any moment.
+must be able to switch between modes at any moment.
 
 To know in which mode the current field should be, the ``AbstractField`` class
 sets a widget property named ``effective_readonly``. The field should watch
-the changes in that widget property and display the correct mode
+for changes in that widget property and display the correct mode
 accordingly. Example::
 
     local.FieldChar2 = instance.web.form.AbstractField.extend({
@@ -2025,17 +2025,16 @@ accordingly. Example::
         </div>
     </t>
 
-In the ``start()`` method (which is called right after a widget has been
+In the ``start()`` method (which is called immediately after a widget has been
 appended to the DOM), we bind on the event ``change:effective_readonly``. That
-will allow use to redisplay the field each time the widget property
+allows us to redisplay the field each time the widget property
 ``effective_readonly`` changes. This event handler will call
 ``display_field()``, which is also called directly in ``start()``. This
 ``display_field()`` was created specifically for this field, it's not a method
-defined in ``AbstractField`` or any other class. This is the method we will
-use to display the content of the field depending we are in read-only mode or
-not.
+defined in ``AbstractField`` or any other class. We can use this method
+to display the content of the field depending on the current mode.
 
-From now on the conception of this field is quite typical, except there is a
+From now on the conception of this field is typical, except there is a
 lot of verifications to know the state of the ``effective_readonly`` property:
 
 * In the QWeb template used to display the content of the widget, it displays
@@ -2217,7 +2216,7 @@ the most useful being:
                 }
             });
 
-            instance.web.form.custom_widgets.add('coordinates', 'local.WidgetCoordinates');
+            instance.web.form.custom_widgets.add('coordinates', 'instance.oepetstore.WidgetCoordinates');
 
         .. code-block:: xml
 
@@ -2241,7 +2240,7 @@ the most useful being:
 
     .. _See the online documentation to know how to use it: http://www.w3schools.com/html/html5_geolocation.asp
 
-    Please also note that it wouldn't be very logical to allow the user to
+    Please also note that the user should not be able to
     click on that button when the form view is in read-only mode. So, this
     custom widget should handle correctly the ``effective_readonly`` property
     just like any field. One way to do this would be to make the button
@@ -2281,13 +2280,13 @@ the most useful being:
                 },
             });
 
-            instance.web.form.custom_widgets.add('coordinates', 'local.WidgetCoordinates');
+            instance.web.form.custom_widgets.add('coordinates', 'instance.oepetstore.WidgetCoordinates');
 
         .. code-block:: xml
 
             <t t-name="WidgetCoordinates">
                 <iframe width="400" height="300"
-                    t-att-src="https://maps.google.com/?ie=UTF8&amp;ll={{latitude}},{{longitude}}&amp;output=embed">
+                    t-attf-src="https://maps.google.com/?ie=UTF8&amp;ll={{latitude}},{{longitude}}&amp;output=embed">
                 </iframe>
                 <button>Get My Current Coordinate</button>
             </t>

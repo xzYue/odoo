@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
+"PO-Revision-Date: 2015-10-22 14:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Persian (http://www.transifex.com/projects/p/modoo-8/language/fa/)\n"
+"Language-Team: Persian (http://www.transifex.com/odoo/odoo-8/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -216,7 +216,7 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Modoo.\n"
+"                    document in Odoo.\n"
 "                </p>\n"
 "            "
 msgstr ""
@@ -287,7 +287,7 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Modoo based on inventory needs.\n"
+"                by Odoo based on inventory needs.\n"
 "              </p>\n"
 "            "
 msgstr ""
@@ -299,7 +299,7 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Modoo generates draft invoices from your purchase\n"
+"            supplier. Odoo generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"
@@ -803,7 +803,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr ""
+msgstr "ویزارد ایجاد ایمیل"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:159 code:addons/purchase/purchase.py:413
@@ -883,7 +883,7 @@ msgstr "شناسه"
 #. module: purchase
 #: help:purchase.order,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_2_stock_picking
@@ -1028,7 +1028,7 @@ msgstr "تنظیمات صدور فاکتور"
 #. module: purchase
 #: field:purchase.order,message_is_follower:0
 msgid "Is a Follower"
-msgstr ""
+msgstr "دنبال می کند"
 
 #. module: purchase
 #: help:purchase.order,shipped:0
@@ -1222,7 +1222,7 @@ msgstr "تاریخ سفارش:"
 #. module: purchase
 #: field:purchase.order,order_line:0
 msgid "Order Lines"
-msgstr ""
+msgstr "سطرهای سفارش"
 
 #. module: purchase
 #: view:purchase.order:purchase.view_purchase_order_filter
@@ -2066,7 +2066,7 @@ msgstr "کاربر"
 #: view:website:purchase.report_purchaseorder_document
 #: view:website:purchase.report_purchasequotation_document
 msgid "VAT:"
-msgstr ""
+msgstr "مالیات ارزش‌افزوده:"
 
 #. module: purchase
 #: field:purchase.report,validator:0
@@ -2110,7 +2110,7 @@ msgstr "هشدار!"
 #. module: purchase
 #: field:purchase.order,website_message_ids:0
 msgid "Website Messages"
-msgstr ""
+msgstr "پیام‌های وب‌سایت"
 
 #. module: purchase
 #: help:purchase.order,website_message_ids:0

@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/modoo-8/language/hr/)\n"
+"PO-Revision-Date: 2015-10-22 07:23+0000\n"
+"Last-Translator: Davor Bojkić <bole@dajmi5.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-8/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,7 +24,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2305
 #, python-format
 msgid "%(field)s %(operator)s"
-msgstr ""
+msgstr "%(field)s %(operator)s"
 
 #. module: web
 #. openerp-web
@@ -254,7 +254,7 @@ msgstr "O programu"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Modoo"
+msgid "About Odoo"
 msgstr ""
 
 #. module: web
@@ -545,7 +545,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Modoo."
+msgid "Check this box to evaluate Odoo."
 msgstr ""
 
 #. module: web
@@ -724,7 +724,7 @@ msgstr "Kreiraj bazu podataka"
 #: code:addons/web/static/src/js/view_form.js:3467
 #, python-format
 msgid "Create a %s"
-msgstr ""
+msgstr "Kreiraj %s"
 
 #. module: web
 #. openerp-web
@@ -745,7 +745,7 @@ msgstr "Kreiraj i uredi"
 #: code:addons/web/static/src/xml/base.xml:2005
 #, python-format
 msgid "Create and edit"
-msgstr ""
+msgstr "Kreiraj i uredi..."
 
 #. module: web
 #. openerp-web
@@ -881,7 +881,7 @@ msgstr "Odbaci"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Modoo around the world..."
+msgid "Discover Events of Odoo around the world..."
 msgstr ""
 
 #. module: web
@@ -1007,7 +1007,7 @@ msgstr "Dupliciram bazu podataka"
 #: code:addons/web/static/src/js/view_form.js:2482
 #, python-format
 msgid "E-mail Error"
-msgstr ""
+msgstr "Greška s e-poštom"
 
 #. module: web
 #. openerp-web
@@ -1061,7 +1061,7 @@ msgstr "Kodna stranica:"
 #: code:addons/web/static/src/xml/website.tour.xml:25
 #, python-format
 msgid "End This Tutorial"
-msgstr ""
+msgstr "Završi ovu lekciju"
 
 #. module: web
 #. openerp-web
@@ -1139,14 +1139,14 @@ msgstr "Izvoz svih podataka"
 #: code:addons/web/static/src/js/views.js:852
 #, python-format
 msgid "Failed to evaluate search criterions"
-msgstr ""
+msgstr "Neuspješno obrađeni uvjeti za pretraživanje"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1732
 #, python-format
 msgid "Favorites"
-msgstr ""
+msgstr "Omiljeni"
 
 #. module: web
 #. openerp-web
@@ -1203,7 +1203,7 @@ msgstr "Datoteka:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Modoo database. You can\n"
+"Fill in this form to create an Odoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
@@ -1235,7 +1235,7 @@ msgstr "Naziv filtera"
 #: code:addons/web/static/src/js/search.js:1886
 #, python-format
 msgid "Filter name is required."
-msgstr ""
+msgstr "Potreban je naziv filtra."
 
 #. module: web
 #. openerp-web
@@ -1561,7 +1561,7 @@ msgstr "Izgleda da je potrebno ponovno učitavanje aplikacije (F5)..."
 #: code:addons/web/static/src/js/views.js:990
 #, python-format
 msgid "Metadata (%s)"
-msgstr ""
+msgstr "Metapodaci (%s)"
 
 #. module: web
 #. openerp-web
@@ -1617,8 +1617,8 @@ msgstr "Više"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Modoo.com account"
-msgstr ""
+msgid "My Odoo.com account"
+msgstr "Moj Odoo.com račun"
 
 #. module: web
 #. openerp-web
@@ -1695,14 +1695,14 @@ msgstr "Nema podataka."
 #: code:addons/web/static/src/js/view_form.js:3399
 #, python-format
 msgid "No results to show..."
-msgstr ""
+msgstr "Nema rezultata za prikaz..."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:3775
 #, python-format
 msgid "No value found for the field  for value "
-msgstr ""
+msgstr "Nije pronađena vrijednost za polje za vrijednost"
 
 #. module: web
 #. openerp-web
@@ -1728,34 +1728,34 @@ msgstr "Objekt:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Modoo"
-msgstr ""
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Modoo (Formerly OpenERP)"
-msgstr ""
+msgid "Odoo (Formerly OpenERP)"
+msgstr "Odoo (bivši OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Modoo Web Tests"
-msgstr ""
+msgid "Odoo Web Tests"
+msgstr "Odoo Web testovi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Modoo is a trademark of the"
+msgid "Odoo is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Modoo.com"
-msgstr ""
+msgid "Odoo.com"
+msgstr "Odoo.com"
 
 #. module: web
 #. openerp-web
@@ -1885,7 +1885,7 @@ msgstr "Upišite trenutno važeću lozinku"
 #: code:addons/web/static/src/xml/base.xml:1857
 #, python-format
 msgid "Please note that only the selected ids will be exported."
-msgstr ""
+msgstr "Imajte na umu da će se izvesti samo odabrana polja."
 
 #. module: web
 #. openerp-web
@@ -1894,7 +1894,7 @@ msgstr ""
 msgid ""
 "Please pay attention that all records matching your search filter will be "
 "exported. Not only the selected ids."
-msgstr ""
+msgstr "Imajte na umu da će se izvesti svi zapisi koji odgovaraju filtru pretrage. Ne samo odabrani."
 
 #. module: web
 #. openerp-web
@@ -1969,7 +1969,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:2512
 #, python-format
 msgid "Resource Error"
-msgstr ""
+msgstr "Greška resursa"
 
 #. module: web
 #. openerp-web
@@ -2409,7 +2409,7 @@ msgstr "Pojavio se problem kod učitavanja vaše datoteke"
 #, python-format
 msgid ""
 "This filter is global and will be removed for everybody if you continue."
-msgstr ""
+msgstr "Ovaj filtar je zajednički i ako nastavite bit će obrisan za sve korisnike."
 
 #. module: web
 #. openerp-web
@@ -2460,7 +2460,7 @@ msgstr "Danas"
 #: code:addons/web/static/src/xml/base.xml:1039
 #, python-format
 msgid "Toggle Dropdown"
-msgstr ""
+msgstr "Prebaci padajući"
 
 #. module: web
 #. openerp-web
@@ -2569,7 +2569,7 @@ msgstr "Učitavanje..."
 #: code:addons/web/static/src/js/views.js:1310
 #, python-format
 msgid "Uploading Error"
-msgstr ""
+msgstr "Greška kod prijenosa"
 
 #. module: web
 #. openerp-web
@@ -2619,7 +2619,7 @@ msgstr "Polja pogleda"
 #: code:addons/web/static/src/xml/base.xml:539
 #, python-format
 msgid "View Metadata"
-msgstr ""
+msgstr "Pogledaj metapodatke"
 
 #. module: web
 #. openerp-web
@@ -2694,7 +2694,7 @@ msgstr "Da"
 #: code:addons/web/static/src/js/view_form.js:3473
 #, python-format
 msgid "You are creating a new %s, are you sure it does not exist yet?"
-msgstr ""
+msgstr "Kreirate %s. Jeste li sigurni da već ne postoji?"
 
 #. module: web
 #: code:addons/web/controllers/main.py:796
@@ -2728,8 +2728,8 @@ msgstr "Odaberite barem jedan zapis."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Modoo session expired. Please refresh the current web page."
-msgstr ""
+msgid "Your Odoo session expired. Please refresh the current web page."
+msgstr "Istekala je vaša Odoo sesija. Osvježite trenutnu web stranicu."
 
 #. module: web
 #. openerp-web
@@ -2863,7 +2863,7 @@ msgstr "nije jednako"
 #: code:addons/web/static/src/js/search.js:2286
 #, python-format
 msgid "is not set"
-msgstr ""
+msgstr "nije upisano"
 
 #. module: web
 #. openerp-web
@@ -2874,7 +2874,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2285
 #, python-format
 msgid "is set"
-msgstr ""
+msgstr "je upisano"
 
 #. module: web
 #. openerp-web

@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 13:04+0000\n"
+"PO-Revision-Date: 2015-10-18 23:54+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/projects/p/modoo-8/language/es_EC/)\n"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-8/language/es_EC/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -135,7 +135,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Modoo allows you to log inbound calls on the fly to track the\n"
+"            Odoo allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -151,7 +151,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Modoo allows you to easily define all the calls to be done\n"
+"            Odoo allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
@@ -164,7 +164,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "<p>\n"
-"                    Modoo helps you keep track of your sales pipeline to follow\n"
+"                    Odoo helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -193,7 +193,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid ""
 "<p>\n"
-"                Modoo helps you keep track of your sales pipeline to follow\n"
+"                Odoo helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -750,7 +750,7 @@ msgstr ""
 #: field:crm.tracking.medium,create_uid:0
 #: field:crm.tracking.source,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Creado por:"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,create_date:0
@@ -768,7 +768,7 @@ msgstr ""
 #: field:crm.tracking.medium,create_date:0
 #: field:crm.tracking.source,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Creado"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -839,7 +839,7 @@ msgstr "Fecha"
 #. module: crm
 #: help:crm.lead,message_last_post:0 help:crm.phonecall,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr ""
+msgstr "Fecha de el último mensaje publicado en el registro"
 
 #. module: crm
 #: field:crm.lead,day_open:0
@@ -1073,7 +1073,7 @@ msgstr ""
 #: view:crm.lead.report:crm.view_report_crm_lead_filter
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
 msgid "Extended Filters"
-msgstr ""
+msgstr "Filtros Extendidos"
 
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
@@ -1104,7 +1104,7 @@ msgstr ""
 #: field:crm.lead,message_follower_ids:0
 #: field:crm.phonecall,message_follower_ids:0
 msgid "Followers"
-msgstr ""
+msgstr "Seguidores"
 
 #. module: crm
 #: code:addons/crm/base_partner_merge.py:301
@@ -1220,7 +1220,7 @@ msgstr "ID"
 #. module: crm
 #: help:crm.lead,message_unread:0 help:crm.phonecall,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "Si esta habilitado, los nuevos mensajes deben ser revisado"
 
 #. module: crm
 #: help:crm.lead,opt_out:0
@@ -1298,7 +1298,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,message_last_post:0 field:crm.phonecall,message_last_post:0
 msgid "Last Message Date"
-msgstr ""
+msgstr "Fecha de último mensaje"
 
 #. module: crm
 #: field:crm.lead,date_last_stage_update:0
@@ -1320,7 +1320,7 @@ msgstr ""
 #: field:crm.tracking.campaign,write_uid:0
 #: field:crm.tracking.medium,write_uid:0 field:crm.tracking.source,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultima Actualización por"
 
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,write_date:0
@@ -1337,7 +1337,7 @@ msgstr ""
 #: field:crm.tracking.medium,write_date:0
 #: field:crm.tracking.source,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Actualizado en"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:893 selection:crm.case.stage,type:0
@@ -1720,7 +1720,7 @@ msgstr "Mensajes"
 #. module: crm
 #: help:crm.lead,message_ids:0 help:crm.phonecall,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Historial de Comunicación y Mensajes"
 
 #. module: crm
 #: field:base.partner.merge.line,min_id:0
@@ -1801,7 +1801,7 @@ msgstr "Nuevo"
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
 msgid "New Mail"
-msgstr ""
+msgstr "Nuevo Correo"
 
 #. module: crm
 #: model:crm.tracking.source,name:crm.crm_source_newsletter
@@ -2569,7 +2569,7 @@ msgstr ""
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Modoo will propose you to merge only those having\n"
+"                            Odoo will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
 msgstr ""
 
@@ -2918,7 +2918,7 @@ msgstr "Por hacer"
 #. module: crm
 #: model:ir.ui.menu,name:crm.root_menu
 msgid "Tools"
-msgstr ""
+msgstr "Herramientas"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_top_opportunities
@@ -2958,7 +2958,7 @@ msgstr ""
 #. module: crm
 #: field:crm.lead,message_unread:0 field:crm.phonecall,message_unread:0
 msgid "Unread Messages"
-msgstr ""
+msgstr "Mensajes no leídos"
 
 #. module: crm
 #: field:crm.lead,write_date:0
@@ -3015,7 +3015,7 @@ msgstr "Valor"
 #: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0
 #: selection:crm.opportunity.report,priority:0
 msgid "Very High"
-msgstr ""
+msgstr "Muy alto"
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.lead.report,priority:0

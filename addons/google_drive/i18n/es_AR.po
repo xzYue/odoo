@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * google_drive
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 12:58+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/modoo-8/language/es_AR/)\n"
+"PO-Revision-Date: 2015-09-26 22:33+0000\n"
+"Last-Translator: Leonardo Germán Chianea <noamixcontenidos@gmail.com>\n"
+"Language-Team: Spanish (Argentina) (http://www.transifex.com/odoo/odoo-8/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,7 +21,7 @@ msgstr ""
 #. module: google_drive
 #: view:google.drive.config:google_drive.view_google_drive_config_form
 msgid ""
-"- Go to the Modoo document you want to filter. For instance, go to "
+"- Go to the Odoo document you want to filter. For instance, go to "
 "Opportunities and search on Sales Department."
 msgstr ""
 
@@ -62,7 +62,7 @@ msgid ""
 "                    Click to add a new template.\n"
 "                </p>\n"
 "                <p>\n"
-"                    Link your own google drive templates to any record of Modoo. If you have really specific documents you want your collaborator fill in, e.g. Use a spreadsheet to control the quality of your product or review the delivery checklist for each order in a foreign country, ... Its very easy to manage them, link them to Modoo and use them to collaborate with your employees.\n"
+"                    Link your own google drive templates to any record of Odoo. If you have really specific documents you want your collaborator fill in, e.g. Use a spreadsheet to control the quality of your product or review the delivery checklist for each order in a foreign country, ... Its very easy to manage them, link them to Odoo and use them to collaborate with your employees.\n"
 "                </p>\n"
 "            "
 msgstr ""
@@ -98,7 +98,7 @@ msgstr "Configure sus plantillas"
 #. module: google_drive
 #: field:google.drive.config,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: google_drive
 #: field:google.drive.config,create_date:0
@@ -133,7 +133,7 @@ msgstr "Filtro"
 #: code:addons/google_drive/google_drive.py:89
 #, python-format
 msgid "Go to the configuration panel"
-msgstr ""
+msgstr "Vaya al panel de configuración"
 
 #. module: google_drive
 #: field:google.drive.config,google_drive_client_id:0
@@ -143,7 +143,7 @@ msgstr ""
 #. module: google_drive
 #: model:ir.ui.menu,name:google_drive.menu_google_drive_config
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
 #. module: google_drive
 #: view:google.drive.config:google_drive.view_google_drive_config_form
@@ -194,12 +194,12 @@ msgstr "¡Error de Clave!"
 #. module: google_drive
 #: field:google.drive.config,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última actualización realizada por"
 
 #. module: google_drive
 #: field:google.drive.config,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última actualización el"
 
 #. module: google_drive
 #: field:google.drive.config,model:0 field:google.drive.config,model_id:0
@@ -234,7 +234,7 @@ msgstr ""
 #. module: google_drive
 #: field:google.drive.config,name:0
 msgid "Template Name"
-msgstr ""
+msgstr "Nombre de plantilla"
 
 #. module: google_drive
 #: field:google.drive.config,google_drive_template_url:0
@@ -263,7 +263,7 @@ msgstr ""
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Agrolait_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Modoo attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
 "                                'Agrolait_SO0001_Sales'."
 msgstr ""
 

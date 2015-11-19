@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-27 09:16+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Vietnamese (http://www.transifex.com/projects/p/modoo-8/language/vi/)\n"
+"PO-Revision-Date: 2015-07-17 08:12+0000\n"
+"Last-Translator: fanha99 <fanha99@hotmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/odoo/odoo-8/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,7 +31,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2139
 #, python-format
 msgid "%(field)s %(operator)s \"%(value)s\""
-msgstr "%(field)s %(operator)s \"%(value)s\""
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -73,7 +73,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core.js:675
 #, python-format
 msgid "%d minutes ago"
-msgstr "cách đây %d phút"
+msgstr "%d phút trước"
 
 #. module: web
 #. openerp-web
@@ -254,7 +254,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Modoo"
+msgid "About Odoo"
 msgstr ""
 
 #. module: web
@@ -428,7 +428,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:428
 #, python-format
 msgid "Belgium"
-msgstr "Bỉ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -545,7 +545,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Modoo."
+msgid "Check this box to evaluate Odoo."
 msgstr ""
 
 #. module: web
@@ -753,7 +753,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:4453
 #, python-format
 msgid "Create: "
-msgstr "Tạo: "
+msgstr "Tạo mới: "
 
 #. module: web
 #. openerp-web
@@ -881,7 +881,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Modoo around the world..."
+msgid "Discover Events of Odoo around the world..."
 msgstr ""
 
 #. module: web
@@ -889,7 +889,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome.js:537
 #, python-format
 msgid "Do you really want to delete the database: %s ?"
-msgstr "Bạn thật sự muốn xóa cơ sở dữ liệu: %s ?"
+msgstr "Bạn có thật sự muốn xóa cơ sở dữ liệu: %s ?"
 
 #. module: web
 #. openerp-web
@@ -939,7 +939,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:2675
 #, python-format
 msgid "Done"
-msgstr "Hoàn tất"
+msgstr "Hoàn thành"
 
 #. module: web
 #. openerp-web
@@ -1047,7 +1047,7 @@ msgstr ""
 #. module: web
 #: view:website:web.login
 msgid "Email"
-msgstr "Thư điện tử"
+msgstr "Tên đăng nhập / Email"
 
 #. module: web
 #. openerp-web
@@ -1203,7 +1203,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Modoo database. You can\n"
+"Fill in this form to create an Odoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
@@ -1617,7 +1617,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Modoo.com account"
+msgid "My Odoo.com account"
 msgstr ""
 
 #. module: web
@@ -1728,33 +1728,33 @@ msgstr "Đối tượng:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Modoo"
+msgid "Odoo"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Modoo (Formerly OpenERP)"
+msgid "Odoo (Formerly OpenERP)"
 msgstr ""
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Modoo Web Tests"
+msgid "Odoo Web Tests"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Modoo is a trademark of the"
+msgid "Odoo is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Modoo.com"
+msgid "Odoo.com"
 msgstr ""
 
 #. module: web
@@ -1948,7 +1948,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1843
 #, python-format
 msgid "Remove"
-msgstr "Xóa"
+msgstr "Gỡ bỏ"
 
 #. module: web
 #. openerp-web
@@ -2024,7 +2024,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1354
 #, python-format
 msgid "Save As"
-msgstr "Lưu dạng"
+msgstr "Lưu thành"
 
 #. module: web
 #. openerp-web
@@ -2132,7 +2132,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1509
 #, python-format
 msgid "Select"
-msgstr "Chọn"
+msgstr "Lựa chọn"
 
 #. module: web
 #. openerp-web
@@ -2281,7 +2281,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core.js:703
 #, python-format
 msgid "Still loading...<br />Please be patient."
-msgstr "Đang tải dữ liệu...<br />Vui lòng chờ."
+msgstr "Vẫn đang nạp...<br />Xin hãy kiên nhẫn."
 
 #. module: web
 #. openerp-web
@@ -2651,7 +2651,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:2658
 #, python-format
 msgid "Week of the year"
-msgstr "Tuần của năm"
+msgstr "Tuần trong năm"
 
 #. module: web
 #. openerp-web
@@ -2728,7 +2728,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Modoo session expired. Please refresh the current web page."
+msgid "Your Odoo session expired. Please refresh the current web page."
 msgstr ""
 
 #. module: web
@@ -2757,7 +2757,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core.js:680
 #, python-format
 msgid "about a month ago"
-msgstr "khoảng 1 tháng trước"
+msgstr "khoảng một tháng trước"
 
 #. module: web
 #. openerp-web
@@ -2778,7 +2778,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2182
 #, python-format
 msgid "contains"
-msgstr "có chứa"
+msgstr "bao gồm"
 
 #. module: web
 #. openerp-web
@@ -2890,7 +2890,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2264
 #, python-format
 msgid "less or equal than"
-msgstr "nhở hơn hoặc bằng"
+msgstr "nhỏ hơn hoặc bằng"
 
 #. module: web
 #. openerp-web

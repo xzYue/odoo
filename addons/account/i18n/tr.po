@@ -1,17 +1,19 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# gezgin biri <gezginbiri@hotmail.com>, 2015
+# Murat Kaplan <muratk@projetgrup.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 12:57+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/modoo-8/language/tr/)\n"
+"POT-Creation-Date: 2015-10-15 06:40+0000\n"
+"PO-Revision-Date: 2015-11-02 16:33+0000\n"
+"Last-Translator: gezgin biri <gezginbiri@hotmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/odoo/odoo-8/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -45,7 +47,7 @@ msgid ""
 "    <br/>\n"
 "    <p>It is also possible to directly pay with Paypal:</p>\n"
 "        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
-"            <img class=\"oe_edi_paypal_button\" src=\"https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif\"/>\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"/account/static/src/img/btn_paynowcc_lg.gif\"/>\n"
 "        </a>\n"
 "    % endif\n"
 "    \n"
@@ -87,7 +89,7 @@ msgid ""
 "    </div>\n"
 "</div>\n"
 "            "
-msgstr "\n<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n\n    <p>Merhaba ${object.partner_id.name},</p>\n\n    <p>Size yeni bir fatura kesildi: </p>\n    \n    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n       &nbsp;&nbsp;<strong>REFERANSLAR</strong><br />\n       &nbsp;&nbsp;Fautora No: <strong>${object.number}</strong><br />\n       &nbsp;&nbsp;Fatura Toplamı: <strong>${object.amount_total} ${object.currency_id.name}</strong><br />\n       &nbsp;&nbsp;Fatura Tarihi: ${object.date_invoice}<br />\n       % if object.origin:\n       &nbsp;&nbsp;Sipariş Referansı: ${object.origin}<br />\n       % endif\n       % if object.user_id:\n       &nbsp;&nbsp;İşlemi Yapan: <a href=\"mailto:${object.user_id.email or ''}?subject=Invoice%20${object.number}\">${object.user_id.name}</a>\n       % endif\n    </p>  \n    \n    % if object.paypal_url:\n    <br/>\n    <p>Bu faturanızı doğrudan Paypal ile ödeyebilirsiniz:</p>\n        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n            <img class=\"oe_edi_paypal_button\" src=\"https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif\"/>\n        </a>\n    % endif\n    \n    <br/>\n    <p>Eğer herhangi bir sorunuz varsa, lütfen bizimle temasa geçmek için tereddüt etmeyin.</p>\n    <p>${object.company_id.name or 'us'} seçtiğiniz için teşekkür ederiz.</p>\n    <br/>\n    <br/>\n    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n    </div>\n    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n        % if object.company_id.street:\n            ${object.company_id.street}<br/>\n        % endif\n        % if object.company_id.street2:\n            ${object.company_id.street2}<br/>\n        % endif\n        % if object.company_id.city or object.company_id.zip:\n            ${object.company_id.zip} ${object.company_id.city}<br/>\n        % endif\n        % if object.company_id.country_id:\n            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n        % endif\n        </span>\n        % if object.company_id.phone:\n            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n                Phone:&nbsp; ${object.company_id.phone}\n            </div>\n        % endif\n        % if object.company_id.website:\n            <div>\n                Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n            </div>\n        %endif\n        <p></p>\n    </div>\n</div>\n            "
+msgstr ""
 
 #. module: account
 #: help:account.invoice,state:0
@@ -100,10 +102,17 @@ msgid ""
 msgstr " * 'Taslak' durumu, bir kullanıcı yeni yada onaylanmamış bir fatura hazırlıyorsa kullanılır.\n * 'Proforma' faturanın Proforma durumunda olması ve bu durumda fatura numaralandırılmaz.\n * 'Açık' durumu, kullanıcı bir fatura oluştururken kullanılır, fatura numarası oluşturulur. Kullanıcı fatutaryı ödemeyinceye kadar açık durumdadır.\n * 'Ödendi' durumu, fatura ödenince otomatik olarak ayarlanır. Günlük girişlerinin uzlaştırılımış  yada uzlaştırılmamış olamsıyla ilgilidir.\n * 'İptal edildi' durumu kullanıcı bir faturayı iptal ettiğinde kullanılır."
 
 #. module: account
-#: code:addons/account/account.py:1468
+#: code:addons/account/account.py:1477
 #, python-format
 msgid " Centralisation"
 msgstr " Merkezileştirme"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:521
+#, python-format
+msgid " seconds"
+msgstr "saniye"
 
 #. module: account
 #: field:analytic.entries.report,nbr:0
@@ -135,7 +144,7 @@ msgstr "Öğe Sayısı"
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_tree
 msgid "# of Products Qty"
-msgstr "Ürün Mik sayısı"
+msgstr "Ürün Miktarı Sayısı"
 
 #. module: account
 #: field:account.move.line.reconcile,trans_nbr:0
@@ -311,7 +320,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a customer invoice.\n"
 "              </p><p>\n"
-"                Modoo's electronic invoicing allows to ease and fasten the\n"
+"                Odoo's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system.\n"
@@ -320,7 +329,7 @@ msgid ""
 "                the bottom of each invoice.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir müşteri faturası oluşturmak için tıklayın.\n              </p><p>\n                Modoo elektronik faturalama müşteri ödemelerinizi toplamanızı\n                kolaylaştırır ve hızlandırır. Müşteriniz faturasını epostayla alır ve\n                ödemesini çevrimiçi yapabilir ve/veya faturayı kendi\n                sistemine aktarabilir.\n              </p><p>\n                Müşteri ile görüşmeler otomatik olarak her faturanın\n                alt kısmında görüntülenir.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir müşteri faturası oluşturmak için tıklayın.\n              </p><p>\n                Odoo elektronik faturalama müşteri ödemelerinizi toplamanızı\n                kolaylaştırır ve hızlandırır. Müşteriniz faturasını epostayla alır ve\n                ödemesini çevrimiçi yapabilir ve/veya faturayı kendi\n                sistemine aktarabilir.\n              </p><p>\n                Müşteri ile görüşmeler otomatik olarak her faturanın\n                alt kısmında görüntülenir.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree3
@@ -346,13 +355,13 @@ msgid ""
 "                A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction.\n"
 "              </p><p>\n"
-"                Modoo automatically creates one journal entry per accounting\n"
+"                Odoo automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, supplier payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir günlük girişi oluşturmak için tıklayın.\n              </p><p>\n                Bir günlük girişi hem borç hem de alacak işlemlerine ait\n                birçok girişi içerir.\n              </p><p>\n                Modoo otomatik olarak her muhasebe belgesi için bir adet\n                oluşturur: Fatura, iade, tedarikçi ödemesi, banka hesap özeti,\n                vb. Yani, günlük girişlerini yalnızca elle kaydedersiniz/ genellikle\n                çeşitli işlemler için.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir günlük girişi oluşturmak için tıklayın.\n              </p><p>\n                Bir günlük girişi hem borç hem de alacak işlemlerine ait\n                birçok girişi içerir.\n              </p><p>\n                Odoo otomatik olarak her muhasebe belgesi için bir adet\n                oluşturur: Fatura, iade, tedarikçi ödemesi, banka hesap özeti,\n                vb. Yani, günlük girişlerini yalnızca elle kaydedersiniz/ genellikle\n                çeşitli işlemler için.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -417,12 +426,12 @@ msgid ""
 "                Click to define a new tax code.\n"
 "              </p><p>\n"
 "                Depending on the country, a tax code is usually a cell to fill\n"
-"                in your legal tax statement. Modoo allows you to define the\n"
+"                in your legal tax statement. Odoo allows you to define the\n"
 "                tax structure and each tax computation will be registered in\n"
 "                one or several tax code.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni vergi kodu eklemek için tıklayın.\n              </p><p>\n                Ülkeye bağlı olarak, bir vergi kodu yalnızca yasal vergi\n                bildiriminizde dolduracağınız bir kutudur. Modoo vergi yapınızı ve\n                vergi hesaplamalarının kaydedileceği bir yada daha çok vergi kodu\n                tanımlamanızı sağlar.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni vergi kodu eklemek için tıklayın.\n              </p><p>\n                Ülkeye bağlı olarak, bir vergi kodu yalnızca yasal vergi\n                bildiriminizde dolduracağınız bir kutudur. Odoo vergi yapınızı ve\n                vergi hesaplamalarının kaydedileceği bir yada daha çok vergi kodu\n                tanımlamanızı sağlar.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree2
@@ -431,11 +440,11 @@ msgid ""
 "                Click to record a new supplier invoice.\n"
 "              </p><p>\n"
 "                You can control the invoice from your supplier according to\n"
-"                what you purchased or received. Modoo can also generate\n"
+"                what you purchased or received. Odoo can also generate\n"
 "                draft invoices automatically from purchase orders or receipts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni bir teadrikçi faturası girmek için tıklayın.\n              </p><p>\n                Faturayı, tedarikçiden ne satınaldıysanız yada ne teslim aldıysanız\n                ona göre denetleyebilirsiniz. Modoo, satınalma siparişlerinden ve\n                fişlerinden otomatik olarak taslak faturalar da oluşturabilir.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Yeni bir teadrikçi faturası girmek için tıklayın.\n              </p><p>\n                Faturayı, tedarikçiden ne satınaldıysanız yada ne teslim aldıysanız\n                ona göre denetleyebilirsiniz. Odoo, satınalma siparişlerinden ve\n                fişlerinden otomatik olarak taslak faturalar da oluşturabilir.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -447,11 +456,11 @@ msgid ""
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank.\n"
 "              </p><p>\n"
-"                Modoo allows you to reconcile a statement line directly with\n"
+"                Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir banka hesap özeti girmek için tıklayın.\n              </p><p>\n                Bir banka hesap özeti, bir banka hesabında verilen bir zamanda\n                oluşan finansal işlemlerin bir özetidir. Bunu bankanızdan\n                belirli zamanlarda almanız gerekir.\n              </p><p>\n                Modoo bir hesap özeti satırını doğrudan ilgili satış ve\n                satınalma faturalarına göre uzlaştırmanızı sağlar.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir banka hesap özeti girmek için tıklayın.\n              </p><p>\n                Bir banka hesap özeti, bir banka hesabında verilen bir zamanda\n                oluşan finansal işlemlerin bir özetidir. Bunu bankanızdan\n                belirli zamanlarda almanız gerekir.\n              </p><p>\n                Odoo bir hesap özeti satırını doğrudan ilgili satış ve\n                satınalma faturalarına göre uzlaştırmanızı sağlar.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree4
@@ -489,13 +498,13 @@ msgid ""
 "                Select the period and the journal you want to fill.\n"
 "              </p><p>\n"
 "                This view can be used by accountants in order to quickly record\n"
-"                entries in Modoo. If you want to record a supplier invoice,\n"
-"                start by recording the line of the expense account. Modoo\n"
+"                entries in Odoo. If you want to record a supplier invoice,\n"
+"                start by recording the line of the expense account. Odoo\n"
 "                will propose to you automatically the Tax related to this\n"
 "                account and the counterpart \"Account Payable\".\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Doldurmak istediğiniz dönem ve günlüğü seçin.\n              </p><p>\n                Bu görünüm, Modoo'da girişlerin kolayca kayıt edilebilmesi için\n                için muhasebeciler tarafından kullanılabilir. Bir tefarikçi faturası,\n                kaydı için gider hesabı satırını kayıtla başlayın. Modoo size bu\n                hesapla ve hesapsahibiyle \"Alacaklılar Hesabı\"  ilgili\n                Vergiyi otomatik olarak önerecektir.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Doldurmak istediğiniz dönem ve günlüğü seçin.\n              </p><p>\n                Bu görünüm, Odoo'da girişlerin kolayca kayıt edilebilmesi için\n                için muhasebeciler tarafından kullanılabilir. Bir tefarikçi faturası,\n                kaydı için gider hesabı satırını kayıtla başlayın. Odoo size bu\n                hesapla ve hesapsahibiyle \"Alacaklılar Hesabı\"  ilgili\n                Vergiyi otomatik olarak önerecektir.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_tree
@@ -506,11 +515,11 @@ msgid ""
 "            Configure your company's bank account and select those that must\n"
 "            appear on the report footer.\n"
 "          </p><p>\n"
-"            If you use the accounting application of Modoo, journals and\n"
+"            If you use the accounting application of Odoo, journals and\n"
 "            accounts will be created automatically based on these data.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Yeni bir banka hesabı ayarı için tıklayın. \n          </p><p>\n            Firmanızın banka hesabını yapılandırın ve rapor alt başlığında\n            görünmesini istediklerinizi seçin.\n          </p><p>\n            Modoo muhasebe uygulamasını kullanıyorsanız, günlükler ve\n            hesaplar bu veriler esas alınarak otomatik oluşturulur.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Yeni bir banka hesabı ayarı için tıklayın. \n          </p><p>\n            Firmanızın banka hesabını yapılandırın ve rapor alt başlığında\n            görünmesini istediklerinizi seçin.\n          </p><p>\n            Odoo muhasebe uygulamasını kullanıyorsanız, günlükler ve\n            hesaplar bu veriler esas alınarak otomatik oluşturulur.\n          </p>\n        "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_manual_reconcile
@@ -533,12 +542,12 @@ msgid ""
 "                term of costs/revenues reporting.\n"
 "              </p><p>\n"
 "                They are usually structured by contracts, projects, products or\n"
-"                departements. Most of the Modoo operations (invoices,\n"
+"                departements. Most of the Odoo operations (invoices,\n"
 "                timesheets, expenses, etc) generate analytic entries on the\n"
 "                related account.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Yeni bir analiz hesabı eklemek için tıklayın.\n              </p><p>\n                Normal hesap planları ülkelerin yasal gereksinimlerine göre\n                tanımlanan bir yapıya sahiptir. Analiz hesap planı yapısı ise\n                kendi firmanızın gereksinimlerini maliyetlerin/gelirlerin\n                raporlama şartlarını yansıtır.\n              </p><p>\n                Bunlar genellikle sözleşmeler, projeler, ürünler yada\n                bölümlere göre yapılandırılır. Modoo işlemlerinin çoğu (faturalar,\n                zaman çizelgeleri, giderler, vb.) ilgili hesaplar üzerinde\n                analiz girişlerini oluşturur.\n              </p>\n            "
+msgstr "<p>\n                Yeni bir analiz hesabı eklemek için tıklayın.\n              </p><p>\n                Normal hesap planları ülkelerin yasal gereksinimlerine göre\n                tanımlanan bir yapıya sahiptir. Analiz hesap planı yapısı ise\n                kendi firmanızın gereksinimlerini maliyetlerin/gelirlerin\n                raporlama şartlarını yansıtır.\n              </p><p>\n                Bunlar genellikle sözleşmeler, projeler, ürünler yada\n                bölümlere göre yapılandırılır. Odoo işlemlerinin çoğu (faturalar,\n                zaman çizelgeleri, giderler, vb.) ilgili hesaplar üzerinde\n                analiz girişlerini oluşturur.\n              </p>\n            "
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -1174,12 +1183,12 @@ msgstr "Gecikmiş İş Ortağı Bakiyesi"
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. When opening that report, Modoo asks for the name of the company, "
+"intervals. When opening that report, Odoo asks for the name of the company, "
 "the fiscal period and the size of the interval to be analyzed (in days). "
-"Modoo then calculates a table of credit balance by period. So if you request "
-"an interval of 30 days Modoo generates an analysis of creditors for the past "
+"Odoo then calculates a table of credit balance by period. So if you request "
+"an interval of 30 days Odoo generates an analysis of creditors for the past "
 "month, past two months, and so on."
-msgstr "İş Ortağı Gecikmiş Bakiyesi, alacaklarınızın belirli aralıklarla yapılan daha ayrıntılı bir raporudur. Bu rapor açıldığında, Modoo firma adını, mali dönemi ve sonra araştırılacak zaman aralığını (gün olarak) sorar. Sonra Modoo döneme göre alacak bakiyelerini bir tablo olarak hesaplar. Yani 30 günlük bir aralıkta isterseniz, Modoo geçen ayın, geçen iki ayın vb alacaklrın bir analizini oluşturur."
+msgstr "İş Ortağı Gecikmiş Bakiyesi, alacaklarınızın belirli aralıklarla yapılan daha ayrıntılı bir raporudur. Bu rapor açıldığında, Odoo firma adını, mali dönemi ve sonra araştırılacak zaman aralığını (gün olarak) sorar. Sonra Odoo döneme göre alacak bakiyelerini bir tablo olarak hesaplar. Yani 30 günlük bir aralıkta isterseniz, Odoo geçen ayın, geçen iki ayın vb alacaklrın bir analizini oluşturur."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_aged_receivable_graph
@@ -1599,23 +1608,27 @@ msgstr "Uygula"
 
 #. module: account
 #: help:account.fiscal.position,auto_apply:0
-msgid "Apply automatically this fiscal position."
-msgstr "Bu mali pozisyonu otomatik olarak uygula."
-
-#. module: account
-#: help:account.fiscal.position,country_group_id:0
-msgid "Apply only if delivery or invocing country match the group."
-msgstr "Yalnızca sevk ve fatura ülkesi grupla eşleşiyorsa uygula."
-
-#. module: account
-#: help:account.fiscal.position,country_id:0
-msgid "Apply only if delivery or invoicing country match."
-msgstr "Yalnızca sevk ve fatura üşlkesi eşleşiyorsa uygula."
+msgid "Apply automatically this fiscal position if the conditions match."
+msgstr ""
 
 #. module: account
 #: help:account.fiscal.position,vat_required:0
 msgid "Apply only if partner has a VAT number."
 msgstr "Yalnızca iş ortağının bir KDV numarası varsa uygula."
+
+#. module: account
+#: help:account.fiscal.position,country_group_id:0
+msgid ""
+"Apply when the shipping or invoicing country is in this country group, and "
+"no position matches the country directly."
+msgstr ""
+
+#. module: account
+#: help:account.fiscal.position,country_id:0
+msgid ""
+"Apply when the shipping or invoicing country matches. Takes precedence over "
+"positions matching on a country group."
+msgstr ""
 
 #. module: account
 #: view:validate.account.move:account.validate_account_move_view
@@ -2569,6 +2582,13 @@ msgid "Choose Fiscal Year"
 msgstr "Mali Yıl Seç"
 
 #. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:1297
+#, python-format
+msgid "Choose counterpart"
+msgstr ""
+
+#. module: account
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view1
 #: view:account.bank.statement:account.view_bank_statement_form
 msgid "Close"
@@ -2975,8 +2995,8 @@ msgstr "Kontra"
 
 #. module: account
 #: field:account.fiscal.position,country_id:0
-msgid "Countries"
-msgstr "Ülkeler"
+msgid "Country"
+msgstr "Ülke"
 
 #. module: account
 #: field:account.fiscal.position,country_group_id:0
@@ -3028,6 +3048,13 @@ msgstr "Aylık Dönemleri Oluştur"
 #: view:account.invoice.refund:account.view_account_invoice_refund
 msgid "Create Refund"
 msgstr "İade Oluştur"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:1294
+#, python-format
+msgid "Create Write-off"
+msgstr ""
 
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
@@ -3881,7 +3908,7 @@ msgstr "ECNJ"
 #: code:addons/account/account.py:3195
 #, python-format
 msgid "EXJ"
-msgstr "EXJ"
+msgstr "ALM"
 
 #. module: account
 #: field:account.entries.report,date:0
@@ -4582,10 +4609,10 @@ msgstr "Eğer hesaplar tipik olarak borcun alacaktan daha çok olması durumunda
 msgid ""
 "For an invoice to be considered as paid, the invoice entries must be "
 "reconciled with counterparts, usually payments. With the automatic "
-"reconciliation functionality, Modoo makes its own search for entries to "
+"reconciliation functionality, Odoo makes its own search for entries to "
 "reconcile in a series of accounts. It finds entries for each partner where "
 "the amounts correspond."
-msgstr "Bir faturanın ödendi olarak kabul edilebilmesi için fatura girişlerinin, özellikle ödemelerin, önce karşı tarafla uzlaştırılması gerekir. Otomatik uzlaştırma özelliği sayesinde, Modoo hesaplar içinde uzlaştırılacak girişleri araştırır. Her iş ortağına karşılık gelen tutardaki girişleri bulur."
+msgstr "Bir faturanın ödendi olarak kabul edilebilmesi için fatura girişlerinin, özellikle ödemelerin, önce karşı tarafla uzlaştırılması gerekir. Otomatik uzlaştırma özelliği sayesinde, Odoo hesaplar içinde uzlaştırılacak girişleri araştırır. Her iş ortağına karşılık gelen tutardaki girişleri bulur."
 
 #. module: account
 #: help:account.journal,with_last_closing_balance:0
@@ -4794,9 +4821,9 @@ msgstr "Fatura vergilerini listelerken sırayı verir."
 #: help:account.analytic.journal,type:0
 msgid ""
 "Gives the type of the analytic journal. When it needs for a document (eg: an"
-" invoice) to create analytic entries, Modoo will look for a matching journal "
+" invoice) to create analytic entries, Odoo will look for a matching journal "
 "of the same type."
-msgstr "Analiz günlüğünün türünü verir. Bir belge için (örn: bir fatura) analiz girişleri oluşturmak gerektiğinde, Modoo aynı türe uyan bir günlük arayacaktır."
+msgstr "Analiz günlüğünün türünü verir. Bir belge için (örn: bir fatura) analiz girişleri oluşturmak gerektiğinde, Odoo aynı türe uyan bir günlük arayacaktır."
 
 #. module: account
 #: code:addons/account/account_invoice.py:726
@@ -5163,7 +5190,7 @@ msgstr "Girişleri İçeaktar"
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form
 msgid "Import Invoice"
-msgstr "Fatura Aktar"
+msgstr "Import Invoice"
 
 #. module: account
 #: view:website:account.report_partnerbalance
@@ -5612,12 +5639,12 @@ msgstr "Yatık Metin (daha küçük)"
 #. module: account
 #: view:website:account.report_analyticcostledger
 msgid "J.C. /Move"
-msgstr ""
+msgstr "J.C. /Hareket adı"
 
 #. module: account
 #: view:website:account.report_analyticcostledgerquantity
 msgid "J.C./Move"
-msgstr ""
+msgstr "J.C. /Hareket adı"
 
 #. module: account
 #: view:website:account.report_generalledger
@@ -5931,9 +5958,16 @@ msgstr "Doğrulama (fatura) tarihi dönemini kullanmak için boş bırakın."
 
 #. module: account
 #. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:1299
+#, python-format
+msgid "Keep open"
+msgstr "Açık bırakın"
+
+#. module: account
+#. openerp-web
 #: field:account.statement.operation.template,label:0
-#: code:addons/account/static/src/js/account_widgets.js:75
-#: code:addons/account/static/src/js/account_widgets.js:80
+#: code:addons/account/static/src/js/account_widgets.js:74
+#: code:addons/account/static/src/js/account_widgets.js:79
 #: view:website:account.report_journal
 #: view:website:account.report_salepurchasejournal
 #, python-format
@@ -7307,8 +7341,8 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.) If "
 "you set a paypal account, the customer  will be able to pay your invoices or"
 " quotations with a button \"Pay with  Paypal\" in automated emails or "
-"through the Modoo portal."
-msgstr "Paypal hesabı (eposta), çevrimiçi (kredi kartı, vb.) ödemeler almak içindir. Bir paypal hesabı kurduğunuzda, müşteriniz size Modoo portalından yada otomatize epostalarda tek bir tuşla \"Paypal ile Öde\" faturalarınıza yada tekliflerinize ödeme yapabilecektir."
+"through the Odoo portal."
+msgstr "Paypal hesabı (eposta), çevrimiçi (kredi kartı, vb.) ödemeler almak içindir. Bir paypal hesabı kurduğunuzda, müşteriniz size Odoo portalından yada otomatize epostalarda tek bir tuşla \"Paypal ile Öde\" faturalarınıza yada tekliflerinize ödeme yapabilecektir."
 
 #. module: account
 #: help:res.company,paypal_account:0
@@ -8328,6 +8362,12 @@ msgid "Round per line"
 msgstr "Satır Satır Yuvarla"
 
 #. module: account
+#: code:addons/account/account_bank_statement.py:899
+#, python-format
+msgid "Rounding error from currency conversion"
+msgstr "Döviz çevriminden oluşan yuvarlama hatası"
+
+#. module: account
 #: view:account.subscription:account.view_subscription_search
 #: selection:account.subscription,state:0
 msgid "Running"
@@ -8347,7 +8387,7 @@ msgstr "Yürülükteki Abonelikler"
 #: code:addons/account/account.py:3194
 #, python-format
 msgid "SAJ"
-msgstr "SAG"
+msgstr "SAT"
 
 #. module: account
 #: code:addons/account/account.py:3196
@@ -9145,6 +9185,11 @@ msgid "Suppliers"
 msgstr "Tedarikçiler"
 
 #. module: account
+#: view:website:account.report_invoice_document
+msgid "TIN:"
+msgstr "Sayın Yetkili,\n\nKayıtlarımıza göre halen yapılmamış olan ödemeleriniz bulunmaktadır. Lütfen detayları için aşağıya bakınız. Eğer ödeme yapıldı ise, lütfen bu bildirimi dikkate almayınız. Aksi durumda aşağıda belirtilen miktarı gönderiniz. Hesabınız ile ilgili sorularınız var ise, lütfen bizimle iletişime geçiniz, İşbirliğiniz için şimdiden teşekkür ederiz.\n\nİyi dileklerimizle"
+
+#. module: account
 #: view:cash.box.out:account.cash_box_out_form
 #: model:ir.actions.act_window,name:account.action_cash_box_out
 msgid "Take Money Out"
@@ -9614,6 +9659,20 @@ msgid ""
 msgstr "Bu faturaya ait Günlük Girişlerinde kullanılacak ticari varlık"
 
 #. module: account
+#: constraint:account.config.settings:0
+msgid ""
+"The company of the gain exchange rate account must be the same than the "
+"company selected."
+msgstr ""
+
+#. module: account
+#: constraint:account.config.settings:0
+msgid ""
+"The company of the loss exchange rate account must be the same than the "
+"company selected."
+msgstr ""
+
+#. module: account
 #: help:account.tax,type:0
 msgid "The computation method for the tax amount."
 msgstr "Vergi tutarı hesaplama yöntemi."
@@ -9641,6 +9700,11 @@ msgstr "Uzlaştırılacak girişler aynı şirkete ait olmalı"
 msgid ""
 "The fiscal position will determine taxes and accounts used for the partner."
 msgstr "Mali durum, iş ortağı için kullanılacak vergileri ve hesapları belirlemek için kullanılır."
+
+#. module: account
+#: view:account.config.settings:account.view_account_config_settings
+msgid "The fiscal year is created when installing a Chart of Account."
+msgstr ""
 
 #. module: account
 #: constraint:account.aged.trial.balance:0 constraint:account.balance.report:0
@@ -9954,6 +10018,30 @@ msgid "This Year"
 msgstr "This Year"
 
 #. module: account
+#: help:product.template,property_account_expense:0
+msgid ""
+"This account will be used for invoices instead of the default one to value "
+"expenses for the current product."
+msgstr ""
+
+#. module: account
+#: help:product.template,property_account_income:0
+msgid ""
+"This account will be used for invoices instead of the default one to value "
+"sales for the current product."
+msgstr ""
+
+#. module: account
+#: help:product.category,property_account_expense_categ:0
+msgid "This account will be used for invoices to value expenses."
+msgstr ""
+
+#. module: account
+#: help:product.category,property_account_income_categ:0
+msgid "This account will be used for invoices to value sales."
+msgstr ""
+
+#. module: account
 #: help:res.partner,property_account_payable:0
 msgid ""
 "This account will be used instead of the default one as the payable account "
@@ -9966,18 +10054,6 @@ msgid ""
 "This account will be used instead of the default one as the receivable "
 "account for the current partner"
 msgstr "Bu hesap, geçerli İş Ortağı için alacak hesabı olarak varsayılanın yerine kullanılacaktır."
-
-#. module: account
-#: help:product.category,property_account_expense_categ:0
-#: help:product.template,property_account_expense:0
-msgid "This account will be used to value outgoing stock using cost price."
-msgstr "Bu hesap çıkan stokları maliyet fiyatı kullanılarak değerlemede kullanılır."
-
-#. module: account
-#: help:product.category,property_account_income_categ:0
-#: help:product.template,property_account_income:0
-msgid "This account will be used to value outgoing stock using sale price."
-msgstr "Bu hesap çıkan stokları satış fiyatı kullanılarak değerlemede kullanılacak."
 
 #. module: account
 #: help:account.config.settings,module_account_budget:0
@@ -10172,11 +10248,11 @@ msgstr "Bu etiket, verilen karşılaştırma süzgeci için hesaplanan bakiyeyi 
 msgid ""
 "This menu prints a tax declaration based on invoices or payments. Select one"
 " or several periods of the fiscal year. The information required for a tax "
-"declaration is automatically generated by Modoo from invoices (or payments, "
+"declaration is automatically generated by Odoo from invoices (or payments, "
 "in some countries). This data is updated in real time. That’s very useful "
 "because it enables you to preview at any time the tax that you owe at the "
 "start and end of the month or quarter."
-msgstr "Bu menü, faturalar ve ödemelere dayalı bir vergi bildirimi yazdırır. Mali yıla ait bir yada daha çok dönem seçin. Vergi bildirimi için gerekli bilgiler Modoo tarafından faturalardan ( veya bazı ülkelerde ödemelerden) oluşturulur. Bu veriler gerçek zamanlı olarak güncelleştirilir. Bu çok kullanışlı bir işlemdir, çünkü; ay başından ay sonuna kadar veya 4 aylık olarak ne kadar vergi borcunuzun olduğunu istediğiniz zaman görebilirsiniz."
+msgstr "Bu menü, faturalar ve ödemelere dayalı bir vergi bildirimi yazdırır. Mali yıla ait bir yada daha çok dönem seçin. Vergi bildirimi için gerekli bilgiler Odoo tarafından faturalardan ( veya bazı ülkelerde ödemelerden) oluşturulur. Bu veriler gerçek zamanlı olarak güncelleştirilir. Bu çok kullanışlı bir işlemdir, çünkü; ay başından ay sonuna kadar veya 4 aylık olarak ne kadar vergi borcunuzun olduğunu istediğiniz zaman görebilirsiniz."
 
 #. module: account
 #: help:account.tax,name:0
@@ -10245,12 +10321,12 @@ msgstr "Bu teknik alan, hesap özeti satırı oluşturulduğu/içeaktarıldığ�
 #. module: account
 #: help:account.account.template,type:0 help:account.entries.report,type:0
 msgid ""
-"This type is used to differentiate types with special effects in Modoo: view "
+"This type is used to differentiate types with special effects in Odoo: view "
 "can not have entries, consolidation are accounts that can have children "
 "accounts for multi-company consolidations, payable/receivable are for "
 "partners accounts (for debit/credit computations), closed for depreciated "
 "accounts."
-msgstr "Bu tür, Modoo içinde özel etkili türleri ayırt etmek için kullanılır edilir: görünümde girişler olamaz, birleştirme çoklu şirketlerin birleştirilmeleri için kullanılan alt hesapları olan hesaplardır, borç/alacak iş ortağı hesapları içindir (borç/alacak hesapları için), Amortismana tabi hesaplar için kapalıdır."
+msgstr "Bu tür, Odoo içinde özel etkili türleri ayırt etmek için kullanılır edilir: görünümde girişler olamaz, birleştirme çoklu şirketlerin birleştirilmeleri için kullanılan alt hesapları olan hesaplardır, borç/alacak iş ortağı hesapları içindir (borç/alacak hesapları için), Amortismana tabi hesaplar için kapalıdır."
 
 #. module: account
 #: help:account.account,currency_mode:0
@@ -10293,8 +10369,8 @@ msgstr "Bu sihirbaz belirli bir günlük ve dönemdeki  bütün günlük kayıtl
 #. openerp-web
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:36
 #, python-format
-msgid "Tip : Hit ctrl-enter to validate the whole sheet."
-msgstr "İpucu: ctrl-enter tuşlarına basarak tüm sayfayı doğrulayabilirsiniz."
+msgid "Tip : Hit ctrl-enter to reconcile all balanced items."
+msgstr ""
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
@@ -11055,13 +11131,21 @@ msgid ""
 msgstr "İlşikili iş ortağıyla ilgili bir ihtilaf sözkonusu ise bu kutuyu işaretleyerek bu yevmiye maddesine not düşebilirsiniz"
 
 #. module: account
-#: code:addons/account/account_move_line.py:1220
+#: code:addons/account/account_move_line.py:1246
 #, python-format
 msgid "You can not add/modify entries in a closed period %s of journal %s."
 msgstr "Kapanmış bir dönemde (%s) yevmiye %s kayıtlara ekleme/değiştirme  yapamazsınız."
 
 #. module: account
-#: code:addons/account/account.py:1047
+#: code:addons/account/wizard/account_open_closed_fiscalyear.py:42
+#, python-format
+msgid ""
+"You can not cancel closing entries if the 'End of Year Entries Journal' "
+"period is closed."
+msgstr ""
+
+#. module: account
+#: code:addons/account/account.py:1057
 #, python-format
 msgid "You can not re-open a period which belongs to closed fiscal year"
 msgstr "Kapalı bir mali yıla ait bir dönemi yeniden açamazsınız"
@@ -11107,7 +11191,7 @@ msgid ""
 msgstr "You can specify here the coefficient that will be used when consolidating the amount of this case into its parent. For example, set 1/-1 if you want to add/substract it."
 
 #. module: account
-#: code:addons/account/account.py:2273
+#: code:addons/account/account.py:2293
 #, python-format
 msgid ""
 "You can specify year, month and date in the name of the model using the following labels:\n"
@@ -11507,8 +11591,8 @@ msgstr "gün"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
-msgid "e.g. sales@modoo.com"
-msgstr "e.g. sales@modoo.com"
+msgid "e.g. sales@odoo.com"
+msgstr "e.g. sales@odoo.com"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
@@ -11653,3 +11737,16 @@ msgstr "Hesap özeti uzlaştırma alanında kullanılmıştır, ama başka bir y
 #: selection:account.subscription,period_type:0
 msgid "year"
 msgstr "yıl"
+
+#. module: account
+#: model:res.company,overdue_msg:stock.res_company_1
+msgid ""
+"Dear Sir/Madam,\n"
+"\n"
+"Our records indicate that some payments on your account are still due. Please find details below.\n"
+"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
+"If you have any queries regarding your account, Please contact us.\n"
+"\n"
+"Thank you in advance for your cooperation.\n"
+"Best Regards,"
+msgstr ""

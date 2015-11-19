@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Max Belyanin <maxbelyanin@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 12:57+0000\n"
+"POT-Creation-Date: 2015-10-19 06:31+0000\n"
+"PO-Revision-Date: 2015-10-20 09:48+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/modoo-8/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/odoo/odoo-8/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -90,6 +91,27 @@ msgid ""
 msgstr "\n\nУправление претензиями. \n======================= \nЭто приложение поможет Вам отследить отзывы и жалобы клиентов/персонала.\n\nОно привязано к электронной почте так, что вы сможете составлять\nновые отзывы по автоматически отправленным вам письмам.\n    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_jp
+msgid ""
+"\n"
+"\n"
+"Overview:\n"
+"---------\n"
+"\n"
+"* Chart of Accounts and Taxes template for companies in Japan.\n"
+"* This probably does not cover all the necessary accounts for a company. You are expected to add/delete/modify accounts based on this template.\n"
+"\n"
+"Note:\n"
+"-----\n"
+"\n"
+"* Fiscal positions '内税' and '外税' have been added to handle special requirements which might arise from POS implementation. [1]  You may not need to use these at all under normal circumstances.\n"
+"\n"
+"[1] See https://github.com/odoo/odoo/pull/6470 for detail.\n"
+"\n"
+"    "
+msgstr ""
+
+#. module: base
 #: code:addons/base/res/res_config.py:379
 #, python-format
 msgid ""
@@ -97,6 +119,15 @@ msgid ""
 "\n"
 "This addon is already installed on your system"
 msgstr "\n\nЭтот модуль уже установлен в вашей системе"
+
+#. module: base
+#: code:addons/model.py:146
+#, python-format
+msgid ""
+"\n"
+"\n"
+"[object with reference: %s - %s]"
+msgstr "\n\n[объект со ссылкой: %s - %s]"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_invoice_bba
@@ -153,6 +184,19 @@ msgid ""
 "    Display your network of certified people on your website\n"
 "    "
 msgstr "\n    На веб-сайте должна отображаться группа проверенных вами людей.\n    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_procurement_jit_stock
+msgid ""
+"\n"
+"    If you install this module, it can make sure that not only\n"
+"    the ship of pick-pack-ship will be created in batch, but\n"
+"    the pick and the pack also.  (which will dramatically improve performance)\n"
+"\n"
+"    Will be removed from Saas-6 and will be put in procurement_jit\n"
+"    over there, where procurement_jit will depend on stock\n"
+"    "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_report_intrastat
@@ -810,6 +854,59 @@ msgid ""
 msgstr "\nESC / POS драйвер оборудования \n=======================  \n \nЭтот модуль позволяет OpenERP печатать с ESC/POS совместимых принтеров и \nоткрыть ESC/POS контролируемых заимствований наличных средств в точке продажи и других модулей, которым нужны подобные функции.\n\n"
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_eu_service
+msgid ""
+"\n"
+"EU Mini One Stop Shop (MOSS) VAT for telecommunications, broadcasting and electronic services\n"
+"=============================================================================================\n"
+"\n"
+"As of January 1rst, 2015, telecommunications, broadcasting\n"
+"and electronic services sold within the European Union\n"
+"have to be always taxed in the country where the customer\n"
+"belongs. In order to simplify the application of this EU\n"
+"directive, the Mini One Stop Shop (MOSS) registration scheme\n"
+"allows businesses to make a unique tax declaration.\n"
+"\n"
+"This module makes it possible by helping with the creation\n"
+"of the required EU fiscal positions and taxes in order to\n"
+"automatically apply and record the required taxes.\n"
+"\n"
+"This module installs a wizard to help setup fiscal positions\n"
+"and taxes for selling electronic services inside EU.\n"
+"\n"
+"The wizard lets you select:\n"
+" - the EU countries to which you are selling these\n"
+"   services\n"
+" - your national VAT tax for services, to be mapped\n"
+"   to the target country's tax\n"
+" - optionally: a template fiscal position, in order\n"
+"   to copy the account mapping. Should be your\n"
+"   existing B2C Intra-EU fiscal position. (defaults\n"
+"   to no account mapping)\n"
+" - optionally: an account to use for collecting the\n"
+"   tax amounts (defaults to the account used by your\n"
+"   national VAT tax for services)\n"
+"\n"
+"It creates the corresponding fiscal positions and taxes,\n"
+"automatically applicable for EU sales with a customer\n"
+"in the selected countries.\n"
+"The wizard can be run again for adding more countries.\n"
+"\n"
+"The wizard creates a separate Chart of Taxes for collecting the\n"
+"VAT amounts of the MOSS declaration, so extracting the MOSS\n"
+"data should be easy.\n"
+"Look for a Chart of Taxes named \"EU MOSS VAT Chart\" in the\n"
+"Taxes Report menu (Generic Accounting Report).\n"
+"\n"
+"References\n"
+"++++++++++\n"
+"- Directive 2008/8/EC\n"
+"- Council Implementing Regulation (EU) No 1042/2013\n"
+"\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_mass_mailing
 msgid ""
 "\n"
@@ -960,6 +1057,15 @@ msgid ""
 "You can define price lists in analytic account, make some theoretical revenue\n"
 "reports."
 msgstr "\nГенерируйте Счета из Затрат, Записей расписания.\n========================================================\n\nМодуль для генерации счетов основанных на издержках (человеческие ресурсы, затраты, ...).\n\nМожно определять прайс-листы в аналитическом счете, делать некоторые теоретические отчеты \nо доходах."
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_intrastat
+msgid ""
+"\n"
+"Generates Intrastat XML report for declaration\n"
+"Based on invoices.\n"
+"    "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_payroll_account
@@ -1687,26 +1793,37 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_sa
+msgid ""
+"\n"
+"Odoo Arabic localization for most arabic countries and Saudi Arabia.\n"
+"\n"
+"This initially includes chart of accounts of USA translated to Arabic.\n"
+"\n"
+"In future this module will include some payroll rules for ME .\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_im_odoo_support
 msgid ""
 "\n"
-"Modoo Live Support\n"
+"Odoo Live Support\n"
 "=================\n"
 "\n"
-"Ask your functionnal question directly to the Modoo Operators with the livechat support.\n"
+"Ask your functionnal question directly to the Odoo Operators with the livechat support.\n"
 "\n"
 "        "
-msgstr ""
+msgstr "\nOdoo Live Support\n=================\n\nЗадавайте совои вопросы по функциональности напрямую операторам Odoo через живой чат техподдержки.\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_livechat
 msgid ""
 "\n"
-"Modoo Website LiveChat\n"
+"Odoo Website LiveChat\n"
 "========================\n"
-"For website built with Modoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
+"For website built with Odoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
 "        "
-msgstr "\nВеб-сайт LiveChat  Modoo\n======================== \nВеб-сайт, в котором есть Modoo CMS, включает кнопку беседы на Вашем Веб-сайте и позволяет Вашим посетителям общаться с Вашими собеседниками.\n        "
+msgstr "\nВеб-сайт LiveChat  Odoo\n======================== \nВеб-сайт, в котором есть Odoo CMS, включает кнопку беседы на Вашем Веб-сайте и позволяет Вашим посетителям общаться с Вашими собеседниками.\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_track
@@ -2290,7 +2407,7 @@ msgid ""
 "``l10n_ch_payment_slip``\n"
 "  Support of ESR/BVR payment slip report and reconciliation.\n"
 "\n"
-"``l10n_ch`` is located in the core Modoo modules. The other modules are in:\n"
+"``l10n_ch`` is located in the core Odoo modules. The other modules are in:\n"
 "https://github.com/OCA/l10n-switzerland\n"
 msgstr ""
 
@@ -2608,10 +2725,15 @@ msgid ""
 "This is the base module to manage the accounting chart for Luxembourg.\n"
 "======================================================================\n"
 "\n"
-"    * the Luxembourg Official Chart of Accounts (law of June 2009 + 2011 chart and Taxes),\n"
+"    * the Luxembourg Official Chart of Accounts (law of June 2009 + 2015 chart and Taxes),\n"
 "    * the Tax Code Chart for Luxembourg\n"
 "    * the main taxes used in Luxembourg\n"
-"    * default fiscal position for local, intracom, extracom "
+"    * default fiscal position for local, intracom, extracom\n"
+"\n"
+"Notes:\n"
+"    * the 2015 chart of taxes is implemented to a large extent,\n"
+"      see the first sheet of tax.xls for details of coverage\n"
+"    * to update the chart of tax template, update tax.xls and run tax2csv.py\n"
 msgstr ""
 
 #. module: base
@@ -2722,7 +2844,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla modoo 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla odoo 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 "    "
 msgstr ""
@@ -3696,7 +3818,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Modoo helps you managing all your vehicles, the\n"
+"With this module, Odoo helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, fuel log\n"
 "entries, costs and many other features necessary to the management \n"
 "of your fleet of vehicle(s)\n"
@@ -3747,6 +3869,16 @@ msgid ""
 "Website for browsing Associations, Groups and Memberships\n"
 "=========================================================\n"
 msgstr "\nВеб-сайт для поиска Ассоциаций, Групп и Членств \n=========================================================\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_payment_sips
+msgid ""
+"\n"
+"Worldline SIPS Payment Acquirer for online payments\n"
+"\n"
+"Works with Worldline keys version 2.0, contains implementation of\n"
+"payments acquirer using Worldline SIPS."
+msgstr ""
 
 #. module: base
 #: code:addons/base/res/res_company.py:68
@@ -3852,12 +3984,21 @@ msgstr "%p - эквивалент AM или PM."
 
 #. module: base
 #: code:addons/base/ir/ir_filters.py:36
-#: code:addons/base/res/res_partner.py:356
-#: code:addons/base/res/res_users.py:120 code:addons/base/res/res_users.py:371
-#: code:addons/base/res/res_users.py:373
+#: code:addons/base/res/res_currency.py:143
+#: code:addons/base/res/res_partner.py:360
+#: code:addons/base/res/res_users.py:124 code:addons/base/res/res_users.py:398
+#: code:addons/base/res/res_users.py:400
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (копия)"
+
+#. module: base
+#: code:addons/models.py:6082
+#, python-format
+msgid ""
+"%s This might be '%s' in the current model, or a field of the same name in "
+"an o2m."
+msgstr ""
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -3875,7 +4016,7 @@ msgid "%y - Year without century [00,99]."
 msgstr "%y - год кратко [00,99]."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:1015
+#: code:addons/base/ir/ir_model.py:1027
 #, python-format
 msgid ""
 "'%s' contains too many dots. XML ids should not contain dots ! These are "
@@ -3883,25 +4024,25 @@ msgid ""
 msgstr "\"%s\" содержит слишком много точек. XML идентификаторы не должны содержать точки! Они используются для ссылки на данные в других модулях, например, module.reference_id"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:172
+#: code:addons/base/ir/ir_fields.py:189
 #, python-format
 msgid "'%s' does not seem to be a number for field '%%(field)s'"
 msgstr "'%s' не является числом для поля '%%(field)s'"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:188
+#: code:addons/base/ir/ir_fields.py:207
 #, python-format
 msgid "'%s' does not seem to be a valid date for field '%%(field)s'"
 msgstr "'%s' не кажется правильной датой для поля '%%(field)s'"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:219
+#: code:addons/base/ir/ir_fields.py:240
 #, python-format
 msgid "'%s' does not seem to be a valid datetime for field '%%(field)s'"
 msgstr "'%s' не является правильной датой/временем для поля '%%(field)s'"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:163
+#: code:addons/base/ir/ir_fields.py:178
 #, python-format
 msgid "'%s' does not seem to be an integer for field '%%(field)s'"
 msgstr "'%s' не является целым числом для поля '%%(field)s'"
@@ -4039,12 +4180,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Modoo helps you easily track all activities related to\n"
+"                Odoo helps you easily track all activities related to\n"
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Нажмите \"Создать\" для создания контакта в вашей адресной книге.\n              </p><p>\n                Modoo позволяет вам легко управлять вашими действиями, \n               связанными с клиентами. Дискуссии, история деловых контактов, \n               документы, итп.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Нажмите \"Создать\" для создания контакта в вашей адресной книге.\n              </p><p>\n                Odoo позволяет вам легко управлять вашими действиями, \n               связанными с клиентами. Дискуссии, история деловых контактов, \n               документы, итп.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_form
@@ -4052,12 +4193,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Modoo helps you easily track all activities related to\n"
+"                Odoo helps you easily track all activities related to\n"
 "                a customer; discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Нажмите \"Создать\" для создания контакта в вашей адресной книге.\n              </p><p>\n                Modoo позволяет вам легко управлять вашими действиями, \n               связанными с клиентами. Дискуссии, история деловых контактов, \n               документы, итп.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Нажмите \"Создать\" для создания контакта в вашей адресной книге.\n              </p><p>\n                Odoo позволяет вам легко управлять вашими действиями, \n               связанными с клиентами. Дискуссии, история деловых контактов, \n               документы, итп.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -4065,12 +4206,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Modoo helps you easily track all activities related to\n"
+"                Odoo helps you easily track all activities related to\n"
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Нажмите \"Создать\" для создания контакта в вашей адресной книге.\n              </p><p>\n                Modoo позволяет вам легко управлять вашими действиями, \n               связанными с поставщиками. Дискуссии, история деловых контактов, \n               документы, итп.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Нажмите \"Создать\" для создания контакта в вашей адресной книге.\n              </p><p>\n                Odoo позволяет вам легко управлять вашими действиями, \n               связанными с поставщиками. Дискуссии, история деловых контактов, \n               документы, итп.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_partner_bank_account_form
@@ -4082,7 +4223,7 @@ msgid ""
 "                You can reorder bank accounts from the list view.\n"
 "              </p>\n"
 "              <p>\n"
-"                If you use the accounting application of Modoo, journals and accounts will be created automatically based on these data.\n"
+"                If you use the accounting application of Odoo, journals and accounts will be created automatically based on these data.\n"
 "              </p>  \n"
 "            "
 msgstr ""
@@ -4132,6 +4273,12 @@ msgid "======================================================"
 msgstr "======================================================"
 
 #. module: base
+#: code:addons/models.py:3458
+#, python-format
+msgid "A document was modified since you last viewed it (%s:%d)"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,help:base.action_res_groups
 msgid ""
 "A group is a set of functional areas that will be assigned to the user in "
@@ -4164,13 +4311,18 @@ msgstr "Модуль для проверки импорта/экспорта."
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_new_api
-msgid "A module to test the new API."
-msgstr "Модуль для тестирования нового API."
+msgid "A module to test the API."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_uninstall
 msgid "A module to test the uninstall feature."
 msgstr "Модуль для проверки неустановленных компонентов."
+
+#. module: base
+#: model:ir.module.module,description:base.module_test_inherits
+msgid "A module to verify the inheritance using _inherits."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_inherit
@@ -4183,7 +4335,7 @@ msgid "A module with dummy methods."
 msgstr "Модуль с нерабочими методами."
 
 #. module: base
-#: code:addons/base/ir/ir_qweb.py:882
+#: code:addons/base/ir/ir_qweb.py:893
 #, python-format
 msgid "A unit must be provided to duration widgets"
 msgstr "Блок должен быть предоставлен виджетам длительности"
@@ -4197,11 +4349,6 @@ msgstr "А4"
 #: field:res.partner.title,shortcut:0
 msgid "Abbreviation"
 msgstr "Аббревиатура"
-
-#. module: base
-#: selection:base.language.install,lang:0
-msgid "Abkhazian / аҧсуа"
-msgstr "Абхазский / аҧсуа"
 
 #. module: base
 #: field:res.company,user_ids:0
@@ -4233,7 +4380,8 @@ msgid "Access Controls List"
 msgstr "Список прав доступа"
 
 #. module: base
-#: code:addons/base/ir/ir_attachment.py:257
+#: code:addons/base/ir/ir_attachment.py:259 code:addons/models.py:3478
+#: code:addons/models.py:3520
 #, python-format
 msgid "Access Denied"
 msgstr "Доступ запрещен"
@@ -4261,6 +4409,12 @@ msgstr "Права доступа"
 #: view:ir.model:base.view_model_form view:res.groups:base.view_groups_form
 msgid "Access Rules"
 msgstr "Правила доступа"
+
+#. module: base
+#: code:addons/models.py:4485
+#, python-format
+msgid "AccessError"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_default
@@ -4583,7 +4737,7 @@ msgstr "Административно-территориальное делен
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:566 code:addons/base/ir/ir_model.py:627
-#: code:addons/base/ir/ir_model.py:1134
+#: code:addons/base/ir/ir_model.py:1146
 #, python-format
 msgid "Administrator access is required to uninstall a module"
 msgstr "Для удаления модуля нужны права администратора"
@@ -4627,7 +4781,7 @@ msgstr "После суммы"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_aftersale
 msgid "After-Sale Services"
-msgstr "Послепродажное обслуживание"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.al
@@ -4674,7 +4828,7 @@ msgid "Always Searchable"
 msgstr "Всегда доступно для поиска"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:350
+#: code:addons/base/ir/ir_fields.py:379
 #, python-format
 msgid ""
 "Ambiguous specification for field '%(field)s', only provide one of name, "
@@ -4760,7 +4914,7 @@ msgid "Applicant Resumes and Letters"
 msgstr "Резюме и письма кандидатов"
 
 #. module: base
-#: code:addons/base/res/res_users.py:739
+#: code:addons/base/res/res_users.py:763
 #: model:ir.model,name:base.model_ir_module_category
 #: field:ir.module.module,application:0 field:res.groups,category_id:0
 #: view:res.users:base.user_groups_view
@@ -4779,7 +4933,7 @@ msgid "Apply"
 msgstr "Применить"
 
 #. module: base
-#: code:addons/base/module/module.py:569
+#: code:addons/base/module/module.py:565
 #: view:base.module.upgrade:base.view_base_module_upgrade_install
 #: model:ir.actions.act_window,name:base.action_view_base_module_upgrade
 #, python-format
@@ -4952,6 +5106,12 @@ msgid "Author"
 msgstr "Автор"
 
 #. module: base
+#: model:ir.module.module,description:base.module_payment_authorize
+#: model:ir.module.module,shortdesc:base.module_payment_authorize
+msgid "Authorize.Net Payment Acquirer"
+msgstr ""
+
+#. module: base
 #: field:ir.actions.act_window,auto_search:0
 msgid "Auto Search"
 msgstr "Авто поиск"
@@ -4998,6 +5158,12 @@ msgstr "Азербайджан"
 #, python-format
 msgid "BANK"
 msgstr "БАНК"
+
+#. module: base
+#: code:addons/translate.py:990
+#, python-format
+msgid "Bad file format"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bs
@@ -5106,9 +5272,9 @@ msgid "Banks"
 msgstr "Банки"
 
 #. module: base
-#: help:res.partner,ean13:0
+#: help:res.partner,ean13:0 help:res.users,ean13:0
 msgid "BarCode"
-msgstr "Баркод"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.bb
@@ -5180,6 +5346,11 @@ msgid "Base view"
 msgstr "Основной просмотр"
 
 #. module: base
+#: selection:base.language.install,lang:0
+msgid "Basque / Euskara"
+msgstr ""
+
+#. module: base
 #: selection:res.currency,position:0
 msgid "Before Amount"
 msgstr "Перед суммой"
@@ -5188,6 +5359,11 @@ msgstr "Перед суммой"
 #: model:res.country,name:base.by
 msgid "Belarus"
 msgstr "Беларусь"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_be_intrastat
+msgid "Belgian Intrastat Declaration"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.be
@@ -5416,20 +5592,20 @@ msgid "Campaign in Mass Mailing"
 msgstr "Кампания по массовой рассылке писем"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:347
+#: code:addons/base/ir/ir_fields.py:376
 #, python-format
 msgid ""
 "Can not create Many-To-One records indirectly, import the field separately"
 msgstr "Если вы не можете создать больше чем одну запись одновременно, импортируйте каждую отдельно"
 
 #. module: base
-#: code:addons/base/res/res_users.py:347
+#: code:addons/base/res/res_users.py:374
 #, python-format
 msgid "Can not remove root user!"
 msgstr "Невозможно удалить суперпользователя!"
 
 #. module: base
-#: code:addons/base/module/module.py:549
+#: code:addons/base/module/module.py:545
 #, python-format
 msgid "Can not upgrade module '%s'. It is not installed."
 msgstr "Невозможно обновить модуль '%s'. Он не установлен."
@@ -5576,7 +5752,7 @@ msgid "Change the user password."
 msgstr "Изменение пароля пользователя."
 
 #. module: base
-#: code:addons/base/res/res_partner.py:379
+#: code:addons/base/res/res_partner.py:383
 #, python-format
 msgid ""
 "Changing the company of a contact should only be done if it was never "
@@ -5617,7 +5793,7 @@ msgstr "Общайтесь с посетителями вашего веб-са�
 
 #. module: base
 #: model:ir.module.module,summary:base.module_im_odoo_support
-msgid "Chat with the Modoo collaborators"
+msgid "Chat with the Odoo collaborators"
 msgstr ""
 
 #. module: base
@@ -5919,6 +6095,11 @@ msgid "Company Bank Accounts"
 msgstr "Банковские счета организации"
 
 #. module: base
+#: model:res.partner.category,name:base.res_partner_category_17
+msgid "Company Contact"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,name:base.action_inventory_form
 #: model:ir.ui.menu,name:base.menu_action_inventory_form
 msgid "Company Defaults"
@@ -6091,6 +6272,12 @@ msgid "Constraint"
 msgstr "Ограничение"
 
 #. module: base
+#: code:addons/model.py:129
+#, python-format
+msgid "Constraint Error"
+msgstr ""
+
+#. module: base
 #: field:ir.model.constraint,type:0
 msgid "Constraint Type"
 msgstr "Тип ограничения"
@@ -6207,7 +6394,13 @@ msgid "Costa Rica - Accounting"
 msgstr "Коста Рика - Учет"
 
 #. module: base
-#: code:addons/base/res/res_partner.py:638
+#: code:addons/loading.py:292
+#, python-format
+msgid "Could not load base module"
+msgstr ""
+
+#. module: base
+#: code:addons/base/res/res_partner.py:642
 #, python-format
 msgid "Couldn't create contact without email address!"
 msgstr "Невозможно создать контакт без адреса электронной почты!"
@@ -6328,9 +6521,9 @@ msgstr "Создать новую запись в базовой модели"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_company_form
 msgid ""
-"Create and manage the companies that will be managed by Modoo from here. "
+"Create and manage the companies that will be managed by Odoo from here. "
 "Shops or subsidiaries can be created and maintained from here."
-msgstr "Создать и управлять компаниями, которые будут управляться Modoo. Здесь можно создавать и руководить магазинами или филиалами."
+msgstr "Создать и управлять компаниями, которые будут управляться Odoo. Здесь можно создавать и руководить магазинами или филиалами."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_users
@@ -6706,6 +6899,14 @@ msgid "Database Structure"
 msgstr "Структура базы данных"
 
 #. module: base
+#: code:addons/models.py:3382
+#, python-format
+msgid ""
+"Database fetch misses ids ({}) and has extra ids ({}), may be caused by a "
+"type incoherence in a previous request"
+msgstr ""
+
+#. module: base
 #: help:ir.values,res_id:0
 msgid ""
 "Database identifier of the record to which this applies. 0 = for all records"
@@ -6730,7 +6931,7 @@ msgstr "Формат даты"
 #. module: base
 #: field:ir.attachment,write_date:0
 msgid "Date Modified"
-msgstr "Дата изменения"
+msgstr ""
 
 #. module: base
 #: selection:ir.property,type:0
@@ -6778,7 +6979,7 @@ msgid ""
 "\n"
 "Thank you in advance for your cooperation.\n"
 "Best Regards,"
-msgstr "Уважаемые господа,\n\nНаши записи зафиксировали что некоторые платежи остаются неоплаченными. Пожалуйста ознакомьтесь с подробностями ниже.\nЕсли сумма уже была оплачена, пожалуйста проигнорируйте это оповещение. В ином случае, пожалуйста перечислите нам всю сумму отображенную ниже.\nЕсли у вас есть какие-либо замечания, пожалуйста свяжитесь с нами.\n\nЗаранее благодарим за сотрудничество.\nС наилучшими пожеланиями,"
+msgstr ""
 
 #. module: base
 #: field:ir.mail_server,smtp_debug:0
@@ -6852,7 +7053,7 @@ msgid "Delete Access Right"
 msgstr "Право доступа на удаление"
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:841
+#: code:addons/base/ir/ir_actions.py:827
 #, python-format
 msgid "Deletion of the action record failed."
 msgstr "Удаление действия не удалось."
@@ -6978,7 +7179,7 @@ msgstr "Отображение"
 #. module: base
 #: model:res.groups,name:base.group_website_publisher
 msgid "Display Editor Bar on Website"
-msgstr "Отображать кнопку редактирования на веб-сайте"
+msgstr ""
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -7030,7 +7231,7 @@ msgstr "Джибути"
 #. module: base
 #: model:res.groups,name:base.group_mono_salesteams
 msgid "Do Not Use Sales Teams"
-msgstr "Не используйте команду по продажам"
+msgstr ""
 
 #. module: base
 #: model:res.partner.title,name:base.res_partner_title_doctor
@@ -7043,7 +7244,7 @@ msgid "Document Management System"
 msgstr "Система управления документами"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:789 code:addons/base/ir/ir_model.py:792
+#: code:addons/base/ir/ir_model.py:793 code:addons/base/ir/ir_model.py:796
 #, python-format
 msgid "Document model"
 msgstr "Модель документа"
@@ -7118,10 +7319,15 @@ msgid "Duplicating workflows is not possible, please create a new workflow"
 msgstr "Невозможно скопировать рабочий процесс, пожалуйста, создайте новый"
 
 #. module: base
-#: code:addons/base/ir/ir_qweb.py:880
+#: code:addons/base/ir/ir_qweb.py:891
 #, python-format
 msgid "Durations can't be negative"
 msgstr "Срок действия не может быть отрицательным"
+
+#. module: base
+#: selection:base.language.install,lang:0
+msgid "Dutch (BE) / Nederlands (BE)"
+msgstr ""
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -7134,7 +7340,7 @@ msgid "Dynamic expression builder"
 msgstr "Создание динамических выражений"
 
 #. module: base
-#: field:res.partner,ean13:0
+#: field:res.partner,ean13:0 field:res.users,ean13:0
 msgid "EAN13"
 msgstr "Штрих-код 13"
 
@@ -7142,6 +7348,11 @@ msgstr "Штрих-код 13"
 #: model:ir.module.module,shortdesc:base.module_hw_escpos
 msgid "ESC/POS Hardware Driver"
 msgstr "ESC / POS драйвер оборудования"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_eu_service
+msgid "EU Mini One Stop Shop (MOSS)"
+msgstr ""
 
 #. module: base
 #: sql_constraint:ir.model:0
@@ -7179,7 +7390,7 @@ msgid "Electronic Data Interchange (EDI)"
 msgstr "Обмен электронными данными (ОЭД)"
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:482
+#: code:addons/base/ir/ir_ui_view.py:475
 #, python-format
 msgid "Element '%s' cannot be located in parent view"
 msgstr "Элемент '%s' не может находится в исходном виде"
@@ -7241,8 +7452,8 @@ msgstr "Сотрудники"
 
 #. module: base
 #: selection:base.language.install,lang:0
-msgid "English (CA)"
-msgstr "Английский (Канада)"
+msgid "English (AU)"
+msgstr ""
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -7277,17 +7488,18 @@ msgid "Eritrea"
 msgstr "Эритрия"
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:846 code:addons/base/ir/ir_model.py:183
+#: code:addons/base/ir/ir_actions.py:832 code:addons/base/ir/ir_model.py:183
 #: code:addons/base/ir/ir_model.py:299 code:addons/base/ir/ir_model.py:313
 #: code:addons/base/ir/ir_model.py:353 code:addons/base/ir/ir_model.py:376
 #: code:addons/base/ir/ir_model.py:381 code:addons/base/ir/ir_model.py:384
-#: code:addons/base/ir/ir_translation.py:401
-#: code:addons/base/module/module.py:339 code:addons/base/module/module.py:381
-#: code:addons/base/module/module.py:386 code:addons/base/module/module.py:396
-#: code:addons/base/module/module.py:523 code:addons/base/module/module.py:549
-#: code:addons/base/module/module.py:563
-#: code:addons/base/res/res_currency.py:230
-#: code:addons/base/res/res_users.py:126 code:addons/custom.py:554
+#: code:addons/base/ir/ir_translation.py:418
+#: code:addons/base/module/module.py:340 code:addons/base/module/module.py:377
+#: code:addons/base/module/module.py:382 code:addons/base/module/module.py:392
+#: code:addons/base/module/module.py:519 code:addons/base/module/module.py:545
+#: code:addons/base/module/module.py:559
+#: code:addons/base/res/res_currency.py:241
+#: code:addons/base/res/res_users.py:130 code:addons/custom.py:554
+#: code:addons/models.py:418 code:addons/models.py:3608
 #, python-format
 msgid "Error"
 msgstr "Ошибка"
@@ -7304,7 +7516,7 @@ msgid "Error ! You can not create recursive categories."
 msgstr "Ошибка ! Невозможно создать рекурсивную категорию."
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:355
+#: code:addons/base/ir/ir_ui_view.py:348
 #, python-format
 msgid ""
 "Error context:\n"
@@ -7312,12 +7524,18 @@ msgid ""
 msgstr "Ошибка контекста:\nПросмотр `%(view_name)s`"
 
 #. module: base
+#: code:addons/models.py:1266
+#, python-format
+msgid "Error details:"
+msgstr ""
+
+#. module: base
 #: code:addons/base/ir/ir_model.py:419 code:addons/base/ir/ir_model.py:421
 #: code:addons/base/ir/ir_model.py:450 code:addons/base/ir/ir_model.py:464
 #: code:addons/base/ir/ir_model.py:466 code:addons/base/ir/ir_model.py:468
 #: code:addons/base/ir/ir_model.py:475 code:addons/base/ir/ir_model.py:478
 #: code:addons/base/module/wizard/base_update_translations.py:39
-#: code:addons/base/res/res_currency.py:59
+#: code:addons/base/res/res_currency.py:60
 #, python-format
 msgid "Error!"
 msgstr "Ошибка!"
@@ -7591,10 +7809,16 @@ msgid "Field Type"
 msgstr "Тип поля"
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:841
+#: code:addons/base/ir/ir_ui_view.py:830
 #, python-format
 msgid "Field `%(field_name)s` does not exist"
 msgstr "Поле `%(field_name)s` не существует"
+
+#. module: base
+#: code:addons/models.py:1268
+#, python-format
+msgid "Field(s) `%s` failed against a constraint: %s"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_model_fields
@@ -7720,11 +7944,6 @@ msgid "Fleet Management"
 msgstr "Управление транспортом"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Flemish (BE) / Vlaams (BE)"
-msgstr "Фламандский (BE) / Vlaams (BE)"
-
-#. module: base
 #: selection:ir.property,type:0
 msgid "Float"
 msgstr "Число с плавающей точкой"
@@ -7794,9 +8013,9 @@ msgstr "Для действий, одна из возможных вставок
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
-"For more details about translating Modoo in your language, please refer to "
+"For more details about translating Odoo in your language, please refer to "
 "the"
-msgstr "Для более подробной информаций о переводе Modoo на ваш язык, пожалуйста, обратитесь к"
+msgstr "Для более подробной информаций о переводе Odoo на ваш язык, пожалуйста, обратитесь к"
 
 #. module: base
 #: help:ir.model.fields,relation_field:0
@@ -7815,6 +8034,15 @@ msgstr "Для полей связей. Техническое имя целев
 #, python-format
 msgid "For selection fields, the Selection Options must be given!"
 msgstr "Для полей выбора должны быть предоставлены варианты выбора!"
+
+#. module: base
+#: code:addons/models.py:3521
+#, python-format
+msgid ""
+"For this kind of document, you may only access records you created yourself.\n"
+"\n"
+"(Document type: %s)"
+msgstr ""
 
 #. module: base
 #: selection:ir.actions.act_window,view_type:0
@@ -7850,7 +8078,7 @@ msgid "Forum, FAQ, Q&A"
 msgstr "Форум, FAQ, вопросы и ответы"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:320
+#: code:addons/base/ir/ir_fields.py:344
 #, python-format
 msgid "Found multiple matches for field '%%(field)s' (%d matches)"
 msgstr "Найдено несколько полей  '%%(field)s' (%d найдено)"
@@ -8010,6 +8238,11 @@ msgstr "Общие модули"
 #: model:res.country,name:base.ge
 msgid "Georgia"
 msgstr "Грузия"
+
+#. module: base
+#: selection:base.language.install,lang:0
+msgid "Georgian / ქართული ენა"
+msgstr ""
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -8700,7 +8933,7 @@ msgstr "Если вы выберете эту опцию, существующи
 #: help:ir.ui.menu,groups_id:0
 msgid ""
 "If you have groups, the visibility of this menu will be based on these "
-"groups. If this field is empty, Modoo will compute visibility based on the "
+"groups. If this field is empty, Odoo will compute visibility based on the "
 "related object's read access."
 msgstr ""
 
@@ -8743,7 +8976,7 @@ msgstr "Реализация"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_import_crm
 msgid "Import & Synchronize"
-msgstr "Импорт и синхронизация"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_translation_export
@@ -8784,8 +9017,8 @@ msgid "Increment Number"
 msgstr "Увеличивать число"
 
 #. module: base
-#: code:addons/base/ir/ir_sequence.py:134
-#: code:addons/base/ir/ir_sequence.py:160
+#: code:addons/base/ir/ir_sequence.py:136
+#: code:addons/base/ir/ir_sequence.py:162
 #, python-format
 msgid "Increment number must not be zero."
 msgstr "Приращение не должны быть равным нулю."
@@ -8887,13 +9120,7 @@ msgid "Inline View"
 msgstr "Встроенный вид"
 
 #. module: base
-#: code:addons/base/maintenance/migrations/stock/7.saas~5.1.1/post-10-warehouseconf.py:57
-#, python-format
-msgid "Input"
-msgstr "Вход"
-
-#. module: base
-#: code:addons/base/module/module.py:440
+#: code:addons/base/module/module.py:436
 #: view:ir.module.module:base.module_form
 #: view:ir.module.module:base.module_view_kanban
 #, python-format
@@ -8949,9 +9176,29 @@ msgid "Instant Messaging Bus allow you to send messages to users, in live."
 msgstr "Мгновенный обмен сообщениями Bus позволяет вам отсылать сообщения пользователям в реальном времени."
 
 #. module: base
+#: code:addons/models.py:1460
+#, python-format
+msgid "Insufficient fields for Calendar View!"
+msgstr ""
+
+#. module: base
+#: code:addons/models.py:1472
+#, python-format
+msgid ""
+"Insufficient fields to generate a Calendar View for %s, missing a date_stop "
+"or a date_delay"
+msgstr ""
+
+#. module: base
 #: selection:ir.property,type:0
 msgid "Integer"
 msgstr "Целое"
+
+#. module: base
+#: code:addons/model.py:149 code:addons/model.py:151
+#, python-format
+msgid "Integrity Error"
+msgstr ""
 
 #. module: base
 #: view:ir.rule:base.view_rule_form
@@ -8984,15 +9231,31 @@ msgid "Introspection report on objects"
 msgstr "Отчет о самоанализе объектов"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Inuktitut / ᐃᓄᒃᑎᑐᑦ"
-msgstr "Инуктитут / ᐃᓄᒃᑎᑐᑦ"
+#: code:addons/models.py:4485
+#, python-format
+msgid ""
+"Invalid \"order\" specified. A valid \"order\" specification is a comma-"
+"separated list of valid field names (optionally followed by asc/desc for the"
+" direction)"
+msgstr ""
+
+#. module: base
+#: code:addons/models.py:1543
+#, python-format
+msgid "Invalid Architecture!"
+msgstr ""
 
 #. module: base
 #: code:addons/base/res/res_bank.py:189
 #, python-format
 msgid "Invalid Bank Account Type Name format."
 msgstr "Неверный формат типа имени банковского счета"
+
+#. module: base
+#: code:addons/models.py:1460 code:addons/models.py:1471
+#, python-format
+msgid "Invalid Object Architecture!"
+msgstr ""
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:92
@@ -9006,19 +9269,19 @@ msgid "Invalid arguments"
 msgstr "Неправильные параметры"
 
 #. module: base
-#: code:addons/base/res/res_users.py:850
+#: code:addons/base/res/res_users.py:874
 #, python-format
 msgid "Invalid context default_groups_ref value (model.name_id) : \"%s\""
 msgstr "Неверный контекст default_groups_ref value (model.name_id) : \"%s\""
 
 #. module: base
-#: code:addons/base/res/res_users.py:850
+#: code:addons/base/res/res_users.py:874
 #, python-format
 msgid "Invalid context value"
 msgstr "Неверное значение контекста"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:302
+#: code:addons/base/ir/ir_fields.py:325
 #, python-format
 msgid "Invalid database id '%s' for the field '%%(field)s'"
 msgstr "Неверный идентификатор базы данных '%s' для поля '%%(field)s'"
@@ -9029,6 +9292,20 @@ msgid ""
 "Invalid date/time format directive specified. Please refer to the list of "
 "allowed directives, displayed when you edit a language."
 msgstr "Указан неверный формат даты/времени. Пожалуйста, смотрите список разрешенных форматов, отображаемых при редактировании языка."
+
+#. module: base
+#: code:addons/models.py:2095
+#, python-format
+msgid "Invalid group_by"
+msgstr ""
+
+#. module: base
+#: code:addons/models.py:2096
+#, python-format
+msgid ""
+"Invalid group_by specification: \"%s\".\n"
+"A group_by specification must be a list of valid fields."
+msgstr ""
 
 #. module: base
 #: sql_constraint:ir.ui.view:0
@@ -9044,13 +9321,13 @@ msgid "Invalid model name in the action definition."
 msgstr "Недопустимое имя модели в определении действия"
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:474
+#: code:addons/base/ir/ir_ui_view.py:467
 #, python-format
 msgid "Invalid position attribute: '%s'"
 msgstr "Неверное расположение символа: '%s'"
 
 #. module: base
-#: code:addons/base/ir/ir_sequence.py:260
+#: code:addons/base/ir/ir_sequence.py:259
 #, python-format
 msgid "Invalid prefix or suffix for sequence '%s'"
 msgstr "Неверный префикс или суффикс для последовательности '%s'"
@@ -9093,7 +9370,7 @@ msgstr "Счет по затратам времени"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_invoiced
 msgid "Invoicing"
-msgstr "Выставление счета"
+msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_account_voucher
@@ -9177,6 +9454,11 @@ msgid "Japan"
 msgstr "Япония"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_jp
+msgid "Japan - Accounting"
+msgstr ""
+
+#. module: base
 #: selection:base.language.install,lang:0
 msgid "Japanese / 日本語"
 msgstr "Японский / 日本語"
@@ -9232,6 +9514,16 @@ msgid "Just In Time Scheduling"
 msgstr "Своевременное планирование"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_procurement_jit_stock
+msgid "Just In Time Scheduling with Stock"
+msgstr ""
+
+#. module: base
+#: selection:base.language.install,lang:0
+msgid "Kabyle / Taqbaylit"
+msgstr ""
+
+#. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
 #: view:ir.ui.view:base.view_view_search selection:ir.ui.view,type:0
 msgid "Kanban"
@@ -9269,11 +9561,6 @@ msgid "Kiribati"
 msgstr "Кирибати"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Klingon"
-msgstr "Клингонский"
-
-#. module: base
 #: model:ir.module.category,name:base.module_category_knowledge_management
 msgid "Knowledge"
 msgstr "Знания"
@@ -9307,6 +9594,11 @@ msgstr "Кувейт"
 #: model:res.country,name:base.kg
 msgid "Kyrgyz Republic (Kyrgyzstan)"
 msgstr "Киргизия (Кыргызстан)"
+
+#. module: base
+#: selection:ir.module.module,license:0
+msgid "LGPL Version 3"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.report.xml,name:base.res_partner_address_report
@@ -9373,7 +9665,7 @@ msgstr "Дата последнего изменения"
 #. module: base
 #: field:ir.attachment,write_uid:0
 msgid "Last Modification User"
-msgstr "Последние изменения пользователя"
+msgstr ""
 
 #. module: base
 #: field:base.language.export,write_uid:0
@@ -9390,15 +9682,16 @@ msgstr "Последние изменения пользователя"
 #: field:ir.actions.act_window_close,write_uid:0
 #: field:ir.actions.actions,write_uid:0 field:ir.actions.client,write_uid:0
 #: field:ir.actions.report.xml,write_uid:0 field:ir.actions.server,write_uid:0
-#: field:ir.actions.todo,write_uid:0 field:ir.config_parameter,write_uid:0
-#: field:ir.cron,write_uid:0 field:ir.default,write_uid:0
-#: field:ir.exports,write_uid:0 field:ir.exports.line,write_uid:0
-#: field:ir.fields.converter,write_uid:0 field:ir.filters,write_uid:0
-#: field:ir.logging,write_uid:0 field:ir.mail_server,write_uid:0
-#: field:ir.model,write_uid:0 field:ir.model.access,write_uid:0
-#: field:ir.model.constraint,write_uid:0 field:ir.model.data,write_uid:0
-#: field:ir.model.fields,write_uid:0 field:ir.model.relation,write_uid:0
-#: field:ir.module.category,write_uid:0 field:ir.module.module,write_uid:0
+#: field:ir.actions.todo,write_uid:0 field:ir.attachment,write_uid:0
+#: field:ir.config_parameter,write_uid:0 field:ir.cron,write_uid:0
+#: field:ir.default,write_uid:0 field:ir.exports,write_uid:0
+#: field:ir.exports.line,write_uid:0 field:ir.fields.converter,write_uid:0
+#: field:ir.filters,write_uid:0 field:ir.logging,write_uid:0
+#: field:ir.mail_server,write_uid:0 field:ir.model,write_uid:0
+#: field:ir.model.access,write_uid:0 field:ir.model.constraint,write_uid:0
+#: field:ir.model.data,write_uid:0 field:ir.model.fields,write_uid:0
+#: field:ir.model.relation,write_uid:0 field:ir.module.category,write_uid:0
+#: field:ir.module.module,write_uid:0
 #: field:ir.module.module.dependency,write_uid:0 field:ir.property,write_uid:0
 #: field:ir.rule,write_uid:0 field:ir.sequence,write_uid:0
 #: field:ir.sequence.type,write_uid:0 field:ir.server.object.lines,write_uid:0
@@ -9439,15 +9732,15 @@ msgstr "Последний раз обновлено"
 #: field:ir.actions.actions,write_date:0 field:ir.actions.client,write_date:0
 #: field:ir.actions.report.xml,write_date:0
 #: field:ir.actions.server,write_date:0 field:ir.actions.todo,write_date:0
-#: field:ir.config_parameter,write_date:0 field:ir.cron,write_date:0
-#: field:ir.default,write_date:0 field:ir.exports,write_date:0
-#: field:ir.exports.line,write_date:0 field:ir.fields.converter,write_date:0
-#: field:ir.filters,write_date:0 field:ir.logging,write_date:0
-#: field:ir.mail_server,write_date:0 field:ir.model,write_date:0
-#: field:ir.model.access,write_date:0 field:ir.model.constraint,write_date:0
-#: field:ir.model.data,write_date:0 field:ir.model.fields,write_date:0
-#: field:ir.model.relation,write_date:0 field:ir.module.category,write_date:0
-#: field:ir.module.module,write_date:0
+#: field:ir.attachment,write_date:0 field:ir.config_parameter,write_date:0
+#: field:ir.cron,write_date:0 field:ir.default,write_date:0
+#: field:ir.exports,write_date:0 field:ir.exports.line,write_date:0
+#: field:ir.fields.converter,write_date:0 field:ir.filters,write_date:0
+#: field:ir.logging,write_date:0 field:ir.mail_server,write_date:0
+#: field:ir.model,write_date:0 field:ir.model.access,write_date:0
+#: field:ir.model.constraint,write_date:0 field:ir.model.data,write_date:0
+#: field:ir.model.fields,write_date:0 field:ir.model.relation,write_date:0
+#: field:ir.module.category,write_date:0 field:ir.module.module,write_date:0
 #: field:ir.module.module.dependency,write_date:0
 #: field:ir.property,write_date:0 field:ir.rule,write_date:0
 #: field:ir.sequence,write_date:0 field:ir.sequence.type,write_date:0
@@ -9533,7 +9826,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_config_lead
 msgid "Leads & Opportunities"
-msgstr "Кандидаты & Сделки"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm
@@ -9592,7 +9885,7 @@ msgstr "Позволяет установить интересные, но не 
 #. module: base
 #: model:ir.module.category,description:base.module_category_report_designer
 msgid ""
-"Lets you install various tools to simplify and enhance Modoo's report "
+"Lets you install various tools to simplify and enhance Odoo's report "
 "creation."
 msgstr ""
 
@@ -9802,13 +10095,13 @@ msgid "Madam"
 msgstr "Госпожа"
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:474
+#: code:addons/base/ir/ir_mail_server.py:503
 #, python-format
 msgid "Mail Delivery Failed"
 msgstr "Ошибка при доставке почты"
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:470
+#: code:addons/base/ir/ir_mail_server.py:499
 #, python-format
 msgid ""
 "Mail delivery failed via SMTP server '%s'.\n"
@@ -9841,11 +10134,6 @@ msgid "Malawi"
 msgstr "Малави"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Malayalam / മലയാളം"
-msgstr "Малаялам / മലയാളം"
-
-#. module: base
 #: model:res.country,name:base.my
 msgid "Malaysia"
 msgstr "Малайзия"
@@ -9868,7 +10156,7 @@ msgstr "Мальта"
 #. module: base
 #: model:res.groups,name:base.group_multi_salesteams
 msgid "Manage Sales Teams"
-msgstr "Команда по продажам"
+msgstr ""
 
 #. module: base
 #: model:res.groups,name:base.group_website_designer
@@ -9878,7 +10166,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
-"Manage and customize the items available and displayed in your Modoo system "
+"Manage and customize the items available and displayed in your Odoo system "
 "menu. You can delete an item by clicking on the box at the beginning of each"
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
@@ -10144,10 +10432,22 @@ msgid "Miss"
 msgstr "Г-жа"
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:448
+#: code:addons/base/ir/ir_mail_server.py:477
 #, python-format
 msgid "Missing SMTP Server"
 msgstr "Отсутствие SMTP сервера"
+
+#. module: base
+#: code:addons/models.py:6067
+#, python-format
+msgid "Missing required value for the field '%s' (%s)"
+msgstr ""
+
+#. module: base
+#: code:addons/models.py:6064
+#, python-format
+msgid "Missing required value for the field '%s'."
+msgstr ""
 
 #. module: base
 #: model:res.partner.title,name:base.res_partner_title_mister
@@ -10246,7 +10546,7 @@ msgid ""
 msgstr "Имя модели, метод которой будет вызван. Например \"res.partner\""
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:584 code:addons/base/ir/ir_ui_view.py:798
+#: code:addons/base/ir/ir_ui_view.py:576 code:addons/base/ir/ir_ui_view.py:790
 #, python-format
 msgid "Model not found: %(model)s"
 msgstr "Модель не найдена: %(model)s"
@@ -10323,7 +10623,15 @@ msgid "Module dependency"
 msgstr "Зависимость модуля"
 
 #. module: base
-#: code:addons/base/module/module.py:685
+#: code:addons/convert.py:963
+#, python-format
+msgid ""
+"Module loading %s failed: file %s could not be processed:\n"
+" %s"
+msgstr ""
+
+#. module: base
+#: code:addons/base/module/module.py:681
 #, python-format
 msgid "Module not found"
 msgstr "Модуль не найден"
@@ -10636,10 +10944,16 @@ msgid "Niue"
 msgstr "Ниуэ"
 
 #. module: base
-#: code:addons/base/res/res_currency.py:59
+#: code:addons/base/res/res_currency.py:60
 #, python-format
 msgid "No currency rate associated for currency '%s' for the given period"
 msgstr "Нет курса валют связанного с курсом'%s' на данный момент"
+
+#. module: base
+#: code:addons/models.py:1543
+#, python-format
+msgid "No default view of type '%s' could be found !"
+msgstr ""
 
 #. module: base
 #: selection:ir.sequence,implementation:0
@@ -10653,7 +10967,7 @@ msgid "No language with code \"%s\" exists"
 msgstr "Нет языка с кодом \"%s\""
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:328
+#: code:addons/base/ir/ir_fields.py:357
 #, python-format
 msgid ""
 "No matching record found for %(field_type)s '%(value)s' in field "
@@ -10661,7 +10975,7 @@ msgid ""
 msgstr "Не найдено записей для  %(field_type)s '%(value)s' в поле '%%(field)s'"
 
 #. module: base
-#: code:addons/base/res/res_currency.py:230
+#: code:addons/base/res/res_currency.py:241
 #, python-format
 msgid ""
 "No rate found \n"
@@ -10811,28 +11125,23 @@ msgid "Object:"
 msgstr "Объект:"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Occitan (FR, post 1500) / Occitan"
-msgstr "Окситанский (FR, post 1500) / Occitan"
-
-#. module: base
 #. openerp-web
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
-msgid "Modoo Apps will be available soon"
-msgstr ""
+msgid "Odoo Apps will be available soon"
+msgstr "Приложения Odoo скоро будут доступны"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_odoo_support
-msgid "Modoo Live Support"
-msgstr "Онлайн поддержка Modoo"
+msgid "Odoo Live Support"
+msgstr "Онлайн поддержка Odoo"
 
 #. module: base
 #: help:ir.sequence,padding:0
 msgid ""
-"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
-msgstr "Modoo автоматически добавляет некоторые «0» слева от 'Следующий номер', чтобы получить требуемый наполняемый размер."
+msgstr "Odoo автоматически добавляет некоторые «0» слева от 'Следующий номер', чтобы получить требуемый наполняемый размер."
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -10842,7 +11151,7 @@ msgstr "Канцтовары"
 #. module: base
 #: model:res.groups,name:base.group_hr_user
 msgid "Officer"
-msgstr "Кадровик"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment_ogone
@@ -10882,6 +11191,22 @@ msgid "On delete property for many2one fields"
 msgstr "При удалении свояства для полей many2one"
 
 #. module: base
+#: code:addons/models.py:3395 code:addons/models.py:3490
+#, python-format
+msgid ""
+"One of the documents you are trying to access has been deleted, please try "
+"again after refreshing."
+msgstr ""
+
+#. module: base
+#: code:addons/models.py:3892
+#, python-format
+msgid ""
+"One of the records you are trying to modify has already been deleted "
+"(Document type: %s)."
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_account_voucher
 msgid "Online Billing"
 msgstr ""
@@ -10908,7 +11233,7 @@ msgid "Only administrators can change the settings"
 msgstr "Только администраторы могут изменять настройки"
 
 #. module: base
-#: code:addons/base/ir/ir_attachment.py:81
+#: code:addons/base/ir/ir_attachment.py:80
 #, python-format
 msgid "Only administrators can execute this action."
 msgstr "Только администраторы могут выполнить это действие."
@@ -10933,7 +11258,7 @@ msgid "Only if this bank account belong to your company"
 msgstr "Только если этот банковский счет принадлежит вашей компании"
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:789
+#: code:addons/base/ir/ir_model.py:793
 #, python-format
 msgid ""
 "Only users with the following access level are currently allowed to do that"
@@ -10986,7 +11311,7 @@ msgid "OpenOffice Report Designer"
 msgstr "Конструктор отчетов OpenOffice"
 
 #. module: base
-#: code:addons/base/res/res_users.py:158
+#: code:addons/base/res/res_users.py:163
 #, python-format
 msgid "Operation Canceled"
 msgstr "Операция отменена"
@@ -11000,7 +11325,7 @@ msgstr "Операция запрещена"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_config_opportunity
 msgid "Opportunities"
-msgstr "Предложения"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_crm
@@ -11055,7 +11380,7 @@ msgid "Original View"
 msgstr "Исходный вид"
 
 #. module: base
-#: code:addons/base/res/res_users.py:750 code:addons/base/res/res_users.py:902
+#: code:addons/base/res/res_users.py:774 code:addons/base/res/res_users.py:928
 #: selection:res.partner,type:0 view:res.users:base.user_groups_view
 #, python-format
 msgid "Other"
@@ -11097,12 +11422,6 @@ msgid "Outgoing Transitions"
 msgstr "Исходящее перемещение"
 
 #. module: base
-#: code:addons/base/maintenance/migrations/stock/7.saas~5.1.1/post-10-warehouseconf.py:64
-#, python-format
-msgid "Output"
-msgstr "Выход"
-
-#. module: base
 #: field:base.language.import,overwrite:0
 #: field:base.language.install,overwrite:0
 msgid "Overwrite Existing Terms"
@@ -11133,12 +11452,6 @@ msgstr "Формат PO(T): вы должны редактировать его 
 #: view:base.language.export:base.wizard_lang_export
 msgid "POEdit"
 msgstr "POEdit"
-
-#. module: base
-#: code:addons/base/maintenance/migrations/stock/7.saas~5.1.1/post-10-warehouseconf.py:70
-#, python-format
-msgid "Packing Zone"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pad_project
@@ -11259,7 +11572,7 @@ msgstr "Назначение & геолокализация партнера"
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_mass_mail
 msgid "Partner Mass Mailing"
-msgstr "Массовая рассылка партнерам"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_partner
@@ -11304,7 +11617,7 @@ msgid "Partners Geo-Localization"
 msgstr "Геолокация партнеров"
 
 #. module: base
-#: code:addons/base/res/res_partner.py:774
+#: code:addons/base/res/res_partner.py:780
 #, python-format
 msgid "Partners: "
 msgstr "Контрагенты: "
@@ -11341,6 +11654,11 @@ msgid "Payment Acquirer: Adyen Implementation"
 msgstr "Платежи клиентов: вклад в Adyen"
 
 #. module: base
+#: model:ir.module.module,summary:base.module_payment_authorize
+msgid "Payment Acquirer: Authorize.net Implementation"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_payment_buckaroo
 msgid "Payment Acquirer: Buckaroo Implementation"
 msgstr "Платежи клиентов: вклад в Buckaroo"
@@ -11363,7 +11681,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.menu,name:base.menu_sales_followup
 msgid "Payment Follow-up"
-msgstr "Напоминание об оплате"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_followup
@@ -11400,7 +11718,7 @@ msgstr "Периодические оценки, оценки, опросы"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:566 code:addons/base/ir/ir_model.py:627
-#: code:addons/base/ir/ir_model.py:1134
+#: code:addons/base/ir/ir_model.py:1146
 #, python-format
 msgid "Permission Denied"
 msgstr "Доступ запрещён"
@@ -11463,14 +11781,14 @@ msgid "Plano de contas SNC para Portugal"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:792
+#: code:addons/base/ir/ir_model.py:796
 #, python-format
 msgid ""
 "Please contact your system administrator if you think this is an error."
 msgstr "Пожалуйста, обратитесь к вашему системному администратору, если вы считаете, что это ошибка."
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:449
+#: code:addons/base/ir/ir_mail_server.py:478
 #, python-format
 msgid ""
 "Please define at least one SMTP server, or provide the SMTP parameters "
@@ -11496,13 +11814,13 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:846
+#: code:addons/base/ir/ir_actions.py:832
 #, python-format
 msgid "Please specify an action to launch!"
 msgstr "Пожалуйста выберите действие для активации!"
 
 #. module: base
-#: code:addons/base/res/res_users.py:158
+#: code:addons/base/res/res_users.py:163
 #, python-format
 msgid ""
 "Please use the change password wizard (in User Preferences or User menu) to "
@@ -11581,7 +11899,7 @@ msgstr "Портал - запасы"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Modoo groups."
+"                They usually do not belong to the usual Odoo groups."
 msgstr ""
 
 #. module: base
@@ -11695,7 +12013,7 @@ msgstr ""
 #. module: base
 #: model:ir.ui.menu,name:base.menu_product
 msgid "Products"
-msgstr "Продукты"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product
@@ -11780,8 +12098,8 @@ msgstr "Общие проекты"
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Modoo groups."
-msgstr "Публичные пользователи обладают ограниченным набором прав.\n                                                                               Обычно они не относятся к стандартным группам пользователей Modoo"
+"                They usually do not belong to the usual Odoo groups."
+msgstr "Публичные пользователи обладают ограниченным набором прав.\n                                                                               Обычно они не относятся к стандартным группам пользователей Odoo"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_membership
@@ -11816,7 +12134,7 @@ msgstr "Пуэрто-Рико"
 #. module: base
 #: model:ir.ui.menu,name:base.next_id_73
 msgid "Purchase"
-msgstr "Закупка"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_analytic_plans
@@ -11879,12 +12197,6 @@ msgstr "Катар"
 #: field:ir.values,key2:0
 msgid "Qualifier"
 msgstr "Определитель"
-
-#. module: base
-#: code:addons/base/maintenance/migrations/stock/7.saas~5.1.1/post-10-warehouseconf.py:68
-#, python-format
-msgid "Quality Control"
-msgstr "Контроль качества"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_stock
@@ -11976,6 +12288,12 @@ msgid "Record"
 msgstr "Запись"
 
 #. module: base
+#: code:addons/models.py:4769
+#, python-format
+msgid "Record #%d of %s not found, cannot copy!"
+msgstr ""
+
+#. module: base
 #: field:ir.actions.act_window,res_id:0 field:ir.actions.server,id_value:0
 #: field:ir.model.data,res_id:0 field:ir.translation,res_id:0
 #: field:ir.values,res_id:0
@@ -12001,6 +12319,12 @@ msgid "Record cannot be modified right now"
 msgstr "Запись не может быть изменена прямо сейчас"
 
 #. module: base
+#: code:addons/models.py:4894
+#, python-format
+msgid "Record does not exist or has been deleted."
+msgstr ""
+
+#. module: base
 #: view:ir.rule:base.view_rule_form view:ir.rule:base.view_rule_tree
 msgid "Record rules"
 msgstr "Ограничение доступа"
@@ -12008,7 +12332,7 @@ msgstr "Ограничение доступа"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_case_job_req_main
 msgid "Recruitment"
-msgstr "Наем"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_recruitment
@@ -12021,7 +12345,7 @@ msgid "Recurring Documents"
 msgstr "Повторяющиеся документы"
 
 #. module: base
-#: code:addons/base/module/module.py:386
+#: code:addons/base/module/module.py:382
 #, python-format
 msgid "Recursion error in modules dependencies !"
 msgstr "Ошибка рекурсии в зависимостях модулей!"
@@ -12032,10 +12356,10 @@ msgid "Recursion found in child server actions"
 msgstr "Ошибка рекурсии в подчиненных действиях сервера"
 
 #. module: base
-#: model:ir.actions.act_window,name:base.res_request_link-act
-#: model:ir.ui.menu,name:base.menu_res_request_link_act
-msgid "Referencable Models"
-msgstr ""
+#: code:addons/models.py:3995
+#, python-format
+msgid "Recursivity Detected."
+msgstr "Обнаружена рекурсия."
 
 #. module: base
 #: report:ir.module.reference:0
@@ -12046,6 +12370,12 @@ msgstr "Описание"
 #: field:ir.actions.server,ref_object:0
 msgid "Reference record"
 msgstr "Ссылка на запись"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.res_request_link-act
+#: model:ir.ui.menu,name:base.menu_res_request_link_act
+msgid "Referenceable Models"
+msgstr ""
 
 #. module: base
 #: code:addons/base/res/res_company.py:168
@@ -12202,6 +12532,12 @@ msgid "Resellers"
 msgstr "Посредники"
 
 #. module: base
+#: code:addons/models.py:1085
+#, python-format
+msgid "Resolve other errors first"
+msgstr ""
+
+#. module: base
 #: field:ir.exports,resource:0
 #: model:ir.module.module,shortdesc:base.module_resource
 #: field:ir.property,res_id:0
@@ -12317,7 +12653,7 @@ msgid "Rules can not be applied on the Record Rules model."
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:823
+#: code:addons/base/ir/ir_actions.py:809
 #, python-format
 msgid "Run %s"
 msgstr "Запуск %s"
@@ -12504,6 +12840,11 @@ msgid "Saudi Arabia"
 msgstr "Саудовская Аравия"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_sa
+msgid "Saudi Arabia - Accounting"
+msgstr ""
+
+#. module: base
 #: view:res.users:base.view_users_form_simple_modif
 msgid "Save"
 msgstr "Сохранить"
@@ -12591,18 +12932,24 @@ msgstr "Безопасность и аутентификация"
 #. module: base
 #: model:res.groups,name:base.group_sale_salesman
 msgid "See Own Leads"
-msgstr "Смотреть собственных кандидатов"
+msgstr ""
 
 #. module: base
 #: model:res.groups,name:base.group_sale_salesman_all_leads
 msgid "See all Leads"
-msgstr "Смотреть всех кандидатов"
+msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:284
+#: code:addons/base/ir/ir_fields.py:306
 #, python-format
 msgid "See all possible values"
 msgstr "Смотри все возможные значения"
+
+#. module: base
+#: code:addons/common.py:50
+#, python-format
+msgid "See http://openerp.com"
+msgstr ""
 
 #. module: base
 #: help:multi_company.default,field_id:0
@@ -12743,6 +13090,12 @@ msgid "Serialization Field"
 msgstr "Поле сериализации"
 
 #. module: base
+#: code:addons/models.py:418
+#, python-format
+msgid "Serialization field `%s` not found for sparse field `%s`!"
+msgstr ""
+
+#. module: base
 #: selection:ir.logging,type:0
 msgid "Server"
 msgstr "Сервер"
@@ -12796,7 +13149,7 @@ msgid ""
 msgstr "Установите шрифт в заголовке отчета, он будет использоваться в качестве шрифта по умолчанию в RML докладах пользователя компании"
 
 #. module: base
-#: code:addons/base/res/res_users.py:512
+#: code:addons/base/res/res_users.py:536
 #, python-format
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "Использование пустых паролей не допускается по соображениям безопасности!"
@@ -12885,11 +13238,6 @@ msgid "Singapore - Accounting"
 msgstr "Сингапур - Учет"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Sinhalese / සිංහල"
-msgstr "Сингальский / සිංහල"
-
-#. module: base
 #: model:res.country,name:base.sx
 msgid "Sint Maarten (Dutch part)"
 msgstr "Синт-Мартен (голландская часть)"
@@ -12976,29 +13324,35 @@ msgid "Sometimes called BIC or Swift."
 msgstr "Иногда называемый БИК или Swift."
 
 #. module: base
-#: code:addons/base/ir/ir_attachment.py:257
-#: code:addons/base/ir/ir_model.py:783
+#: code:addons/base/ir/ir_attachment.py:259
+#: code:addons/base/ir/ir_model.py:787
 #, python-format
 msgid "Sorry, you are not allowed to access this document."
 msgstr "Извините, вы не можете получить доступ к этому документу."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:785
+#: code:addons/base/ir/ir_model.py:789
 #, python-format
 msgid "Sorry, you are not allowed to create this kind of document."
 msgstr "К сожалению, вы не можете создать такой документ."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:786
+#: code:addons/base/ir/ir_model.py:790
 #, python-format
 msgid "Sorry, you are not allowed to delete this document."
 msgstr "Извините, вы не можете удалить этот документ."
 
 #. module: base
-#: code:addons/base/ir/ir_model.py:784
+#: code:addons/base/ir/ir_model.py:788
 #, python-format
 msgid "Sorry, you are not allowed to modify this document."
 msgstr "К сожалению, вы не можете изменять этот документ ."
+
+#. module: base
+#: code:addons/models.py:4618
+#, python-format
+msgid "Sorting field %s not found on model %s"
+msgstr ""
 
 #. module: base
 #: field:ir.translation,source:0
@@ -13099,18 +13453,8 @@ msgstr "Испанский (GT) / Español (GT)"
 
 #. module: base
 #: selection:base.language.install,lang:0
-msgid "Spanish (HN) / Español (HN)"
-msgstr "Испанский (HN) / Español (HN)"
-
-#. module: base
-#: selection:base.language.install,lang:0
 msgid "Spanish (MX) / Español (MX)"
 msgstr "Испанский (MX) / Español (MX)"
-
-#. module: base
-#: selection:base.language.install,lang:0
-msgid "Spanish (NI) / Español (NI)"
-msgstr "Испанский (NI) / Español (NI)"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -13124,18 +13468,8 @@ msgstr "Испанский (PE) / Español (PE)"
 
 #. module: base
 #: selection:base.language.install,lang:0
-msgid "Spanish (PR) / Español (PR)"
-msgstr "Испанский (PR) / Español (PR)"
-
-#. module: base
-#: selection:base.language.install,lang:0
 msgid "Spanish (PY) / Español (PY)"
 msgstr "Испанский (PY) / Español (PY)"
-
-#. module: base
-#: selection:base.language.install,lang:0
-msgid "Spanish (SV) / Español (SV)"
-msgstr "Испанский (SV) / Español (SV)"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -13199,7 +13533,7 @@ msgstr "﻿Шри-Ланка"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_project_config_project
 msgid "Stages"
-msgstr "Этапы"
+msgstr ""
 
 #. module: base
 #: selection:ir.sequence,implementation:0
@@ -13386,7 +13720,7 @@ msgstr ""
 #. module: base
 #: model:res.groups,name:base.group_survey_user
 msgid "Survey / User"
-msgstr "Опрос/пользователь"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_survey_crm
@@ -13488,7 +13822,7 @@ msgstr "Архив .tgz"
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
 "TGZ format: this is a compressed archive containing a PO file, directly suitable\n"
-"                                for uploading to Modoo's translation platform,"
+"                                for uploading to Odoo's translation platform,"
 msgstr "TGZ формат: это сжатый архив содержащий PO файл, непосредственно пригодный\n                                для загрузки в платформу переводов OpenERP,"
 
 #. module: base
@@ -13611,7 +13945,7 @@ msgstr "Техническое руководство"
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_17
 msgid "Telecom sector"
-msgstr "Телекоммуникации"
+msgstr ""
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -13629,14 +13963,14 @@ msgid "Template of Charts of Accounts"
 msgstr "Шаблон плана счетов"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_test_new_api
+msgid "Test API"
+msgstr ""
+
+#. module: base
 #: view:ir.mail_server:base.ir_mail_server_form
 msgid "Test Connection"
 msgstr "Проверка подключения"
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_test_new_api
-msgid "Test New API"
-msgstr "Тестирование нового API"
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_access_rights
@@ -13714,7 +14048,7 @@ msgid ""
 msgstr "Формат разделителя должен иметь вид [,n] где 0 < n : начиная с разряда единиц. -1 завершает разделение. Например, [3,2,-1] представит число 106500 в виде 1,06,500; [1,2,-1] представит его в виде 106,50,0; [3] представит вид 106,500. В каждом случае ',' используется для разделения разрядов."
 
 #. module: base
-#: code:addons/base/module/module.py:686
+#: code:addons/base/module/module.py:682
 #, python-format
 msgid ""
 "The `%s` module appears to be unavailable at the moment, please try again "
@@ -13722,7 +14056,7 @@ msgid ""
 msgstr "Похоже, что модуль '%s' не доступен сейчас, пожалуйста, попробуйте позже."
 
 #. module: base
-#: code:addons/base/module/module.py:523
+#: code:addons/base/module/module.py:519
 #, python-format
 msgid "The `base` module cannot be uninstalled"
 msgstr "Базовый модуль нельзя удалить"
@@ -13761,7 +14095,7 @@ msgstr "Компания для которой сейчас работает э�
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
 msgid ""
 "The configuration wizards are used to help you configure a new instance of "
-"Modoo. They are launched during the installation of new modules, but you can "
+"Odoo. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
 msgstr ""
 
@@ -13836,7 +14170,7 @@ msgid "The name of the country must be unique !"
 msgstr "Название страны должно быть уникальным !"
 
 #. module: base
-#: code:addons/base/res/res_users.py:127
+#: code:addons/base/res/res_users.py:131
 #, python-format
 msgid "The name of the group can not start with \"-\""
 msgstr "Название группы не может начинаться с \"-\""
@@ -13852,7 +14186,7 @@ msgid "The name of the language must be unique !"
 msgstr "Название языка должно быть уникальным !"
 
 #. module: base
-#: code:addons/base/module/module.py:325
+#: code:addons/base/module/module.py:326
 #, python-format
 msgid "The name of the module must be unique !"
 msgstr "Название модуля должно быть уникальным !"
@@ -13866,6 +14200,15 @@ msgstr "Следующее число в нумерации будет увел�
 #: view:base.language.export:base.wizard_lang_export
 msgid "The next step depends on the file format:"
 msgstr "Следующий шаг зависит от формата файла:"
+
+#. module: base
+#: code:addons/model.py:131
+#, python-format
+msgid ""
+"The operation cannot be completed, probably due to the following:\n"
+"- deletion: you may be trying to delete a record while other records still reference it\n"
+"- creation/update: a mandatory field is not correctly set"
+msgstr ""
 
 #. module: base
 #: help:ir.model.fields,domain:0
@@ -13933,7 +14276,17 @@ msgid "The record id this is attached to"
 msgstr "Прикреплено к идентификатору записи"
 
 #. module: base
-#: code:addons/fields.py:847
+#: code:addons/models.py:3133 code:addons/models.py:3388
+#: code:addons/models.py:3479
+#, python-format
+msgid ""
+"The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
+"\n"
+"(Document type: %s, Operation: %s)"
+msgstr ""
+
+#. module: base
+#: code:addons/fields.py:913
 #, python-format
 msgid ""
 "The second argument of the many2many field %s must be a SQL table !You used "
@@ -13978,7 +14331,13 @@ msgid ""
 msgstr "Пользователь фильтра. Если оставить пустым, то фильтр будет доступен всем."
 
 #. module: base
-#: code:addons/base/ir/ir_filters.py:96
+#: code:addons/models.py:6079
+#, python-format
+msgid "The value for the field '%s' already exists."
+msgstr ""
+
+#. module: base
+#: code:addons/base/ir/ir_filters.py:97
 #, python-format
 msgid ""
 "There is already a shared filter set as default for %(model)s, delete or "
@@ -14262,7 +14621,7 @@ msgid "Translation comments"
 msgstr "Комментарии перевода"
 
 #. module: base
-#: code:addons/base/ir/ir_translation.py:401
+#: code:addons/base/ir/ir_translation.py:418
 #, python-format
 msgid ""
 "Translation features are unavailable until you install an extra OpenERP "
@@ -14433,7 +14792,14 @@ msgid "Ukrainian / українська"
 msgstr "Украинский / Українська"
 
 #. module: base
-#: code:addons/base/module/module.py:376
+#: code:addons/models.py:3608
+#, python-format
+msgid ""
+"Unable to delete this document because it is used as a default property"
+msgstr ""
+
+#. module: base
+#: code:addons/base/module/module.py:372
 #, python-format
 msgid ""
 "Unable to install module \"%s\" because an external dependency is not met: "
@@ -14441,7 +14807,7 @@ msgid ""
 msgstr "Нельзя установить модуль \"%s\" так, как не удовлетворена внешняя зависимость: %s"
 
 #. module: base
-#: code:addons/base/module/module.py:380
+#: code:addons/base/module/module.py:376
 #, python-format
 msgid ""
 "Unable to process module \"%s\" because an external dependency is not met: "
@@ -14449,7 +14815,7 @@ msgid ""
 msgstr "Не удалось обработать модуль \"%s\" так, как внешняя зависимость не удовлетворена: %s"
 
 #. module: base
-#: code:addons/base/module/module.py:378
+#: code:addons/base/module/module.py:374
 #, python-format
 msgid ""
 "Unable to upgrade module \"%s\" because an external dependency is not met: "
@@ -14472,7 +14838,7 @@ msgid "Unicode/UTF-8"
 msgstr "Юникод/UTF-8"
 
 #. module: base
-#: code:addons/base/module/module.py:526
+#: code:addons/base/module/module.py:522
 #: view:ir.module.module:base.module_form
 #, python-format
 msgid "Uninstall"
@@ -14499,19 +14865,31 @@ msgid "United States - Chart of accounts"
 msgstr "Соединенные Штаты - бухгалтерский учет"
 
 #. module: base
-#: code:addons/report_sxw.py:391
+#: code:addons/models.py:1230
+#, python-format
+msgid "Unknown database identifier '%s'"
+msgstr ""
+
+#. module: base
+#: code:addons/models.py:1083
+#, python-format
+msgid "Unknown error during import:"
+msgstr ""
+
+#. module: base
+#: code:addons/report_sxw.py:392
 #, python-format
 msgid "Unknown report type: %s"
 msgstr "Неизвестный тип отчета: %s"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:324
+#: code:addons/base/ir/ir_fields.py:350
 #, python-format
 msgid "Unknown sub-field '%s'"
 msgstr "Неизвестное суб-поле '%s'"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:152
+#: code:addons/base/ir/ir_fields.py:166
 #, python-format
 msgid "Unknown value '%s' for boolean field '%%(field)s', assuming '%s'"
 msgstr "Неизвестное значение '%s' для логического поля '%%(поле)я' принимая во внимание '%s'"
@@ -14521,6 +14899,13 @@ msgstr "Неизвестное значение '%s' для логическог
 #, python-format
 msgid "Unmet Dependency!"
 msgstr "Неудовлетворенные зависимости!"
+
+#. module: base
+#: code:addons/translate.py:521
+#, python-format
+msgid ""
+"Unrecognized extension: must be one of .csv, .po, or .tgz (received .%s)."
+msgstr ""
 
 #. module: base
 #: view:ir.translation:base.view_translation_search
@@ -14596,11 +14981,6 @@ msgid "Upgrade"
 msgstr "Обновить"
 
 #. module: base
-#: selection:base.language.install,lang:0
-msgid "Urdu / اردو"
-msgstr "Урду / اردو"
-
-#. module: base
 #: field:ir.attachment,url:0
 msgid "Url"
 msgstr "Url"
@@ -14622,7 +15002,7 @@ msgid "Usability"
 msgstr "Удобство использования"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:154
+#: code:addons/base/ir/ir_fields.py:168
 #, python-format
 msgid "Use '1' for yes and '0' for no"
 msgstr "Используйте '1 ' - да, и '0' для не"
@@ -14653,7 +15033,7 @@ msgid "Use the base model of the action"
 msgstr "Используйте базовую модель для действий"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:189 code:addons/base/ir/ir_fields.py:220
+#: code:addons/base/ir/ir_fields.py:209 code:addons/base/ir/ir_fields.py:242
 #, python-format
 msgid "Use the format '%s'"
 msgstr "Используйте формат '%s'"
@@ -14715,6 +15095,12 @@ msgid "User-defined Filters"
 msgstr "Пользовательские фильтры"
 
 #. module: base
+#: code:addons/models.py:3995
+#, python-format
+msgid "UserError"
+msgstr ""
+
+#. module: base
 #: field:ir.mail_server,smtp_user:0
 msgid "Username"
 msgstr "Имя пользователя"
@@ -14766,7 +15152,7 @@ msgid "Value"
 msgstr "Стоимость"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:255
+#: code:addons/base/ir/ir_fields.py:278
 #, python-format
 msgid "Value '%s' not found in selection field '%%(field)s'"
 msgstr "Значение '%s' не найдено в поле выбора '%%(field)s'"
@@ -14895,7 +15281,7 @@ msgstr "Просмотры"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_ui_view
 msgid ""
-"Views allows you to personalize each view of Modoo. You can add new fields, "
+"Views allows you to personalize each view of Odoo. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
 msgstr ""
 
@@ -14945,12 +15331,12 @@ msgid "Warehouse Management: Waves"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_actions.py:841
-#: code:addons/base/ir/ir_mail_server.py:481
-#: code:addons/base/ir/ir_sequence.py:260
-#: code:addons/base/res/res_partner.py:378
-#: code:addons/base/res/res_partner.py:558
-#: code:addons/base/res/res_partner.py:638
+#: code:addons/base/ir/ir_actions.py:827
+#: code:addons/base/ir/ir_mail_server.py:510
+#: code:addons/base/ir/ir_sequence.py:259
+#: code:addons/base/res/res_partner.py:382
+#: code:addons/base/res/res_partner.py:562
+#: code:addons/base/res/res_partner.py:642
 #, python-format
 msgid "Warning"
 msgstr "Внимание"
@@ -14961,13 +15347,19 @@ msgid "Warning Messages and Alerts"
 msgstr "Предупреждающие сообщения и оповещения"
 
 #. module: base
-#: code:addons/base/ir/ir_sequence.py:134
-#: code:addons/base/ir/ir_sequence.py:160
+#: code:addons/base/ir/ir_sequence.py:136
+#: code:addons/base/ir/ir_sequence.py:162
 #: code:addons/base/res/res_config.py:471
-#: code:addons/base/res/res_users.py:512
+#: code:addons/base/res/res_users.py:536
 #, python-format
 msgid "Warning!"
 msgstr "Внимание!"
+
+#. module: base
+#: code:addons/models.py:5803 code:addons/models.py:5856
+#, python-format
+msgid "Warnings"
+msgstr ""
 
 #. module: base
 #: view:base.module.upgrade:base.view_base_module_upgrade_install
@@ -15131,7 +15523,7 @@ msgid ""
 "arrow, but rather add new nodes or arrows. If you absolutly need to modify a"
 " node or arrow, you can only change fields that are empty or set to the "
 "default value. If you don't do that, your customization will be overwrited "
-"at the next update or upgrade to a future version of Modoo."
+"at the next update or upgrade to a future version of Odoo."
 msgstr ""
 
 #. module: base
@@ -15267,6 +15659,11 @@ msgid "Workitems"
 msgstr "Рабочие элементы"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_payment_sips
+msgid "Worldline SIPS Payment Acquiring  for online payments"
+msgstr ""
+
+#. module: base
 #: view:ir.model.access:base.ir_access_view_search
 #: field:ir.model.access,perm_write:0
 msgid "Write Access"
@@ -15330,7 +15727,7 @@ msgid ""
 msgstr "Вы создаете нового пользователя.  После сохранения, пользователь получит письмо с приглашением, которое будет содержать ссылку на форму создания нового пароля."
 
 #. module: base
-#: code:addons/base/res/res_partner.py:558
+#: code:addons/base/res/res_partner.py:562
 #, python-format
 msgid ""
 "You can not change the company as the partner/user has multiple user linked "
@@ -15348,11 +15745,11 @@ msgid "You can not register two fonts with the same name"
 msgstr "Невозможно зарегистрировать два шрифта с одинаковым именем"
 
 #. module: base
-#: code:addons/base/res/res_users.py:347
+#: code:addons/base/res/res_users.py:374
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
-"created by Modoo (updates, module installation, ...)"
+"created by Odoo (updates, module installation, ...)"
 msgstr ""
 
 #. module: base
@@ -15398,7 +15795,7 @@ msgid ""
 msgstr "Нельзя иметь несколько записей с одним и тем же внешним ID в одном и том же модуле!"
 
 #. module: base
-#: code:addons/base/module/module.py:396
+#: code:addons/base/module/module.py:392
 #, python-format
 msgid ""
 "You try to install module '%s' that depends on module '%s'.\n"
@@ -15406,13 +15803,13 @@ msgid ""
 msgstr "Вы пытаетесь установить модуль '%s'  который зависит от модуля '%s',\nно он не доступен в вашей системе."
 
 #. module: base
-#: code:addons/base/module/module.py:339
+#: code:addons/base/module/module.py:340
 #, python-format
 msgid "You try to remove a module that is installed or will be installed"
 msgstr "Вы пытаетесь удалить модуль, который установлен или будет установлен"
 
 #. module: base
-#: code:addons/base/module/module.py:563
+#: code:addons/base/module/module.py:559
 #, python-format
 msgid ""
 "You try to upgrade a module that depends on the module: %s.\n"
@@ -15436,7 +15833,7 @@ msgid ""
 msgstr "Ваш сервер OpenERP не поддерживает SMTP-через-SSL. Вы можете использовать STARTTLS вместо него. Если SSL необходим, должно помочь обновление до Python 2.6 на стороне сервера."
 
 #. module: base
-#: code:addons/base/ir/ir_mail_server.py:482
+#: code:addons/base/ir/ir_mail_server.py:511
 #, python-format
 msgid ""
 "Your server does not seem to support SSL, you may want to try STARTTLS "
@@ -15525,7 +15922,13 @@ msgid "cr: database cursor"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:293
+#: code:addons/models.py:4299
+#, python-format
+msgid "created."
+msgstr ""
+
+#. module: base
+#: code:addons/base/ir/ir_fields.py:315
 #, python-format
 msgid "database id"
 msgstr "идентификатор базы данных"
@@ -15540,22 +15943,6 @@ msgstr "документация"
 #: selection:base.module.update,state:0
 msgid "done"
 msgstr "сделано"
-
-#. module: base
-#: view:res.users:base.view_users_simple_form
-msgid "e.g. +32.479.19.28.37"
-msgstr ""
-
-#. module: base
-#: view:res.partner:base.view_partner_form
-#: view:res.users:base.view_users_simple_form
-msgid "e.g. +32.81.81.37.00"
-msgstr "например, +38 (062) 123-45-67"
-
-#. module: base
-#: view:res.users:base.view_users_simple_form
-msgid "e.g. +32.81.81.37.10"
-msgstr ""
 
 #. module: base
 #: view:base.language.import:base.view_base_import_language
@@ -15586,8 +15973,8 @@ msgstr "например, ru_RU"
 #. module: base
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
-msgid "e.g. www.modoo.com"
-msgstr "например www.modoo-russia.ru"
+msgid "e.g. www.odoo.com"
+msgstr "например www.odoo-russia.ru"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale
@@ -15615,13 +16002,13 @@ msgid "email@yourcompany.com"
 msgstr "email@yourcompany.com"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:305
+#: code:addons/base/ir/ir_fields.py:329
 #, python-format
 msgid "external id"
 msgstr "внешний ID"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:132
+#: code:addons/base/ir/ir_fields.py:145
 #, python-format
 msgid "false"
 msgstr "ложь"
@@ -15680,22 +16067,34 @@ msgid "ltd"
 msgstr "ООО"
 
 #. module: base
-#: code:addons/base/ir/ir_ui_view.py:353
+#: code:addons/loading.py:292
+#, python-format
+msgid "module base cannot be loaded! (hint: verify addons-path)"
+msgstr ""
+
+#. module: base
+#: code:addons/base/ir/ir_ui_view.py:346
 #, python-format
 msgid "n/a"
 msgstr "Недоступно"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:315
+#: code:addons/base/ir/ir_fields.py:339
 #, python-format
 msgid "name"
 msgstr "имя"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:132
+#: code:addons/base/ir/ir_fields.py:145
 #, python-format
 msgid "no"
 msgstr "нет"
+
+#. module: base
+#: code:addons/amount_to_text_en.py:116
+#, python-format
+msgid "no translation function found for lang: '%s'"
+msgstr ""
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -15747,6 +16146,12 @@ msgid "pool: ORM model pool (i.e. self.pool)"
 msgstr ""
 
 #. module: base
+#: code:addons/mail.py:285
+#, python-format
+msgid "read more"
+msgstr ""
+
+#. module: base
 #: view:res.config:base.res_config_view_base
 msgid "res_config_contents"
 msgstr "res_config_contents"
@@ -15782,6 +16187,11 @@ msgid "test-inherit"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_test_inherits
+msgid "test-inherits"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_test_limits
 msgid "test-limits"
 msgstr ""
@@ -15804,40 +16214,40 @@ msgstr ""
 #. module: base
 #: model:res.groups,comment:base.group_hr_user
 msgid "the user will be able to approve document created by employees."
-msgstr "пользователь сможет утвердить документ, созданный сотрудниками."
+msgstr ""
 
 #. module: base
 #: model:res.groups,comment:base.group_user
 msgid ""
 "the user will be able to manage his own human resources stuff (leave "
 "request, timesheets, ...), if he is linked to an employee in the system."
-msgstr "пользователь сможет управлять собственными человеческими ресурсами (запросы на отгулы, табель рабочего времени, ...), если он связан с работодателем в этой системе."
+msgstr ""
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_salesman_all_leads
 msgid ""
 "the user will have access to all records of everyone in the sales "
 "application."
-msgstr "пользователь будет иметь доступ ко всем документам в приложении продаж."
+msgstr ""
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_salesman
 msgid "the user will have access to his own data in the sales application."
-msgstr "пользователь будет иметь доступ к своим данным в приложении продаж."
+msgstr ""
 
 #. module: base
 #: model:res.groups,comment:base.group_hr_manager
 msgid ""
 "the user will have an access to the human resources configuration as well as"
 " statistic reports."
-msgstr "пользователь будет иметь доступ к настройке управления персоналом, а также к статистическим отчетам ."
+msgstr ""
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_manager
 msgid ""
 "the user will have an access to the sales configuration as well as statistic"
 " reports."
-msgstr "пользователь будет иметь доступ к настройке продаж, а также к статистическим отчетам ."
+msgstr ""
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -15850,7 +16260,7 @@ msgid "title"
 msgstr "заглавие"
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:132
+#: code:addons/base/ir/ir_fields.py:145
 #, python-format
 msgid "true"
 msgstr "истина"
@@ -15861,7 +16271,7 @@ msgid "uid: current user id"
 msgstr "uid: текущий id пользователя"
 
 #. module: base
-#: code:addons/fields.py:196
+#: code:addons/fields.py:242
 #, python-format
 msgid "undefined get method !"
 msgstr "не определен полученный метод!"
@@ -15879,7 +16289,7 @@ msgid "workflow: Workflow engine"
 msgstr ""
 
 #. module: base
-#: code:addons/base/ir/ir_fields.py:132
+#: code:addons/base/ir/ir_fields.py:145
 #, python-format
 msgid "yes"
 msgstr "да"

@@ -1,16 +1,17 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
+# Carles Antolí <carlesantoli@hotmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/modoo-8/language/ca/)\n"
+"PO-Revision-Date: 2015-10-31 22:20+0000\n"
+"Last-Translator: Carles Antolí <carlesantoli@hotmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/odoo/odoo-8/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -253,7 +254,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Modoo"
+msgid "About Odoo"
 msgstr ""
 
 #. module: web
@@ -362,7 +363,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1758
 #, python-format
 msgid "Apply"
-msgstr ""
+msgstr "Aplica"
 
 #. module: web
 #. openerp-web
@@ -544,7 +545,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Modoo."
+msgid "Check this box to evaluate Odoo."
 msgstr ""
 
 #. module: web
@@ -576,7 +577,7 @@ msgstr "Neteja"
 #: code:addons/web/static/src/xml/base.xml:465
 #, python-format
 msgid "Click here to change your user's timezone."
-msgstr ""
+msgstr "Feu clic aquí per canviar la zona horària de l'usuari."
 
 #. module: web
 #. openerp-web
@@ -600,7 +601,7 @@ msgstr "Tanca"
 #: code:addons/web/static/src/js/view_form.js:2646
 #, python-format
 msgid "Close without change"
-msgstr ""
+msgstr "Tancar sense canvis"
 
 #. module: web
 #. openerp-web
@@ -621,21 +622,21 @@ msgstr "Confirma"
 #: code:addons/web/static/src/xml/base.xml:337
 #, python-format
 msgid "Confirm New Password:"
-msgstr ""
+msgstr "Confirmar Nova Contrasenya:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:297
 #, python-format
 msgid "Confirm new master password:"
-msgstr ""
+msgstr "Confirmar Nova contrasenya mestra:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:136
 #, python-format
 msgid "Confirm password:"
-msgstr ""
+msgstr "Confirmar contrasenya:"
 
 #. module: web
 #. openerp-web
@@ -730,7 +731,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:82
 #, python-format
 msgid "Create a New Database"
-msgstr ""
+msgstr "Crear una Nova Base de Dades"
 
 #. module: web
 #. openerp-web
@@ -844,7 +845,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1909
 #, python-format
 msgid "Delete"
-msgstr ""
+msgstr "Elimina"
 
 #. module: web
 #. openerp-web
@@ -874,13 +875,13 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1527
 #, python-format
 msgid "Discard"
-msgstr ""
+msgstr "Rebutgi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Modoo around the world..."
+msgid "Discover Events of Odoo around the world..."
 msgstr ""
 
 #. module: web
@@ -1015,7 +1016,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1304
 #, python-format
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #. module: web
 #. openerp-web
@@ -1202,7 +1203,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Modoo database. You can\n"
+"Fill in this form to create an Odoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
@@ -1616,7 +1617,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Modoo.com account"
+msgid "My Odoo.com account"
 msgstr ""
 
 #. module: web
@@ -1727,33 +1728,33 @@ msgstr "Objecte:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Modoo"
+msgid "Odoo"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Modoo (Formerly OpenERP)"
+msgid "Odoo (Formerly OpenERP)"
 msgstr ""
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Modoo Web Tests"
+msgid "Odoo Web Tests"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Modoo is a trademark of the"
+msgid "Odoo is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Modoo.com"
+msgid "Odoo.com"
 msgstr ""
 
 #. module: web
@@ -2131,7 +2132,7 @@ msgstr "Segon"
 #: code:addons/web/static/src/xml/base.xml:1509
 #, python-format
 msgid "Select"
-msgstr ""
+msgstr "Seleccionar"
 
 #. module: web
 #. openerp-web
@@ -2510,7 +2511,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:3175
 #, python-format
 msgid "Unknown"
-msgstr ""
+msgstr "Desconegut"
 
 #. module: web
 #. openerp-web
@@ -2727,7 +2728,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Modoo session expired. Please refresh the current web page."
+msgid "Your Odoo session expired. Please refresh the current web page."
 msgstr ""
 
 #. module: web
@@ -2880,7 +2881,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2300
 #, python-format
 msgid "is true"
-msgstr ""
+msgstr "és cert"
 
 #. module: web
 #. openerp-web
@@ -2889,7 +2890,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2264
 #, python-format
 msgid "less or equal than"
-msgstr ""
+msgstr "menor o igual que"
 
 #. module: web
 #. openerp-web
@@ -2898,7 +2899,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2262
 #, python-format
 msgid "less than"
-msgstr ""
+msgstr "menor que"
 
 #. module: web
 #. openerp-web
@@ -2933,7 +2934,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/website.tour.xml:14
 #, python-format
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #. module: web
 #. openerp-web
@@ -2954,4 +2955,4 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:232
 #, python-format
 msgid "zip (includes filestore)"
-msgstr ""
+msgstr "zip (inclou magatzem d'arxius)"

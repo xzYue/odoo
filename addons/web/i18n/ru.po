@@ -1,17 +1,19 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
+# Eduard, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Harry <harrierr@mail.ru>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 12:59+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/modoo-8/language/ru/)\n"
+"PO-Revision-Date: 2015-10-20 09:49+0000\n"
+"Last-Translator: Harry <harrierr@mail.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/odoo/odoo-8/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -227,7 +229,7 @@ msgstr "1. Импорт из .CSV файла"
 #: code:addons/web/static/src/xml/base.xml:427
 #, python-format
 msgid "1367 Grand-Rosière"
-msgstr ""
+msgstr "1367 Grand-Rosière"
 
 #. module: web
 #. openerp-web
@@ -254,8 +256,8 @@ msgstr "О программе"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Modoo"
-msgstr "Об Modoo"
+msgid "About Odoo"
+msgstr "Об Odoo"
 
 #. module: web
 #. openerp-web
@@ -539,14 +541,14 @@ msgstr "Измененный пароль"
 #: code:addons/web/static/src/xml/base.xml:426
 #, python-format
 msgid "Chaussée de Namur 40"
-msgstr ""
+msgstr "Chaussée de Namur 40"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Modoo."
-msgstr "Активируйте, если вы хотите оценить Modoo."
+msgid "Check this box to evaluate Odoo."
+msgstr "Активируйте, если вы хотите оценить Odoo."
 
 #. module: web
 #. openerp-web
@@ -881,8 +883,8 @@ msgstr "Отменить"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Modoo around the world..."
-msgstr ""
+msgid "Discover Events of Odoo around the world..."
+msgstr "Откройте события Odoo во всем мире..."
 
 #. module: web
 #. openerp-web
@@ -1061,7 +1063,7 @@ msgstr "Кодировка:"
 #: code:addons/web/static/src/xml/website.tour.xml:25
 #, python-format
 msgid "End This Tutorial"
-msgstr ""
+msgstr "Конец этого учебника"
 
 #. module: web
 #. openerp-web
@@ -1203,11 +1205,11 @@ msgstr "Файл:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Modoo database. You can\n"
+"Fill in this form to create an Odoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "Заполните эту форму для создания новой базы данных Modoo. Вы можете создавать базы данных для различных компаний или для различных целей (тестирование или разработка). После создания базы данных вы сможете установить ваше первое приложение."
+msgstr "Заполните эту форму для создания новой базы данных Odoo. Вы можете создавать базы данных для различных компаний или для различных целей (тестирование или разработка). После создания базы данных вы сможете установить ваше первое приложение."
 
 #. module: web
 #. openerp-web
@@ -1257,7 +1259,7 @@ msgstr "Фильтры"
 #: code:addons/web/static/src/xml/base.xml:439
 #, python-format
 msgid "Follow Us..."
-msgstr ""
+msgstr "Подпишитесь к нам..."
 
 #. module: web
 #. openerp-web
@@ -1617,8 +1619,8 @@ msgstr "Еще"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Modoo.com account"
-msgstr "Моя учетная запись Modoo.com"
+msgid "My Odoo.com account"
+msgstr "Моя учетная запись Odoo.com"
 
 #. module: web
 #. openerp-web
@@ -1702,7 +1704,7 @@ msgstr "Нет результатов для отображения ..."
 #: code:addons/web/static/src/js/view_form.js:3775
 #, python-format
 msgid "No value found for the field  for value "
-msgstr ""
+msgstr "Значение не найдено для этого поля значения"
 
 #. module: web
 #. openerp-web
@@ -1728,34 +1730,34 @@ msgstr "Объект:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Modoo"
-msgstr "Modoo"
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Modoo (Formerly OpenERP)"
-msgstr "Modoo (Бывшая OpenERP)"
+msgid "Odoo (Formerly OpenERP)"
+msgstr "Odoo (Бывшая OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Modoo Web Tests"
-msgstr "Modoo Web тесты"
+msgid "Odoo Web Tests"
+msgstr "Odoo Web тесты"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Modoo is a trademark of the"
-msgstr "Modoo это торговая марка"
+msgid "Odoo is a trademark of the"
+msgstr "Odoo это торговая марка"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Modoo.com"
-msgstr "Modoo.com"
+msgid "Odoo.com"
+msgstr "Odoo.com"
 
 #. module: web
 #. openerp-web
@@ -1962,7 +1964,7 @@ msgstr "Удалить все"
 #: code:addons/web/static/src/js/view_form.js:3775
 #, python-format
 msgid "Render"
-msgstr ""
+msgstr "Представить"
 
 #. module: web
 #. openerp-web
@@ -2460,7 +2462,7 @@ msgstr "Сегодня"
 #: code:addons/web/static/src/xml/base.xml:1039
 #, python-format
 msgid "Toggle Dropdown"
-msgstr ""
+msgstr "Переключить выпадающее"
 
 #. module: web
 #. openerp-web
@@ -2728,8 +2730,8 @@ msgstr "Вы должны выбрать хотя бы одну запись ."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Modoo session expired. Please refresh the current web page."
-msgstr "Время вашей сессии Modoo истекло. Пожалуйста, обновит текущую веб-страницу."
+msgid "Your Odoo session expired. Please refresh the current web page."
+msgstr "Время вашей сессии Odoo истекло. Пожалуйста, обновит текущую веб-страницу."
 
 #. module: web
 #. openerp-web

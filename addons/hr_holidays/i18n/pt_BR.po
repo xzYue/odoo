@@ -1,17 +1,21 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
 # Translators:
+# Clemilton Clementino <clemylton@hotmail.com>, 2015
+# danimaribeiro <danimaribeiro@gmail.com>, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2015
+# Rodrigo Macedo <rodrigomacedo@rmsolucoeseminformatica.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 12:58+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/modoo-8/language/pt_BR/)\n"
+"PO-Revision-Date: 2015-10-11 23:09+0000\n"
+"Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,16 +40,21 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para cria
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
 "<p>\n"
-"               You can assign remaining Legal Leaves for each employee, Modoo\n"
+"               You can assign remaining Legal Leaves for each employee, Odoo\n"
 "               will automatically create and validate allocation requests.\n"
 "             </p>\n"
 "           "
-msgstr ""
+msgstr "<p>\nVocê pode atribuir as restantes folhas jurídicas para cada empregado , Odoo\ncriará automaticamente e validará os pedidos de atribuição .\n</ p>"
 
 #. module: hr_holidays
 #: field:hr.holidays.status,active:0
 msgid "Active"
 msgstr "Ativo"
+
+#. module: hr_holidays
+#: view:hr.holidays:hr_holidays.view_hr_holidays_filter
+msgid "Active Types"
+msgstr "Tipos de Ativos "
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.allocation_company_new
@@ -254,6 +263,11 @@ msgid "Current Leave Type"
 msgstr "Tipo de Folga Atual"
 
 #. module: hr_holidays
+#: view:hr.holidays:hr_holidays.view_hr_holidays_filter
+msgid "Current Year Leaves"
+msgstr "Folhas do Ano em Curso"
+
+#. module: hr_holidays
 #: help:hr.holidays,message_last_post:0
 msgid "Date of the last message posted on the record."
 msgstr "Data da última mensagem para o registro."
@@ -389,7 +403,7 @@ msgid ""
 "If you select this check box, the system allows the employees to take more "
 "leaves than the available ones for this type and will not take them into "
 "account for the \"Remaining Legal Leaves\" defined on the employee form."
-msgstr ""
+msgstr "Se você selecionar esta opção, o sistema permite que os funcionários a tire mais folgas do que as disponíveis para este tipo e levá em conta para as \"Folgas Legais Remanescentes\", definidos no formulário do funcionário."
 
 #. module: hr_holidays
 #: field:hr.holidays,message_is_follower:0
@@ -538,7 +552,7 @@ msgstr "Folgas por Tipo"
 #. module: hr_holidays
 #: model:hr.holidays.status,name:hr_holidays.holiday_status_cl
 msgid "Legal Leaves 2015"
-msgstr ""
+msgstr "Folgas Restantes 2015"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -672,9 +686,9 @@ msgstr "Número de Dias"
 #. module: hr_holidays
 #: help:hr.holidays.status,categ_id:0
 msgid ""
-"Once a leave is validated, Modoo will create a corresponding meeting of this "
+"Once a leave is validated, Odoo will create a corresponding meeting of this "
 "type in the calendar."
-msgstr "Uma vez que uma licença é validada, o Modoo irá criar um evento no calendário correspondente a esse tipo."
+msgstr "Uma vez que uma licença é validada, o Odoo irá criar um evento no calendário correspondente a esse tipo."
 
 #. module: hr_holidays
 #: field:hr.holidays,parent_id:0
@@ -847,7 +861,7 @@ msgstr "O número de dias deve ser maior do que 0."
 #. module: hr_holidays
 #: constraint:hr.holidays:0
 msgid "The number of remaining leaves is not sufficient for this leave type"
-msgstr ""
+msgstr "O número de folgas restantes não é suficiente para este tipo de licença"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:453
@@ -855,7 +869,7 @@ msgstr ""
 msgid ""
 "The number of remaining leaves is not sufficient for this leave type.\n"
 "Please verify also the leaves waiting for validation."
-msgstr ""
+msgstr "O número de folgas restantes não é suficiente para este tipo de licença.\nPor favor, verifique também as folgas à espera de validação."
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:286
@@ -1041,7 +1055,7 @@ msgstr "Você não pode excluir uma folga que está no estado %s."
 #: code:addons/hr_holidays/hr_holidays.py:510
 #, python-format
 msgid "You cannot reduce validated allocation requests"
-msgstr ""
+msgstr "Você não pode reduzir solicitações de alocação validadas"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:330
@@ -1049,7 +1063,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You cannot set a leave request as '%s'. Contact a human resource manager."
-msgstr ""
+msgstr "Você não pode definir uma solicitação de licença como '%s'. Contate um gerente de recursos humanos."
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/wizard/hr_holidays_summary_department.py:44

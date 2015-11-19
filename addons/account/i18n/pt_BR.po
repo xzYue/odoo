@@ -1,17 +1,22 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account
 # 
 # Translators:
+# Clemilton Clementino <clemylton@hotmail.com>, 2015
+# danimaribeiro <danimaribeiro@gmail.com>, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# francisco alexandre bezerra da silva <falexandresilva@gmail.com>, 2015
+# Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2015
+# Mateus Cerqueira Lopes <mateus1@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 12:57+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/modoo-8/language/pt_BR/)\n"
+"POT-Creation-Date: 2015-10-15 06:40+0000\n"
+"PO-Revision-Date: 2015-11-07 22:40+0000\n"
+"Last-Translator: francisco alexandre bezerra da silva <falexandresilva@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -45,7 +50,7 @@ msgid ""
 "    <br/>\n"
 "    <p>It is also possible to directly pay with Paypal:</p>\n"
 "        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
-"            <img class=\"oe_edi_paypal_button\" src=\"https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif\"/>\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"/account/static/src/img/btn_paynowcc_lg.gif\"/>\n"
 "        </a>\n"
 "    % endif\n"
 "    \n"
@@ -87,7 +92,7 @@ msgid ""
 "    </div>\n"
 "</div>\n"
 "            "
-msgstr "\n<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; \">\n\n    <p>Olá ${object.partner_id.name},</p>\n\n    <p>Uma nova fatura está disponível a você: </p>\n    \n    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n       &nbsp;&nbsp;<strong>REFERENCIA</strong><br />\n       &nbsp;&nbsp;Número da Fatura: <strong>${object.number}</strong><br />\n       &nbsp;&nbsp;Total da Fatura: <strong>${object.amount_total} ${object.currency_id.name}</strong><br />\n       &nbsp;&nbsp;Data da Fatura: ${object.date_invoice}<br />\n       % if object.origin:\n       &nbsp;&nbsp;Referência do Pedido: ${object.origin}<br />\n       % endif\n       % if object.user_id:\n       &nbsp;&nbsp;Seu Contato: <a href=\"mailto:${object.user_id.email or ''}?subject=Invoice%20${object.number}\">${object.user_id.name}</a>\n       % endif\n    </p>  \n    \n    % if object.paypal_url:\n    <br/>\n    <p>Também é possivel pagar diretamente através do Paypal:</p>\n        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n            <img class=\"oe_edi_paypal_button\" src=\"https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif\"/>\n        </a>\n    % endif\n    \n    <br/>\n    <p>Se você tiver alguma dúvida, não deixe de entrar em contato conosco.</p>\n    <p>Obrigado por escolher ${object.company_id.name or 'us'}!</p>\n    <br/>\n    <br/>\n    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n    </div>\n    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n        % if object.company_id.street:\n            ${object.company_id.street}<br/>\n        % endif\n        % if object.company_id.street2:\n            ${object.company_id.street2}<br/>\n        % endif\n        % if object.company_id.city or object.company_id.zip:\n            ${object.company_id.zip} ${object.company_id.city}<br/>\n        % endif\n        % if object.company_id.country_id:\n            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n        % endif\n        </span>\n        % if object.company_id.phone:\n            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n                Fone:&nbsp; ${object.company_id.phone}\n            </div>\n        % endif\n        % if object.company_id.website:\n            <div>\n                Site :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n            </div>\n        %endif\n        <p></p>\n    </div>\n</div>\n            "
+msgstr ""
 
 #. module: account
 #: help:account.invoice,state:0
@@ -100,15 +105,22 @@ msgid ""
 msgstr " * A situação 'Provisório' é usada quando um usuário está criando uma nova fatura ainda não confirmada.\n* A situação  'Pro-forma' é quando  fatura ainda está em aprovação e não possui um número de fatura.\n* A situação  'Aberta' é quando um usuário gerou um número de fatura. Permanecerá em Aberto até o pagamento.\n* A situação  'Pago' é definida automaticamente quando a fatura for paga. As entradas de diário podem ou não estar reconciliadas.\n* A situação  'Cancelada' é quando o usuário cancela a fatura."
 
 #. module: account
-#: code:addons/account/account.py:1468
+#: code:addons/account/account.py:1477
 #, python-format
 msgid " Centralisation"
 msgstr " Centralização"
 
 #. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:521
+#, python-format
+msgid " seconds"
+msgstr "Segundo"
+
+#. module: account
 #: field:analytic.entries.report,nbr:0
 msgid "# Entries"
-msgstr ""
+msgstr "# Entradas"
 
 #. module: account
 #: field:account.chart.template,code_digits:0
@@ -125,7 +137,7 @@ msgstr "# de Entradas"
 #. module: account
 #: field:account.invoice.report,nbr:0
 msgid "# of Invoices"
-msgstr ""
+msgstr "# de Faturas"
 
 #. module: account
 #: field:account.entries.report,nbr:0
@@ -311,7 +323,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a customer invoice.\n"
 "              </p><p>\n"
-"                Modoo's electronic invoicing allows to ease and fasten the\n"
+"                Odoo's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system.\n"
@@ -320,7 +332,7 @@ msgid ""
 "                the bottom of each invoice.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar uma fatura de cliente.\n              </p><p>\n                O faturamento eletrônico do Modoo permite uma maneira fácil de coletar os pagamentos dos clientes.\nSeu cliente recebe a fatura por email e pode pagar online e/ou importar em seu próprio sistema.\n              </p><p>\n                A conversação com seu cliente é mostrada automaticamente no final de cada fatura.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar uma fatura de cliente.\n              </p><p>\n                O faturamento eletrônico do Odoo permite uma maneira fácil de coletar os pagamentos dos clientes.\nSeu cliente recebe a fatura por email e pode pagar online e/ou importar em seu próprio sistema.\n              </p><p>\n                A conversação com seu cliente é mostrada automaticamente no final de cada fatura.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree3
@@ -335,7 +347,7 @@ msgid ""
 "                can generate it directly from the related customer invoice.\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar um reembolso ao cliente.\n              </p><p>\n                A restituição é um documento que credita uma fatura completamente ou\n                parcialmente.\n              </p><p>\n                Em vez de criar manualmente um reembolso ao cliente, você\n                pode gerá-lo diretamente a partir da fatura de cliente relacionado.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
@@ -346,13 +358,13 @@ msgid ""
 "                A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction.\n"
 "              </p><p>\n"
-"                Modoo automatically creates one journal entry per accounting\n"
+"                Odoo automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, supplier payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar um lançamento de diário.\n              </p><p>\n                Um lançamento de diário consiste em diversos itens de diário, cada um associado a uma transação de débito ou crédito.\n              </p><p>\n                O Modoo cria automaticamente uma entrada de diário por documento contábil: faturas, reembolsos, pagamento a fornecedor, demonstrativos bancários,  etc. Então você deve registrar as entradas de diário manualmente  apenas / principalmente para operações diversas.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar um lançamento de diário.\n              </p><p>\n                Um lançamento de diário consiste em diversos itens de diário, cada um associado a uma transação de débito ou crédito.\n              </p><p>\n                O Odoo cria automaticamente uma entrada de diário por documento contábil: faturas, reembolsos, pagamento a fornecedor, demonstrativos bancários,  etc. Então você deve registrar as entradas de diário manualmente  apenas / principalmente para operações diversas.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -417,12 +429,12 @@ msgid ""
 "                Click to define a new tax code.\n"
 "              </p><p>\n"
 "                Depending on the country, a tax code is usually a cell to fill\n"
-"                in your legal tax statement. Modoo allows you to define the\n"
+"                in your legal tax statement. Odoo allows you to define the\n"
 "                tax structure and each tax computation will be registered in\n"
 "                one or several tax code.\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para definir um novo código de imposto.\n              </p><p>\n                Dependendo do país, um código de imposto é geralmente uma célula para preencher\n                 em sua declaração de imposto legal. Odoo permite que você defina o\n                 estrutura tributária e cada cálculo do imposto será registrado no\n                 um ou vários código de imposto.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree2
@@ -431,11 +443,11 @@ msgid ""
 "                Click to record a new supplier invoice.\n"
 "              </p><p>\n"
 "                You can control the invoice from your supplier according to\n"
-"                what you purchased or received. Modoo can also generate\n"
+"                what you purchased or received. Odoo can also generate\n"
 "                draft invoices automatically from purchase orders or receipts.\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para gravar uma nova fatura do fornecedor.\n              </p><p>\n                Você pode controlar a fatura do seu fornecedor de acordo com\n                 o que você comprou ou recebeu. Odoo também pode gerar\n                 faturas automaticamente de ordens de compra ou recebimentos.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -447,11 +459,11 @@ msgid ""
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank.\n"
 "              </p><p>\n"
-"                Modoo allows you to reconcile a statement line directly with\n"
+"                Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices.\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para registrar um extrato bancário.\n              </p><p>\n                Um extrato bancário é um resumo de todas as transações financeiras\n                 que ocorre ao longo de um determinado período de tempo em uma conta bancária. você\n                 deve receber este periodicamente do seu banco.\n              </p><p>\n                Odoo permite conciliar uma linha comunicado diretamente com\n                 a venda ou notas fiscais relacionadas compra.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree4
@@ -489,13 +501,13 @@ msgid ""
 "                Select the period and the journal you want to fill.\n"
 "              </p><p>\n"
 "                This view can be used by accountants in order to quickly record\n"
-"                entries in Modoo. If you want to record a supplier invoice,\n"
-"                start by recording the line of the expense account. Modoo\n"
+"                entries in Odoo. If you want to record a supplier invoice,\n"
+"                start by recording the line of the expense account. Odoo\n"
 "                will propose to you automatically the Tax related to this\n"
 "                account and the counterpart \"Account Payable\".\n"
 "              </p>\n"
 "            "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Selecione o período eo jornal que você deseja preencher.\n              </p><p>\n                Essa visão pode ser usado por contabilistas, a fim de gravar rapidamente\n                 entrada em Odoo. Se você quiser gravar uma fatura do fornecedor,\n                 começar a gravar a linha da conta de despesa. Odoo\n                 irá propor-lhe automaticamente o imposto relacionado a este\n                 e conta a contrapartida \"conta a pagar\".\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_tree
@@ -506,11 +518,11 @@ msgid ""
 "            Configure your company's bank account and select those that must\n"
 "            appear on the report footer.\n"
 "          </p><p>\n"
-"            If you use the accounting application of Modoo, journals and\n"
+"            If you use the accounting application of Odoo, journals and\n"
 "            accounts will be created automatically based on these data.\n"
 "          </p>\n"
 "        "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Clique para configurar uma nova conta bancária. \n          </p><p>\n            Configure a conta bancária de sua empresa e selecionar aqueles que devem\n             aparecer no rodapé do relatório.\n          </p><p>\n          Se você usa o aplicativo de contabilidade de Odoo, diários e\n             contas serão criadas automaticamente com base nesses dados.\n          </p>\n        "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_manual_reconcile
@@ -533,12 +545,12 @@ msgid ""
 "                term of costs/revenues reporting.\n"
 "              </p><p>\n"
 "                They are usually structured by contracts, projects, products or\n"
-"                departements. Most of the Modoo operations (invoices,\n"
+"                departements. Most of the Odoo operations (invoices,\n"
 "                timesheets, expenses, etc) generate analytic entries on the\n"
 "                related account.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Clique para adicionar uma nova conta analítica.\n              </p><p>\n                O plano de contas normal tem uma estrutura definida legalmente pelo pais. A estrutura de contas\n                analíticas devem refletir a estrutura de seu próprio negócio em termos de custos e receitas para os relatórios.\n              </p><p>\n                Elas são normalmente estruturadas por contratos, projetos, produtos ou departamentos. A maioria das \n                operações do Modoo (faturas, planilhas de horas, despesas, etc) geram entradas analíticas nas contas relacionadas.\n              </p>\n            "
+msgstr "<p>\n                Clique para adicionar uma nova conta analítica.\n              </p><p>\n                O plano de contas normal tem uma estrutura definida legalmente pelo pais. A estrutura de contas\n                analíticas devem refletir a estrutura de seu próprio negócio em termos de custos e receitas para os relatórios.\n              </p><p>\n                Elas são normalmente estruturadas por contratos, projetos, produtos ou departamentos. A maioria das \n                operações do Odoo (faturas, planilhas de horas, despesas, etc) geram entradas analíticas nas contas relacionadas.\n              </p>\n            "
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -1174,12 +1186,12 @@ msgstr "Saldo anterior do Parceiro"
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. When opening that report, Modoo asks for the name of the company, "
+"intervals. When opening that report, Odoo asks for the name of the company, "
 "the fiscal period and the size of the interval to be analyzed (in days). "
-"Modoo then calculates a table of credit balance by period. So if you request "
-"an interval of 30 days Modoo generates an analysis of creditors for the past "
+"Odoo then calculates a table of credit balance by period. So if you request "
+"an interval of 30 days Odoo generates an analysis of creditors for the past "
 "month, past two months, and so on."
-msgstr "Saldo em Aberto do Parceiro é um relatório mais detalhado de seus recebíveis por intervalos. Ao abrir esse relatório, o Modoo pergunta o nome da empresa, o período fiscal e o tamanho do intervalo a ser analisado (em dias). O Modoo calcula uma tabela de saldo de crédito por período. Então, se você pedir um intervalo de 30 dias Modoo gera uma análise de credores para o mês passado, nos últimos dois meses, e assim por diante."
+msgstr "Saldo em Aberto do Parceiro é um relatório mais detalhado de seus recebíveis por intervalos. Ao abrir esse relatório, o Odoo pergunta o nome da empresa, o período fiscal e o tamanho do intervalo a ser analisado (em dias). O Odoo calcula uma tabela de saldo de crédito por período. Então, se você pedir um intervalo de 30 dias Odoo gera uma análise de credores para o mês passado, nos últimos dois meses, e assim por diante."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_aged_receivable_graph
@@ -1599,23 +1611,27 @@ msgstr "Aplicar"
 
 #. module: account
 #: help:account.fiscal.position,auto_apply:0
-msgid "Apply automatically this fiscal position."
-msgstr "Aplicar esta posição fiscal automaticamente"
-
-#. module: account
-#: help:account.fiscal.position,country_group_id:0
-msgid "Apply only if delivery or invocing country match the group."
-msgstr "Aplicar somente se o país de entrega ou faturamento for igual ao grupo."
-
-#. module: account
-#: help:account.fiscal.position,country_id:0
-msgid "Apply only if delivery or invoicing country match."
-msgstr "Aplicar somente se o país de entrega ou faturamento for igual"
+msgid "Apply automatically this fiscal position if the conditions match."
+msgstr "Aplica automaticamente esta posição fiscal se as condições são iguais."
 
 #. module: account
 #: help:account.fiscal.position,vat_required:0
 msgid "Apply only if partner has a VAT number."
 msgstr "Aplicar somente se o parceiro possuir um número de VAT (imposto)"
+
+#. module: account
+#: help:account.fiscal.position,country_group_id:0
+msgid ""
+"Apply when the shipping or invoicing country is in this country group, and "
+"no position matches the country directly."
+msgstr ""
+
+#. module: account
+#: help:account.fiscal.position,country_id:0
+msgid ""
+"Apply when the shipping or invoicing country matches. Takes precedence over "
+"positions matching on a country group."
+msgstr ""
 
 #. module: account
 #: view:validate.account.move:account.validate_account_move_view
@@ -1750,7 +1766,7 @@ msgstr "BCO"
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:54
 #, python-format
 msgid "Back to statements list"
-msgstr ""
+msgstr "Voltar a lista de extratos"
 
 #. module: account
 #: code:addons/account/account_move_line.py:1173
@@ -2569,6 +2585,13 @@ msgid "Choose Fiscal Year"
 msgstr "Escolha o Ano Fiscal"
 
 #. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:1297
+#, python-format
+msgid "Choose counterpart"
+msgstr "Esolher Contrapartida"
+
+#. module: account
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view1
 #: view:account.bank.statement:account.view_bank_statement_form
 msgid "Close"
@@ -2975,8 +2998,8 @@ msgstr "Contrapartida"
 
 #. module: account
 #: field:account.fiscal.position,country_id:0
-msgid "Countries"
-msgstr "Países"
+msgid "Country"
+msgstr "País"
 
 #. module: account
 #: field:account.fiscal.position,country_group_id:0
@@ -3028,6 +3051,13 @@ msgstr "Criar Períodos Mensais"
 #: view:account.invoice.refund:account.view_account_invoice_refund
 msgid "Create Refund"
 msgstr "Criar Reembolso"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:1294
+#, python-format
+msgid "Create Write-off"
+msgstr "Criar Ajuste"
 
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
@@ -3859,7 +3889,7 @@ msgstr "Mês Devido"
 #. module: account
 #: model:ir.actions.report.xml,name:account.action_report_print_overdue
 msgid "Due Payments"
-msgstr ""
+msgstr "Pagamentos devidos"
 
 #. module: account
 #: field:account.move.line,date_maturity:0
@@ -4432,7 +4462,7 @@ msgstr "Posição Fiscal"
 #. module: account
 #: view:website:account.report_invoice_document
 msgid "Fiscal Position Remark:"
-msgstr ""
+msgstr "Observação da Posição Fiscal:"
 
 #. module: account
 #: view:account.fiscal.position.template:account.view_account_position_template_form
@@ -4582,10 +4612,10 @@ msgstr "Para contas que são tipicamente mais debitadas do que creditadas e que 
 msgid ""
 "For an invoice to be considered as paid, the invoice entries must be "
 "reconciled with counterparts, usually payments. With the automatic "
-"reconciliation functionality, Modoo makes its own search for entries to "
+"reconciliation functionality, Odoo makes its own search for entries to "
 "reconcile in a series of accounts. It finds entries for each partner where "
 "the amounts correspond."
-msgstr "Para uma fatura a ser considerada como pago, as entradas de fatura deve ser conciliado com suas contrapartidas, geralmente pagamentos. Com a funcionalidade de reconciliação automática, Modoo faz a sua própria busca de entradas para conciliar em uma série de contas. Ele encontra entradas para cada um dos parceiros, onde os valores correspondem."
+msgstr "Para uma fatura a ser considerada como pago, as entradas de fatura deve ser conciliado com suas contrapartidas, geralmente pagamentos. Com a funcionalidade de reconciliação automática, Odoo faz a sua própria busca de entradas para conciliar em uma série de contas. Ele encontra entradas para cada um dos parceiros, onde os valores correspondem."
 
 #. module: account
 #: help:account.journal,with_last_closing_balance:0
@@ -4794,9 +4824,9 @@ msgstr "Define a ordem da sequencia quando exibir uma lista de impostos da fatur
 #: help:account.analytic.journal,type:0
 msgid ""
 "Gives the type of the analytic journal. When it needs for a document (eg: an"
-" invoice) to create analytic entries, Modoo will look for a matching journal "
+" invoice) to create analytic entries, Odoo will look for a matching journal "
 "of the same type."
-msgstr "Fornece o tipo de diário analítico. Quando necessário para um documento (ex. uma fatura) para criar linhas analíticas. O Modoo irá procurar um diário do mesmo tipo."
+msgstr "Fornece o tipo de diário analítico. Quando necessário para um documento (ex. uma fatura) para criar linhas analíticas. O Odoo irá procurar um diário do mesmo tipo."
 
 #. module: account
 #: code:addons/account/account_invoice.py:726
@@ -4980,7 +5010,7 @@ msgstr "Ícone"
 #: code:addons/account/account_bank_statement.py:428
 #, python-format
 msgid "If \"Amount Currency\" is specified, then \"Amount\" must be as well."
-msgstr ""
+msgstr "Se \" Valor da Moeda \" for especificado, \"Valor\" deve ser também."
 
 #. module: account
 #: help:account.bank.statement,message_unread:0
@@ -5175,7 +5205,7 @@ msgstr "Em disputa"
 #, python-format
 msgid ""
 "In order to close a fiscalyear, you must first post related journal entries."
-msgstr ""
+msgstr "Para fechar um Ano Fiscal, primeiro você deve postar as entradas de diário relacionadas."
 
 #. module: account
 #: code:addons/account/wizard/account_period_close.py:52
@@ -5190,7 +5220,7 @@ msgstr "Para fechar um período você precisa primeiro criar as entradas de diá
 msgid ""
 "In order to delete a bank statement line, you must first cancel it to delete"
 " related journal items."
-msgstr ""
+msgstr "Para excluir uma linha de extrato bancário, você deve primeiro cancelá-lo para excluir itens de periódicos relacionados."
 
 #. module: account
 #: code:addons/account/account_bank_statement.py:392
@@ -5612,12 +5642,12 @@ msgstr "Texto em Itálico (menor)"
 #. module: account
 #: view:website:account.report_analyticcostledger
 msgid "J.C. /Move"
-msgstr ""
+msgstr "J.C. /Move"
 
 #. module: account
 #: view:website:account.report_analyticcostledgerquantity
 msgid "J.C./Move"
-msgstr ""
+msgstr "J.C./Move"
 
 #. module: account
 #: view:website:account.report_generalledger
@@ -5822,7 +5852,7 @@ msgstr "Diário para lançamentos analíticos"
 #. module: account
 #: view:account.invoice.report:account.view_account_invoice_report_search
 msgid "Journal invoices with period in current year"
-msgstr ""
+msgstr "Diário de faturas com período no ano em curso"
 
 #. module: account
 #: field:account.journal.period,name:0
@@ -5931,9 +5961,16 @@ msgstr "Deixe em branco para usar o período da data de validação (fatura)"
 
 #. module: account
 #. openerp-web
+#: code:addons/account/static/src/js/account_widgets.js:1299
+#, python-format
+msgid "Keep open"
+msgstr "Manter Aberto"
+
+#. module: account
+#. openerp-web
 #: field:account.statement.operation.template,label:0
-#: code:addons/account/static/src/js/account_widgets.js:75
-#: code:addons/account/static/src/js/account_widgets.js:80
+#: code:addons/account/static/src/js/account_widgets.js:74
+#: code:addons/account/static/src/js/account_widgets.js:79
 #: view:website:account.report_journal
 #: view:website:account.report_salepurchasejournal
 #, python-format
@@ -7307,8 +7344,8 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.) If "
 "you set a paypal account, the customer  will be able to pay your invoices or"
 " quotations with a button \"Pay with  Paypal\" in automated emails or "
-"through the Modoo portal."
-msgstr "Conta Paypal (e-mail) para receber pagamentos online (cartão de crédito, etc) Se você configurar uma conta PayPal, o cliente será capaz de pagar as suas faturas ou pedidos com um botão \"Pague com Paypal\" em e-mails automáticos ou através do portal Modoo."
+"through the Odoo portal."
+msgstr "Conta Paypal (e-mail) para receber pagamentos online (cartão de crédito, etc) Se você configurar uma conta PayPal, o cliente será capaz de pagar as suas faturas ou pedidos com um botão \"Pague com Paypal\" em e-mails automáticos ou através do portal Odoo."
 
 #. module: account
 #: help:res.company,paypal_account:0
@@ -7979,7 +8016,7 @@ msgstr "Reconciliar o Ajuste"
 #: code:addons/account/static/src/js/account_tour_bank_statement_reconciliation.js:8
 #, python-format
 msgid "Reconcile the demo bank statement"
-msgstr ""
+msgstr "Reconciliar o extrato bancário de demonstração"
 
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_search
@@ -8102,7 +8139,7 @@ msgstr "Referência/Descrição"
 #. module: account
 #: view:website:account.report_invoice_document
 msgid "Reference:"
-msgstr ""
+msgstr "Referência:"
 
 #. module: account
 #: view:account.invoice:account.invoice_form
@@ -8326,6 +8363,12 @@ msgstr "Rodada por linha"
 #: selection:account.config.settings,tax_calculation_rounding_method:0
 msgid "Round per line"
 msgstr "Arredondamento por linha"
+
+#. module: account
+#: code:addons/account/account_bank_statement.py:899
+#, python-format
+msgid "Rounding error from currency conversion"
+msgstr "Erro de Arredondamento na conversão de moeda"
 
 #. module: account
 #: view:account.subscription:account.view_subscription_search
@@ -9145,6 +9188,11 @@ msgid "Suppliers"
 msgstr "Fornecedores"
 
 #. module: account
+#: view:website:account.report_invoice_document
+msgid "TIN:"
+msgstr "TIN:"
+
+#. module: account
 #: view:cash.box.out:account.cash_box_out_form
 #: model:ir.actions.act_window,name:account.action_cash_box_out
 msgid "Take Money Out"
@@ -9570,7 +9618,7 @@ msgstr "O valor expresso na moeda secundária deve ser positivo quando a conta f
 msgid ""
 "The amount will count as a debit if it is negative, as a credit if it is "
 "positive (except if amount type is 'Percentage of open balance')."
-msgstr ""
+msgstr "A quantidade vai contar como um débito se for negativo, como um crédito se for positivo (exceto se o tipo de quantidade é \"Porcentagem de saldo em aberto»)."
 
 #. module: account
 #: code:addons/account/account_bank_statement.py:728
@@ -9614,6 +9662,20 @@ msgid ""
 msgstr "A entidade comercial que será usado em Lançamentos para esta fatura"
 
 #. module: account
+#: constraint:account.config.settings:0
+msgid ""
+"The company of the gain exchange rate account must be the same than the "
+"company selected."
+msgstr ""
+
+#. module: account
+#: constraint:account.config.settings:0
+msgid ""
+"The company of the loss exchange rate account must be the same than the "
+"company selected."
+msgstr ""
+
+#. module: account
 #: help:account.tax,type:0
 msgid "The computation method for the tax amount."
 msgstr "O método de cálculo para o valor do imposto."
@@ -9641,6 +9703,11 @@ msgstr "As entradas para reconciliar deve pertencer à mesma empresa."
 msgid ""
 "The fiscal position will determine taxes and accounts used for the partner."
 msgstr "A posição fiscal irá determinar os impostos e contas usadas para o parceiro."
+
+#. module: account
+#: view:account.config.settings:account.view_account_config_settings
+msgid "The fiscal year is created when installing a Chart of Account."
+msgstr ""
 
 #. module: account
 #: constraint:account.aged.trial.balance:0 constraint:account.balance.report:0
@@ -9846,13 +9913,13 @@ msgstr "Não existe empresa sem plano de contas. O assistente, portanto, não se
 #: code:addons/account/account_cash_statement.py:315
 #, python-format
 msgid "There is no Loss Account on the journal %s."
-msgstr ""
+msgstr "Não há Conta de Resultados no diário %s."
 
 #. module: account
 #: code:addons/account/account_cash_statement.py:320
 #, python-format
 msgid "There is no Profit Account on the journal %s."
-msgstr ""
+msgstr "Não há nenhuma conta de ganhos em diário %s."
 
 #. module: account
 #: code:addons/account/account.py:1456
@@ -9954,6 +10021,30 @@ msgid "This Year"
 msgstr "Este Ano"
 
 #. module: account
+#: help:product.template,property_account_expense:0
+msgid ""
+"This account will be used for invoices instead of the default one to value "
+"expenses for the current product."
+msgstr ""
+
+#. module: account
+#: help:product.template,property_account_income:0
+msgid ""
+"This account will be used for invoices instead of the default one to value "
+"sales for the current product."
+msgstr ""
+
+#. module: account
+#: help:product.category,property_account_expense_categ:0
+msgid "This account will be used for invoices to value expenses."
+msgstr ""
+
+#. module: account
+#: help:product.category,property_account_income_categ:0
+msgid "This account will be used for invoices to value sales."
+msgstr ""
+
+#. module: account
 #: help:res.partner,property_account_payable:0
 msgid ""
 "This account will be used instead of the default one as the payable account "
@@ -9966,18 +10057,6 @@ msgid ""
 "This account will be used instead of the default one as the receivable "
 "account for the current partner"
 msgstr "Esta conta será usada em vez da conta padrão,  como conta de recebimento para o parceiro atual"
-
-#. module: account
-#: help:product.category,property_account_expense_categ:0
-#: help:product.template,property_account_expense:0
-msgid "This account will be used to value outgoing stock using cost price."
-msgstr "Essa conta será usada para valorização da saída de estoque usando o preço de custo."
-
-#. module: account
-#: help:product.category,property_account_income_categ:0
-#: help:product.template,property_account_income:0
-msgid "This account will be used to value outgoing stock using sale price."
-msgstr "Essa conta será usada para valorizar o estoque de saída usando o preço de venda."
 
 #. module: account
 #: help:account.config.settings,module_account_budget:0
@@ -10007,7 +10086,7 @@ msgid ""
 "* serve as base for an easy plug-in of various automated payment mechanisms, and \n"
 "* provide a more efficient way to manage invoice payments.\n"
 "-This installs the module account_payment."
-msgstr ""
+msgstr "Isto permite-lhe criar e gerenciar suas ordens de pagamento, com efeitos a\n* Servir como base para um plug-in fácil de vários mecanismos de pagamento automático, e\n* Fornecer uma maneira mais eficiente de gerenciar pagamentos de faturas.\n-Este Instala o módulo account_payment."
 
 #. module: account
 #: help:account.config.settings,module_account_asset:0
@@ -10015,7 +10094,7 @@ msgid ""
 "This allows you to manage the assets owned by a company or a person.\n"
 "It keeps track of the depreciation occurred on those assets, and creates account move for those depreciation lines.\n"
 "-This installs the module account_asset. If you do not check this box, you will be able to do invoicing & payments, but not accounting (Journal Items, Chart of Accounts, ...)"
-msgstr ""
+msgstr "Isto permite-lhe gerir os activos de propriedade de uma empresa ou uma pessoa.\nEle mantém o controle da depreciação ocorreu nesses ativos, e cria conta movimento para essas linhas de depreciação.\n-Este Instala o account_asset módulo. Se você não marcar esta caixa, você será capaz de fazer a facturação e pagamentos, mas não contabilização (Itens de diário, plano de contas, ...)"
 
 #. module: account
 #: help:account.chart.template,complete_tax_set:0
@@ -10093,7 +10172,7 @@ msgid ""
 "This field is used to record the third party name when importing bank "
 "statement in electronic format, when the partner doesn't exist yet in the "
 "database (or cannot be found)."
-msgstr ""
+msgstr "Este campo é utilizado para gravar a terceira nome do partido durante a importação de extrato bancário em formato electrónico, quando o parceiro ainda não existe no banco de dados (ou não pode ser encontrado)."
 
 #. module: account
 #: help:account.partner.reconcile.process,next_partner_id:0
@@ -10116,7 +10195,7 @@ msgstr "Este valor representa o número total de parceiros que atendidos hoje no
 msgid ""
 "This includes all the basic requirements of voucher entries for bank, cash, sales, purchase, expense, contra, etc.\n"
 "-This installs the module account_voucher."
-msgstr ""
+msgstr "Isso inclui todos os requisitos básicos de vouchers para banco, dinheiro, vendas, compras, gastos, contra, etc.\n-Este Instala o módulo account_voucher."
 
 #. module: account
 #: help:account.move,balance:0
@@ -10172,11 +10251,11 @@ msgstr "Esta etiqueta será exibida no relatório para mostrar o equilíbrio cal
 msgid ""
 "This menu prints a tax declaration based on invoices or payments. Select one"
 " or several periods of the fiscal year. The information required for a tax "
-"declaration is automatically generated by Modoo from invoices (or payments, "
+"declaration is automatically generated by Odoo from invoices (or payments, "
 "in some countries). This data is updated in real time. That’s very useful "
 "because it enables you to preview at any time the tax that you owe at the "
 "start and end of the month or quarter."
-msgstr "Este menu imprime uma declaração fiscal com base em faturas ou pagamentos. Selecione um ou vários períodos do ano fiscal. As informações necessárias para a declaração de imposto é gerado automaticamente pelo Modoo das faturas (ou pagamentos, em alguns países). Esses dados são atualizados em tempo real. Isso é muito útil, pois permite que você visualize a qualquer momento o imposto que você deve no início e no final do mês ou trimestre."
+msgstr "Este menu imprime uma declaração fiscal com base em faturas ou pagamentos. Selecione um ou vários períodos do ano fiscal. As informações necessárias para a declaração de imposto é gerado automaticamente pelo Odoo das faturas (ou pagamentos, em alguns países). Esses dados são atualizados em tempo real. Isso é muito útil, pois permite que você visualize a qualquer momento o imposto que você deve no início e no final do mês ou trimestre."
 
 #. module: account
 #: help:account.tax,name:0
@@ -10245,12 +10324,12 @@ msgstr "Este campo técnico pode ser usado na linha do demonstrativo na hora de 
 #. module: account
 #: help:account.account.template,type:0 help:account.entries.report,type:0
 msgid ""
-"This type is used to differentiate types with special effects in Modoo: view "
+"This type is used to differentiate types with special effects in Odoo: view "
 "can not have entries, consolidation are accounts that can have children "
 "accounts for multi-company consolidations, payable/receivable are for "
 "partners accounts (for debit/credit computations), closed for depreciated "
 "accounts."
-msgstr ""
+msgstr "Este tipo é usado para diferenciar os tipos com efeitos especiais em Odoo: Vista não pode ter entradas, consolidação são contas que podem ter filhos contas para consolidações multi-empresa, a pagar / receber são para contas de parceiros (para cálculos de débito / crédito), fechado para contas depreciados."
 
 #. module: account
 #: help:account.account,currency_mode:0
@@ -10293,8 +10372,8 @@ msgstr "Este assistente vai validar todas as entradas de um diário e período e
 #. openerp-web
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:36
 #, python-format
-msgid "Tip : Hit ctrl-enter to validate the whole sheet."
-msgstr "Dica: Use ctrl-enter para validar a planilha inteira."
+msgid "Tip : Hit ctrl-enter to reconcile all balanced items."
+msgstr "Dica: Use ctrl-enter para reconciliar todos os itens."
 
 #. module: account
 #: selection:account.financial.report,style_overwrite:0
@@ -10574,7 +10653,7 @@ msgstr "Número único da fatura, calculado automaticamente quando a fatura é c
 #. module: account
 #: field:analytic.entries.report,unit_amount:0
 msgid "Unit Amount"
-msgstr ""
+msgstr "Montante unitário"
 
 #. module: account
 #: view:account.journal:account.view_account_journal_form
@@ -10967,7 +11046,7 @@ msgstr "Com imposto"
 msgid ""
 "With this module, link your products to a template to send complete information and tools to your customer.\n"
 "For instance when invoicing a training, the training agenda and materials will automatically be send to your customers."
-msgstr ""
+msgstr "Com este módulo, vincular seus produtos a um modelo para enviar informações e ferramentas completa para o seu cliente.\nPor exemplo, quando um faturamento de formação, a agenda de treinamento e materiais serão automaticamente enviar para seus clientes."
 
 #. module: account
 #: view:account.move.line.reconcile:account.view_account_move_line_reconcile_full
@@ -11001,7 +11080,7 @@ msgstr "Valor da baixa"
 #: code:addons/account/wizard/account_reconcile.py:115
 #, python-format
 msgid "Write-off"
-msgstr ""
+msgstr "Eliminar"
 
 #. module: account
 #: code:addons/account/account.py:2304
@@ -11045,7 +11124,7 @@ msgid ""
 "You are selecting transactions from both a payable and a receivable account.\n"
 "\n"
 "In order to proceed, you first need to deselect the %s transactions."
-msgstr ""
+msgstr "Você está selecionando transações tanto de um a pagar e uma conta a receber.\n\nPara prosseguir, você primeiro precisa desmarcar a %s transações."
 
 #. module: account
 #: help:account.move.line,blocked:0
@@ -11055,13 +11134,21 @@ msgid ""
 msgstr "Você pode marcar este box para indicar este item de diário como uma pendência com o parceiro associado."
 
 #. module: account
-#: code:addons/account/account_move_line.py:1220
+#: code:addons/account/account_move_line.py:1246
 #, python-format
 msgid "You can not add/modify entries in a closed period %s of journal %s."
 msgstr "Você não pode adicionar/modificar entradas no diário %s em um período %s já fechado."
 
 #. module: account
-#: code:addons/account/account.py:1047
+#: code:addons/account/wizard/account_open_closed_fiscalyear.py:42
+#, python-format
+msgid ""
+"You can not cancel closing entries if the 'End of Year Entries Journal' "
+"period is closed."
+msgstr ""
+
+#. module: account
+#: code:addons/account/account.py:1057
 #, python-format
 msgid "You can not re-open a period which belongs to closed fiscal year"
 msgstr "Você não pode re-abrir um período que pertence a um ano fiscal já fechado"
@@ -11069,7 +11156,7 @@ msgstr "Você não pode re-abrir um período que pertence a um ano fiscal já fe
 #. module: account
 #: constraint:account.fiscal.position:0
 msgid "You can not select a country and a group of countries"
-msgstr ""
+msgstr "Não é possível selecionar um país e um grupo de países"
 
 #. module: account
 #: code:addons/account/wizard/account_change_currency.py:38
@@ -11107,7 +11194,7 @@ msgid ""
 msgstr "Você pode especificar o coeficiente que será usado para consolidação do valor desta taxa no seu item pai. Por exemplo, defina 1/-1 se quiser adicionar/subtrair o valor."
 
 #. module: account
-#: code:addons/account/account.py:2273
+#: code:addons/account/account.py:2293
 #, python-format
 msgid ""
 "You can specify year, month and date in the name of the model using the following labels:\n"
@@ -11388,7 +11475,7 @@ msgstr "Você precisa definir o 'Diário de Lançamentos de Fechamento Anual' pa
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:68
 #, python-format
 msgid "You must balance the reconciliation"
-msgstr ""
+msgstr "Você deve equilibrar a reconciliação"
 
 #. module: account
 #. openerp-web
@@ -11507,7 +11594,7 @@ msgstr "dias"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
-msgid "e.g. sales@modoo.com"
+msgid "e.g. sales@odoo.com"
 msgstr "ex. vendas@suaempresa.com.br"
 
 #. module: account
@@ -11653,3 +11740,16 @@ msgstr "utilizados no domínio da reconciliação de extratos, mas não deve ser
 #: selection:account.subscription,period_type:0
 msgid "year"
 msgstr "Ano"
+
+#. module: account
+#: model:res.company,overdue_msg:stock.res_company_1
+msgid ""
+"Dear Sir/Madam,\n"
+"\n"
+"Our records indicate that some payments on your account are still due. Please find details below.\n"
+"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
+"If you have any queries regarding your account, Please contact us.\n"
+"\n"
+"Thank you in advance for your cooperation.\n"
+"Best Regards,"
+msgstr "Caro Sr / Sra,\n\nNossos registros indicam que alguns pagamentos em sua conta são ainda devidos. Por favor, encontrar os detalhes abaixo.\nSe a quantia já foi paga, por favor desconsidere este aviso. Caso contrário, por favor envie-nos a quantidade total indicada abaixo.\nSe você tiver alguma dúvida sobre a sua conta, por favor, entre em contato conosco.\n\nAgradecemos antecipadamente a sua colaboração.\nCumprimentos,"

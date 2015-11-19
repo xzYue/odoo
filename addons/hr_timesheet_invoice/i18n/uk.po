@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet_invoice
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 13:12+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/modoo-8/language/uk/)\n"
+"PO-Revision-Date: 2015-10-14 10:18+0000\n"
+"Last-Translator: Bogdan\n"
+"Language-Team: Ukrainian (http://www.transifex.com/odoo/odoo-8/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -34,7 +34,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new type of invoicing.\n"
 "              </p><p>\n"
-"                Modoo allows you to create default invoicing types. You might\n"
+"                Odoo allows you to create default invoicing types. You might\n"
 "                have to regularly assign discounts because of a specific\n"
 "                contract or agreement with a customer. From this menu, you can\n"
 "                create additional types of invoicing to speed up your\n"
@@ -109,7 +109,7 @@ msgstr "Рядки аналітики до звіту з накладних"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -118,7 +118,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #. module: hr_timesheet_invoice
 #: field:report.analytic.account.close,balance:0
@@ -151,7 +151,7 @@ msgstr ""
 #: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:253
 #, python-format
 msgid "Configuration Error!"
-msgstr ""
+msgstr "Помилка налаштування!"
 
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:180
@@ -203,7 +203,7 @@ msgstr ""
 #: field:hr.timesheet.invoice.create.final,create_uid:0
 #: field:hr_timesheet_invoice.factor,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Створив"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,create_date:0
@@ -262,7 +262,7 @@ msgstr "Кінцевий термін"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "December"
-msgstr ""
+msgstr "December"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create,name:0
@@ -312,7 +312,7 @@ msgstr ""
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
 msgid "Duration"
-msgstr ""
+msgstr "Тривалість"
 
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
@@ -336,7 +336,7 @@ msgstr "Застарілі аналітичні рахунки"
 #. module: hr_timesheet_invoice
 #: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
 msgid "Extended Filters..."
-msgstr ""
+msgstr "Extended Filters..."
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -345,7 +345,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "February"
-msgstr ""
+msgstr "February"
 
 #. module: hr_timesheet_invoice
 #: help:hr.timesheet.invoice.create,product:0
@@ -412,7 +412,7 @@ msgstr "Дохід"
 #: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_analytic_profit.py:59
 #, python-format
 msgid "Insufficient Data!"
-msgstr ""
+msgstr "Insufficient Data!"
 
 #. module: hr_timesheet_invoice
 #: field:hr_timesheet_invoice.factor,name:0
@@ -495,7 +495,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "January"
-msgstr ""
+msgstr "January"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,journal_ids:0
@@ -514,7 +514,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "July"
-msgstr ""
+msgstr "July"
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -523,7 +523,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "June"
-msgstr ""
+msgstr "June"
 
 #. module: hr_timesheet_invoice
 #: help:account.analytic.account,amount_max:0
@@ -541,7 +541,7 @@ msgstr ""
 #: field:hr.timesheet.invoice.create.final,write_uid:0
 #: field:hr_timesheet_invoice.factor,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Востаннє відредаговано"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,write_date:0
@@ -549,7 +549,7 @@ msgstr ""
 #: field:hr.timesheet.invoice.create.final,write_date:0
 #: field:hr_timesheet_invoice.factor,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Дата останньої зміни"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create.final,name:0
@@ -568,7 +568,7 @@ msgstr "Менеджер"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "March"
-msgstr ""
+msgstr "March"
 
 #. module: hr_timesheet_invoice
 #: field:account.analytic.account,amount_max:0
@@ -587,7 +587,7 @@ msgstr "Макс. кількість"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,month:0
@@ -621,7 +621,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -630,7 +630,7 @@ msgstr ""
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "October"
-msgstr ""
+msgstr "October"
 
 #. module: hr_timesheet_invoice
 #: field:report.analytic.account.close,partner_id:0
@@ -704,7 +704,7 @@ msgstr "Ціна продажу"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
@@ -918,7 +918,7 @@ msgstr "Типи інвойсування"
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,product_uom_id:0
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Одиниця виміру"
 
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,unit_amount:0
@@ -991,4 +991,4 @@ msgstr ""
 #: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
 #: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
 msgid "or"
-msgstr ""
+msgstr "або"

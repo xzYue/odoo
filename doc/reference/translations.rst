@@ -1,4 +1,7 @@
+:banner: banners/translate.jpg
+
 .. _reference/translations:
+
 
 ===================
 Translating Modules
@@ -13,7 +16,7 @@ your module's translatable terms and may find content to work with.
 
 .. todo:: needs technical features
 
-Translations export is done via the administration interface by logging into
+Translations export is performed via the administration interface by logging into
 the backend interface and opening :menuselection:`Settings --> Translations
 --> Import / Export --> Export Translations`
 
@@ -33,7 +36,7 @@ can be created. PO files can be created using msginit_, with a dedicated
 translation tool like POEdit_ or by simply copying the template to a new file
 called :file:`{language}.po`. Translation files should be put in
 :file:`{yourmodule}/i18n/`, next to :file:`{yourmodule}.pot`, and will be
-automatically loaded by Modoo when the corresponding language is installed (via
+automatically loaded by Odoo when the corresponding language is installed (via
 :menuselection:`Settings --> Translations --> Load a Translation`)
 
 .. note:: translations for all loaded languages are also installed or updated
@@ -42,7 +45,7 @@ automatically loaded by Modoo when the corresponding language is installed (via
 Implicit exports
 ================
 
-Modoo automatically exports translatable strings from "data"-type content:
+Odoo automatically exports translatable strings from "data"-type content:
 
 * in non-QWeb views, all text nodes are exported as well as the content of
   the ``string``, ``help``, ``sum``, ``confirm`` and ``placeholder``
@@ -65,7 +68,7 @@ Explicit exports
 ================
 
 When it comes to more "imperative" situations in Python code or Javascript
-code, Modoo is not able to automatically export translatable terms and they
+code, Odoo cannot automatically export translatable terms so they
 must be marked explicitly for export. This is done by wrapping a literal
 string in a function call.
 
@@ -81,11 +84,11 @@ In JavaScript, the wrapping function is generally :js:func:`openerp.web._t`:
 
 .. warning::
 
-    Only literal strings can be marked for exports, not expressions and not
+    Only literal strings can be marked for exports, not expressions or
     variables. For situations where strings are formatted, this means the
     format string must be marked, not the formatted string::
 
-        # bad, the extract may work but it will not correctly translate the text
+        # bad, the extract may work but it will not translate the text correctly
         _("Scheduled meeting with %s" % invitee.name)
 
         # good

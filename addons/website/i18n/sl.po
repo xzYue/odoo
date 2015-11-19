@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/projects/p/modoo-8/language/sl/)\n"
+"POT-Creation-Date: 2015-07-22 08:25+0000\n"
+"PO-Revision-Date: 2015-08-19 10:51+0000\n"
+"Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
+"Language-Team: Slovenian (http://www.transifex.com/odoo/odoo-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -65,6 +65,20 @@ msgid ""
 msgstr ",\n                #1"
 
 #. module: website
+#: view:website:website.layout
+msgid ""
+",\n"
+"                  an awesome"
+msgstr ",\n                  izvrsten"
+
+#. module: website
+#: view:website:website.layout
+msgid ""
+",\n"
+"            Try the"
+msgstr ",\n            Poskusite"
+
+#. module: website
 #: view:website:website.info
 msgid ", author:"
 msgstr ", avtor:"
@@ -112,8 +126,8 @@ msgstr "404: Stran ni najdena!"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Modoo to grow their businesses."
-msgstr "Več kot 50,000 podjetij uporablja Modoo za pospeševanje poslovanja."
+msgid "50,000+ companies run Odoo to grow their businesses."
+msgstr "Več kot 50,000 podjetij uporablja Odoo za pospeševanje poslovanja."
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
@@ -184,7 +198,7 @@ msgstr "Dober način, da bi pritegnili bralčevo pozornost, je pripoved zgodbe.\
 #. module: website
 #: view:website:website.snippets
 msgid "A small explanation of this great"
-msgstr "Kratka obrazložitev tega odličnega"
+msgstr "Kratka obrazložitev te izjemne"
 
 #. module: website
 #: view:website:website.aboutus view:website:website.layout
@@ -361,8 +375,8 @@ msgstr "Trasparent"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Modoo Image"
-msgstr "Trasparent Modoo slika"
+msgid "Banner Odoo Image"
+msgstr "Trasparent Odoo slika"
 
 #. module: website
 #. openerp-web
@@ -879,8 +893,8 @@ msgstr "Opusti urejanje"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Discover more about Modoo"
-msgstr "Odkrijte več o Modoo"
+msgid "Discover more about Odoo"
+msgstr "Odkrijte več o Odoo"
 
 #. module: website
 #: view:website:website.template_partner_comment
@@ -1712,41 +1726,41 @@ msgstr "Opomba: odstranite oznako na vrhu menija 'Prilagodi', da bi skrili to st
 
 #. module: website
 #: view:website:website.layout view:website:website.snippets
-msgid "Modoo"
-msgstr "Modoo"
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: website
 #: view:website:website.info
-msgid "Modoo Version"
-msgstr "Modoo različica"
+msgid "Odoo Version"
+msgstr "Odoo različica"
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo provides essential platform for our project management.\n"
+"Odoo provides essential platform for our project management.\n"
 "                                                    Things are better organized and more visible with it."
-msgstr "Modoo zagotavlja ključno platformo za upravljanje projektov.\n                                                    Stvari so bolje organizirane in bolj vidne."
+msgstr "Odoo zagotavlja ključno platformo za upravljanje projektov.\n                                                    Stvari so bolje organizirane in bolj vidne."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo provides essential platform for our project management.\n"
+"Odoo provides essential platform for our project management.\n"
 "                                            Things are better organized and more visible with it."
-msgstr "Modoo zagotavlja ključno platformo za upravljanje projektov.\n                                                    Stvari so bolje organizirane in bolj vidne."
+msgstr "Odoo zagotavlja ključno platformo za upravljanje projektov.\n                                                    Stvari so bolje organizirane in bolj vidne."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo provides essential platform for our project management.\n"
+"Odoo provides essential platform for our project management.\n"
 "                                Things are better organized and more visible with it."
-msgstr "Modoo zagotavlja ključno platformo za upravljanje projektov.\n                                                    Stvari so bolje organizirane in bolj vidne."
+msgstr "Odoo zagotavlja ključno platformo za upravljanje projektov.\n                                                    Stvari so bolje organizirane in bolj vidne."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Modoo's POS is a web application that can run on any device that\n"
+"Odoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
-msgstr "Modoo POS je spletna aplikacija, ki lahko teče na katerikoli napravi,\n                    ki lahko prikazuje spletne strani, brez ali z minimalnimi nastavitvami."
+msgstr "Odoo POS je spletna aplikacija, ki lahko teče na katerikoli napravi,\n                    ki lahko prikazuje spletne strani, brez ali z minimalnimi nastavitvami."
 
 #. module: website
 #. openerp-web
@@ -1764,6 +1778,16 @@ msgstr "Odprto kodni ERP"
 #: view:website:website.layout
 msgid "Open Source eCommerce"
 msgstr "Odprto kodni eCommerce"
+
+#. module: website
+#: view:website:website.layout
+msgid "Open Source CRM"
+msgstr "Odprto kodni CRM"
+
+#. module: website
+#: view:website:website.layout
+msgid "open source website builder"
+msgstr "odprto kodnim graditeljem spletne strani"
 
 #. module: website
 #. openerp-web
@@ -1918,6 +1942,21 @@ msgstr "Pictogram"
 #: view:website:website.snippets
 msgid "Point of Sale Questions"
 msgstr "Vprašanja prodajnega mesta"
+
+#. module: website
+#: view:website:website.layout
+msgid "Create a"
+msgstr "Ustavite"
+
+#. module: website
+#: view:website:website.layout
+msgid "free website"
+msgstr "brezplačno spletno stran"
+
+#. module: website
+#: view:website:website.layout
+msgid "with"
+msgstr "z"
 
 #. module: website
 #: view:website:website.layout
@@ -2896,8 +2935,8 @@ msgstr "Ali je ta pogled predloga spletne strani (celotna)"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Modoo POS support?"
-msgstr "Katero strojno opremo podpira Modoo POS?"
+msgid "Which hardware does Odoo POS support?"
+msgstr "Katero strojno opremo podpira Odoo POS?"
 
 #. module: website
 #: view:website:website.snippets
@@ -2909,11 +2948,11 @@ msgstr "Čeprav je za zagon POS potrebna internetna povezava,\n                 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"With Modoo's fully integrated software, you can easily manage your\n"
+"With Odoo's fully integrated software, you can easily manage your\n"
 "                            meetings, schedule business calls, create recurring meetings,\n"
 "                            synchronize your agenda and easily keep in touch with your colleagues,\n"
 "                            partners and other people involved in projects or business discussions."
-msgstr "Z Modoo integrirano programsko opremo lahko upravljate svoje\n                            sestanke, načrtujete poslovne klice, ustvarjate ponavljajoče se sestanke,\n                            sinhronizirate svojo beležko in vzdržujete stik s svojimi kolegi,\n                            partnerji in drugimi ljudmi, ki so udeleženi v projektih ali poslovnih razpravah."
+msgstr "Z Odoo integrirano programsko opremo lahko upravljate svoje\n                            sestanke, načrtujete poslovne klice, ustvarjate ponavljajoče se sestanke,\n                            sinhronizirate svojo beležko in vzdržujete stik s svojimi kolegi,\n                            partnerji in drugimi ljudmi, ki so udeleženi v projektih ali poslovnih razpravah."
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3071,7 +3110,7 @@ msgstr "tovarniške nastavitve"
 #. module: website
 #: view:website:website.snippets
 msgid "feature, in clear words."
-msgstr "funkcija v jasnih besedah"
+msgstr "funkcije v jasnih besedah."
 
 #. module: website
 #. openerp-web
@@ -3096,8 +3135,8 @@ msgstr "http://openerp.com/logo.png"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/modoo"
-msgstr "http://www.linkedin.com/company/modoo"
+msgid "http://www.linkedin.com/company/odoo"
+msgstr "http://www.linkedin.com/company/odoo"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3111,8 +3150,8 @@ msgstr "http://www.youtube.com/channel/HCU842OHPPNrQ"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/modoo"
-msgstr "https://facebook.com/modoo"
+msgid "https://facebook.com/odoo"
+msgstr "https://facebook.com/odoo"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3152,8 +3191,8 @@ msgstr "https://youraccount.github.io"
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Modoo, the"
-msgstr "Modoo instanca"
+msgid "instance of Odoo, the"
+msgstr "Odoo instanca"
 
 #. module: website
 #: view:website:website.snippets
@@ -3215,8 +3254,8 @@ msgstr "stil."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Modoo interface"
-msgstr "klasični Modoo vmesnik"
+msgid "the classic Odoo interface"
+msgstr "klasični Odoo vmesnik"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

@@ -2689,7 +2689,7 @@ instance.web.DateTimeWidget = instance.web.Widget.extend({
         });
 
         this.picker({
-            onClose: this.on_picker_select,
+            onClose: this.on_picker_close,
             onSelect: this.on_picker_select,
             changeMonth: true,
             changeYear: true,
@@ -2718,12 +2718,15 @@ instance.web.DateTimeWidget = instance.web.Widget.extend({
     picker: function() {
         return $.fn[this.jqueryui_object].apply(this.$input_picker, arguments);
     },
+    on_picker_close: function (text, instance_) {
+        this.on_picker_select(text, instance_);
+        this.$input.focus();
+    },
     on_picker_select: function(text, instance_) {
         var date = this.picker('getDate');
         this.$input
             .val(date ? this.format_client(date) : '')
-            .change()
-            .focus();
+            .change();
     },
     set_value: function(value_) {
         this.set({'value': value_});
@@ -2960,6 +2963,10 @@ instance.web.form.FieldTextHtml = instance.web.form.AbstractField.extend(instanc
                 this.$cleditor.$toolbar.append($img);
             }
         }
+    },
+    focus: function() {
+        var input = !this.get("effective_readonly") && this.$cleditor
+        return input ? input.focus() : false;
     },
     render_value: function() {
         if (! this.get("effective_readonly")) {
@@ -3293,10 +3300,8 @@ instance.web.form.FieldRadio = instance.web.form.AbstractField.extend(instance.w
         var self = this;
         this.$el.toggleClass("oe_readonly", this.get('effective_readonly'));
         this.$("input:checked").prop("checked", false);
-        if (this.get_value()) {
-            this.$("input").filter(function () {return this.value == self.get_value();}).prop("checked", true);
-            this.$(".oe_radio_readonly").text(this.get('value') ? this.get('value')[1] : "");
-        }
+        this.$("input").filter(function () {return this.value == self.get_value();}).prop("checked", true);
+        this.$(".oe_radio_readonly").text(this.get('value') ? this.get('value')[1] : "");
     }
 });
 
@@ -4391,8 +4396,12 @@ instance.web.form.One2ManyViewManager = instance.web.ViewManager.extend({
 });
 
 instance.web.form.One2ManyDataSet = instance.web.BufferedDataSet.extend({
-    get_context: function() {
+    get_context: function(extra_context) {
         this.context = this.o2m.build_context();
+        if(extra_context)
+        {
+            this.context.add(extra_context);
+        }
         return this.context;
     }
 });
@@ -4406,10 +4415,6 @@ instance.web.form.One2ManyListView = instance.web.ListView.extend({
         }));
         this.on('edit:after', this, this.proxy('_after_edit'));
         this.on('save:before cancel:before', this, this.proxy('_before_unedit'));
-
-        this.records
-            .bind('add', this.proxy("changed_records"))
-            .bind('remove', this.proxy("changed_records"));
         this.on('save:after', this, this.proxy("changed_records"));
     },
     start: function () {
@@ -4918,6 +4923,10 @@ instance.web.form.FieldMany2Many = instance.web.form.AbstractField.extend(instan
 instance.web.form.Many2ManyDataSet = instance.web.DataSetStatic.extend({
     get_context: function() {
         this.context = this.m2m.build_context();
+        var self = this;
+        _.each(arguments, function(context) {
+            self.context.add(context);
+        });
         return this.context;
     }
 });
@@ -5734,6 +5743,17 @@ instance.web.form.FieldBinaryFile = instance.web.form.FieldBinary.extend({
         this._super.apply(this, arguments);
         this.$el.find('input').eq(0).val('');
         this.set_filename('');
+    },
+    set_value: function(value_){
+        var changed = value_ !== this.get_value();
+        this._super.apply(this, arguments);
+        // Trigger value change if size is the same
+        if (!changed){
+            this.trigger("change:value", this, {
+                oldValue: value_,
+                newValue: value_
+            });
+        }
     }
 });
 

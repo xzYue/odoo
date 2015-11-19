@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Wowar <wojciech@warczakowski.pl>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 12:58+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/modoo-8/language/pl/)\n"
+"PO-Revision-Date: 2015-07-17 07:34+0000\n"
+"Last-Translator: Dariusz Żbikowski <darek@krokus.com.pl>\n"
+"Language-Team: Polish (http://www.transifex.com/odoo/odoo-8/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -856,7 +857,7 @@ msgstr "Jeśli zaznaczone, partnerzy będą otrzymywać wiadomość ostrzegając
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Modoo server, "
+"If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
 
@@ -1426,7 +1427,7 @@ msgstr "Publiczne"
 #. module: mail
 #: model:mail.group,name:mail.group_rd
 msgid "R&D"
-msgstr ""
+msgstr "B + R"
 
 #. module: mail
 #: code:addons/mail/wizard/mail_compose_message.py:191
@@ -1594,7 +1595,7 @@ msgstr "Wysłano"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(modoo)s"
+msgid "Sent by %(company)s using %(odoo)s"
 msgstr ""
 
 #. module: mail
@@ -1715,7 +1716,7 @@ msgstr "Adres związany z grupą. Nowe przychodzące maile będą tworzyć nowe 
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Modoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -1724,7 +1725,7 @@ msgstr ""
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.modoo.com>"
+"<jobs@example.odoo.com>"
 msgstr ""
 
 #. module: mail
@@ -1758,7 +1759,7 @@ msgid ""
 "This group is visible by everyone,\n"
 "                                including your customers if you installed\n"
 "                                the portal module."
-msgstr ""
+msgstr "Ta grupa jest widoczna dla każdego, również dla twoich klientów jeśli zainstalowano moduł Portal."
 
 #. module: mail
 #: help:mail.group,public:0
@@ -1945,7 +1946,7 @@ msgstr ""
 msgid ""
 "You cannot create a new user from here.\n"
 " To create new user please go to configuration panel."
-msgstr ""
+msgstr "W tym miejscu nie możesz utworzyć użytkownika.\nAby utworzyć nowego użytkownika, przejdź do panelu konfiguracyjnego."
 
 #. module: mail
 #: code:addons/mail/mail_group.py:174
@@ -1953,7 +1954,7 @@ msgstr ""
 msgid ""
 "You cannot delete those groups, as the Whole Company group is required by "
 "other modules."
-msgstr ""
+msgstr "Nie możesz usunąć tej grupy, ponieważ jest ona wymagana przez inne moduły."
 
 #. module: mail
 #: code:addons/mail/mail_thread.py:171
@@ -2042,7 +2043,7 @@ msgstr "więcej."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.modoo.com"
+msgid "mycompany.odoo.com"
 msgstr ""
 
 #. module: mail

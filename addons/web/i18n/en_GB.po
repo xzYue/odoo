@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
+# Andi Chandler <andi@gowling.com>, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/modoo-8/language/en_GB/)\n"
+"PO-Revision-Date: 2015-07-22 22:54+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/odoo/odoo-8/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,8 +255,8 @@ msgstr "About"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Modoo"
-msgstr "About Modoo"
+msgid "About Odoo"
+msgstr "About Odoo"
 
 #. module: web
 #. openerp-web
@@ -545,8 +546,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Modoo."
-msgstr "Check this box to evaluate Modoo."
+msgid "Check this box to evaluate Odoo."
+msgstr "Check this box to evaluate Odoo."
 
 #. module: web
 #. openerp-web
@@ -881,7 +882,7 @@ msgstr "Discard"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Modoo around the world..."
+msgid "Discover Events of Odoo around the world..."
 msgstr ""
 
 #. module: web
@@ -1203,11 +1204,11 @@ msgstr "File:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Modoo database. You can\n"
+"Fill in this form to create an Odoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "Fill in this form to create an Modoo database. You can\n                    create databases for different companies or for different\n                    goals (testing, production). Once the database is created,\n                    you will be able to install your first application."
+msgstr "Fill in this form to create an Odoo database. You can\n                    create databases for different companies or for different\n                    goals (testing, production). Once the database is created,\n                    you will be able to install your first application."
 
 #. module: web
 #. openerp-web
@@ -1617,8 +1618,8 @@ msgstr "More"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Modoo.com account"
-msgstr "My Modoo.com account"
+msgid "My Odoo.com account"
+msgstr "My Odoo.com account"
 
 #. module: web
 #. openerp-web
@@ -1728,34 +1729,34 @@ msgstr "Object:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Modoo"
-msgstr "Modoo"
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Modoo (Formerly OpenERP)"
+msgid "Odoo (Formerly OpenERP)"
 msgstr ""
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Modoo Web Tests"
-msgstr "Modoo Web Tests"
+msgid "Odoo Web Tests"
+msgstr "Odoo Web Tests"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Modoo is a trademark of the"
-msgstr "Modoo is a trademark of the"
+msgid "Odoo is a trademark of the"
+msgstr "Odoo is a trademark of the"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Modoo.com"
-msgstr "Modoo.com"
+msgid "Odoo.com"
+msgstr "Odoo.com"
 
 #. module: web
 #. openerp-web
@@ -2728,8 +2729,8 @@ msgstr "You must select at least one record."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Modoo session expired. Please refresh the current web page."
-msgstr "Your Modoo session expired. Please refresh the current web page."
+msgid "Your Odoo session expired. Please refresh the current web page."
+msgstr "Your Odoo session expired. Please refresh the current web page."
 
 #. module: web
 #. openerp-web

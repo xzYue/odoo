@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Yoshi Tashiro <tashiro@roomsfor.hk>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/modoo-8/language/ja/)\n"
+"PO-Revision-Date: 2015-08-22 16:41+0000\n"
+"Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
+"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-8/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -153,7 +154,7 @@ msgid ""
 "                    Click to create a quotation that can be converted into a sales\n"
 "                    order.\n"
 "                </p><p>\n"
-"                    Modoo will help you efficiently handle the complete sales flow:\n"
+"                    Odoo will help you efficiently handle the complete sales flow:\n"
 "                    quotation, sales order, delivery, invoicing and payment.\n"
 "                </p>\n"
 "            "
@@ -165,7 +166,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a quotation or sales order for this customer.\n"
 "              </p><p>\n"
-"                Modoo will help you efficiently handle the complete sale flow:\n"
+"                Odoo will help you efficiently handle the complete sale flow:\n"
 "                quotation, sales order, delivery, invoicing and\n"
 "                payment.\n"
 "              </p><p>\n"
@@ -183,7 +184,7 @@ msgid ""
 "                Click to create a quotation that can be converted into a sales\n"
 "                order.\n"
 "              </p><p>\n"
-"                Modoo will help you efficiently handle the complete sales flow:\n"
+"                Odoo will help you efficiently handle the complete sales flow:\n"
 "                quotation, sales order, delivery, invoicing and payment.\n"
 "              </p>\n"
 "            "
@@ -196,7 +197,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a quotation, the first step of a new sale.\n"
 "              </p><p>\n"
-"                Modoo will help you handle efficiently the complete sale flow:\n"
+"                Odoo will help you handle efficiently the complete sale flow:\n"
 "                from the quotation to the sales order, the\n"
 "                delivery, the invoicing and the payment collection.\n"
 "              </p><p>\n"
@@ -299,7 +300,7 @@ msgstr "顧客や製品によるアラートの設定を許可"
 #. module: sale
 #: field:sale.config.settings,module_website_quote:0
 msgid "Allow online quotations and templates"
-msgstr ""
+msgstr "オンライン見積とテンプレートを使用"
 
 #. module: sale
 #: field:sale.config.settings,group_discount_per_so_line:0
@@ -597,7 +598,7 @@ msgstr "請求書作成"
 #: field:sale.order.line,create_uid:0
 #: field:sale.order.line.make.invoice,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "作成者"
 
 #. module: sale
 #: field:sale.advance.payment.inv,create_date:0
@@ -1088,7 +1089,7 @@ msgstr ""
 #: field:sale.order.line,write_uid:0
 #: field:sale.order.line.make.invoice,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "最終更新者"
 
 #. module: sale
 #: field:sale.advance.payment.inv,write_date:0
@@ -1096,7 +1097,7 @@ msgstr ""
 #: field:sale.order.line,write_date:0
 #: field:sale.order.line.make.invoice,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "最終更新日"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_sale_order_make_invoice
@@ -1673,7 +1674,7 @@ msgstr "営業チーム"
 #. module: sale
 #: model:ir.model,name:sale.model_crm_case_section
 msgid "Sales Teams"
-msgstr "営業チーム"
+msgstr "販売チーム"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_orders_exception

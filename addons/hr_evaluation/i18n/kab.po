@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_evaluation
 # 
 # Translators:
+# Belkacem Mohammed <belkacem77@gmail.com>, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-05-29 13:13+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Kabyle (http://www.transifex.com/projects/p/modoo-8/language/kab/)\n"
+"PO-Revision-Date: 2015-07-17 07:15+0000\n"
+"Last-Translator: Belkacem Mohammed <belkacem77@gmail.com>\n"
+"Language-Team: Kabyle (http://www.transifex.com/odoo/odoo-8/language/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -37,7 +38,7 @@ msgid ""
 "%(user_signature)s\n"
 "\n"
 "        "
-msgstr ""
+msgstr "\nAzemz: %(date)s\n\nMass/Massa %(employee_name)s,\n\nAqleɣ an-mahal aktazal ɣef %(eval_name)s.\n\nMa ulac aɣilif Azen-aɣ-d tiririt.\n\n\nTanemmirt,\n--\n%(user_signature)s"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,nbr:0
@@ -68,8 +69,8 @@ msgstr "(user_signature)s: Isem n useqdac"
 #: model:survey.page,description:hr_evaluation.opinion_1
 msgid ""
 "<h2>At the supervisor's appraisal date</h2>\n"
-"<p>His direct reports will be invited through Modoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
-"<p>The employees will send back their anonymous answers to Modoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
+"<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
+"<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
 "<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
 "</p><ol>\n"
 "<li>Significantly exceeds standards and expectations required of the position</li>\n"
@@ -97,7 +98,7 @@ msgid ""
 "point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
 "Once the form had been filled, the employee send it to his supervisor.\n"
 "</li><li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n"
-"(internal and/or external customers, peers). In case of collaboration with Modoo SA Belgium, the supervisor must\n"
+"(internal and/or external customers, peers). In case of collaboration with Odoo SA Belgium, the supervisor must\n"
 "receive completed evaluation form from the employee's Belgian project manager.\n"
 "</li><li>The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\n"
 "hoc fields.\n"
@@ -114,7 +115,7 @@ msgid ""
 "                Each employee may be assigned an Appraisal Plan. Such a plan\n"
 "                defines the frequency and the way you manage your periodic\n"
 "                personnel evaluation. You will be able to define steps and\n"
-"                attach interviews to each step. Modoo manages all kinds of\n"
+"                attach interviews to each step. Odoo manages all kinds of\n"
 "                evaluations: bottom-up, top-down, self-evaluation and final\n"
 "                evaluation by the manager.\n"
 "              </p>\n"
@@ -128,7 +129,7 @@ msgid ""
 "                Click to create a new interview request related to a personal evaluation.\n"
 "              </p><p>\n"
 "                Interview requests are usually generated automatically by\n"
-"                Modoo according to an employee's appraisal plan. Each user\n"
+"                Odoo according to an employee's appraisal plan. Each user\n"
 "                receives automatic emails and requests to evaluate their\n"
 "                colleagues periodically.\n"
 "              </p>\n"
@@ -143,7 +144,7 @@ msgid ""
 "              </p><p>\n"
 "                You can define appraisal plans (ex: first interview after 6\n"
 "                months, then every year). Then, each employee can be linked to\n"
-"                an appraisal plan so that Modoo can automatically generate\n"
+"                an appraisal plan so that Odoo can automatically generate\n"
 "                interview requests to managers and/or subordinates.\n"
 "              </p>\n"
 "            "
@@ -262,7 +263,7 @@ msgstr ""
 #: field:hr_evaluation.plan.phase,send_anonymous_employee:0
 #: field:hr_evaluation.plan.phase,send_anonymous_manager:0
 msgid "Anonymous Summary"
-msgstr ""
+msgstr "Agzul udrig"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
@@ -490,7 +491,7 @@ msgstr ""
 #. module: hr_evaluation
 #: field:hr.evaluation.report,create_date:0
 msgid "Create Date"
-msgstr "Azemz n usilel"
+msgstr "Azemz  n tmerna"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,create_uid:0
@@ -498,7 +499,7 @@ msgstr "Azemz n usilel"
 #: field:hr_evaluation.plan,create_uid:0
 #: field:hr_evaluation.plan.phase,create_uid:0
 msgid "Created by"
-msgstr "Ilul-ed sɣuṛ"
+msgstr "Yerna-t"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,create_date:0
@@ -506,12 +507,12 @@ msgstr "Ilul-ed sɣuṛ"
 #: field:hr_evaluation.plan,create_date:0
 #: field:hr_evaluation.plan.phase,create_date:0
 msgid "Created on"
-msgstr "Ilul-ed di"
+msgstr "Yerna di"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 msgid "Creation Month"
-msgstr "Aggur n usilel"
+msgstr "Aggur n tmerna"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_14
@@ -605,7 +606,7 @@ msgstr ""
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,mail_body:0
 msgid "Email"
-msgstr "Email"
+msgstr "Imayl"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
@@ -630,12 +631,12 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_5
 msgid "Employee Comments"
-msgstr ""
+msgstr "Iwenniten n umaris"
 
 #. module: hr_evaluation
 #: model:survey.survey,title:hr_evaluation.opinion_form
 msgid "Employee Opinion Form"
-msgstr ""
+msgstr "Tafelwit n tikti n umaris"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_3
@@ -786,7 +787,7 @@ msgstr ""
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_6_4
 msgid "I understand the company strategy and how my workgroup supports it"
-msgstr ""
+msgstr "Ẓiɣ tastṛatijit n tkebbanit d wamek a muddeɣ tallalt i yegrawen n umahil-inu"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_3
@@ -951,7 +952,7 @@ msgstr ""
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Legend"
-msgstr "Légende"
+msgstr "Tamayt"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_3
@@ -1155,7 +1156,7 @@ msgstr ""
 #. module: hr_evaluation
 #: field:hr.evaluation.report,request_id:0
 msgid "Request ID"
-msgstr ""
+msgstr "Asulay n usuter"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
@@ -1165,7 +1166,7 @@ msgstr "Rrit d arewway"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_2
 msgid "Results"
-msgstr ""
+msgstr "Igmuḍen"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_2_1
@@ -1194,33 +1195,33 @@ msgstr ""
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Send Reminder Email"
-msgstr ""
+msgstr "Azen imayl n usmekti"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Send Request"
-msgstr ""
+msgstr "Azen asuter"
 
 #. module: hr_evaluation
 #: help:hr_evaluation.plan.phase,send_answer_employee:0
 msgid "Send all answers to the employee"
-msgstr ""
+msgstr "Azen akkw tiririt i yimarisen"
 
 #. module: hr_evaluation
 #: help:hr_evaluation.plan.phase,send_answer_manager:0
 msgid "Send all answers to the manager"
-msgstr ""
+msgstr "Azen akkw tiririt i wemasay"
 
 #. module: hr_evaluation
 #: help:hr_evaluation.plan.phase,send_anonymous_employee:0
 msgid "Send an anonymous summary to the employee"
-msgstr ""
+msgstr "Azen agzul udrig i wemaris"
 
 #. module: hr_evaluation
 #: help:hr_evaluation.plan.phase,send_anonymous_manager:0
 msgid "Send an anonymous summary to the manager"
-msgstr ""
+msgstr "Azen agzul udrig i wemasay"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,mail_feature:0
@@ -1230,12 +1231,12 @@ msgstr ""
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Send to Employees"
-msgstr ""
+msgstr "Azen i yimarisen"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Send to Managers"
-msgstr ""
+msgstr "Azen i yemsayen"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,sequence:0
@@ -1261,7 +1262,7 @@ msgstr ""
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
 msgid "Start Appraisal"
-msgstr ""
+msgstr "Seken aktazal"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,state:0
