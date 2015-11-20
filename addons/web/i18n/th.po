@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -8,12 +8,12 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-10-02 06:52+0000\n"
 "Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>\n"
-"Language-Team: Thai (http://www.transifex.com/odoo/odoo-8/language/th/)\n"
+"Language-Team: Thai (http://www.transifex.com/modoo/modoo-8/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -256,8 +256,8 @@ msgstr "เกี่ยวกับ"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
-msgstr "เกี่ยวกับ Odoo"
+msgid "About Modoo"
+msgstr "เกี่ยวกับ Modoo"
 
 #. module: web
 #. openerp-web
@@ -547,7 +547,7 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
+msgid "Check this box to evaluate Modoo."
 msgstr ""
 
 #. module: web
@@ -883,7 +883,7 @@ msgstr "ยกเลิก"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
+msgid "Discover Events of Modoo around the world..."
 msgstr ""
 
 #. module: web
@@ -1205,7 +1205,7 @@ msgstr "แฟ้ม:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an Modoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
@@ -1619,8 +1619,8 @@ msgstr "เพิ่มเติม"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
-msgstr "บัญชี Odoo.com ของฉัน"
+msgid "My Modoo.com account"
+msgstr "บัญชี Modoo.com ของฉัน"
 
 #. module: web
 #. openerp-web
@@ -1730,34 +1730,34 @@ msgstr "วัตถุ:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (เดิม OpenERP)"
+msgid "Modoo (Formerly OpenERP)"
+msgstr "Modoo (เดิม OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
+msgid "Modoo Web Tests"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
+msgid "Modoo is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "Modoo.com"
+msgstr "Modoo.com"
 
 #. module: web
 #. openerp-web
@@ -2730,7 +2730,7 @@ msgstr "คุณต้องเลือกอย่างน้อยหนึ
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your Modoo session expired. Please refresh the current web page."
 msgstr ""
 
 #. module: web

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * base_import
 # 
@@ -7,12 +7,12 @@
 # MinGi KYUNG <moonend@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-22 00:25+0000\n"
 "Last-Translator: Goh Gangtai <gangtai.goh@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/modoo/modoo-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -179,9 +179,9 @@ msgstr "국가/데이터베이스 \\n                       ID: 21"
 #: code:addons/base_import/static/src/xml/import.xml:152
 #, python-format
 msgid ""
-"Country/Database ID: the unique Odoo ID for a \n"
+"Country/Database ID: the unique Modoo ID for a \n"
 "                        record, defined by the ID postgresql column"
-msgstr "국가/데이터베이스 ID : 레코드에 대한 고유 Odoo ID\\n                          postgresql 컬럼 ID로 정의됩니다"
+msgstr "국가/데이터베이스 ID : 레코드에 대한 고유 Modoo ID\\n                          postgresql 컬럼 ID로 정의됩니다"
 
 #. module: base_import
 #. openerp-web
@@ -349,7 +349,7 @@ msgstr "가져오려는 파일 점검, 바이너리 (base64 아님)"
 #, python-format
 msgid ""
 "For example, to \n"
-"                        reference the country of a contact, Odoo proposes \n"
+"                        reference the country of a contact, Modoo proposes \n"
 "                        you 3 different fields to import:"
 msgstr "에를 들어 계약의 나라를 참조하기 위해서 \n        Odoo는 3가지 다른 필드를 가져오도록 제안한다"
 
@@ -423,7 +423,7 @@ msgstr "어떻게 하나의 one2many 관계를 가져올 수 있나요?\n       
 #, python-format
 msgid ""
 "How to export/import different tables from an SQL \n"
-"                        application to Odoo?"
+"                        application to Modoo?"
 msgstr "어떻게 SQL 애플리케이션에서 Odoo로 다른 테이블을 내보내기/가져오기할 수 있나요?"
 
 #. module: base_import
@@ -481,7 +481,7 @@ msgstr "만약 두 개의 제품 분류가 있고 자식 이름이 \"Sellable\" 
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, Modoo can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr "만약 파일이 컬럼 이름을 포함하고 있으면\nOdoo는 컬럼 이름에 대응하는 필드를 자동으로 검출합니다.\n이것은 가져오기를 많은 컬럼을 가진 파일을 다룰 때 간편하게 해줍니다"
@@ -502,9 +502,9 @@ msgstr "모델이 openchatter를 사용하면 기록 추적은 가져오기 동�
 #, python-format
 msgid ""
 "If you do not set all fields in your CSV file, \n"
-"                        Odoo will assign the default value for every non \n"
+"                        Modoo will assign the default value for every non \n"
 "                        defined fields. But if you\n"
-"                        set fields with empty values in your CSV file, Odoo \n"
+"                        set fields with empty values in your CSV file, Modoo \n"
 "                        will set the EMPTY value in the field, instead of \n"
 "                        assigning the default value."
 msgstr "만약 CSV 파일안에 모든 필드를 구성하지 않았다면\nOdoo는 지정되지 않은 필드에 대해 기본 값을 할당합니다.\n그렇지만 CSV 파일에 빈 값으로 구성하면, Odoo는\n기본값 대신 EMPTY 값을 할당합니다."
@@ -533,7 +533,7 @@ msgid ""
 "                        have already been imported will be modified instead of \n"
 "                        being created. This is very usefull as it allows you \n"
 "                        to import several times the same CSV file while having \n"
-"                        made some changes in between two imports. Odoo will \n"
+"                        made some changes in between two imports. Modoo will \n"
 "                        take care of creating or modifying each record \n"
 "                        depending if it's new or not."
 msgstr "가져오기 파일에 \"External ID\" 혹은 \"Database ID\" 컬럼이 포함되면\n기존에 가져온 레코드들을 새로 생성하지 않고 수정되게 된다.\n이것은 같은 CSV 파일을 여러번 가져오려고 할 때 유용해서 \n몇몇 변경 사항만 갱신될 수 있도록 합니다. Odoo는 각 레코드를\n생성하거나 수정할 때 새로운 것인지 아닌지에 따라 처리해 줍니다."
@@ -645,7 +645,7 @@ msgstr "최근 업데이트 날짜:"
 #. openerp-web
 #: code:addons/base_import/static/src/xml/import.xml:55
 #, python-format
-msgid "Map your data to Odoo"
+msgid "Map your data to Modoo"
 msgstr "Odoo에 데이터를 나타냅니다"
 
 #. module: base_import
@@ -689,7 +689,7 @@ msgstr "보통 필드들"
 #, python-format
 msgid ""
 "Note that if your CSV file \n"
-"                        has a tabulation as separator, Odoo will not \n"
+"                        has a tabulation as separator, Modoo will not \n"
 "                        detect the separations. You will need to change the \n"
 "                        file format options in your spreadsheet application. \n"
 "                        See the following question."
@@ -762,9 +762,9 @@ msgid ""
 "Some fields define a relationship with another \n"
 "                        object. For example, the country of a contact is a \n"
 "                        link to a record of the 'Country' object. When you \n"
-"                        want to import such fields, Odoo will have to \n"
+"                        want to import such fields, Modoo will have to \n"
 "                        recreate links between the different records. \n"
-"                        To help you import such fields, Odoo provides 3 \n"
+"                        To help you import such fields, Modoo provides 3 \n"
 "                        mechanisms. You must use one and only one mechanism \n"
 "                        per field you want to import."
 msgstr "어떤 필드들은 다른 객체와 관계성을 선언합니다.\n예를들어, 계약의 국가는 'Counrtry' 객체의 레코드에 연결하고 있습니다\n이런 필드를 가져올때 Odoo는 다른 레코드 사이 연결을 재생성 할 것입니다.\n이런 필드의 가져오기를 돕기위해 Odoo는 3가지 방법을 제공합니다.\n가져오기를 원하는 필드에 이 중에 하나만 사용해야 합니다."
@@ -835,7 +835,7 @@ msgstr "태그들은 공백없이 콤마로 나뉘어져 있습니다.\n예를�
 #, python-format
 msgid ""
 "The two files produced are ready to be imported in \n"
-"                        Odoo without any modifications. After having \n"
+"                        Modoo without any modifications. After having \n"
 "                        imported these two CSV files, you will have 4 contacts \n"
 "                        and 3 companies. (the firsts two contacts are linked \n"
 "                        to the first company). You must first import the \n"
@@ -855,7 +855,7 @@ msgstr "이 SQL 명령은 아래 CSV 파일을 만듭니다."
 #, python-format
 msgid ""
 "This feature \n"
-"                        allows you to use the Import/Export tool of Odoo to \n"
+"                        allows you to use the Import/Export tool of Modoo to \n"
 "                        modify a batch of records in your favorite spreadsheet \n"
 "                        application."
 msgstr "이 특징은\n자주 사용하는 스프레드시트 애플리케이션에서 \n레코드의 배치를 수정하기 위해서 Odoo의 Import/Export\n도구를 사용하도록 해줍니다."
@@ -876,7 +876,7 @@ msgstr "사람을 위한 CSV 파일을 생성하기 위해, 회사에 연결하�
 #, python-format
 msgid ""
 "To manage relations between tables, \n"
-"                        you can use the \"External ID\" facilities of Odoo. \n"
+"                        you can use the \"External ID\" facilities of Modoo. \n"
 "                        The \"External ID\" of a record is the unique identifier \n"
 "                        of this record in another application. This \"External \n"
 "                        ID\" must be unique accoss all the records of all \n"
@@ -1027,10 +1027,10 @@ msgstr "%d 과 %d 행 사이에"
 #: code:addons/base_import/static/src/xml/import.xml:87
 #, python-format
 msgid ""
-"column in Odoo. When you\n"
+"column in Modoo. When you\n"
 "                        import an other record that links to the first\n"
 "                        one, use"
-msgstr "Odoo 안의 컬럼. 다른 한 레코드를\n가져올 때 첫번째 레코드에 연결되고, 사용한다"
+msgstr "Modoo 안의 컬럼. 다른 한 레코드를\n가져올 때 첫번째 레코드에 연결되고, 사용한다"
 
 #. module: base_import
 #. openerp-web

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -10,12 +10,12 @@
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 12:39+0000\n"
 "PO-Revision-Date: 2015-10-24 07:25+0000\n"
 "Last-Translator: Kari Lindgren <kari.lindgren@emsystems.fi>\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/modoo/modoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -248,7 +248,7 @@ msgstr ""
 #: help:res.users,google_calendar_cal_id:0
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and Modoo Google Internal ID"
 msgstr "Viimeinen Calendar ID, joka on synkronoitu.  Jos tätä muutetaan, kaikki linkitykset poistetaan GoogleID:n ja Odoon sisäisen Google Internal ID:n väliltä"
 
 #. module: google_calendar
@@ -258,13 +258,13 @@ msgstr "Viimeisin synkronointi päivä"
 
 #. module: google_calendar
 #: field:calendar.attendee,oe_synchro_date:0
-msgid "Odoo Synchro Date"
-msgstr "Odoo synkronointi päivä"
+msgid "Modoo Synchro Date"
+msgstr "Modoo synkronointi päivä"
 
 #. module: google_calendar
 #: field:calendar.event,oe_update_date:0
-msgid "Odoo Update Date"
-msgstr "Odoo päivityspäivä"
+msgid "Modoo Update Date"
+msgstr "Modoo päivityspäivä"
 
 #. module: google_calendar
 #: view:base.config.settings:google_calendar.view_calendar_config_settings

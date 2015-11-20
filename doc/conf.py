@@ -26,7 +26,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.linkcode',
     'github_link',
-    'odoo',
+    'modoo',
     'html_domain',
     'exercise_admonition',
     'patchqueue'
@@ -91,13 +91,13 @@ pygments_style = 'modoo'
 # -- Options for HTML output ---------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'odoo'
+html_theme = 'modoo'
 
 odoo_cover_default = 'banners/installing_odoo.jpg'
 odoo_cover_external = {
-    'https://odoo.com/documentation/functional/accounting.html'   : 'banners/m_accounting.jpg',
-    'https://odoo.com/documentation/functional/double-entry.html' : 'banners/m_1.jpg',
-    'https://odoo.com/documentation/functional/valuation.html'    : 'banners/m_2.jpg',
+    'https://modoo.com/documentation/functional/accounting.html'   : 'banners/m_accounting.jpg',
+    'https://modoo.com/documentation/functional/double-entry.html' : 'banners/m_1.jpg',
+    'https://modoo.com/documentation/functional/valuation.html'    : 'banners/m_2.jpg',
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme

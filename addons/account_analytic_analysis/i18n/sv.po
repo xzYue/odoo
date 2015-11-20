@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * account_analytic_analysis
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-16 09:32+0000\n"
 "Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/odoo/odoo-8/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/modoo/modoo-8/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -79,11 +79,11 @@ msgid ""
 "\n"
 "<pre>\n"
 "-- \n"
-"Odoo Automatic Email\n"
+"Modoo Automatic Email\n"
 "</pre>\n"
 "\n"
 "            "
-msgstr "\nHej ${object.name},\n\n% macro account_table(values):\n<table cellspacing=\"1\" border=\"1\" cellpadding=\"4\">\n    <tr>\n        <th>Kund</th>\n        <th>Avtal</th>\n        <th>Datum</th>\n        <th>Förbetalada enheter</th>\n        <th>Kontakt</th>\n    </tr>\n    % for partner, accounts in values:\n        % for account in accounts:\n        <tr>\n            <td>${partner.name}</td>\n            <td><a href=\"${ctx[\"base_url\"]}/#action=${ctx[\"action_id\"]}&id=${account.id}&view_type=form\">${account.name}</a></td>\n            <td>${account.date_start} to ${account.date and account.date or '???'}</td>\n            <td>\n            % if account.quantity_max != 0.0:\n                ${account.remaining_hours}/${account.quantity_max} enheter\n            % endif\n            </td>\n            <td>${account.partner_id.phone or ''}, ${account.partner_id.email or ''}</td>\n        </tr>\n        % endfor\n    % endfor\n</table>\n% endmacro \n\n% if \"new\" in ctx[\"data\"]:\n    <h2>Följande avtal har nyligen gått ut: </h2>\n    ${account_table(ctx[\"data\"][\"new\"].iteritems())}\n% endif\n\n% if \"old\" in ctx[\"data\"]:\n    <h2>Följande utgångna avtal behöver behandlas: </h2>\n    ${account_table(ctx[\"data\"][\"old\"].iteritems())}\n% endif\n\n% if \"future\" in ctx[\"data\"]:\n    <h2>Följande avtal går ut inom en månad: </h2>\n    ${account_table(ctx[\"data\"][\"future\"].iteritems())}\n% endif\n\n<p>\n    Du kan kontrollera alla avtal som bör förnyas i menyn:\n</p>\n<ul>\n    <li>Kundorder / Fakturering / Avtal att förnya</li>\n</ul>\n<p>\n    Tack,\n</p>\n\n<pre>\n-- \nOdoo automatisk e-post\n</pre>"
+msgstr "\nHej ${object.name},\n\n% macro account_table(values):\n<table cellspacing=\"1\" border=\"1\" cellpadding=\"4\">\n    <tr>\n        <th>Kund</th>\n        <th>Avtal</th>\n        <th>Datum</th>\n        <th>Förbetalada enheter</th>\n        <th>Kontakt</th>\n    </tr>\n    % for partner, accounts in values:\n        % for account in accounts:\n        <tr>\n            <td>${partner.name}</td>\n            <td><a href=\"${ctx[\"base_url\"]}/#action=${ctx[\"action_id\"]}&id=${account.id}&view_type=form\">${account.name}</a></td>\n            <td>${account.date_start} to ${account.date and account.date or '???'}</td>\n            <td>\n            % if account.quantity_max != 0.0:\n                ${account.remaining_hours}/${account.quantity_max} enheter\n            % endif\n            </td>\n            <td>${account.partner_id.phone or ''}, ${account.partner_id.email or ''}</td>\n        </tr>\n        % endfor\n    % endfor\n</table>\n% endmacro \n\n% if \"new\" in ctx[\"data\"]:\n    <h2>Följande avtal har nyligen gått ut: </h2>\n    ${account_table(ctx[\"data\"][\"new\"].iteritems())}\n% endif\n\n% if \"old\" in ctx[\"data\"]:\n    <h2>Följande utgångna avtal behöver behandlas: </h2>\n    ${account_table(ctx[\"data\"][\"old\"].iteritems())}\n% endif\n\n% if \"future\" in ctx[\"data\"]:\n    <h2>Följande avtal går ut inom en månad: </h2>\n    ${account_table(ctx[\"data\"][\"future\"].iteritems())}\n% endif\n\n<p>\n    Du kan kontrollera alla avtal som bör förnyas i menyn:\n</p>\n<ul>\n    <li>Kundorder / Fakturering / Avtal att förnya</li>\n</ul>\n<p>\n    Tack,\n</p>\n\n<pre>\n-- \nModoo automatisk e-post\n</pre>"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,toinvoice_total:0
@@ -110,11 +110,11 @@ msgid ""
 "                    Click to create a new contract.\n"
 "                </p><p>\n"
 "                    Use contracts to follow tasks, issues, timesheets or invoicing based on\n"
-"                    work done, expenses and/or sales orders. Odoo will automatically manage\n"
+"                    work done, expenses and/or sales orders. Modoo will automatically manage\n"
 "                    the alerts for the renewal of the contracts to the right salesperson.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Klicka för att skapa ett nytt avtal.\n                </p><p>\nAnvänd avtal för att följa upp uppgifter, ärenden, tidrapporter eller fakturering baserat på utfört arbete, utgifter och/eller säljorder. Odoo kommer automatiskt att påminna om utgånga avtal till rätt ansvarig person.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Klicka för att skapa ett nytt avtal.\n                </p><p>\nAnvänd avtal för att följa upp uppgifter, ärenden, tidrapporter eller fakturering baserat på utfört arbete, utgifter och/eller säljorder. Modoo kommer automatiskt att påminna om utgånga avtal till rätt ansvarig person.\n                </p>\n            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_sales_order
@@ -139,12 +139,12 @@ msgid ""
 "                end date is passed or the working effort is higher than the\n"
 "                maximum authorized one.\n"
 "              </p><p>\n"
-"                Odoo automatically sets contracts to be renewed in a pending\n"
+"                Modoo automatically sets contracts to be renewed in a pending\n"
 "                state. After the negociation, the salesman should close or renew\n"
 "                pending contracts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicka för att skapa ett nytt avtal.\n              </p><p>\nHär hittar du avtal som skall förnyas därför att det passerat ett slutdatum eller att nedlagt arbete är större än avtalat.\n              </p><p>\nOdoo sätter automatiskt utgångna avtal i vänta-status. Efter förhandling, kan säljaren förnya avtalet.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicka för att skapa ett nytt avtal.\n              </p><p>\nHär hittar du avtal som skall förnyas därför att det passerat ett slutdatum eller att nedlagt arbete är större än avtalat.\n              </p><p>\nModoo sätter automatiskt utgångna avtal i vänta-status. Efter förhandling, kan säljaren förnya avtalet.\n              </p>\n            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_hr_tree_invoiced_all
@@ -825,11 +825,11 @@ msgstr "Vecka/or"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid ""
-"When reinvoicing costs, Odoo uses the\n"
+"When reinvoicing costs, Modoo uses the\n"
 "                            pricelist of the contract which uses the price\n"
 "                            defined on the product related (e.g timesheet \n"
 "                            products are defined on each employee)."
-msgstr "Vid återfakturering av kostnader, använder Odoo avtalets prislista tillsammans med pris på relaterade produkter (eg tidrapport-produkt knutna till varje anställd)"
+msgstr "Vid återfakturering av kostnader, använder Modoo avtalets prislista tillsammans med pris på relaterade produkter (eg tidrapport-produkt knutna till varje anställd)"
 
 #. module: account_analytic_analysis
 #: selection:account.analytic.account,recurring_rule_type:0

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -9,12 +9,12 @@
 # Miku Laitinen <miku.laitinen@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-22 08:25+0000\n"
 "PO-Revision-Date: 2015-09-04 17:50+0000\n"
 "Last-Translator: Miku Laitinen <miku.laitinen@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/modoo/modoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -128,7 +128,7 @@ msgstr "404: Sivua ei löydy!"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Odoo to grow their businesses."
+msgid "50,000+ companies run Modoo to grow their businesses."
 msgstr "50 000+ yritystä käyttää Odoota yrityksensä kasvussa."
 
 #. module: website
@@ -377,8 +377,8 @@ msgstr "Mainospalkki"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Odoo Image"
-msgstr "Bannerin Odoo-kuva"
+msgid "Banner Modoo Image"
+msgstr "Bannerin Modoo-kuva"
 
 #. module: website
 #. openerp-web
@@ -895,7 +895,7 @@ msgstr "Hylkää tekemäsi muutokset"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Discover more about Odoo"
+msgid "Discover more about Modoo"
 msgstr "Lue lisää Odoosta"
 
 #. module: website
@@ -1728,39 +1728,39 @@ msgstr "Huom: piilottaaksesi tämän sivun, poista sen valinta yläpalkin valiko
 
 #. module: website
 #: view:website:website.layout view:website:website.snippets
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: website
 #: view:website:website.info
-msgid "Odoo Version"
+msgid "Modoo Version"
 msgstr "Odoon versio"
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                                    Things are better organized and more visible with it."
-msgstr "Odoo tarjoaa alustan tärkeimmillle projektinhallinnan ominaisuuksille. Näin asiat ovat paremmin organisoituja ja helpommin seurattavia."
+msgstr "Modoo tarjoaa alustan tärkeimmillle projektinhallinnan ominaisuuksille. Näin asiat ovat paremmin organisoituja ja helpommin seurattavia."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                            Things are better organized and more visible with it."
-msgstr "Odoo tarjoaa alustan projektinhallinnan välttämättömyyksille.\nAsiat ovat paremmin organisoitu ja näkyvissä."
+msgstr "Modoo tarjoaa alustan projektinhallinnan välttämättömyyksille.\nAsiat ovat paremmin organisoitu ja näkyvissä."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                Things are better organized and more visible with it."
-msgstr "Odoo tarjoaa alustan projektinhallinnan välttämättömyyksille.\nAsiat ovat paremmin organisoitu ja näkyvissä."
+msgstr "Modoo tarjoaa alustan projektinhallinnan välttämättömyyksille.\nAsiat ovat paremmin organisoitu ja näkyvissä."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Modoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
 msgstr "Odoon kassapääte on verkkosovellus, joka voidaan ajaa \nmillä tahansa laitteella joka pystyy näyttämään verkkosivuja, yleensä ilman mitään esivalmisteluja."
 
@@ -2937,7 +2937,7 @@ msgstr "Onko tämä näkymä sivupohja (valmis)"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Odoo POS support?"
+msgid "Which hardware does Modoo POS support?"
 msgstr "Mitä laitteistoa Odoon kassapäätesovellus tukee?"
 
 #. module: website
@@ -2950,7 +2950,7 @@ msgstr "Kassapääteen käynnistäminen vaatii internet yhteyden,\nmutta se toim
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"With Odoo's fully integrated software, you can easily manage your\n"
+"With Modoo's fully integrated software, you can easily manage your\n"
 "                            meetings, schedule business calls, create recurring meetings,\n"
 "                            synchronize your agenda and easily keep in touch with your colleagues,\n"
 "                            partners and other people involved in projects or business discussions."
@@ -3126,18 +3126,18 @@ msgstr "sivuasi Googlen hakutuloksissa"
 #: code:addons/website/static/src/xml/website.editor.xml:66
 #, python-format
 msgid "http://openerp.com"
-msgstr "https://odoo.com"
+msgstr "https://modoo.com"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:224
 #, python-format
 msgid "http://openerp.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgstr "https://www.modoo.com/logo.png"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/odoo"
+msgid "http://www.linkedin.com/company/modoo"
 msgstr "http://www.linkedin.com/company/yritys"
 
 #. module: website
@@ -3152,7 +3152,7 @@ msgstr "http://www.youtube.com/channel/HCU842OHPPNrQ"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/odoo"
+msgid "https://facebook.com/modoo"
 msgstr "https://facebook.com/yritys"
 
 #. module: website
@@ -3193,7 +3193,7 @@ msgstr "https://yritys.github.io"
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Odoo, the"
+msgid "instance of Modoo, the"
 msgstr "Odoosta,"
 
 #. module: website
@@ -3256,8 +3256,8 @@ msgstr "tyyli."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "klassinen Odoo-rajapinta"
+msgid "the classic Modoo interface"
+msgstr "klassinen Modoo-rajapinta"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

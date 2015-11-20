@@ -56,8 +56,8 @@ usermod -a -G usbusers pi
 usermod -a -G lp pi
 
 sudo -u postgres createuser -s pi
-mkdir /var/log/odoo
-chown pi:pi /var/log/odoo
+mkdir /var/log/modoo
+chown pi:pi /var/log/modoo
 
 # logrotate is very picky when it comes to file permissions
 chown -R root:root /etc/logrotate.d/
@@ -65,7 +65,7 @@ chmod -R 644 /etc/logrotate.d/
 chown root:root /etc/logrotate.conf
 chmod 644 /etc/logrotate.conf
 
-echo "* * * * * rm /var/run/odoo/sessions/*" | crontab -
+echo "* * * * * rm /var/run/modoo/sessions/*" | crontab -
 
 update-rc.d -f hostapd remove
 update-rc.d -f isc-dhcp-server remove

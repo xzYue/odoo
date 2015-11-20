@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-08-20 23:59+0000\n"
 "Last-Translator: choijaeho <hwangtog@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/modoo/modoo-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -341,8 +341,8 @@ msgstr "시작 날짜"
 msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
-"device using Odoo's web service features."
-msgstr "시간 추적 기능은 로그인/로그아웃 동작을 통해서 직원의 근태 관리를 목표로합니다. Odoo 웹 서비스 기능을 이용하여 근태 장치에 이 기능을 연결할 수 있습니다. "
+"device using Modoo's web service features."
+msgstr "시간 추적 기능은 로그인/로그아웃 동작을 통해서 직원의 근태 관리를 목표로합니다. Modoo 웹 서비스 기능을 이용하여 근태 장치에 이 기능을 연결할 수 있습니다. "
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_time_tracking

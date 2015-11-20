@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign_crm_demo
 # 
@@ -8,12 +8,12 @@
 # mrshelly <mrshelly@hotmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-08-17 13:56+0000\n"
 "Last-Translator: leangjia <liangjia@qq.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/modoo/modoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,9 +24,9 @@ msgstr ""
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_4
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and buying the Odoo book.</p>\n"
+"            <p>Thanks for showing interest and buying the Modoo book.</p>\n"
 "            If any further information required kindly revert back.\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n<p>非常感谢关注并购买Odoo书籍。</p>\n如果需要任何进一步信息请回复。\n<p>Odoo团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
@@ -36,25 +36,25 @@ msgid ""
 "            <p>Thanks for showing interest and for subscribing to technical training.</p>\n"
 "            If any further information required kindly revert back.I really appreciate your co-operation on this.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n<p>非常感谢关注并预订技术培训！</p>\n如果需要任何进一步信息请回复。对你的配合表示真心的感谢。</p>\n<p>如果需要任何进一步信息， 不要犹豫，马上回信吧。</p>\n<p>OdooP团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_3
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and for subscribing to the Odoo Discovery Day.</p>\n"
+"            <p>Thanks for showing interest and for subscribing to the Modoo Discovery Day.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n<p>非常感谢关注并预订“Odoo探索日”！</p>\n<p>如果需要任何进一步信息，不要犹豫，马上回信吧。</p>\n<p>OdooP团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_1
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for the genuine interest you have shown in Odoo.</p>\n"
+"            <p>Thanks for the genuine interest you have shown in Modoo.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n           <p>非常感谢你对Odoo的关注！</p>\n            <p>如果需要任何进一步信息， 不要犹豫，马上回信吧。</p>\n            <p>Odoo团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
@@ -64,7 +64,7 @@ msgid ""
 "            <p>We have very good offer that might suit you.\n"
 "            For our gold partners,We are arranging free technical training on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n<p>我们有更好的服务推荐给您。\n在2010年6月，我们对金牌业务伙伴安排了免费的技术培训。</p>\n<p>如果需要任何进一步信息， 不要犹豫，马上回信吧。</p>\n<p>OdooP团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
@@ -74,7 +74,7 @@ msgid ""
 "            <p>We have very good offer that might suit you.\n"
 "            For our silver partners, we are  offering Gold partnership.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n<p>我们有很好的服务，可能适合你。\n我们提供银牌业务伙伴升级为金牌业务伙伴的服务。</p>\n<p>如果需要任何进一步信息， 不要犹豫，马上回信吧。</p>\n<p>OdooP团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
@@ -84,7 +84,7 @@ msgid ""
 "            <p>We have very good offer that might suit you.\n"
 "            For our silver partners,We are  paid technical training on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n            <p>我们有很好的服务，可能适合你。\n            在2010年6月，我们对银牌业务伙伴进行技术培训。</p>\n            <p>如果需要任何进一步信息， 不要犹豫，马上回信吧。</p>\n            <p>OdooP团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
@@ -92,9 +92,9 @@ msgstr "<p>你好，</p>\n            <p>我们有很好的服务，可能适合
 msgid ""
 "<p>Hello,</p>\n"
 "            <p>We have very good offer that might suit you.\n"
-"            We suggest you subscribe to the Odoo Discovery Day on May 2010.</p>\n"
+"            We suggest you subscribe to the Modoo Discovery Day on May 2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
+"            <p>Regards,Modoo Team,</p>"
 msgstr "<p>你好，</p>\n            <p>我们有很好的服务，可能适合你。\n            建议预订2010年5月的“Odoo探索日”。</p>\n            <p>如果需要任何进一步信息， 不要犹豫，马上回信吧。</p>\n            <p>Odoo团队致敬</p>"
 
 #. module: marketing_campaign_crm_demo
@@ -134,17 +134,17 @@ msgstr "推荐银牌合作伙伴参加付费的培训"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_2
-msgid "Propose to subscribe to the Odoo Discovery Day on May 2010"
+msgid "Propose to subscribe to the Modoo Discovery Day on May 2010"
 msgstr "推荐订阅2010年5月的Odoo探索"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_4
-msgid "Thanks for buying the Odoo book"
+msgid "Thanks for buying the Modoo book"
 msgstr "感谢您购买Odoo书籍"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_1
-msgid "Thanks for showing interest in Odoo"
+msgid "Thanks for showing interest in Modoo"
 msgstr "感谢你对Odoo感兴趣"
 
 #. module: marketing_campaign_crm_demo
@@ -154,5 +154,5 @@ msgstr "感谢您订购技术培训课程"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_3
-msgid "Thanks for subscribing to the Odoo Discovery Day"
+msgid "Thanks for subscribing to the Modoo Discovery Day"
 msgstr "感谢您订阅【OdooP主题日】活动"

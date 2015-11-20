@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * im_odoo_support
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:24+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (http://www.transifex.com/odoo/odoo-8/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/modoo/modoo-8/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,14 +31,14 @@ msgstr "Error"
 #: code:addons/im_odoo_support/static/src/js/im_odoo_support.js:123
 #: code:addons/im_odoo_support/static/src/xml/im_odoo_support.xml:7
 #, python-format
-msgid "Odoo Support"
-msgstr "Soporte de Odoo"
+msgid "Modoo Support"
+msgstr "Soporte de Modoo"
 
 #. module: im_odoo_support
 #. openerp-web
 #: code:addons/im_odoo_support/static/src/js/im_odoo_support.js:70
 #, python-format
 msgid ""
-"The connection with the Odoo Support Server failed. Please retry in a few "
-"minutes, or send an email to support@odoo.com ."
-msgstr "La conexión con el servidor de soporte de Odoo ha fallado. Reintente por favor en unos minutos, o mande un correo electrónico a support@odoo.com."
+"The connection with the Modoo Support Server failed. Please retry in a few "
+"minutes, or send an email to support@modoo.com ."
+msgstr "La conexión con el servidor de soporte de Modoo ha fallado. Reintente por favor en unos minutos, o mande un correo electrónico a support@modoo.com."

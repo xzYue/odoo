@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * share
 # 
@@ -7,12 +7,12 @@
 # José Gomes <jg@opencloud.pro>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-10-20 14:28+0000\n"
 "Last-Translator: José Gomes <jg@opencloud.pro>\n"
-"Language-Team: Portuguese (http://www.transifex.com/odoo/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/modoo/modoo-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -339,9 +339,9 @@ msgstr "Grupos Sem-Partilha"
 #: code:addons/share/wizard/share_wizard.py:868
 #, python-format
 msgid ""
-"Odoo is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
-"It is open source and can be found on https://www.odoo.com."
-msgstr "O Odoo é uma solução poderosa e user-friendly de Aplicações de Gestão (CRM, Vendas, Recursos Humanos, etc.)\nÉ open source e pode ser encontrado em https://www.odoo.com."
+"Modoo is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
+"It is open source and can be found on https://www.modoo.com."
+msgstr "O Modoo é uma solução poderosa e user-friendly de Aplicações de Gestão (CRM, Vendas, Recursos Humanos, etc.)\nÉ open source e pode ser encontrado em https://www.modoo.com."
 
 #. module: share
 #: help:share.wizard,domain:0
@@ -535,18 +535,18 @@ msgstr "O utilizador corrente tem de ter um endereço eletrónico definido nas s
 #: code:addons/share/wizard/share_wizard.py:855
 #, python-format
 msgid ""
-"The documents are not attached, you can view them online directly on my Odoo server at:\n"
+"The documents are not attached, you can view them online directly on my Modoo server at:\n"
 "    %s\n"
 "\n"
-msgstr "Os documentos não estão ligados, você pode vê-los on-line diretamente no meu servidor Odoo em: \n     % s\n\n"
+msgstr "Os documentos não estão ligados, você pode vê-los on-line diretamente no meu servidor Modoo em: \n     % s\n\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:864
 #, python-format
 msgid ""
-"The documents have been automatically added to your current Odoo "
+"The documents have been automatically added to your current Modoo "
 "documents.\n"
-msgstr "Os documentos foram adicionados automaticamente aos seus documentos Odoo atuais.\n"
+msgstr "Os documentos foram adicionados automaticamente aos seus documentos Modoo atuais.\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:831

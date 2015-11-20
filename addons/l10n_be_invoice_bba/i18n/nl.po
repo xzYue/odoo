@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-11-24 02:53+0000\n"
 "PO-Revision-Date: 2015-07-17 07:28+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Dutch (http://www.transifex.com/odoo/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/modoo/modoo-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -129,7 +129,7 @@ msgstr "Relatie"
 msgid ""
 "Unsupported Structured Communication Type Algorithm '%s' !\n"
 "Please contact your OpenERP support channel."
-msgstr "Niet ondersteunde algoritme voor gestructureerde communicatie type '%s' !\nContacteer aub uw Odoo ondersteuningskanaal."
+msgstr "Niet ondersteunde algoritme voor gestructureerde communicatie type '%s' !\nContacteer aub uw Modoo ondersteuningskanaal."
 
 #. module: l10n_be_invoice_bba
 #: field:res.partner,out_inv_comm_algorithm:0

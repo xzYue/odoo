@@ -514,7 +514,7 @@ class Home(http.Controller):
         if request.env.ref('web.login', False):
             return request.render('web.login', values)
         else:
-            # probably not an odoo compatible database
+            # probably not an modoo compatible database
             error = 'Unable to login on database %s' % request.session.db
             return werkzeug.utils.redirect('/web/database/selector?error=%s' % error, 303)
 

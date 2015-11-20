@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * account_analytic_analysis
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-29 14:46+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@bas-solutions.nl>\n"
-"Language-Team: Dutch (http://www.transifex.com/odoo/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/modoo/modoo-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -79,7 +79,7 @@ msgid ""
 "\n"
 "<pre>\n"
 "-- \n"
-"Odoo Automatic Email\n"
+"Modoo Automatic Email\n"
 "</pre>\n"
 "\n"
 "            "
@@ -110,11 +110,11 @@ msgid ""
 "                    Click to create a new contract.\n"
 "                </p><p>\n"
 "                    Use contracts to follow tasks, issues, timesheets or invoicing based on\n"
-"                    work done, expenses and/or sales orders. Odoo will automatically manage\n"
+"                    work done, expenses and/or sales orders. Modoo will automatically manage\n"
 "                    the alerts for the renewal of the contracts to the right salesperson.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Klik hier om een nieuw contract aan te maken\n                </p><p>\n                    Gebruik contracten om taken, issues, urenstaten of facturatie gebaseerd \n                    op gereed werk, declaraties en/of verkooporders te volgen. Odoo zal\n                    automatisch meldingen geven, aan de juiste verkoper, indien een \n                    contract moet worden vernieuwd.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Klik hier om een nieuw contract aan te maken\n                </p><p>\n                    Gebruik contracten om taken, issues, urenstaten of facturatie gebaseerd \n                    op gereed werk, declaraties en/of verkooporders te volgen. Modoo zal\n                    automatisch meldingen geven, aan de juiste verkoper, indien een \n                    contract moet worden vernieuwd.\n                </p>\n            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_sales_order
@@ -139,12 +139,12 @@ msgid ""
 "                end date is passed or the working effort is higher than the\n"
 "                maximum authorized one.\n"
 "              </p><p>\n"
-"                Odoo automatically sets contracts to be renewed in a pending\n"
+"                Modoo automatically sets contracts to be renewed in a pending\n"
 "                state. After the negociation, the salesman should close or renew\n"
 "                pending contracts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik hier om een nieuw contract aan te maken\n              </p><p>\n                Hier vind u de contracten welke moeten worden vernieuwd\n                omdat de einddatum is verlopen of het totaal aantal uren is \n                hoger dan het maximaal toegestane aantal uren\n              </p><p>\n                Odoo zet contracten welke moeten worden vernieuwd automatisch\n                in de stand \"in afwachting\". Na onderhandeling kan de verkoper het contract\n                afsluiten of vernieuwen.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik hier om een nieuw contract aan te maken\n              </p><p>\n                Hier vind u de contracten welke moeten worden vernieuwd\n                omdat de einddatum is verlopen of het totaal aantal uren is \n                hoger dan het maximaal toegestane aantal uren\n              </p><p>\n                Modoo zet contracten welke moeten worden vernieuwd automatisch\n                in de stand \"in afwachting\". Na onderhandeling kan de verkoper het contract\n                afsluiten of vernieuwen.\n              </p>\n            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_hr_tree_invoiced_all
@@ -825,11 +825,11 @@ msgstr "We(e)k(en)"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid ""
-"When reinvoicing costs, Odoo uses the\n"
+"When reinvoicing costs, Modoo uses the\n"
 "                            pricelist of the contract which uses the price\n"
 "                            defined on the product related (e.g timesheet \n"
 "                            products are defined on each employee)."
-msgstr "Bij het doorbereken van kosten, gebruikt Odoo\n                            de prijslijst van het contract, welke de prijs\n                            gebruikt van het gekoppelde product (bijv. \n                            urenstaten producten worden gedefinieerd \n                            per gebruiker)."
+msgstr "Bij het doorbereken van kosten, gebruikt Modoo\n                            de prijslijst van het contract, welke de prijs\n                            gebruikt van het gekoppelde product (bijv. \n                            urenstaten producten worden gedefinieerd \n                            per gebruiker)."
 
 #. module: account_analytic_analysis
 #: selection:account.analytic.account,recurring_rule_type:0

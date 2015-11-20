@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * im_livechat
 # 
@@ -7,12 +7,12 @@
 # Mustafa Rawi <mustafa@cubexco.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-31 08:39+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Arabic (http://www.transifex.com/odoo/odoo-8/language/ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/modoo/modoo-8/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -101,7 +101,7 @@ msgstr "التاريخ"
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module."
+"For website built with Modoo CMS, please install the website_livechat module."
 " Then go to Settings > Website Settings and select the Live Chat Channel you"
 " want to add on your website."
 msgstr "للمواقع المبنية باستخدام أودو، نرجو منك تثبيت الموديول website_livechat. ثم اذهب إلى الإعدادات > موقع ويب واختر قناة المحادثات التي ترغب في استخدامها على موقعك."
@@ -218,8 +218,8 @@ msgstr "يبدو أنه لا يوجد أحد من ممثلينا متوافر ا
 
 #. module: im_livechat
 #: view:website:im_livechat.support_page
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form

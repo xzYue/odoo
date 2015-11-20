@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -10,12 +10,12 @@
 # Sanna Edelman <direct@generare.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-11-03 09:15+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/modoo/modoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -72,7 +72,7 @@ msgstr "<p></p>"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
+msgid "<p>If you do not contribute or develop in Modoo, skip this page.</p>"
 msgstr ""
 
 #. module: survey
@@ -92,7 +92,7 @@ msgstr "<p>Kukaan ei ole vielä vastannut kyselytutkimukseesi.</p>\n            
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of Modoo. Try to remind your firsts days on Modoo and\n"
 "what have been your difficulties.</p>"
 msgstr ""
 
@@ -145,7 +145,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
+msgid "About your Modoo usage"
 msgstr ""
 
 #. module: survey
@@ -231,8 +231,8 @@ msgstr "Vastaukset eivät mene alkuperäisen dokumentin keskusteluketjuun. Täm�
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Käytätkö Odoo'ta päivittäin?"
+msgid "Are you using Modoo on a daily basis?"
+msgstr "Käytätkö Modoo'ta päivittäin?"
 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
@@ -664,7 +664,7 @@ msgstr "Sisältää viestien yhteenvedon (viestien määrän,...). Tämä yhteen
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
+msgid "How do you contribute or plan to contribute to Modoo?"
 msgstr ""
 
 #. module: survey
@@ -699,8 +699,8 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "Käytän Launchpad'ia, kuten kaikki viralliset Odoo projektit"
+msgid "I use Launchpad, like all official Modoo projects"
+msgstr "Käytän Launchpad'ia, kuten kaikki viralliset Modoo projektit"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -709,7 +709,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
+msgid "I use the contextual help in Modoo"
 msgstr ""
 
 #. module: survey
@@ -1826,7 +1826,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
+msgid "They help new users to understand Modoo"
 msgstr ""
 
 #. module: survey
@@ -2083,7 +2083,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Modoo, available in the web "
 "client ?"
 msgstr ""
 
@@ -2120,7 +2120,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
+msgid "Yes, I use the online version of Modoo"
 msgstr ""
 
 #. module: survey

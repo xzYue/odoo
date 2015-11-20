@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
@@ -8,12 +8,12 @@
 # Thomas A. Jaeger, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-11-05 15:35+0000\n"
 "Last-Translator: Thomas A. Jaeger\n"
-"Language-Team: German (http://www.transifex.com/odoo/odoo-8/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/modoo/modoo-8/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -38,11 +38,11 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicken Sie zur 
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
 "<p>\n"
-"               You can assign remaining Legal Leaves for each employee, Odoo\n"
+"               You can assign remaining Legal Leaves for each employee, Modoo\n"
 "               will automatically create and validate allocation requests.\n"
 "             </p>\n"
 "           "
-msgstr "<p> \nSie können den gesetzlichen Resturlaub für jeden Mitarbeiter eingeben, Odoo \nerstellt und bestätigt dadurch automatisch die Urlaubszuweisung. \n</ p>\n           "
+msgstr "<p> \nSie können den gesetzlichen Resturlaub für jeden Mitarbeiter eingeben, Modoo \nerstellt und bestätigt dadurch automatisch die Urlaubszuweisung. \n</ p>\n           "
 
 #. module: hr_holidays
 #: field:hr.holidays.status,active:0
@@ -684,9 +684,9 @@ msgstr "Anzahl Tage"
 #. module: hr_holidays
 #: help:hr.holidays.status,categ_id:0
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, Modoo will create a corresponding meeting of this "
 "type in the calendar."
-msgstr "Sobald eine Urlaubsanfrage genehmigt wurde, erstellt Odoo ein Meeting in diesem Kalender"
+msgstr "Sobald eine Urlaubsanfrage genehmigt wurde, erstellt Modoo ein Meeting in diesem Kalender"
 
 #. module: hr_holidays
 #: field:hr.holidays,parent_id:0

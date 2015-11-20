@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -7,12 +7,12 @@
 # Gabriella Santoso <gabriella.santoso@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-20 05:21+0000\n"
 "Last-Translator: Gabriella Santoso <gabriella.santoso@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/odoo/odoo-8/language/id/)\n"
+"Language-Team: Indonesian (http://www.transifex.com/modoo/modoo-8/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -221,12 +221,12 @@ msgstr "Anggota"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
-"                            from incoming emails. You can automatically synchronize emails with Odoo\n"
+"Modoo allows to automatically create leads (or others documents)\n"
+"                            from incoming emails. You can automatically synchronize emails with Modoo\n"
 "                            using regular POP/IMAP accounts, using a direct email integration script for your\n"
-"                            email server, or by manually pushing emails to Odoo using specific\n"
+"                            email server, or by manually pushing emails to Modoo using specific\n"
 "                            plugins for your preferred email application."
-msgstr "Odoo bisa secara otomatis membuat \"Petunjuk\" (atau dokumen lainnya) dari email masuk. Anda bisa melakukan sinkronisasi email dengan Odoo secara otomatis dengan menggunakan akun POP/IMAP biasa, menggunakan skrip integrasi email langsung untuk server email Anda, atau secara manual melakukan fungsi \"push email\" ke Odoo menggunakan plugin spesifik untuk aplikasi email pilhan Anda."
+msgstr "Modoo bisa secara otomatis membuat \"Petunjuk\" (atau dokumen lainnya) dari email masuk. Anda bisa melakukan sinkronisasi email dengan Modoo secara otomatis dengan menggunakan akun POP/IMAP biasa, menggunakan skrip integrasi email langsung untuk server email Anda, atau secara manual melakukan fungsi \"push email\" ke Modoo menggunakan plugin spesifik untuk aplikasi email pilhan Anda."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -284,8 +284,8 @@ msgstr "Atur huruf pada kop laporan perusahaan, huruf ini digunakan pada laporan
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
-msgstr "Bagikan atau tunjukkan aneka tampilan Odoo."
+msgid "Share or embbed any screen of Modoo."
+msgstr "Bagikan atau tunjukkan aneka tampilan Modoo."
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings

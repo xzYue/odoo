@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -7,12 +7,12 @@
 # Martin Trigaux, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-22 08:25+0000\n"
 "PO-Revision-Date: 2015-10-20 13:14+0000\n"
 "Last-Translator: Aleksander <provaleks@provendo.no>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/odoo/odoo-8/language/nb/)\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/modoo/modoo-8/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -126,8 +126,8 @@ msgstr "404: Side ikke funnet!"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "50,000+ selskaper bruker Odoo for å vokse."
+msgid "50,000+ companies run Modoo to grow their businesses."
+msgstr "50,000+ selskaper bruker Modoo for å vokse."
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
@@ -375,8 +375,8 @@ msgstr "Banner"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Odoo Image"
-msgstr "Banner Odoo-bilde"
+msgid "Banner Modoo Image"
+msgstr "Banner Modoo-bilde"
 
 #. module: website
 #. openerp-web
@@ -893,8 +893,8 @@ msgstr "Forkast utgave"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Discover more about Odoo"
-msgstr "Oppdag mer om Odoo"
+msgid "Discover more about Modoo"
+msgstr "Oppdag mer om Modoo"
 
 #. module: website
 #: view:website:website.template_partner_comment
@@ -1726,41 +1726,41 @@ msgstr "Merk: For å skjule denne siden, fjern merket på den fra toppmenypunkte
 
 #. module: website
 #: view:website:website.layout view:website:website.snippets
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Modoo"
+msgstr "Modoo"
 
 #. module: website
 #: view:website:website.info
-msgid "Odoo Version"
-msgstr "Odoo versjon"
+msgid "Modoo Version"
+msgstr "Modoo versjon"
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                                    Things are better organized and more visible with it."
-msgstr "Odoo gir oss en viktig plattform for vår projekthåndtering.\nTing er bedre organisert og har blitt mer synlig."
+msgstr "Modoo gir oss en viktig plattform for vår projekthåndtering.\nTing er bedre organisert og har blitt mer synlig."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                            Things are better organized and more visible with it."
-msgstr "Odoo gir oss en viktig plattform for vår projekthåndtering.\nTing er bedre organisert og har blitt mer synlig."
+msgstr "Modoo gir oss en viktig plattform for vår projekthåndtering.\nTing er bedre organisert og har blitt mer synlig."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"Modoo provides essential platform for our project management.\n"
 "                                Things are better organized and more visible with it."
-msgstr "Odoo gir oss en viktig plattform for vår projekthåndtering.\nTing er bedre organisert og har blitt mer synlig."
+msgstr "Modoo gir oss en viktig plattform for vår projekthåndtering.\nTing er bedre organisert og har blitt mer synlig."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Modoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
-msgstr "Odoo sin kassehåndtering (POS) er en webapplikasjon som\nkan kjøres på alle enheter som kan vise nettsider, med liten eller ingen konfigurering."
+msgstr "Modoo sin kassehåndtering (POS) er en webapplikasjon som\nkan kjøres på alle enheter som kan vise nettsider, med liten eller ingen konfigurering."
 
 #. module: website
 #. openerp-web
@@ -2935,8 +2935,8 @@ msgstr "Hvorvidt denne visningen er en mal for nettstedet (fullstendig)"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Odoo POS support?"
-msgstr "Hvilken maskinvare støtter Odoo Kassesystem - POS - ?"
+msgid "Which hardware does Modoo POS support?"
+msgstr "Hvilken maskinvare støtter Modoo Kassesystem - POS - ?"
 
 #. module: website
 #: view:website:website.snippets
@@ -2948,11 +2948,11 @@ msgstr "Mens en Internett-tilkobling er nødvendig for å starte kassesystemet -
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"With Odoo's fully integrated software, you can easily manage your\n"
+"With Modoo's fully integrated software, you can easily manage your\n"
 "                            meetings, schedule business calls, create recurring meetings,\n"
 "                            synchronize your agenda and easily keep in touch with your colleagues,\n"
 "                            partners and other people involved in projects or business discussions."
-msgstr "Med Odoo sin integrerte programvare kan du enkelt administrere møtene dine, planlegge foretningssamtaler, opprette gjentakende møter, synkronisere agendaen din og enkelt holde kontakten med dine kollegaer, partnere og andre mennesker involvert i prosjekter eller forretningsdiskusjoner."
+msgstr "Med Modoo sin integrerte programvare kan du enkelt administrere møtene dine, planlegge foretningssamtaler, opprette gjentakende møter, synkronisere agendaen din og enkelt holde kontakten med dine kollegaer, partnere og andre mennesker involvert i prosjekter eller forretningsdiskusjoner."
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3135,8 +3135,8 @@ msgstr "http://openerp.com/logo.png"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/odoo"
-msgstr "http://www.linkedin.com/company/odoo"
+msgid "http://www.linkedin.com/company/modoo"
+msgstr "http://www.linkedin.com/company/modoo"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3150,8 +3150,8 @@ msgstr "http://www.youtube.com/channel/HCU842OHPPNrQ"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/odoo"
-msgstr "https://facebook.com/odoo"
+msgid "https://facebook.com/modoo"
+msgstr "https://facebook.com/modoo"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3191,8 +3191,8 @@ msgstr "https://youraccount.github.io"
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Odoo, the"
-msgstr "Odoo-instans, den"
+msgid "instance of Modoo, the"
+msgstr "Modoo-instans, den"
 
 #. module: website
 #: view:website:website.snippets
@@ -3254,8 +3254,8 @@ msgstr "stil."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "det klassiske grensesnittet i Odoo"
+msgid "the classic Modoo interface"
+msgstr "det klassiske grensesnittet i Modoo"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -9,12 +9,12 @@
 # Rodrigo Macedo <rodrigomacedo@rmsolucoeseminformatica.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-19 10:28+0000\n"
 "Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-8/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/modoo/modoo-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -219,10 +219,10 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Odoo.\n"
+"                    document in Modoo.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Clique aqui para gravar uma fatura do fornecedor.\n                </p><p>\n                    Faturas de fornecedores pode ser pré-gerado com base na compra\nordens ou recibos. Isto permite-lhe controlar as faturas\nvocê recebe de seu fornecedor de acordo com o projeto\ndocumento em Odoo.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Clique aqui para gravar uma fatura do fornecedor.\n                </p><p>\n                    Faturas de fornecedores pode ser pré-gerado com base na compra\nordens ou recibos. Isto permite-lhe controlar as faturas\nvocê recebe de seu fornecedor de acordo com o projeto\ndocumento em Modoo.\n                </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -290,7 +290,7 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs.\n"
+"                by Modoo based on inventory needs.\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar um pedido de cotação.\n              </p><p>\n                A citação contém a história da discussão/negociação com seu fornecedor. Uma vez confirmado, um pedido de cotação é convertido em uma ordem de compra.\n              </p><p>\n                A maioria das proposições de ordens de compra são criadas automaticamente pelo que com base nas necessidades de inventário.\n              </p>\n            "
@@ -302,7 +302,7 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Odoo generates draft invoices from your purchase\n"
+"            supplier. Modoo generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"

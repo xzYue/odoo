@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -6,12 +6,12 @@
 # MinGi KYUNG <moonend@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 12:39+0000\n"
 "PO-Revision-Date: 2015-10-21 10:59+0000\n"
 "Last-Translator: MinGi KYUNG <moonend@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/modoo/modoo-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -244,8 +244,8 @@ msgstr ""
 #: help:res.users,google_calendar_cal_id:0
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
-msgstr "동기화 된 마지막 달력 ID. 변경되는 경우, 구글 ID와 Odoo 구글 내부 ID 사이의 모든 연결을 제거합니다."
+"links between GoogleID and Modoo Google Internal ID"
+msgstr "동기화 된 마지막 달력 ID. 변경되는 경우, 구글 ID와 Modoo 구글 내부 ID 사이의 모든 연결을 제거합니다."
 
 #. module: google_calendar
 #: field:res.users,google_calendar_last_sync_date:0
@@ -254,13 +254,13 @@ msgstr "최근 동기 날짜"
 
 #. module: google_calendar
 #: field:calendar.attendee,oe_synchro_date:0
-msgid "Odoo Synchro Date"
-msgstr "Odoo 동기 날짜"
+msgid "Modoo Synchro Date"
+msgstr "Modoo 동기 날짜"
 
 #. module: google_calendar
 #: field:calendar.event,oe_update_date:0
-msgid "Odoo Update Date"
-msgstr "Odoo 갱신 날짜"
+msgid "Modoo Update Date"
+msgstr "Modoo 갱신 날짜"
 
 #. module: google_calendar
 #: view:base.config.settings:google_calendar.view_calendar_config_settings

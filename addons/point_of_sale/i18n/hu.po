@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -7,12 +7,12 @@
 # krnkris, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-08-05 09:38+0000\n"
 "Last-Translator: krnkris\n"
-"Language-Team: Hungarian (http://www.transifex.com/odoo/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/modoo/modoo-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -630,8 +630,8 @@ msgstr "Jelölje be ezt a négyzetet, ha ez a napló meghatároz egy olyan fizet
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
-msgstr "Jelölje be ezt, ha ezt az értékesítési pontot alapértelmezés szerint a saját pénztár módba kell megnyitni. Ha nincs bejelölve, az Odoo normál pénztáros módban működik alapértelmezésben."
+"mode. If unchecked, Modoo uses the normal cashier mode by default."
+msgstr "Jelölje be ezt, ha ezt az értékesítési pontot alapértelmezés szerint a saját pénztár módba kell megnyitni. Ha nincs bejelölve, az Modoo normál pénztáros módban működik alapértelmezésben."
 
 #. module: point_of_sale
 #: help:pos.config,group_by:0
@@ -2048,8 +2048,8 @@ msgstr "Tranzakció száma"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo értékesítési pont"
+msgid "Modoo POS"
+msgstr "Modoo értékesítési pont"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3697,9 +3697,9 @@ msgstr "Ez a művelet véglegesen megsemmisíti az összes el nem küldött megr
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Modoo but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "Ez a sorrend automatikusan lett létrehozzva az Odoo által, de meg lehet változtatni a megrendelések hivatkozási számainak  testreszabásával."
+msgstr "Ez a sorrend automatikusan lett létrehozzva az Modoo által, de meg lehet változtatni a megrendelések hivatkozási számainak  testreszabásával."
 
 #. module: point_of_sale
 #: help:product.template,pos_categ_id:0

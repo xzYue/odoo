@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -8,12 +8,12 @@
 # Mathias Neef <mn@copado.de>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-20 04:50+0000\n"
 "Last-Translator: Mathias Neef <mn@copado.de>\n"
-"Language-Team: German (http://www.transifex.com/odoo/odoo-8/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/modoo/modoo-8/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -631,8 +631,8 @@ msgstr "Markieren Sie dieses Feld, wenn dieses Journal als Zahlungsweg im Kassen
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
-msgstr "Aktivieren Sie diese Einstellung, wenn die Point-Of-Sale Anwendung im Selbstbedienungsmodus geöffnet werden soll. Bei Deaktivierung arbeitet Odoo im normalen Modus."
+"mode. If unchecked, Modoo uses the normal cashier mode by default."
+msgstr "Aktivieren Sie diese Einstellung, wenn die Point-Of-Sale Anwendung im Selbstbedienungsmodus geöffnet werden soll. Bei Deaktivierung arbeitet Modoo im normalen Modus."
 
 #. module: point_of_sale
 #: help:pos.config,group_by:0
@@ -2049,8 +2049,8 @@ msgstr "Transaktionsnummer"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo POS"
+msgid "Modoo POS"
+msgstr "Modoo POS"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3698,9 +3698,9 @@ msgstr "Dieser Vorgang wird alle nicht übertragenen Verkäufe aus dem lokalen S
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Modoo but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "Die Nummernfolge wird zwar durch Odoo automatisch vergeben, kann aber angepasst werden."
+msgstr "Die Nummernfolge wird zwar durch Modoo automatisch vergeben, kann aber angepasst werden."
 
 #. module: point_of_sale
 #: help:product.template,pos_categ_id:0

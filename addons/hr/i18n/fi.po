@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -8,12 +8,12 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-08-23 17:55+0000\n"
 "Last-Translator: Kari Lindgren <kari.lindgren@emsystems.fi>\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/modoo/modoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,12 +32,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the Odoo employee screen, you\n"
+"                With just a quick glance on the Modoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nValitse lisätäksesi uuden työntekijän.\n</p><p>\nNopealla vilkaisulla Odoo työntekijänäkymään, voit\nhelposti löytää kaiken informaation jokaisesta henkilöstä; yhteystiedot, toimenkuva, läsnäolo (paikalla/lomalla) jne.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nValitse lisätäksesi uuden työntekijän.\n</p><p>\nNopealla vilkaisulla Modoo työntekijänäkymään, voit\nhelposti löytää kaiken informaation jokaisesta henkilöstä; yhteystiedot, toimenkuva, läsnäolo (paikalla/lomalla) jne.\n</p>"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
@@ -45,12 +45,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                Odoo's department structure is used to manage all documents\n"
+"                Modoo's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKlikkaa luodaksesi osaston.\n</p><p>\nOdoo'n osastojaottelua käytetään hallitsemaan kaikki asiakirjoja ja dokumentteja\njotka liittyvät työntekijöihin osastoittain: matka yms. kuluja, tuntikortteja, loma- ja poissaoloaikoja,rekrytointeja jne.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nKlikkaa luodaksesi osaston.\n</p><p>\nModoo'n osastojaottelua käytetään hallitsemaan kaikki asiakirjoja ja dokumentteja\njotka liittyvät työntekijöihin osastoittain: matka yms. kuluja, tuntikortteja, loma- ja poissaoloaikoja,rekrytointeja jne.\n</p>"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.view_department_form_installer
@@ -934,8 +934,8 @@ msgstr "Käyttäjät"
 #. module: hr
 #: code:addons/hr/hr.py:273
 #, python-format
-msgid "Welcome to %s! Please help him/her take the first steps with Odoo!"
-msgstr "Tervetuloa %s! Ole ystävällinen ja auta häntä pääsemään alkuun Odoo'n kanssa!"
+msgid "Welcome to %s! Please help him/her take the first steps with Modoo!"
+msgstr "Tervetuloa %s! Ole ystävällinen ja auta häntä pääsemään alkuun Modoo'n kanssa!"
 
 #. module: hr
 #: selection:hr.employee,marital:0

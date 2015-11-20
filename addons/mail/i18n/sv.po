@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-09-08 16:25+0000\n"
 "Last-Translator: Anders Wallenquist <anders.wallenquist@vertel.se>\n"
-"Language-Team: Swedish (http://www.transifex.com/odoo/odoo-8/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/modoo/modoo-8/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -857,9 +857,9 @@ msgstr ""
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Modoo server, "
 "enter the domain name here."
-msgstr "Om du har en \"catch-all\" e-post-domän som pekar på Odoo-servern, ange domänen här."
+msgstr "Om du har en \"catch-all\" e-post-domän som pekar på Modoo-servern, ange domänen här."
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -1595,8 +1595,8 @@ msgstr "Skickat"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "Skickat från %(company)s via %(odoo)s"
+msgid "Sent by %(company)s using %(modoo)s"
+msgstr "Skickat från %(company)s via %(modoo)s"
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1716,16 +1716,16 @@ msgstr "The email address associated with this group. New emails received will a
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Modoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "Klassen (Odoo-dokumenttyp) som detta alias är knutet till. All inkommande e-post som inte ingår i en pågående diskussion skapar en ny post av denna klass (t ex Aktivitet)"
+msgstr "Klassen (Modoo-dokumenttyp) som detta alias är knutet till. All inkommande e-post som inte ingår i en pågående diskussion skapar en ny post av denna klass (t ex Aktivitet)"
 
 #. module: mail
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.modoo.com>"
 msgstr "Namnet på e-post-alias, eg 'jobb' om du vill fånga e-post för <jobb@example.se>"
 
 #. module: mail
@@ -2043,7 +2043,7 @@ msgstr "mer"
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
+msgid "mycompany.modoo.com"
 msgstr ""
 
 #. module: mail

@@ -11,7 +11,7 @@ class test_no_infinite_recursion(common.TransactionCase):
     def test_00_create_and_update(self):
         """
         Check that computing old api function field does not cycle infinitely
-        See https://github.com/odoo/odoo/pull/7558
+        See https://github.com/modoo/modoo/pull/7558
         """
         cr, uid, context, tstfct = self.cr, self.uid, {}, self.tstfct
 

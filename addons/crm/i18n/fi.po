@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -13,12 +13,12 @@
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-30 13:14+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/modoo/modoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -142,7 +142,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
+"            Modoo allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -150,7 +150,7 @@ msgid ""
 "            another call, a meeting or an opportunity.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKlikkaa kirjataksesi lokiin yhteenvedon puhelusta.\n</p><p>\nOdoo sallii sinun kirjata saapuvat puhelut samantien seurataksesi yhteydenpitoasi asiakkaan kanssa tai informoidaksesi toista myyntitiimin jäsentä.\n</p><p>\nSeurataksesi puhelua, voit myös käynnistää pyynnön soittaa toisen puhelun, kirjata toisen tapaamisen tai myyntimahdollisuuden.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nKlikkaa kirjataksesi lokiin yhteenvedon puhelusta.\n</p><p>\nModoo sallii sinun kirjata saapuvat puhelut samantien seurataksesi yhteydenpitoasi asiakkaan kanssa tai informoidaksesi toista myyntitiimin jäsentä.\n</p><p>\nSeurataksesi puhelua, voit myös käynnistää pyynnön soittaa toisen puhelun, kirjata toisen tapaamisen tai myyntimahdollisuuden.\n</p>"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_outgoing0
@@ -158,7 +158,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
+"            Modoo allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
@@ -171,7 +171,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\nKlikkaa aikatauluttaaksesi puhel
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
+"                    Modoo helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -179,7 +179,7 @@ msgid ""
 "                    documents, track all discussions, and much more.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\nOdoo auttaa pitämään kirjaa \"myyntisuppilosta\", jotta voit seurata myyntimahdollisuuksia ja paremmin ennustaa tulevia tuottoja.\n</p><p>\nVoit suunnitella tapaamisia ja soittoja suoraan myyntimahdollisuuksien kautta, muuntaa mahdollisuuksia tarjouksiksi, liittää mukaan näihin liittyviä dokumentteja, seurata keskusteluja, ja paljon muuta.\n</p>"
+msgstr "<p>\nModoo auttaa pitämään kirjaa \"myyntisuppilosta\", jotta voit seurata myyntimahdollisuuksia ja paremmin ennustaa tulevia tuottoja.\n</p><p>\nVoit suunnitella tapaamisia ja soittoja suoraan myyntimahdollisuuksien kautta, muuntaa mahdollisuuksia tarjouksiksi, liittää mukaan näihin liittyviä dokumentteja, seurata keskusteluja, ja paljon muuta.\n</p>"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
@@ -200,7 +200,7 @@ msgstr "<p>\nKäytä liidejä jos tarvitset määrittelyvaiheen ennen kuin luot 
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid ""
 "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
+"                Modoo helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -208,7 +208,7 @@ msgid ""
 "                documents, track all discussions, and much more.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\nOdoo auttaa pitämään kirjaa myyntiputkesta, jotta voit seurata mahdollisia myyntejä ja ennustaa helpommin saatavaa liikevaihtoa.\n</p><p>\nVoit suunnitella tapaamisia ja soittoja suoraan mahdollisuuksien kautta, muuntaa mahdollisuuksia tarjouksiksi, lisätä aiheeseen liittyviä dokumentteja, seurata keskusteluja ja paljon muuta.\n</p>"
+msgstr "<p>\nModoo auttaa pitämään kirjaa myyntiputkesta, jotta voit seurata mahdollisia myyntejä ja ennustaa helpommin saatavaa liikevaihtoa.\n</p><p>\nVoit suunnitella tapaamisia ja soittoja suoraan mahdollisuuksien kautta, muuntaa mahdollisuuksia tarjouksiksi, lisätä aiheeseen liittyviä dokumentteja, seurata keskusteluja ja paljon muuta.\n</p>"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_leads_all
@@ -2576,9 +2576,9 @@ msgstr "Valitse vaiheet tälle myyntitiimille"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            Modoo will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
-msgstr "Valitse kentät, joista haetaan duplikaatteja. Jos valitset monta kenttää, Odoo hakee kaikien kenttien arvoissa yhtäaikaa olevia duplikaatteja, ei yksittäisissä kentissä olevia."
+msgstr "Valitse kentät, joista haetaan duplikaatteja. Jos valitset monta kenttää, Modoo hakee kaikien kenttien arvoissa yhtäaikaa olevia duplikaatteja, ei yksittäisissä kentissä olevia."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0

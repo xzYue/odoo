@@ -45,7 +45,7 @@ index_template = """
         <p>
         For more information on how to setup the Point of Sale with
         the PosBox, please refer to
-        <a href='https://www.odoo.com/documentation/user/point_of_sale/posbox/index.html'>the manual</a>.
+        <a href='https://www.modoo.com/documentation/user/point_of_sale/posbox/index.html'>the manual</a>.
         </p>
         <p>
         To see the status of the connected hardware, please refer 
@@ -154,12 +154,12 @@ class PosboxHomepage(openerp.addons.web.controllers.main.Home):
         else:
                 persistent = ""
 
-        subprocess.call(['/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/connect_to_wifi.sh', essid, password, persistent])
+        subprocess.call(['/home/pi/modoo/addons/point_of_sale/tools/posbox/configuration/connect_to_wifi.sh', essid, password, persistent])
         return "connecting to " + essid
 
     @http.route('/wifi_clear', type='http', auth='none', cors='*')
     def clear_wifi_configuration(self):
-        os.system('/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/clear_wifi_configuration.sh')
+        os.system('/home/pi/modoo/addons/point_of_sale/tools/posbox/configuration/clear_wifi_configuration.sh')
         return "configuration cleared"
 
     @http.route('/remote_connect', type='http', auth='none', cors='*')

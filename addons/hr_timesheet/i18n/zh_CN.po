@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet
 # 
@@ -11,12 +11,12 @@
 # 卓忆科技 <zhanghao@jointd.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-08-18 21:03+0000\n"
 "Last-Translator: leangjia <liangjia@qq.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/modoo/modoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -54,7 +54,7 @@ msgid ""
 "<p>\n"
 "                No activity yet on this contract.\n"
 "              </p><p>\n"
-"                In Odoo, contracts and projects are implemented using\n"
+"                In Modoo, contracts and projects are implemented using\n"
 "                analytic account. So, you can track costs and revenues to analyse\n"
 "                your margins easily.\n"
 "              </p><p>\n"
@@ -67,7 +67,7 @@ msgid ""
 "                on expenses (e.g. reinvoicing of travel costs).\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n此合同未生效。\n</p><p>\n在 Odoo 里。合同和项目都会使用辅助核算项。所以您可以跟踪成本和收入从而容易的分析您的毛利。\n </p><p>\n当您登记一个供应商发票、费用、或计工单时，成本会被自动创建。\n</p><p>\n当您创建一个客户发票时收入会被自动创建。创建客户发票可基于销售订单(固定价格的发票)。在计工单上(基于工作完成后)或在费用上 (例如: 对交通成本的再开票)。\n</p>"
+msgstr "<p>\n此合同未生效。\n</p><p>\n在 Modoo 里。合同和项目都会使用辅助核算项。所以您可以跟踪成本和收入从而容易的分析您的毛利。\n </p><p>\n当您登记一个供应商发票、费用、或计工单时，成本会被自动创建。\n</p><p>\n当您创建一个客户发票时收入会被自动创建。创建客户发票可基于销售订单(固定价格的发票)。在计工单上(基于工作完成后)或在费用上 (例如: 对交通成本的再开票)。\n</p>"
 
 #. module: hr_timesheet
 #: selection:hr.sign.in.project,state:0 selection:hr.sign.out.project,state:0
@@ -545,7 +545,7 @@ msgstr "最近完成的工作"
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
 msgid ""
 "You should create an analytic account structure depending on your needs to "
-"analyse costs and revenues. In Odoo, analytic accounts are also used to "
+"analyse costs and revenues. In Modoo, analytic accounts are also used to "
 "track customer contracts."
 msgstr "您可以按需创建一个辅助核算项来分析您的成本和收入。在Odoo里，辅助核算项还可用于跟踪客户合同。"
 

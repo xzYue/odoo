@@ -27,9 +27,9 @@ fi
 
 cp -a *raspbian*.img posbox.img
 
-CLONE_DIR="${OVERWRITE_FILES_BEFORE_INIT_DIR}/home/pi/odoo"
+CLONE_DIR="${OVERWRITE_FILES_BEFORE_INIT_DIR}/home/pi/modoo"
 mkdir "${CLONE_DIR}"
-git clone -b 8.0 --no-checkout --depth 1 https://github.com/odoo/odoo.git "${CLONE_DIR}"
+git clone -b 8.0 --no-checkout --depth 1 https://github.com/modoo/modoo.git "${CLONE_DIR}"
 cd "${CLONE_DIR}"
 git config core.sparsecheckout true
 echo "addons/web
@@ -37,7 +37,7 @@ addons/web_kanban
 addons/hw_*
 addons/point_of_sale/tools/posbox/configuration
 openerp/
-odoo.py" | tee --append .git/info/sparse-checkout > /dev/null
+modoo.py" | tee --append .git/info/sparse-checkout > /dev/null
 git read-tree -mu HEAD
 cd "${__dir}"
 

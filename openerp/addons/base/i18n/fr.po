@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * base
 # 
@@ -13,15 +13,15 @@
 # Maxime Chambreuil <maxime.chambreuil@gmail.com>, 2015
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2015
 # Kévin R., 2015
-# Richard Mathot <rim@odoo.com>, 2015
+# Richard Mathot <rim@modoo.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-19 06:31+0000\n"
 "PO-Revision-Date: 2015-10-19 09:06+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: French (http://www.transifex.com/odoo/odoo-8/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/modoo/modoo-8/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -115,10 +115,10 @@ msgid ""
 "\n"
 "* Fiscal positions '内税' and '外税' have been added to handle special requirements which might arise from POS implementation. [1]  You may not need to use these at all under normal circumstances.\n"
 "\n"
-"[1] See https://github.com/odoo/odoo/pull/6470 for detail.\n"
+"[1] See https://github.com/modoo/modoo/pull/6470 for detail.\n"
 "\n"
 "    "
-msgstr "\n\nVue d'ensemble:\n---------\n\n* Charte comptable et modèle des Taxes pour les entreprises Japonaises.\n* Ceci ne couvre probablement pas tous les comptes nécessaires pour une entreprise. Vous devrez ajouter / supprimer / modifier des comptes en se basant sur ce modèle.\n\nNote:\n-----\n\n* Les positions fiscales, taxes et impôts ont été ajoutées pour répondre aux exigences spéciales qui pourraient résulter de la mise en œuvre d'un point de vente. [1] On peut ne pas avoir besoin d'utiliser celles-ci dans des circonstances normales.\n\n[1] Voir https://github.com/odoo/odoo/pull/6470 ."
+msgstr "\n\nVue d'ensemble:\n---------\n\n* Charte comptable et modèle des Taxes pour les entreprises Japonaises.\n* Ceci ne couvre probablement pas tous les comptes nécessaires pour une entreprise. Vous devrez ajouter / supprimer / modifier des comptes en se basant sur ce modèle.\n\nNote:\n-----\n\n* Les positions fiscales, taxes et impôts ont été ajoutées pour répondre aux exigences spéciales qui pourraient résulter de la mise en œuvre d'un point de vente. [1] On peut ne pas avoir besoin d'utiliser celles-ci dans des circonstances normales.\n\n[1] Voir https://github.com/modoo/modoo/pull/6470 ."
 
 #. module: base
 #: code:addons/base/res/res_config.py:379
@@ -492,7 +492,7 @@ msgid ""
 "    - Withholding tax structure\n"
 "    - Regional State listings\n"
 "    "
-msgstr "\nBase Module for Ethiopian Localization\n======================================\n\nThis is the latest Ethiopian Odoo localization and consists of:\n- Chart of Accounts\n- VAT tax structure\n- Withholding tax structure\n- Regional State listings"
+msgstr "\nBase Module for Ethiopian Localization\n======================================\n\nThis is the latest Ethiopian Modoo localization and consists of:\n- Chart of Accounts\n- VAT tax structure\n- Withholding tax structure\n- Regional State listings"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_br
@@ -594,7 +594,7 @@ msgid ""
 "* Relies on the global outgoing mail server - an integrated email management system - allowing to send emails with a configurable scheduler-based processing engine\n"
 "* Includes an extensible generic email composition assistant, that can turn into a mass-mailing assistant and is capable of interpreting simple *placeholder expressions* that will be replaced with dynamic data when each email is actually sent.\n"
 "    "
-msgstr "\nRéseau social orienté vers les affaires\n===================================\nLe module Réseau Social fournit une couche d'abstraction unifiée des réseaux sociaux permettant aux applications d'afficher un historique complet de communication sur les documents avec un système de messagerie totalement intégré.\n\nIl permets aux utilisateurs de lire et d'envoyer des messages aussi bien que des courriels. Il fournit également une page de suivi combinée à un mécanisme d'abonnement qui permet de suivre les document et qui est constamment mis à jour avec les dernières informations.\n\nPrincipales fonctionnalités\n---------------------------------\n* Historique de communication propre et renouvelé pour tout document d'Odoo pouvant agir comme un sujet de discussion\n* Mécanisme d'abonnement pour être informé des nouveaux messages sur les documents qui vous intéressent\n* Page unifiée pour visualiser les messages et activités récentes sur les documents suivis\n* Communication utilisateur à partir de la page de suivi\n* Présentation hiérarchique des discussions sur les documents\n* Repose sur le serveur de courrier sortant global - un système de messagerie intégré - permettant d'envoyer des courriels avec un moteur de traitement configurable\n* Comprend un assistant générique extensible de composition de courriel, qui peut se transformer en un assistant d'envoi de courriels en masse et est capable d'interpréter des expressions simples qui seront remplacés par des données dynamiques lorsque chaque courriel est effectivement envoyé.\n    "
+msgstr "\nRéseau social orienté vers les affaires\n===================================\nLe module Réseau Social fournit une couche d'abstraction unifiée des réseaux sociaux permettant aux applications d'afficher un historique complet de communication sur les documents avec un système de messagerie totalement intégré.\n\nIl permets aux utilisateurs de lire et d'envoyer des messages aussi bien que des courriels. Il fournit également une page de suivi combinée à un mécanisme d'abonnement qui permet de suivre les document et qui est constamment mis à jour avec les dernières informations.\n\nPrincipales fonctionnalités\n---------------------------------\n* Historique de communication propre et renouvelé pour tout document d'Modoo pouvant agir comme un sujet de discussion\n* Mécanisme d'abonnement pour être informé des nouveaux messages sur les documents qui vous intéressent\n* Page unifiée pour visualiser les messages et activités récentes sur les documents suivis\n* Communication utilisateur à partir de la page de suivi\n* Présentation hiérarchique des discussions sur les documents\n* Repose sur le serveur de courrier sortant global - un système de messagerie intégré - permettant d'envoyer des courriels avec un moteur de traitement configurable\n* Comprend un assistant générique extensible de composition de courriel, qui peut se transformer en un assistant d'envoi de courriels en masse et est capable d'interpréter des expressions simples qui seront remplacés par des données dynamiques lorsque chaque courriel est effectivement envoyé.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ve
@@ -627,7 +627,7 @@ msgid ""
 "\n"
 "If you install this module, and select Custom chart a basic chart will be proposed, \n"
 "but you will need set manually account defaults for taxes.\n"
-msgstr "\nPlan Comptable pour le Vénézuéla.\n===============================\n\nLe Vénézuéla n'a pas de Plan Comptable légal, mais celui proposé par défaut OpenERP devrait être conforme aux meilleures pratiques acceptées au Vénézuéla.\n\nCe module a été testé comme base pour plus de 1000 entreprises, parce qu'il est fondé sur l'observation des logiciels les plus courants du marché Vénézuélien. Ceci permettra à coup sûr aux comptables de se sentir à l'aise dès leur premier contact avec Odoo.\n\nCe module ne prétend pas être la localisation complète pour le Vénézuéla,\nmais il aide à démarrer très rapidement avec Odoo dans ce pays.\n\nCe module donne.\n---------------------\n\n- Les taxes de base du Vénézuéla.\n- Les données de base pour lancer les tests de localisation de la communauté.\n- L'initialisation d'une une société si le besoin est une simple comptabilité PoV (???).\n\nNous recommandons d'installer la comptabilité anglo saxonne pour valoriser les stocks avec la facturation sortante selon la pratique Vénézuéllienne.\n\nInstaller ce module et sélectionner \"Plan comptable personnalisé\" un plan comptable de base sera proposé, mais vous aurez besoin de définir manuellement des paramètres par défaut pour les taxes.\n(Texte anglais à revoir !!!)\n\n"
+msgstr "\nPlan Comptable pour le Vénézuéla.\n===============================\n\nLe Vénézuéla n'a pas de Plan Comptable légal, mais celui proposé par défaut OpenERP devrait être conforme aux meilleures pratiques acceptées au Vénézuéla.\n\nCe module a été testé comme base pour plus de 1000 entreprises, parce qu'il est fondé sur l'observation des logiciels les plus courants du marché Vénézuélien. Ceci permettra à coup sûr aux comptables de se sentir à l'aise dès leur premier contact avec Modoo.\n\nCe module ne prétend pas être la localisation complète pour le Vénézuéla,\nmais il aide à démarrer très rapidement avec Modoo dans ce pays.\n\nCe module donne.\n---------------------\n\n- Les taxes de base du Vénézuéla.\n- Les données de base pour lancer les tests de localisation de la communauté.\n- L'initialisation d'une une société si le besoin est une simple comptabilité PoV (???).\n\nNous recommandons d'installer la comptabilité anglo saxonne pour valoriser les stocks avec la facturation sortante selon la pratique Vénézuéllienne.\n\nInstaller ce module et sélectionner \"Plan comptable personnalisé\" un plan comptable de base sera proposé, mais vous aurez besoin de définir manuellement des paramètres par défaut pour les taxes.\n(Texte anglais à revoir !!!)\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_th
@@ -787,7 +787,7 @@ msgid ""
 "the portal automatically adds it to the portal users, etc).  That feature is\n"
 "very handy when used in combination with the module 'share'.\n"
 "    "
-msgstr "\nPersonnalisez l'accès à votre base de données Odoo pour les utilisateurs externes en créant des portails.\n============================================================================================================\nUn portail définit un menu utilisateur et des droits d'accès spécifiques pour ses membres.\nCe menu peut être vu par les membres du portail, les utilisateurs publics et tout autre utilisateur qui a l'accès aux fonctionnalités techniques (l'administrateur par exemple).\nEn outre, chaque membre du portail est liée à un partenaire spécifique.\n\nCe module associe également des groupes d'utilisateurs aux utilisateurs du portail (l'ajout d'un groupe au portail l'ajoute automatiquement aux utilisateurs du portail, etc.).\nCette fonctionnalité est très pratique lorsqu'elle est utilisé en combinaison avec module 'share'.\n    "
+msgstr "\nPersonnalisez l'accès à votre base de données Modoo pour les utilisateurs externes en créant des portails.\n============================================================================================================\nUn portail définit un menu utilisateur et des droits d'accès spécifiques pour ses membres.\nCe menu peut être vu par les membres du portail, les utilisateurs publics et tout autre utilisateur qui a l'accès aux fonctionnalités techniques (l'administrateur par exemple).\nEn outre, chaque membre du portail est liée à un partenaire spécifique.\n\nCe module associe également des groupes d'utilisateurs aux utilisateurs du portail (l'ajout d'un groupe au portail l'ajoute automatiquement aux utilisateurs du portail, etc.).\nCette fonctionnalité est très pratique lorsqu'elle est utilisé en combinaison avec module 'share'.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale_delivery
@@ -956,7 +956,7 @@ msgid ""
 "\n"
 "    **Technical note:** only the templating system of the original Power Email by Openlabs was kept.\n"
 "    "
-msgstr "\nModèles de courriel (version simplifiée du module original \"Power Email\" d'Openlabs).\n===================================================================\n\nVous permet de définir complètement des modèles de courriel relié à tout document Odoo\n(bons de commande, facture, etc...), incluant émetteur, destinataire, sujet, corps du message \n(format texte et HTML). Vous pouvez aussi attacher automatiquement des fichiers à vos modèles\nou imprimer puis attacher un rapport.\n\nPour une utilisation avancée, les modèles peuvent inclure des attributs dynamiques issus des\ndocuments auxquels ils sont reliés. Par exemple, vous pouvez utiliser le pays d'un partenaire\nlorsque vous lui écrivez, et définir aussi une valeur par défaut au cas où cet attribut ne serait pas\ndéfini. Chaque modèle contient un assistant intégré pour faciliter l'inclusion de ces valeurs \ndynamiques.\n\nSi vous activez l'option, un assistant de rédaction va aussi apparaître dans la barre latérale\ndes documents Odoo auxquels s'applique ce modèle (par exemple les factures).\nCeci permet de fournir une façon rapide d'envoyer de nouveaux courriels basés sur ce modèle,\naprès avoir revu et corrigé le contenu si nécessaire.\nL'assistant de rédaction va aussi se transformer en outil d'envoi en masse lorsqu'il est appelé\nplusieurs documents en une fois.\n\nCes modèles de courriel sont aussi au cœur du système de campagne marketing (voir l'application\n\"campagne marketing\"), si vous avez besoin d'automatiser des campagnes plus grandes sur tout\ntype de document Odoo.\n\n    **Note technique :** seul le système de modèle du module original \"Power Email\" de Openlabs a été conservé.\n    "
+msgstr "\nModèles de courriel (version simplifiée du module original \"Power Email\" d'Openlabs).\n===================================================================\n\nVous permet de définir complètement des modèles de courriel relié à tout document Modoo\n(bons de commande, facture, etc...), incluant émetteur, destinataire, sujet, corps du message \n(format texte et HTML). Vous pouvez aussi attacher automatiquement des fichiers à vos modèles\nou imprimer puis attacher un rapport.\n\nPour une utilisation avancée, les modèles peuvent inclure des attributs dynamiques issus des\ndocuments auxquels ils sont reliés. Par exemple, vous pouvez utiliser le pays d'un partenaire\nlorsque vous lui écrivez, et définir aussi une valeur par défaut au cas où cet attribut ne serait pas\ndéfini. Chaque modèle contient un assistant intégré pour faciliter l'inclusion de ces valeurs \ndynamiques.\n\nSi vous activez l'option, un assistant de rédaction va aussi apparaître dans la barre latérale\ndes documents Modoo auxquels s'applique ce modèle (par exemple les factures).\nCeci permet de fournir une façon rapide d'envoyer de nouveaux courriels basés sur ce modèle,\naprès avoir revu et corrigé le contenu si nécessaire.\nL'assistant de rédaction va aussi se transformer en outil d'envoi en masse lorsqu'il est appelé\nplusieurs documents en une fois.\n\nCes modèles de courriel sont aussi au cœur du système de campagne marketing (voir l'application\n\"campagne marketing\"), si vous avez besoin d'automatiser des campagnes plus grandes sur tout\ntype de document Modoo.\n\n    **Note technique :** seul le système de modèle du module original \"Power Email\" de Openlabs a été conservé.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_auth_crypt
@@ -1041,7 +1041,7 @@ msgid ""
 "For non-numerical achievements, **badges** can be granted to users. From a simple \"thank you\" to an exceptional achievement, a badge is an easy way to exprimate gratitude to a user for their good work.\n"
 "\n"
 "Both goals and badges are flexibles and can be adapted to a large range of modules and actions. When installed, this module creates easy goals to help new users to discover OpenERP and configure their user profile.\n"
-msgstr "\nProcessus d'Émulation\n=========================\nLe module d'Émulation fournit des moyens d'évaluer et motiver les utilisateurs d'Odoo.\n\nLes utilisateurs peuvent être évaluées en utilisant des buts et des objectifs chiffrés à atteindre.\nLes **Objectifs** sont assignés à travers les **défis** pour évaluer et comparer les membres d'une équipe les uns avec les autres et à travers le temps.\n\nPour des gratifications non numériques, des **badges** peuvent être accordés aux utilisateurs. Du simple ''merci'' à une gratification exceptionnelle, un badge est un moyen facile d'exprimer sa gratitude envers un utilisateur pour leur bon travail.\n\nLes objectifs et les badges sont flexibles et peuvent être adaptés à une large gamme de modules et d'actions. Une fois installé, ce module crée des objectifs faciles pour aider les nouveaux utilisateurs à découvrir Odoo et configurer leur profil d'utilisateur.\n"
+msgstr "\nProcessus d'Émulation\n=========================\nLe module d'Émulation fournit des moyens d'évaluer et motiver les utilisateurs d'Modoo.\n\nLes utilisateurs peuvent être évaluées en utilisant des buts et des objectifs chiffrés à atteindre.\nLes **Objectifs** sont assignés à travers les **défis** pour évaluer et comparer les membres d'une équipe les uns avec les autres et à travers le temps.\n\nPour des gratifications non numériques, des **badges** peuvent être accordés aux utilisateurs. Du simple ''merci'' à une gratification exceptionnelle, un badge est un moyen facile d'exprimer sa gratitude envers un utilisateur pour leur bon travail.\n\nLes objectifs et les badges sont flexibles et peuvent être adaptés à une large gamme de modules et d'actions. Une fois installé, ce module crée des objectifs faciles pour aider les nouveaux utilisateurs à découvrir Modoo et configurer leur profil d'utilisateur.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_uy
@@ -1261,7 +1261,7 @@ msgid ""
 "\n"
 "This module allows you to integrate google documents to any of your OpenERP record quickly and easily using OAuth 2.0 for Installed Applications,\n"
 "You can configure your google Authorization Code from Settings > Configuration > General Settings by clicking on \"Generate Google Authorization Code\"\n"
-msgstr "\nIntégrer un document Google aux enregistrements Odoo.\n======================================================\n\nCe module vous permet d'intégrer des documents Google à n'importe quel enregistrement Odoo utilisant OAuth 2.0 pour les applications intallées.\nVous pouvez configurer votre code d'autorisation Google à partir de Paramètres > Configuration > Paramètres généraux et en cliquant sur ''Générer le Code d'autorisation Google''\n"
+msgstr "\nIntégrer un document Google aux enregistrements Modoo.\n======================================================\n\nCe module vous permet d'intégrer des documents Google à n'importe quel enregistrement Modoo utilisant OAuth 2.0 pour les applications intallées.\nVous pouvez configurer votre code d'autorisation Google à partir de Paramètres > Configuration > Paramètres généraux et en cliquant sur ''Générer le Code d'autorisation Google''\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_invoice_directly
@@ -1293,7 +1293,7 @@ msgid ""
 "* Voucher Receipt [Sales & Purchase]\n"
 "* Voucher Payment [Customer & Supplier]\n"
 "    "
-msgstr "\nFacturation et paiements par justificatif comptable et reçus\n======================================================\nLe système de facturation spécifique et facile à utiliser d'Odoo vous permet de garder une trace de votre comptabilité, même lorsque vous n'êtes pas un expert-comptable. Il fournit un moyen facile de faire le suivi auprès de vos fournisseurs et clients.\n\nVous pouvez utiliser cette comptabilité simplifiée si vous travaillez avec un comptable (externe) pour gérer vos livres, et si vous voulez toujours garder la trace des paiements.\n\nLe système de facturation inclut les reçus et les justificatifs (un moyen facile de garder une trace des ventes et des achats). Il vous offre aussi une méthode facile d'enregistrer les paiements, sans avoir à entrer des écritures complètes en comptabilité.\n\nCe module gère:\n\n* les justificatifs\n* les reçus [ventes et achats]\n* les paiements [clients et fournisseurs]"
+msgstr "\nFacturation et paiements par justificatif comptable et reçus\n======================================================\nLe système de facturation spécifique et facile à utiliser d'Modoo vous permet de garder une trace de votre comptabilité, même lorsque vous n'êtes pas un expert-comptable. Il fournit un moyen facile de faire le suivi auprès de vos fournisseurs et clients.\n\nVous pouvez utiliser cette comptabilité simplifiée si vous travaillez avec un comptable (externe) pour gérer vos livres, et si vous voulez toujours garder la trace des paiements.\n\nLe système de facturation inclut les reçus et les justificatifs (un moyen facile de garder une trace des ventes et des achats). Il vous offre aussi une méthode facile d'enregistrer les paiements, sans avoir à entrer des écritures complètes en comptabilité.\n\nCe module gère:\n\n* les justificatifs\n* les reçus [ventes et achats]\n* les paiements [clients et fournisseurs]"
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_landed_costs
@@ -1401,7 +1401,7 @@ msgid ""
 "* Receipt Analysis\n"
 "* Purchase Analysis\n"
 "    "
-msgstr "\nGérer facilement vos besoins d'achats par bons de commande\n===========================================================\n\nLe module 'Gestion des achats' vous permet de suivre les soumissions de prix de vos fournisseurs et de les convertir en commandes d'achat si nécessaire.\nOdoo dispose de plusieurs méthodes de suivi des factures et de la réception des marchandises commandées. Dans Odoo, vous pouvez gérer des livraisons partielles, donc vous pouvez garder la trace des éléments qui sont encore à livrer dans vos commandes et vous pouvez émettre automatiquement des rappels.\n\nLes règles de gestion de la reconstitution des stocks d'Odoo permettent au système de générer des projets d'ordres d'achat automatiquement, ou vous pouvez le configurer pour exécuter un processus d’approvisionnement entièrement motivé par des besoins de production actuels.\n\nLes tableaux de bord / Les rapports pour le module 'Gestion des achats' incluent :\n-----------------------------------------------------------------------------------------------------------------\n* Demandes de prix\n* Commandes en attente d'approbation\n* Les achats mensuels par catégorie\n* Analyse des réceptions\n* Analyse des achats"
+msgstr "\nGérer facilement vos besoins d'achats par bons de commande\n===========================================================\n\nLe module 'Gestion des achats' vous permet de suivre les soumissions de prix de vos fournisseurs et de les convertir en commandes d'achat si nécessaire.\nModoo dispose de plusieurs méthodes de suivi des factures et de la réception des marchandises commandées. Dans Modoo, vous pouvez gérer des livraisons partielles, donc vous pouvez garder la trace des éléments qui sont encore à livrer dans vos commandes et vous pouvez émettre automatiquement des rappels.\n\nLes règles de gestion de la reconstitution des stocks d'Modoo permettent au système de générer des projets d'ordres d'achat automatiquement, ou vous pouvez le configurer pour exécuter un processus d’approvisionnement entièrement motivé par des besoins de production actuels.\n\nLes tableaux de bord / Les rapports pour le module 'Gestion des achats' incluent :\n-----------------------------------------------------------------------------------------------------------------\n* Demandes de prix\n* Commandes en attente d'approbation\n* Les achats mensuels par catégorie\n* Analyse des réceptions\n* Analyse des achats"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hr_recruitment
@@ -1465,7 +1465,7 @@ msgid ""
 "* Last Product Inventories\n"
 "* Moves Analysis\n"
 "    "
-msgstr "\nGestion multi-entrepôts, emplacements de stock multiples et structurés\n==============================================================\n\nLa gestion d'entrepôt et de l'inventaire est basé sur une structure hiérarchique des emplacements, des entrepôts jusqu'aux bacs de stockage.\nLe système de double entrée d'inventaire vous permet de gérer les clients, les fournisseurs ainsi que des inventaires de fabrication.\n\nOdoo a la capacité de gérer les lots et les numéros de série garantissant le respect des exigences de traçabilité imposées par la majorité des industries.\n\nPrincipales caractéristiques :\n----------------------------\n* Historique des mouvements et planification.\n* Règles de stock minimum.\n* Support des codes à barres.\n* Détection rapide des erreurs grâce à un système de double entrée.\n* Traçabilité (numéros de série, paquets, ...).\n\nCe module apporte en particulier les tableaux de bord et rapports suivants pour la gestion d'entrepôt :\n----------------------------------------------------------\n* Produits entrants (graphique).\n* Produits sortants (graphique).\n* Approvisionnement en exception.\n* Analyse de l'inventaire.\n* Derniers inventaires d'articles.\n* Analyse des mouvements."
+msgstr "\nGestion multi-entrepôts, emplacements de stock multiples et structurés\n==============================================================\n\nLa gestion d'entrepôt et de l'inventaire est basé sur une structure hiérarchique des emplacements, des entrepôts jusqu'aux bacs de stockage.\nLe système de double entrée d'inventaire vous permet de gérer les clients, les fournisseurs ainsi que des inventaires de fabrication.\n\nModoo a la capacité de gérer les lots et les numéros de série garantissant le respect des exigences de traçabilité imposées par la majorité des industries.\n\nPrincipales caractéristiques :\n----------------------------\n* Historique des mouvements et planification.\n* Règles de stock minimum.\n* Support des codes à barres.\n* Détection rapide des erreurs grâce à un système de double entrée.\n* Traçabilité (numéros de série, paquets, ...).\n\nCe module apporte en particulier les tableaux de bord et rapports suivants pour la gestion d'entrepôt :\n----------------------------------------------------------\n* Produits entrants (graphique).\n* Produits sortants (graphique).\n* Approvisionnement en exception.\n* Analyse de l'inventaire.\n* Derniers inventaires d'articles.\n* Analyse des mouvements."
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale
@@ -1551,7 +1551,7 @@ msgid ""
 "* Stock Value Variation (Graph)\n"
 "* Work Order Analysis\n"
 "    "
-msgstr "\nModule de gestion de production dans Odoo\n======================================\n\nCe module vous permet de couvrir la planification, les ordres, les stocks, la fabrication et l'assemblage de produits à partir de matières premières et de composants. Il gère la consommation et la production de produit selon leur nomenclature et les opérations nécessaires en machines, outils et ressources humaines en accord avec les gammes opératoires.\n\nIl supporte l'intégration complète et la planification des biens stockables, consommables ou des services. Les services sont complètement intégrés avec le reste du logiciel. Par exemple, vous pouvez définir un service sous-contracté dans une nomenclature afin d'automatiquement acheter sur commande l’assemblage de votre production.\n\nFonctionnalités clés\n---------------------------\n* Fabrication sur stock ou sur commande.\n* Plusieurs niveaux de nomenclature, sans limite.\n* Plusieurs niveaux de gammes opératoires, sans limite.\n* Gamme opératoire et poste de charge intégrés avec la comptabilité analytique.\n* Calcul périodique des besoins.\n* Permet de naviguer les nomenclatures dans une structure complète qui inclut les nomenclature enfants et fantômes.\n\nTableau de bord et rapport du module incluent :\n------------------------------------------------------------------\n* les approvisionnements en exception (graphique) ;\n* variation des stocks (graphique) ;\n* analyse des ordres de travail ;\n    "
+msgstr "\nModule de gestion de production dans Modoo\n======================================\n\nCe module vous permet de couvrir la planification, les ordres, les stocks, la fabrication et l'assemblage de produits à partir de matières premières et de composants. Il gère la consommation et la production de produit selon leur nomenclature et les opérations nécessaires en machines, outils et ressources humaines en accord avec les gammes opératoires.\n\nIl supporte l'intégration complète et la planification des biens stockables, consommables ou des services. Les services sont complètement intégrés avec le reste du logiciel. Par exemple, vous pouvez définir un service sous-contracté dans une nomenclature afin d'automatiquement acheter sur commande l’assemblage de votre production.\n\nFonctionnalités clés\n---------------------------\n* Fabrication sur stock ou sur commande.\n* Plusieurs niveaux de nomenclature, sans limite.\n* Plusieurs niveaux de gammes opératoires, sans limite.\n* Gamme opératoire et poste de charge intégrés avec la comptabilité analytique.\n* Calcul périodique des besoins.\n* Permet de naviguer les nomenclatures dans une structure complète qui inclut les nomenclature enfants et fantômes.\n\nTableau de bord et rapport du module incluent :\n------------------------------------------------------------------\n* les approvisionnements en exception (graphique) ;\n* variation des stocks (graphique) ;\n* analyse des ordres de travail ;\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_layout
@@ -1608,7 +1608,7 @@ msgid ""
 "\n"
 ".. SAT: http://www.sat.gob.mx/\n"
 "    "
-msgstr "\nConfiguration Minimale de la Comptabilité pour le Mexique.\n============================================\n\nProposition de plan comptable minimal pour pouvoir utiliser OoB,  la fonctionnalité de comptabilité d'Odoo.\n\nCeci n'est pas une localisation complète pour le Mexique, c'est le minimum de données pour démarrer la localisation mexicaine à partir de zéro.\n\nCe module et son contenu est mis à jour fréquemment par l'équipe Odoo mexicaine.\n\nCe module apporte :\n\n- Un plan comptable minimal testé en environnement de production.\n- Un tableau minimal des taxes, conforme aux exigences SAT_.\n\n.. SAT: http://www.sat.gob.mx/"
+msgstr "\nConfiguration Minimale de la Comptabilité pour le Mexique.\n============================================\n\nProposition de plan comptable minimal pour pouvoir utiliser OoB,  la fonctionnalité de comptabilité d'Modoo.\n\nCeci n'est pas une localisation complète pour le Mexique, c'est le minimum de données pour démarrer la localisation mexicaine à partir de zéro.\n\nCe module et son contenu est mis à jour fréquemment par l'équipe Modoo mexicaine.\n\nCe module apporte :\n\n- Un plan comptable minimal testé en environnement de production.\n- Un tableau minimal des taxes, conforme aux exigences SAT_.\n\n.. SAT: http://www.sat.gob.mx/"
 
 #. module: base
 #: model:ir.module.module,description:base.module_analytic
@@ -1739,7 +1739,7 @@ msgid ""
 "description provided by the CODA configuration tables is based upon the CODA\n"
 "V2.2 specifications.\n"
 "If required, you can manually adjust the descriptions via the CODA configuration menu.\n"
-msgstr "\nModule d'importation des relevés de banque CODA.\n=========================================\n\nPrise en compte des fichiers plats CODA V2 des comptes bancaires belges.\n--------------------------------------------------------------------------------------------\n    * Support de CODA v1.\n    * Support de CODA v2.2.\n    * Support des devises étrangères.\n    * Support de tous les types d'enregistrements (0, 1, 2, 3, 4, 8, 9).\n    * Analyse et journalisation de tous les codes de transaction et formats structurés de communication.\n    * Assignation automatique aux journaux financiers via les paramètres de configuration CODA.\n    * Support des journaux multiples par numéro de compte bancaire.\n    * Support des relevés multiples depuis les différents comptes bancaires dans un fichier CODA unique.\n    * Support de l'\"analyse seule\" des comptes bancaires CODA (définis comme type=\"info\" dans la configuration des comptes bancaires CODA).\n    * Analyse CODA multi-lingue, analyse des données de configuration fournie pour EN, NL et FR.\n\nLes fichiers CODA sont analysés puis enregistrés sous format lisible dans les relevés bancaires CODA. Les relevés bancaires sont générés avec le sous-ensemble des informations CODA (seulement les lignes de transaction requises pour la création des enregistrements de comptabilité financière).\n\nLe relevé bancaire CODA est un objet en lecture seule. Il reste donc une représentation fiable du fichier CODA original, alors que le relevé bancaire sera modifié comme requis par le processus comptable.\n\nLes comptes bancaires CODA configurés en type \"info\" généreront uniquement les relevés  bancaires CODA.\n\nLa suppression d'un des objets dans le processus CODA entraîne la suppression des objets associés.\nLa suppression d'un fichier CODA contenant plusieurs relevés bancaires supprimera aussi les relevés associés.\n\nPlutôt qu'un réglage manuel des relevés bancaires générés, on peut aussi\nréimporter le fichier CODA après la mise à jour la base de données Odoo avec l'information qui manquait pour permettre la réconciliation automatique.\n\nRemarque sur le support de CODA v1 :\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nDans certains cas, un code de transaction, une catégorie de transaction ou un code de communication structurée a reçu une description nouvelle ou plus claire dans CODA v2. \nLa description fournie par les tables\nde configuration CODA est fondée sur les spécifications de CODA v2.2.\nSi nécessaire, on peut manuellement ajuster les descriptions par le menu de configuration CODA.\n"
+msgstr "\nModule d'importation des relevés de banque CODA.\n=========================================\n\nPrise en compte des fichiers plats CODA V2 des comptes bancaires belges.\n--------------------------------------------------------------------------------------------\n    * Support de CODA v1.\n    * Support de CODA v2.2.\n    * Support des devises étrangères.\n    * Support de tous les types d'enregistrements (0, 1, 2, 3, 4, 8, 9).\n    * Analyse et journalisation de tous les codes de transaction et formats structurés de communication.\n    * Assignation automatique aux journaux financiers via les paramètres de configuration CODA.\n    * Support des journaux multiples par numéro de compte bancaire.\n    * Support des relevés multiples depuis les différents comptes bancaires dans un fichier CODA unique.\n    * Support de l'\"analyse seule\" des comptes bancaires CODA (définis comme type=\"info\" dans la configuration des comptes bancaires CODA).\n    * Analyse CODA multi-lingue, analyse des données de configuration fournie pour EN, NL et FR.\n\nLes fichiers CODA sont analysés puis enregistrés sous format lisible dans les relevés bancaires CODA. Les relevés bancaires sont générés avec le sous-ensemble des informations CODA (seulement les lignes de transaction requises pour la création des enregistrements de comptabilité financière).\n\nLe relevé bancaire CODA est un objet en lecture seule. Il reste donc une représentation fiable du fichier CODA original, alors que le relevé bancaire sera modifié comme requis par le processus comptable.\n\nLes comptes bancaires CODA configurés en type \"info\" généreront uniquement les relevés  bancaires CODA.\n\nLa suppression d'un des objets dans le processus CODA entraîne la suppression des objets associés.\nLa suppression d'un fichier CODA contenant plusieurs relevés bancaires supprimera aussi les relevés associés.\n\nPlutôt qu'un réglage manuel des relevés bancaires générés, on peut aussi\nréimporter le fichier CODA après la mise à jour la base de données Modoo avec l'information qui manquait pour permettre la réconciliation automatique.\n\nRemarque sur le support de CODA v1 :\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nDans certains cas, un code de transaction, une catégorie de transaction ou un code de communication structurée a reçu une description nouvelle ou plus claire dans CODA v2. \nLa description fournie par les tables\nde configuration CODA est fondée sur les spécifications de CODA v2.2.\nSi nécessaire, on peut manuellement ajuster les descriptions par le menu de configuration CODA.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_payment
@@ -1799,13 +1799,13 @@ msgid ""
 "\n"
 "* In a module, so that administrators and users of OpenERP who do not\n"
 "  need or want an online import can avoid it being available to users.\n"
-msgstr "\nNouvel import de fichier extensible pour Odoo\n===========================================\n\nRé-implémentation du système de fichiers d'importation d'Odoo :\n\n* Exécution côté serveur : Le système précédent effectuait essentiellement les traitements côté client ce qui dupliquait le travail (entre les clients), cela rendait l'importation plus difficile à utiliser sans un client (direct RPC ou une autre forme d'automatisme) et la maîtrise de l'import/export sur le système devenait beaucoup plus difficile puisque répartie sur plus de 3 projets différents.\n\n* Plus ouvert : Afin que les utilisateurs et les partenaires puissent construire leur propre interface frontal pour importer d'autres formats de fichiers (des fichiers OpenDocument par exemple) qui peuvent être simples à gérer dans leur flux de travail ou depuis leur sources de production de données.\n\n* Dans un module : De sorte que les administrateurs et les utilisateurs d'Odoo, suivant leurs besoins ou envies, évitent qu'une importation en ligne soit disponible pour les utilisateurs.\n"
+msgstr "\nNouvel import de fichier extensible pour Modoo\n===========================================\n\nRé-implémentation du système de fichiers d'importation d'Modoo :\n\n* Exécution côté serveur : Le système précédent effectuait essentiellement les traitements côté client ce qui dupliquait le travail (entre les clients), cela rendait l'importation plus difficile à utiliser sans un client (direct RPC ou une autre forme d'automatisme) et la maîtrise de l'import/export sur le système devenait beaucoup plus difficile puisque répartie sur plus de 3 projets différents.\n\n* Plus ouvert : Afin que les utilisateurs et les partenaires puissent construire leur propre interface frontal pour importer d'autres formats de fichiers (des fichiers OpenDocument par exemple) qui peuvent être simples à gérer dans leur flux de travail ou depuis leur sources de production de données.\n\n* Dans un module : De sorte que les administrateurs et les utilisateurs d'Modoo, suivant leurs besoins ou envies, évitent qu'une importation en ligne soit disponible pour les utilisateurs.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_sa
 msgid ""
 "\n"
-"Odoo Arabic localization for most arabic countries and Saudi Arabia.\n"
+"Modoo Arabic localization for most arabic countries and Saudi Arabia.\n"
 "\n"
 "This initially includes chart of accounts of USA translated to Arabic.\n"
 "\n"
@@ -1816,23 +1816,23 @@ msgstr ""
 #: model:ir.module.module,description:base.module_im_odoo_support
 msgid ""
 "\n"
-"Odoo Live Support\n"
+"Modoo Live Support\n"
 "=================\n"
 "\n"
-"Ask your functionnal question directly to the Odoo Operators with the livechat support.\n"
+"Ask your functionnal question directly to the Modoo Operators with the livechat support.\n"
 "\n"
 "        "
-msgstr "\nSupport en ligne Odoo\n====================\n\nPosez vos questions de fonctionnement directement aux opérateurs Odoo avec le support de discussion en ligne."
+msgstr "\nSupport en ligne Modoo\n====================\n\nPosez vos questions de fonctionnement directement aux opérateurs Modoo avec le support de discussion en ligne."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_livechat
 msgid ""
 "\n"
-"Odoo Website LiveChat\n"
+"Modoo Website LiveChat\n"
 "========================\n"
-"For website built with Odoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
+"For website built with Modoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
 "        "
-msgstr "\nDiscussion en ligne sur le site web d'Odoo\n======================================\n\nPour les sites web construits avec Odoo CMS, ce module ajoute un bouton de discussion à votre site Web, et permet à vos visiteurs de discuter avec vos collaborateurs."
+msgstr "\nDiscussion en ligne sur le site web d'Modoo\n======================================\n\nPour les sites web construits avec Modoo CMS, ce module ajoute un bouton de discussion à votre site Web, et permet à vos visiteurs de discuter avec vos collaborateurs."
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_track
@@ -1896,7 +1896,7 @@ msgid ""
 "\n"
 "OpenERP Customer References\n"
 "===========================\n"
-msgstr "\nRéférences clients Odoo\n======================\n"
+msgstr "\nRéférences clients Modoo\n======================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale
@@ -1907,7 +1907,7 @@ msgid ""
 "==================\n"
 "\n"
 "        "
-msgstr "\nE-Commerce Odoo \n=================="
+msgstr "\nE-Commerce Modoo \n=================="
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_mail_group
@@ -1917,7 +1917,7 @@ msgid ""
 "==========================================\n"
 "\n"
 "        "
-msgstr "\nGroupe de messagerie Odoo : Archives de liste de diffusion\n========================================================"
+msgstr "\nGroupe de messagerie Modoo : Archives de liste de diffusion\n========================================================"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_project
@@ -1927,7 +1927,7 @@ msgid ""
 "================\n"
 "\n"
 "        "
-msgstr "\nProjets Odoo\n============"
+msgstr "\nProjets Modoo\n============"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_quote
@@ -1937,7 +1937,7 @@ msgid ""
 "=========================\n"
 "\n"
 "        "
-msgstr "\nDéroulé des ventes Odoo\n========================"
+msgstr "\nDéroulé des ventes Modoo\n========================"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_calendar
@@ -1955,7 +1955,7 @@ msgid ""
 "OpenERP Web Gantt chart view.\n"
 "=============================\n"
 "\n"
-msgstr "\nVue diagramme de Gantt d'Odoo\n===============================\n"
+msgstr "\nVue diagramme de Gantt d'Modoo\n===============================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_linkedin
@@ -1987,7 +1987,7 @@ msgid ""
 "\n"
 "Test suite example, same code as that used in the testing documentation.\n"
 "    "
-msgstr "\nDémo d'une suite de tests Web Odoo\n===================================\n\nExemple de suite de tests, même code que celui utilisé dans la documentation des tests."
+msgstr "\nDémo d'une suite de tests Web Modoo\n===================================\n\nExemple de suite de tests, même code que celui utilisé dans la documentation des tests."
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_kanban
@@ -2005,7 +2005,7 @@ msgid ""
 "OpenERP Web test suite.\n"
 "=======================\n"
 "\n"
-msgstr "\nSuite de tests Web Odoo\n======================\n\n"
+msgstr "\nSuite de tests Web Modoo\n======================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_view_editor
@@ -2015,7 +2015,7 @@ msgid ""
 "==========================\n"
 "\n"
 "        "
-msgstr "\nEditeurs de vues Web Odoo\n=========================="
+msgstr "\nEditeurs de vues Web Modoo\n=========================="
 
 #. module: base
 #: model:ir.module.module,description:base.module_website
@@ -2025,7 +2025,7 @@ msgid ""
 "===================\n"
 "\n"
 "        "
-msgstr "\nSite Web CMS Odoo\n==================="
+msgstr "\nSite Web CMS Modoo\n==================="
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_google_map
@@ -2035,7 +2035,7 @@ msgid ""
 "==========================\n"
 "\n"
 "        "
-msgstr "\nGoogle Map pour site Web Odoo\n==============================="
+msgstr "\nGoogle Map pour site Web Modoo\n==============================="
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_api
@@ -2053,7 +2053,7 @@ msgid ""
 "Openerp Web Diagram view.\n"
 "=========================\n"
 "\n"
-msgstr "\nVue Diagramme Web Odoo.\n==========================\n"
+msgstr "\nVue Diagramme Web Modoo.\n==========================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_event
@@ -2124,7 +2124,7 @@ msgid ""
 "* The evaluation is done according to a plan in which various surveys can be created. Each survey can be answered by a particular level in the employees hierarchy. The final review and evaluation is done by the manager.\n"
 "* Every evaluation filled by employees can be viewed in a PDF form.\n"
 "* Interview Requests are generated automatically by OpenERP according to employees evaluation plans. Each user receives automatic emails and requests to perform a periodical evaluation of their colleagues.\n"
-msgstr "\nÉvaluation et bilan périodique des employés\n=========================================\n\nEn utilisant cette application, vous pouvez maintenir le processus de motivation en faisant des évaluations périodiques de la performance de vos employés. L'évaluation régulière des ressources humaines peut être bénéfique à vos équipes ainsi qu'à votre organisation.\n\nUn plan d'évaluation peut être attribué à chaque employé. Ces plans définissent la fréquence et la façon dont vous gérez vos évaluations personnelles périodiques. Vous serez en mesure de définir les étapes et de joindre les formulaires d'entrevue pour chaque étape.\n\nCe module gère plusieurs types d'évaluation : de bas en haut, de haut en bas, auto-évaluations et évaluation finale par le responsable.\n\nPrincipales fonctionnalités :\n-----------------------------------\n* Possibilité de créer des évaluations d'employés.\n* Une évaluation peut être créée par un employé pour les subordonnés, les juniors ainsi que son manager.\n* L'évaluation se fait selon un plan dans lequel diverses enquêtes peuvent être créées. Chaque enquête peut être complétée par un niveau particulier dans la hiérarchie des employés. L'examen et l'évaluation finale se fait par le responsable.\n* Chaque évaluation remplie par les employés peut être consultée dans un formulaire PDF.\n* Les demandes d'entrevue sont générés automatiquement par Odoo selon les plans d'évaluation des employés. Chaque utilisateur reçoit des courriels automatiques et des demandes de procéder à une évaluation périodique de leurs collègues.\n"
+msgstr "\nÉvaluation et bilan périodique des employés\n=========================================\n\nEn utilisant cette application, vous pouvez maintenir le processus de motivation en faisant des évaluations périodiques de la performance de vos employés. L'évaluation régulière des ressources humaines peut être bénéfique à vos équipes ainsi qu'à votre organisation.\n\nUn plan d'évaluation peut être attribué à chaque employé. Ces plans définissent la fréquence et la façon dont vous gérez vos évaluations personnelles périodiques. Vous serez en mesure de définir les étapes et de joindre les formulaires d'entrevue pour chaque étape.\n\nCe module gère plusieurs types d'évaluation : de bas en haut, de haut en bas, auto-évaluations et évaluation finale par le responsable.\n\nPrincipales fonctionnalités :\n-----------------------------------\n* Possibilité de créer des évaluations d'employés.\n* Une évaluation peut être créée par un employé pour les subordonnés, les juniors ainsi que son manager.\n* L'évaluation se fait selon un plan dans lequel diverses enquêtes peuvent être créées. Chaque enquête peut être complétée par un niveau particulier dans la hiérarchie des employés. L'examen et l'évaluation finale se fait par le responsable.\n* Chaque évaluation remplie par les employés peut être consultée dans un formulaire PDF.\n* Les demandes d'entrevue sont générés automatiquement par Modoo selon les plans d'évaluation des employés. Chaque utilisateur reçoit des courriels automatiques et des demandes de procéder à une évaluation périodique de leurs collègues.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pe
@@ -2164,7 +2164,7 @@ msgid ""
 "If you activate this module, you won't be able to access the \n"
 "regular openerp interface anymore. \n"
 "\n"
-msgstr "\nPage d'accueil PosBox\n=====================\n\nCe module remplace l'interface web d'Odoo pour afficher une page d'accueil simple qui explique ce qu'est une PosBox et affiche son statut et où trouver la documentation.\n\nSi vous activez ce module, vous n'aurez plus jamais accès à l'interface standard d'Odoo.\n"
+msgstr "\nPage d'accueil PosBox\n=====================\n\nCe module remplace l'interface web d'Modoo pour afficher une page d'accueil simple qui explique ce qu'est une PosBox et affiche son statut et où trouver la documentation.\n\nSi vous activez ce module, vous n'aurez plus jamais accès à l'interface standard d'Modoo.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hw_posbox_upgrade
@@ -2177,7 +2177,7 @@ msgid ""
 "new version. This module is specific to the PosBox setup and environment\n"
 "and should not be installed on regular openerp servers.\n"
 "\n"
-msgstr "\nGestionnaire de mise à jour logicielle PosBox\n===========================================\n\nCe module permet de mettre à jour à distance le logiciel de la PosBox vers une nouvelle version. Ce module est spécifique à l'installation de la PosBox et de son environnement et ne doit pas être installé sur des serveurs Odoo ordinaires.\n"
+msgstr "\nGestionnaire de mise à jour logicielle PosBox\n===========================================\n\nCe module permet de mettre à jour à distance le logiciel de la PosBox vers une nouvelle version. Ce module est spécifique à l'installation de la PosBox et de son environnement et ne doit pas être installé sur des serveurs Modoo ordinaires.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_instantclick
@@ -2211,7 +2211,7 @@ msgid ""
 "More details about OpenERP's EDI format may be found in the technical OpenERP \n"
 "documentation at http://doc.openerp.com.\n"
 "    "
-msgstr "\nFournit une plateforme EDI que les autres applications peuvent utiliser.\n=======================================================\n\nOdoo spécifie un format générique EDI pour l'échange de document d'affaire entre\ndifférents systèmes et fournit les mécanismes génériques pour les importer et les\nexporter.\n\nPlus de détails au sujet du format EDI d'Odoo peut être trouvé dans la documentation\ntechnique d'Odoo à l'adresse http://doc.openerp.com.\n    "
+msgstr "\nFournit une plateforme EDI que les autres applications peuvent utiliser.\n=======================================================\n\nModoo spécifie un format générique EDI pour l'échange de document d'affaire entre\ndifférents systèmes et fournit les mécanismes génériques pour les importer et les\nexporter.\n\nPlus de détails au sujet du format EDI d'Modoo peut être trouvé dans la documentation\ntechnique d'Modoo à l'adresse http://doc.openerp.com.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_crm_partner_assign
@@ -2319,7 +2319,7 @@ msgid ""
 "For more specific needs, you may also assign custom-defined actions\n"
 "(technically: Server Actions) to be triggered for each incoming mail.\n"
 "    "
-msgstr "\nRécupérer les courriels entrant sur des serveurs POP/IMAP.\n====================================================\n\nEntrez les paramètres de vos comptes POP/IMAP, et tous les courriels qui arrivent sur ces comptes seront automatiquement chargés sur votre système Odoo.\nTous les serveurs compatibles POP3/IMAP sont supportés, y compris ceux qui nécessitent une connexion chiffrée SSL/TLS.\nVous pouvez ainsi créer facilement des flux de travail basés sur des courriels pour de nombreux documents Odoo utilisant les fonctions de courriels, comme :\n--------------------------------------------------------------------------------------------------------\n    * pistes / opportunités CRM \n    * prétentions CRM \n    * question de projet\n    * tâches de projet\n    * recrutements en ressources humaines (candidats)\n\nInstallez simplement l'application concernée, et vous pourrez attribuer n'importe lequel de ces types de documents (prospects, question de projet) à votre compte de courriel entrant. Les nouveaux courriels généreront automatiquement les nouveaux document du type choisi, il est donc en très rapide de créer une intégration courriel-vers-Oddo. Encore mieux : ces documents fonctionnent directement comme des mini conversations synchronisées par courriel. Vous pouvez y répondre depuis Odoo, et les réponses seront automatiquement recueillies à leur retour, et attachées au même document de \"conversation\".\n\nPour des besoins plus spécifiques, vous pouvez également assigner des actions personnalisées (techniquement : Actions Serveur) à déclencher pour chaque courriel qui arrive.\n    "
+msgstr "\nRécupérer les courriels entrant sur des serveurs POP/IMAP.\n====================================================\n\nEntrez les paramètres de vos comptes POP/IMAP, et tous les courriels qui arrivent sur ces comptes seront automatiquement chargés sur votre système Modoo.\nTous les serveurs compatibles POP3/IMAP sont supportés, y compris ceux qui nécessitent une connexion chiffrée SSL/TLS.\nVous pouvez ainsi créer facilement des flux de travail basés sur des courriels pour de nombreux documents Modoo utilisant les fonctions de courriels, comme :\n--------------------------------------------------------------------------------------------------------\n    * pistes / opportunités CRM \n    * prétentions CRM \n    * question de projet\n    * tâches de projet\n    * recrutements en ressources humaines (candidats)\n\nInstallez simplement l'application concernée, et vous pourrez attribuer n'importe lequel de ces types de documents (prospects, question de projet) à votre compte de courriel entrant. Les nouveaux courriels généreront automatiquement les nouveaux document du type choisi, il est donc en très rapide de créer une intégration courriel-vers-Oddo. Encore mieux : ces documents fonctionnent directement comme des mini conversations synchronisées par courriel. Vous pouvez y répondre depuis Modoo, et les réponses seront automatiquement recueillies à leur retour, et attachées au même document de \"conversation\".\n\nPour des besoins plus spécifiques, vous pouvez également assigner des actions personnalisées (techniquement : Actions Serveur) à déclencher pour chaque courriel qui arrive.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_analytic_default
@@ -2416,9 +2416,9 @@ msgid ""
 "``l10n_ch_payment_slip``\n"
 "  Support of ESR/BVR payment slip report and reconciliation.\n"
 "\n"
-"``l10n_ch`` is located in the core Odoo modules. The other modules are in:\n"
+"``l10n_ch`` is located in the core Modoo modules. The other modules are in:\n"
 "https://github.com/OCA/l10n-switzerland\n"
-msgstr "\nPlan comptable et Localisation - Confédération Helvétique\n==================\n\n** Plan comptable et taxes multilingues Swiss PME / KMU 2,015 **\n\n** Auteur: ** Camptocamp SA\n\n** Contributeurs financiers: ** Prisme Solutions Informatique SA, Quod SA\n\n** Contributeurs de traduction: ** cerveau-tec AG, Agile Business Group\n\nLes addons de localisation suisses sont organisées de cette façon :\n\n`` l10n_ch``\nPlan comptable et taxes multilingues Swiss PME / KMU 2,015 (addon officiel)\n`` l10n_ch_base_bank``\nModule technique qui introduit une nouvelle version simplifiée de la gestion de type de banque\n`` l10n_ch_bank``\nListe des banques suisses\n`` l10n_ch_zip``\nCode postal suisse\n`` l10n_ch_dta``\nPrise en compte du protocole de paiement DTA (obsolète depuis la fin de l'année 2014)\n`` l10n_ch_payment_slip``\nPrise en compte de la réconciliation et du bordereau de versement ESR / BVR \n\n`` l10n_ch`` est situé dans les modules de Odoo de base. Les autres modules sont sur : https://github.com/OCA/l10n-switzerland\n"
+msgstr "\nPlan comptable et Localisation - Confédération Helvétique\n==================\n\n** Plan comptable et taxes multilingues Swiss PME / KMU 2,015 **\n\n** Auteur: ** Camptocamp SA\n\n** Contributeurs financiers: ** Prisme Solutions Informatique SA, Quod SA\n\n** Contributeurs de traduction: ** cerveau-tec AG, Agile Business Group\n\nLes addons de localisation suisses sont organisées de cette façon :\n\n`` l10n_ch``\nPlan comptable et taxes multilingues Swiss PME / KMU 2,015 (addon officiel)\n`` l10n_ch_base_bank``\nModule technique qui introduit une nouvelle version simplifiée de la gestion de type de banque\n`` l10n_ch_bank``\nListe des banques suisses\n`` l10n_ch_zip``\nCode postal suisse\n`` l10n_ch_dta``\nPrise en compte du protocole de paiement DTA (obsolète depuis la fin de l'année 2014)\n`` l10n_ch_payment_slip``\nPrise en compte de la réconciliation et du bordereau de versement ESR / BVR \n\n`` l10n_ch`` est situé dans les modules de Modoo de base. Les autres modules sont sur : https://github.com/OCA/l10n-switzerland\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_project_timesheet
@@ -2514,7 +2514,7 @@ msgid ""
 "-------------------------------\n"
 "* Planned Revenue by Stage and User (graph)\n"
 "* Opportunities by Stage (graph)\n"
-msgstr "\nLe module Odoo de gestion de la relation client (CRM)\n=============================================\n\nCette application permet aux utilisateurs de gérer efficacement et intelligemment leurs pistes, opportunités, réunions et appels téléphoniques.\n\nElle gère les tâches clés comme la communication, l'identification, les assignations, les résolutions et les notifications.\n\nOdoo assure que toutes les demandes sont suivis par les utilisateurs, les clients et les fournisseurs. Il permet d'envoyer automatiquement des rappels, d'escalader des requêtes, de lancer des actions spécifiques et de nombreuses autres selon les règles de l'entreprise.\n\nLe grand avantage de ce système est que les utilisateurs n'ont rien à faire de spécial. Le module CRM dispose d'une passerelle de courriel permettant de synchroniser les courriels reçus et Odoo. De cette façon, les utilisateurs peuvent simplement envoyer des courriels au système de suivi des demandes.\n\nOdoo s'occupera de remercier les utilisateurs de leur message, de diriger cette demande à l'équipe appropriée et de s'assurer que toute les communications futures seront rangées à la bonne place.\n\n\nLe tableau bord de cette application inclut:\n* les revenus prévus par étape de vente et par utilisateur (graphique);\n* les opportunités par étape de vente (graphique).\n"
+msgstr "\nLe module Modoo de gestion de la relation client (CRM)\n=============================================\n\nCette application permet aux utilisateurs de gérer efficacement et intelligemment leurs pistes, opportunités, réunions et appels téléphoniques.\n\nElle gère les tâches clés comme la communication, l'identification, les assignations, les résolutions et les notifications.\n\nModoo assure que toutes les demandes sont suivis par les utilisateurs, les clients et les fournisseurs. Il permet d'envoyer automatiquement des rappels, d'escalader des requêtes, de lancer des actions spécifiques et de nombreuses autres selon les règles de l'entreprise.\n\nLe grand avantage de ce système est que les utilisateurs n'ont rien à faire de spécial. Le module CRM dispose d'une passerelle de courriel permettant de synchroniser les courriels reçus et Modoo. De cette façon, les utilisateurs peuvent simplement envoyer des courriels au système de suivi des demandes.\n\nModoo s'occupera de remercier les utilisateurs de leur message, de diriger cette demande à l'équipe appropriée et de s'assurer que toute les communications futures seront rangées à la bonne place.\n\n\nLe tableau bord de cette application inclut:\n* les revenus prévus par étape de vente et par utilisateur (graphique);\n* les opportunités par étape de vente (graphique).\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_base
@@ -2522,7 +2522,7 @@ msgid ""
 "\n"
 "The kernel of OpenERP, needed for all installation.\n"
 "===================================================\n"
-msgstr "\nLe noyau d'Odoo, nécessaire pour toute installation.\n=======================================================\n"
+msgstr "\nLe noyau d'Modoo, nécessaire pour toute installation.\n=======================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_account
@@ -2538,7 +2538,7 @@ msgid ""
 "\n"
 "The module adds the possibility to display data from OpenERP in Google Spreadsheets in real time.\n"
 "=================================================================================================\n"
-msgstr "\nCe module ajoute la possibilité d'afficher des données d'Odoo dans un tableur Google en temps réel.\n=========================================================================================\n"
+msgstr "\nCe module ajoute la possibilité d'afficher des données d'Modoo dans un tableur Google en temps réel.\n=========================================================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_calendar
@@ -2546,7 +2546,7 @@ msgid ""
 "\n"
 "The module adds the possibility to synchronize Google Calendar with OpenERP\n"
 "===========================================================================\n"
-msgstr "\nCe module ajoute la possibilité de synchroniser Google Calendar avec Odoo.\n===========================================================================\n"
+msgstr "\nCe module ajoute la possibilité de synchroniser Google Calendar avec Modoo.\n===========================================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_journal
@@ -2632,7 +2632,7 @@ msgid ""
 "\n"
 "Print product labels with barcode.\n"
 "    "
-msgstr "\nModule de base pour gérer les produits et les listes de prix dans Odoo.\n============================================================\n\nLes produits peuvent avoir des variantes, différentes méthodes de calcul du prix, les informations des fournisseurs, différentes méthode de lancement de la fabrication (sur stock ou sur commande), différentes unités de mesures, définir le conditionnement et les propriétés.\n\nLes listes de prix permettent :\n-----------------------------------------\n    * niveaux multiples de réductions (par produit, catégories ou quantités);\n    * calculer le prix en fonction de différents critères :\n        * une autre liste de prix,\n        * un prix de revient,\n        * un prix de liste,\n        * un prix fournisseur.\n\nLes listes de prix sont définies par produit et/ou partenaires.\n\nImpression des étiquettes de produits avec les code-barres.\n    "
+msgstr "\nModule de base pour gérer les produits et les listes de prix dans Modoo.\n============================================================\n\nLes produits peuvent avoir des variantes, différentes méthodes de calcul du prix, les informations des fournisseurs, différentes méthode de lancement de la fabrication (sur stock ou sur commande), différentes unités de mesures, définir le conditionnement et les propriétés.\n\nLes listes de prix permettent :\n-----------------------------------------\n    * niveaux multiples de réductions (par produit, catégories ou quantités);\n    * calculer le prix en fonction de différents critères :\n        * une autre liste de prix,\n        * un prix de revient,\n        * un prix de liste,\n        * un prix fournisseur.\n\nLes listes de prix sont définies par produit et/ou partenaires.\n\nImpression des étiquettes de produits avec les code-barres.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be
@@ -2666,7 +2666,7 @@ msgid ""
 "        **Path to access :** Invoicing/Reporting/Legal Reports/Belgium Statements/Annual Listing Of VAT-Subjected Customers\n"
 "\n"
 "    "
-msgstr "\nModule de gestion du plan comptable pour la Belgique dans Odoo.\n================================================== ============================\n\nAprès l'installation de ce module, l'assistant de configuration de la comptabilité est lancé.\n * Nous avons les modèles de compte qui peut être utile pour générer des graphiques de comptes.\n * Sur cet assistant, vous serez invité à saisir le nom de la société, le modèle de tableau à suivre, le nombre de chiffres à générer, le code du compte et le compte bancaire, la monnaie pour créer les journaux.\n\nAinsi, la copie pure du modèle de tableau est générée.\n\nAssistants fournis par ce module:\n --------------------------------\n * Partenaire TVA intra : enregistrer les partenaires avec leur TVA afférente et les montants facturés. \nPréparer un format de fichier XML.\n\n ** Chemin d'accès: ** \nFacturation / rapports / Rapports juridiques / Belgique / états Partner TVA Intra\n\n * Déclaration périodique de TVA : Préparer un fichier XML pour la déclaration de TVA\n La principale compagnie de l'utilisateur actuellement connecté.\n\n** Chemin d'accès: ** \nFacturation / rapports / Rapports juridiques / Belgique Déclarations / Déclaration périodique de TVA\n * Liste annuelle des clients soumis à la TVA : Prépare un fichier XML pour le TVA\n Déclaration de l'entreprise principale de l'utilisateur actuellement connecté sur la base de l'Année fiscale.\n\n** Chemin d'accès: ** \nFacturation / rapports / Rapports juridiques / États Belgique / liste annuelle des clients soumis à la TVA"
+msgstr "\nModule de gestion du plan comptable pour la Belgique dans Modoo.\n================================================== ============================\n\nAprès l'installation de ce module, l'assistant de configuration de la comptabilité est lancé.\n * Nous avons les modèles de compte qui peut être utile pour générer des graphiques de comptes.\n * Sur cet assistant, vous serez invité à saisir le nom de la société, le modèle de tableau à suivre, le nombre de chiffres à générer, le code du compte et le compte bancaire, la monnaie pour créer les journaux.\n\nAinsi, la copie pure du modèle de tableau est générée.\n\nAssistants fournis par ce module:\n --------------------------------\n * Partenaire TVA intra : enregistrer les partenaires avec leur TVA afférente et les montants facturés. \nPréparer un format de fichier XML.\n\n ** Chemin d'accès: ** \nFacturation / rapports / Rapports juridiques / Belgique / états Partner TVA Intra\n\n * Déclaration périodique de TVA : Préparer un fichier XML pour la déclaration de TVA\n La principale compagnie de l'utilisateur actuellement connecté.\n\n** Chemin d'accès: ** \nFacturation / rapports / Rapports juridiques / Belgique Déclarations / Déclaration périodique de TVA\n * Liste annuelle des clients soumis à la TVA : Prépare un fichier XML pour le TVA\n Déclaration de l'entreprise principale de l'utilisateur actuellement connecté sur la base de l'Année fiscale.\n\n** Chemin d'accès: ** \nFacturation / rapports / Rapports juridiques / États Belgique / liste annuelle des clients soumis à la TVA"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_do
@@ -2690,7 +2690,7 @@ msgid ""
 "\n"
 "Accounting chart and localization for Ecuador.\n"
 "    "
-msgstr "\nModule de base pour gérer le plan comptable pour l'Équateur dans Odoo.\n=========================================================================\n\nModule pour la comptabilité équatorienne\n    "
+msgstr "\nModule de base pour gérer le plan comptable pour l'Équateur dans Modoo.\n=========================================================================\n\nModule pour la comptabilité équatorienne\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_gr
@@ -2769,7 +2769,7 @@ msgid ""
 "    - VAT100-ready tax structure\n"
 "    - InfoLogic UK counties listing\n"
 "    - a few other adaptations"
-msgstr "\nCeci est la dernière localisation UK Odoo nécessaire pour exécuter la comptabilité Odoo pour les PME du Royaume-Uni avec :\n================================================== ===============================================\n- Un plan comptable CT600-ready\n- Structure fiscale VAT100-ready\n- Liste des Comtés UK InfoLogic\n- Quelques autres adaptations"
+msgstr "\nCeci est la dernière localisation UK Modoo nécessaire pour exécuter la comptabilité Modoo pour les PME du Royaume-Uni avec :\n================================================== ===============================================\n- Un plan comptable CT600-ready\n- Structure fiscale VAT100-ready\n- Liste des Comtés UK InfoLogic\n- Quelques autres adaptations"
 
 #. module: base
 #: model:ir.module.module,description:base.module_procurement
@@ -2807,7 +2807,7 @@ msgid ""
 "\n"
 "Romanian accounting chart and localization.\n"
 "    "
-msgstr "\nModule Odoo de gestion du plan comptable, de la structure de la TVA, de la position fiscale et de la correspondance fiscale pour la Roumanie.\nIl gère aussi le Numéro d'Immatriculation roumain.\n==================================================================================================\n\n\nPlan comptable roumain et localisation.\n    "
+msgstr "\nModule Modoo de gestion du plan comptable, de la structure de la TVA, de la position fiscale et de la correspondance fiscale pour la Roumanie.\nIl gère aussi le Numéro d'Immatriculation roumain.\n==================================================================================================\n\n\nPlan comptable roumain et localisation.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ca
@@ -2840,7 +2840,7 @@ msgid ""
 "provincial government and remit taxes themselves. On the supplier, do not set any fiscal \n"
 "position.\n"
 "    "
-msgstr "\nModule de géstion du plan comptable Canadien dans Odoo. ================================================== =========================================\n\nPlan comptable Canadien et localisations.\n\nLes positions fiscales\n ----------------\n\nLors de l'examen des taxes à appliquer, c'est la province où la livraison est effectuée qui compte.\nPar conséquent il a été décidé de mettre en œuvre le cas le plus fréquent dans les positions fiscales : la livraison est sous la responsabilité du vendeur et se fait aux conditions du domicile du client.\n\nQuelques exemples:\n\n1) Pour un client d'une autre province et une livraison à son domicile.\nDéfinir la position  fiscale du client selon celle de sa province.\n\n2) Pour un client d'une autre province. Lorsque celui-ci envoie un camion à votre domicile pour prendre ses produits. Ne pas utiliser la position fiscale du client.\n\n3) Un fournisseur international ne facture pas les taxes. Les taxes sont facturés à la douane par le courtier en douane. Pour ce vendeur, définir la position fiscale à 'International'.\n\n4) Une vendeur international charge sa vente aux taxes de votre province. Ces taxes sont enregistrées avec votre position fiscale."
+msgstr "\nModule de géstion du plan comptable Canadien dans Modoo. ================================================== =========================================\n\nPlan comptable Canadien et localisations.\n\nLes positions fiscales\n ----------------\n\nLors de l'examen des taxes à appliquer, c'est la province où la livraison est effectuée qui compte.\nPar conséquent il a été décidé de mettre en œuvre le cas le plus fréquent dans les positions fiscales : la livraison est sous la responsabilité du vendeur et se fait aux conditions du domicile du client.\n\nQuelques exemples:\n\n1) Pour un client d'une autre province et une livraison à son domicile.\nDéfinir la position  fiscale du client selon celle de sa province.\n\n2) Pour un client d'une autre province. Lorsque celui-ci envoie un camion à votre domicile pour prendre ses produits. Ne pas utiliser la position fiscale du client.\n\n3) Un fournisseur international ne facture pas les taxes. Les taxes sont facturés à la douane par le courtier en douane. Pour ce vendeur, définir la position fiscale à 'International'.\n\n4) Une vendeur international charge sa vente aux taxes de votre province. Ces taxes sont enregistrées avec votre position fiscale."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pl
@@ -2853,10 +2853,10 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla odoo 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla modoo 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 "    "
-msgstr "\nModule de gestion du Plancomptable et taxes pour la Pologne dans Odoo.\n==================================================================================\n\nTo jest moduł do tworzenia wzorcowego planu kont, podatków, obszarów podatkowych i\nrejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\nzakładając, że wszystkie towary są w obrocie hurtowym.\n\nNiniejszy moduł jest przeznaczony dla odoo 8.0.\nWewnętrzny numer wersji OpenGLOBE 1.02"
+msgstr "\nModule de gestion du Plancomptable et taxes pour la Pologne dans Modoo.\n==================================================================================\n\nTo jest moduł do tworzenia wzorcowego planu kont, podatków, obszarów podatkowych i\nrejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\nzakładając, że wszystkie towary są w obrocie hurtowym.\n\nNiniejszy moduł jest przeznaczony dla modoo 8.0.\nWewnętrzny numer wersji OpenGLOBE 1.02"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr
@@ -2913,7 +2913,7 @@ msgid ""
 "De extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'.\n"
 "\n"
 "    "
-msgstr "\nModule de gestion du plan Comptable Néerlandais dans Odoo.\n=============================================================================\n\nRead changelog in file __openerp__.py for version information.\nDit is een basismodule om een uitgebreid grootboek- en BTW schema voor\nNederlandse bedrijven te installeren in OpenERP versie 7.0.\n\nDe BTW rekeningen zijn waar nodig gekoppeld om de juiste rapportage te genereren,\ndenk b.v. aan intracommunautaire verwervingen waarbij u 21% BTW moet opvoeren,\nmaar tegelijkertijd ook 21% als voorheffing weer mag aftrekken.\n\nNa installatie van deze module word de configuratie wizard voor 'Accounting' aangeroepen.\n* U krijgt een lijst met grootboektemplates aangeboden waarin zich ook het\nNederlandse grootboekschema bevind.\n\n* Als de configuratie wizard start, wordt u gevraagd om de naam van uw bedrijf\nin te voeren, welke grootboekschema te installeren, uit hoeveel cijfers een\ngrootboekrekening mag bestaan, het rekeningnummer van uw bank en de currency\nom Journalen te creeren.\n\nLet op!! -> De template van het Nederlandse rekeningschema is opgebouwd uit 4\ncijfers. Dit is het minimale aantal welk u moet invullen, u mag het aantal verhogen.\nDe extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'."
+msgstr "\nModule de gestion du plan Comptable Néerlandais dans Modoo.\n=============================================================================\n\nRead changelog in file __openerp__.py for version information.\nDit is een basismodule om een uitgebreid grootboek- en BTW schema voor\nNederlandse bedrijven te installeren in OpenERP versie 7.0.\n\nDe BTW rekeningen zijn waar nodig gekoppeld om de juiste rapportage te genereren,\ndenk b.v. aan intracommunautaire verwervingen waarbij u 21% BTW moet opvoeren,\nmaar tegelijkertijd ook 21% als voorheffing weer mag aftrekken.\n\nNa installatie van deze module word de configuratie wizard voor 'Accounting' aangeroepen.\n* U krijgt een lijst met grootboektemplates aangeboden waarin zich ook het\nNederlandse grootboekschema bevind.\n\n* Als de configuratie wizard start, wordt u gevraagd om de naam van uw bedrijf\nin te voeren, welke grootboekschema te installeren, uit hoeveel cijfers een\ngrootboekrekening mag bestaan, het rekeningnummer van uw bank en de currency\nom Journalen te creeren.\n\nLet op!! -> De template van het Nederlandse rekeningschema is opgebouwd uit 4\ncijfers. Dit is het minimale aantal welk u moet invullen, u mag het aantal verhogen.\nDe extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_vn
@@ -2925,7 +2925,7 @@ msgid ""
 "This module applies to companies based in Vietnamese Accounting Standard (VAS).\n"
 "\n"
 "**Credits:** General Solutions.\n"
-msgstr "\nModule de Gestion du Plan Comptable du Vietnam dans Odoo.\n=========================================================================\n\nCe module s'applique aux sociétés placées sous la norme comptable vietnamienne (VAS).\n\n**Credits:** General Solutions.\n"
+msgstr "\nModule de Gestion du Plan Comptable du Vietnam dans Modoo.\n=========================================================================\n\nCe module s'applique aux sociétés placées sous la norme comptable vietnamienne (VAS).\n\n**Credits:** General Solutions.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_crm_partner_assign
@@ -3022,7 +3022,7 @@ msgid ""
 "    * Collated and book format support\n"
 "    * Zip return for separated PDF\n"
 "    * Web client WYSIWYG\n"
-msgstr "\nModule ajoutant un nouveau moteur de rapport fondé sur la bibliothèque WebKit (wkhtmltopdf) pour prendre en compte les rapports conçus en HTML + CSS.\n=====================================================================================================================\n\n La structure du module et du code sont inspirés du module report_openoffice.\n\n Le module permet :\n ------------------\n - Définition du Rapport HTML\n - Multi-entête\n - Multi-logo \n - Multi-société\n - Prise en compte de HTML et CSS-3 (Dans la limite de la version actuelle du WebKit)\n - Prise en compte de JavaScript\n - Débogueur HTML\n - Capacité à imprimer des livres\n - Définition des marges\n - Définition de la taille de papier\n\n Les multiples entêtes et logos peuvent être définis par sociéré. Style CSS, entête et corps de bas de page sont définis pour chaque société.\n\n Exemple de rapport : voir le module de webkit_report_sample, et la vidéo : http://files.me.com/nbessi/06n92k.mov\n\n Exigences et Installation:\n ------------------------------\nCe module nécessite la bibliothèque 'wkhtmltopdf' pour générer les documents HTML et PDF (Version 0.9.9 ou plus récente : voir http://code.google.com/p/wkhtmltopdf/ pour Linux, Mac OS X (i386) et Windows (32 bits).\n\n Après l'installation de la bibliothèque sur le serveur Odoo, régler le chemin d'accès au fichier exécutable 'wkhtmltopdf' dans le paramètre système nommé `` webkit_path`` (Paramètres -> Personnalisation -> Paramètres -> Paramètres système)\n\n En cas d'absence d'entête / pied de page sur Linux, veiller à installer une version «statique» de la bibliothèque. La valeur par défaut 'wkhtmltopdf' sur Ubuntu est un problème connu.\n\n A FAIRE:\n -----\n * Désactivation d'activation du support de JavaScript\n * Assemblé et le format du livre soutien\n * Restitution de fichier zip pour les PDF multiples\n * WYSIWYG du client Web\n"
+msgstr "\nModule ajoutant un nouveau moteur de rapport fondé sur la bibliothèque WebKit (wkhtmltopdf) pour prendre en compte les rapports conçus en HTML + CSS.\n=====================================================================================================================\n\n La structure du module et du code sont inspirés du module report_openoffice.\n\n Le module permet :\n ------------------\n - Définition du Rapport HTML\n - Multi-entête\n - Multi-logo \n - Multi-société\n - Prise en compte de HTML et CSS-3 (Dans la limite de la version actuelle du WebKit)\n - Prise en compte de JavaScript\n - Débogueur HTML\n - Capacité à imprimer des livres\n - Définition des marges\n - Définition de la taille de papier\n\n Les multiples entêtes et logos peuvent être définis par sociéré. Style CSS, entête et corps de bas de page sont définis pour chaque société.\n\n Exemple de rapport : voir le module de webkit_report_sample, et la vidéo : http://files.me.com/nbessi/06n92k.mov\n\n Exigences et Installation:\n ------------------------------\nCe module nécessite la bibliothèque 'wkhtmltopdf' pour générer les documents HTML et PDF (Version 0.9.9 ou plus récente : voir http://code.google.com/p/wkhtmltopdf/ pour Linux, Mac OS X (i386) et Windows (32 bits).\n\n Après l'installation de la bibliothèque sur le serveur Modoo, régler le chemin d'accès au fichier exécutable 'wkhtmltopdf' dans le paramètre système nommé `` webkit_path`` (Paramètres -> Personnalisation -> Paramètres -> Paramètres système)\n\n En cas d'absence d'entête / pied de page sur Linux, veiller à installer une version «statique» de la bibliothèque. La valeur par défaut 'wkhtmltopdf' sur Ubuntu est un problème connu.\n\n A FAIRE:\n -----\n * Désactivation d'activation du support de JavaScript\n * Assemblé et le format du livre soutien\n * Restitution de fichier zip pour les PDF multiples\n * WYSIWYG du client Web\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_crm
@@ -3300,7 +3300,7 @@ msgid ""
 "meeting minutes.\n"
 "\n"
 "Notes can be found in the 'Home' menu.\n"
-msgstr "\nCe module permet aux utilisateurs de créer leurs propres notes à l'intérieur d'Odoo\n\n================================================== ===============\n\nUtiliser des notes pour écrire minutes de réunion, organiser des idées, organiser des listes de tâches personnelles, etc. Chaque utilisateur gère ses propres notes. Les notes ne sont accessibles que pour leurs auteurs, mais ils peuvent les partager des notes avec d'autres utilisateurs de sorte que plusieurs personnes peuvent travailler sur la même note en temps réel. \nCe fonctionnement est très efficace pour partager des comptes-rendus de réunions.\n\nOn trouve les notes dans le menu 'Accueil'.\n"
+msgstr "\nCe module permet aux utilisateurs de créer leurs propres notes à l'intérieur d'Modoo\n\n================================================== ===============\n\nUtiliser des notes pour écrire minutes de réunion, organiser des idées, organiser des listes de tâches personnelles, etc. Chaque utilisateur gère ses propres notes. Les notes ne sont accessibles que pour leurs auteurs, mais ils peuvent les partager des notes avec d'autres utilisateurs de sorte que plusieurs personnes peuvent travailler sur la même note en temps réel. \nCe fonctionnement est très efficace pour partager des comptes-rendus de réunions.\n\nOn trouve les notes dans le menu 'Accueil'.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_crm_profiling
@@ -3524,7 +3524,7 @@ msgid ""
 "\n"
 "This module adds wizards to Import/Export .sxw report that you can modify in OpenOffice. \n"
 "Once you have modified it you can upload the report using the same wizard.\n"
-msgstr "\nCe module est utilisé avec le composant OpenOffice pour Odoo.\n================================================== =======\n\nCe module ajoute des assistants d'importation et d'exportation de rapports .sxw modifiables avec OpenOffice.\nUne fois modifié, le rapport peut être téléchargé en utilisant le même assistant.\n"
+msgstr "\nCe module est utilisé avec le composant OpenOffice pour Modoo.\n================================================== =======\n\nCe module ajoute des assistants d'importation et d'exportation de rapports .sxw modifiables avec OpenOffice.\nUne fois modifié, le rapport peut être téléchargé en utilisant le même assistant.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr_rib
@@ -3749,7 +3749,7 @@ msgid ""
 "    * Sihirbaz sizden hesap planı şablonu, planın kurulacağı şirket, banka hesap\n"
 "      bilgileriniz, ilgili para birimi gibi bilgiler isteyecek.\n"
 "    "
-msgstr "\nModule du Plan comptable d'Odoo pour la Turquie.\n==========================================================\n\nBu modül kurulduktan sonra, Muhasebe yapılandırma sihirbazı çalışır\n* Sihirbaz sizden hesap planı şablonu, planın kurulacağı şirket, banka hesap\nbilgileriniz, ilgili para birimi gibi bilgiler isteyecek."
+msgstr "\nModule du Plan comptable d'Modoo pour la Turquie.\n==========================================================\n\nBu modül kurulduktan sonra, Muhasebe yapılandırma sihirbazı çalışır\n* Sihirbaz sizden hesap planı şablonu, planın kurulacağı şirket, banka hesap\nbilgileriniz, ilgili para birimi gibi bilgiler isteyecek."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ae
@@ -3827,7 +3827,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Odoo helps you managing all your vehicles, the\n"
+"With this module, Modoo helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, fuel log\n"
 "entries, costs and many other features necessary to the management \n"
 "of your fleet of vehicle(s)\n"
@@ -4189,12 +4189,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                Modoo helps you easily track all activities related to\n"
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour ajouter un contact dans votre carnet d'adresses.\n              </p><p>\n                Odoo vous aide à suivre toutes les activités avec un client : \n                les discussions, l'historique des opportunités, \n                les documents, etc.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour ajouter un contact dans votre carnet d'adresses.\n              </p><p>\n                Modoo vous aide à suivre toutes les activités avec un client : \n                les discussions, l'historique des opportunités, \n                les documents, etc.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_form
@@ -4202,12 +4202,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                Modoo helps you easily track all activities related to\n"
 "                a customer; discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour ajouter un contact dans votre carnet d'adresses.\n              </p><p>\n                Odoo vous aide à suivre toutes les activités avec un client : \n                les discussions, l'historique des opportunités, \n                les documents, etc.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour ajouter un contact dans votre carnet d'adresses.\n              </p><p>\n                Modoo vous aide à suivre toutes les activités avec un client : \n                les discussions, l'historique des opportunités, \n                les documents, etc.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -4215,12 +4215,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                Modoo helps you easily track all activities related to\n"
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nCliquez pour ajouter un contact dans votre carnet d'adresses.\n</p><p>\nOdoo vous aide à conserver facilement une trace de toutes les\nactions liées à un fournisseur : discussions, historique d'achats,\ndocuments, etc.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nCliquez pour ajouter un contact dans votre carnet d'adresses.\n</p><p>\nModoo vous aide à conserver facilement une trace de toutes les\nactions liées à un fournisseur : discussions, historique d'achats,\ndocuments, etc.\n</p>"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_partner_bank_account_form
@@ -4232,10 +4232,10 @@ msgid ""
 "                You can reorder bank accounts from the list view.\n"
 "              </p>\n"
 "              <p>\n"
-"                If you use the accounting application of Odoo, journals and accounts will be created automatically based on these data.\n"
+"                If you use the accounting application of Modoo, journals and accounts will be created automatically based on these data.\n"
 "              </p>  \n"
 "            "
-msgstr "<p class = \"oe_view_nocontent_create\">\nCliquer pour créer un compte bancaire.\n</p><p>\nConfigurez les comptes bancaires de votre société et choisissez ceux qui doivent figurer sur le pied de page des rapports.\nVous pouvez choisir l'ordre des comptes bancaires dans la vue liste.\n</p><p>\nSi vous utilisez l'application de comptabilité Odoo, des journaux et des comptes seront créés automatiquement en fonction de ces données.\n</p>"
+msgstr "<p class = \"oe_view_nocontent_create\">\nCliquer pour créer un compte bancaire.\n</p><p>\nConfigurez les comptes bancaires de votre société et choisissez ceux qui doivent figurer sur le pied de page des rapports.\nVous pouvez choisir l'ordre des comptes bancaires dans la vue liste.\n</p><p>\nSi vous utilisez l'application de comptabilité Modoo, des journaux et des comptes seront créés automatiquement en fonction de ces données.\n</p>"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_bank_form
@@ -5802,8 +5802,8 @@ msgstr "Discutez avec les visiteurs de votre site web"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_im_odoo_support
-msgid "Chat with the Odoo collaborators"
-msgstr "Discutez avec les collaborateurs d'Odoo"
+msgid "Chat with the Modoo collaborators"
+msgstr "Discutez avec les collaborateurs d'Modoo"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_check_writing
@@ -6530,9 +6530,9 @@ msgstr "Créer un nouvel enregistrement dans le modèle Base"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_company_form
 msgid ""
-"Create and manage the companies that will be managed by Odoo from here. "
+"Create and manage the companies that will be managed by Modoo from here. "
 "Shops or subsidiaries can be created and maintained from here."
-msgstr "Créer et gérer les sociétés qui seront déclarées ici par Odoo. Les magasins ou filiales peuvent être créés et maintenus à partir d'ici."
+msgstr "Créer et gérer les sociétés qui seront déclarées ici par Modoo. Les magasins ou filiales peuvent être créés et maintenus à partir d'ici."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_users
@@ -8022,9 +8022,9 @@ msgstr "Pour les actions, un des attributs possible : \n  - client_action_multi\
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
-"For more details about translating Odoo in your language, please refer to "
+"For more details about translating Modoo in your language, please refer to "
 "the"
-msgstr "Pour plus de détails concernant la traduction d'Odoo dans votre langue, veuillez vous référer à"
+msgstr "Pour plus de détails concernant la traduction d'Modoo dans votre langue, veuillez vous référer à"
 
 #. module: base
 #: help:ir.model.fields,relation_field:0
@@ -8942,9 +8942,9 @@ msgstr "Si vous activez cette option, les traductions existantes (y compris les 
 #: help:ir.ui.menu,groups_id:0
 msgid ""
 "If you have groups, the visibility of this menu will be based on these "
-"groups. If this field is empty, Odoo will compute visibility based on the "
+"groups. If this field is empty, Modoo will compute visibility based on the "
 "related object's read access."
-msgstr "Si des groupes sont mentionnés, la visibilité de ce menu sera fondée sur ces groupes. Si ce champ est vide, Odoo calculera la visibilité sur le critère des droits en lecture de l'objet relatif."
+msgstr "Si des groupes sont mentionnés, la visibilité de ce menu sera fondée sur ces groupes. Si ce champ est vide, Modoo calculera la visibilité sur le critère des droits en lecture de l'objet relatif."
 
 #. module: base
 #: help:ir.model.access,active:0
@@ -9894,9 +9894,9 @@ msgstr "Permet d'installer divers outils intéressants, mais facultatifs : par e
 #. module: base
 #: model:ir.module.category,description:base.module_category_report_designer
 msgid ""
-"Lets you install various tools to simplify and enhance Odoo's report "
+"Lets you install various tools to simplify and enhance Modoo's report "
 "creation."
-msgstr "Vous permet d'installer différents outils destinés à simplifier et à améliorer la création de rapports dans Odoo."
+msgstr "Vous permet d'installer différents outils destinés à simplifier et à améliorer la création de rapports dans Modoo."
 
 #. module: base
 #: view:ir.logging:base.ir_logging_search_view field:ir.logging,level:0
@@ -10175,12 +10175,12 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
-"Manage and customize the items available and displayed in your Odoo system "
+"Manage and customize the items available and displayed in your Modoo system "
 "menu. You can delete an item by clicking on the box at the beginning of each"
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
-msgstr "Gère et personnalise les éléments disponibles et affichés dans les menus d'Odoo. Vous pouvez supprimer un élément en cliquant sur la case à cocher au début de chaque ligne et en cliquant sur le bouton de suppression qui apparaît alors. Les éléments peuvent être attachés à un groupe spécifique pour n'être accessible qu'à quelques utilisateurs du système."
+msgstr "Gère et personnalise les éléments disponibles et affichés dans les menus d'Modoo. Vous pouvez supprimer un élément en cliquant sur la case à cocher au début de chaque ligne et en cliquant sur le bouton de suppression qui apparaît alors. Les éléments peuvent être attachés à un groupe spécifique pour n'être accessible qu'à quelques utilisateurs du système."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_customer_relationship_management
@@ -11137,20 +11137,20 @@ msgstr "Objet :"
 #. openerp-web
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Les applications Odoo seront bientôt disponibles"
+msgid "Modoo Apps will be available soon"
+msgstr "Les applications Modoo seront bientôt disponibles"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_odoo_support
-msgid "Odoo Live Support"
-msgstr "Support en ligne d'Odoo"
+msgid "Modoo Live Support"
+msgstr "Support en ligne d'Modoo"
 
 #. module: base
 #: help:ir.sequence,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
-msgstr "Odoo ajoutera automatiquement quelques '0' à la gauche de \"nombre suivant\" pour atteindre la taille du bloc."
+msgstr "Modoo ajoutera automatiquement quelques '0' à la gauche de \"nombre suivant\" pour atteindre la taille du bloc."
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -11297,7 +11297,7 @@ msgstr "Ouvrir une fenêtre"
 #. module: base
 #: model:ir.module.module,summary:base.module_im_chat
 msgid "OpenERP Chat"
-msgstr "\"Chat\" Odoo"
+msgstr "\"Chat\" Modoo"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_api
@@ -11908,8 +11908,8 @@ msgstr "Portail Stock"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
-msgstr "Les membres du portail ont des droits d'accès spécifiques (tels que des règles d'enregistrement et que des menus limités).\nGénéralement Ils n'appartiennent pas aux groupes habituels d'Odoo."
+"                They usually do not belong to the usual Modoo groups."
+msgstr "Les membres du portail ont des droits d'accès spécifiques (tels que des règles d'enregistrement et que des menus limités).\nGénéralement Ils n'appartiennent pas aux groupes habituels d'Modoo."
 
 #. module: base
 #: model:res.country,name:base.pt
@@ -12107,8 +12107,8 @@ msgstr "Projets publics"
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
-msgstr "Les utilisateurs anonymes ont des droits d'accès spécifiques (tels que des règles d'enregistrement et des menus limités).\nIls n'appartiennent généralement pas aux groupes Odoo habituels."
+"                They usually do not belong to the usual Modoo groups."
+msgstr "Les utilisateurs anonymes ont des droits d'accès spécifiques (tels que des règles d'enregistrement et des menus limités).\nIls n'appartiennent généralement pas aux groupes Modoo habituels."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_membership
@@ -13831,8 +13831,8 @@ msgstr "Archive TGZ"
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
 "TGZ format: this is a compressed archive containing a PO file, directly suitable\n"
-"                                for uploading to Odoo's translation platform,"
-msgstr "Format TGZ : c'est l'archive comprimée d'un fichier de type PO, directement adapté\npour être téléchargé sur la plateforme Odoo de traduction,"
+"                                for uploading to Modoo's translation platform,"
+msgstr "Format TGZ : c'est l'archive comprimée d'un fichier de type PO, directement adapté\npour être téléchargé sur la plateforme Modoo de traduction,"
 
 #. module: base
 #: code:addons/base/res/res_company.py:167 field:res.partner,vat:0
@@ -14104,9 +14104,9 @@ msgstr "La société pour laquelle l'utilisateur travaille actuellement"
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
 msgid ""
 "The configuration wizards are used to help you configure a new instance of "
-"Odoo. They are launched during the installation of new modules, but you can "
+"Modoo. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
-msgstr "Les assistants de configuration sont utilisés pour vous aider à configurer une nouvelle instance Odoo. Ils sont lancés lors de l'installation de nouveaux modules mais vous pouvez choisir de les redémarrer manuellement à partir de ce menu."
+msgstr "Les assistants de configuration sont utilisés pour vous aider à configurer une nouvelle instance Modoo. Ils sont lancés lors de l'installation de nouveaux modules mais vous pouvez choisir de les redémarrer manuellement à partir de ce menu."
 
 #. module: base
 #: sql_constraint:res.currency:0
@@ -14422,7 +14422,7 @@ msgstr "Ceci est le nom de fichier de la pièce jointe qui sera utilisé pour ar
 #: model:ir.module.module,description:base.module_l10n_no
 msgid ""
 "This is the module to manage the accounting chart for Norway in Open ERP."
-msgstr "Ceci est le module pour gérer la comptabilité en Norvège dans Odoo."
+msgstr "Ceci est le module pour gérer la comptabilité en Norvège dans Modoo."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_mass_mailing
@@ -14635,7 +14635,7 @@ msgstr "Commentaires de traduction"
 msgid ""
 "Translation features are unavailable until you install an extra OpenERP "
 "translation."
-msgstr "Les fonctions de traduction ne sont pas disponibles tant que vous n'avez pas installé de traduction Odoo supplémentaire."
+msgstr "Les fonctions de traduction ne sont pas disponibles tant que vous n'avez pas installé de traduction Modoo supplémentaire."
 
 #. module: base
 #: selection:ir.translation,state:0
@@ -15290,9 +15290,9 @@ msgstr "Vues"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_ui_view
 msgid ""
-"Views allows you to personalize each view of Odoo. You can add new fields, "
+"Views allows you to personalize each view of Modoo. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
-msgstr "Les vues permettent de personnaliser chaque vue d'Odoo. Vous pouvez ajouter de nouveaux champs, déplacer des champs, les renommer ou supprimer ceux dont vous n'avez pas besoin."
+msgstr "Les vues permettent de personnaliser chaque vue d'Modoo. Vous pouvez ajouter de nouveaux champs, déplacer des champs, les renommer ou supprimer ceux dont vous n'avez pas besoin."
 
 #. module: base
 #: model:res.country,name:base.vg
@@ -15532,8 +15532,8 @@ msgid ""
 "arrow, but rather add new nodes or arrows. If you absolutly need to modify a"
 " node or arrow, you can only change fields that are empty or set to the "
 "default value. If you don't do that, your customization will be overwrited "
-"at the next update or upgrade to a future version of Odoo."
-msgstr "Lors de la personnalisation d'un flux de travail, attention à ne pas modifier un nœud ou une flèche existante, ajoutez plutôt de nouveaux nœuds ou flèches. Si vous avez besoin absolument de modifier un nœud ou une flèche, vous ne pouvez changer que les champs vides ou portant la valeur par défaut. Si vous ne suivez pas ces recommandations, votre personnalisation sera écrasée lors de la prochaine mise à jour ou lors de la mise à niveau vers une version ultérieure d'Odoo."
+"at the next update or upgrade to a future version of Modoo."
+msgstr "Lors de la personnalisation d'un flux de travail, attention à ne pas modifier un nœud ou une flèche existante, ajoutez plutôt de nouveaux nœuds ou flèches. Si vous avez besoin absolument de modifier un nœud ou une flèche, vous ne pouvez changer que les champs vides ou portant la valeur par défaut. Si vous ne suivez pas ces recommandations, votre personnalisation sera écrasée lors de la prochaine mise à jour ou lors de la mise à niveau vers une version ultérieure d'Modoo."
 
 #. module: base
 #: help:ir.actions.server,sequence:0
@@ -15758,8 +15758,8 @@ msgstr "Vous ne pouvez pas déclarer deux fontes avec le même nom"
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
-"created by Odoo (updates, module installation, ...)"
-msgstr "Vous ne pouvez par supprimer l'utilisateur admin car il est utilisé en interne par Odoo (mises à jour, module d'installation, etc.)"
+"created by Modoo (updates, module installation, ...)"
+msgstr "Vous ne pouvez par supprimer l'utilisateur admin car il est utilisé en interne par Modoo (mises à jour, module d'installation, etc.)"
 
 #. module: base
 #: help:res.country,address_format:0
@@ -15982,8 +15982,8 @@ msgstr "ex: en_US"
 #. module: base
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
-msgid "e.g. www.odoo.com"
-msgstr "ex : www.odoo.com"
+msgid "e.g. www.modoo.com"
+msgstr "ex : www.modoo.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale

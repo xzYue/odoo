@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -9,12 +9,12 @@
 # Mateus Cerqueira Lopes <mateus1@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-12 03:45+0000\n"
 "Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-8/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/modoo/modoo-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -71,8 +71,8 @@ msgstr "<p></p>"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
-msgstr "<p>Se você não contribui ou desenvolve no Odoo, você pode pular esta página.</p>"
+msgid "<p>If you do not contribute or develop in Modoo, skip this page.</p>"
+msgstr "<p>Se você não contribui ou desenvolve no Modoo, você pode pular esta página.</p>"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_selected_survey_user_input
@@ -91,9 +91,9 @@ msgstr "<p>Ninguém respondeu a suas pesquisas ainda.</p>\n            "
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of Modoo. Try to remind your firsts days on Modoo and\n"
 "what have been your difficulties.</p>"
-msgstr "<p>Essas questões dizem respeito à ergonomia e facilidade de uso de Odoo. Tente lembrar seus primeiros dias no Odoo e\nQuais foram suas dificuldades.</p>"
+msgstr "<p>Essas questões dizem respeito à ergonomia e facilidade de uso de Modoo. Tente lembrar seus primeiros dias no Modoo e\nQuais foram suas dificuldades.</p>"
 
 #. module: survey
 #: model:survey.survey,description:survey.feedback_form
@@ -144,8 +144,8 @@ msgstr "Um token deve ser único!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Sobre a utilização do Odoo"
+msgid "About your Modoo usage"
+msgstr "Sobre a utilização do Modoo"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -230,8 +230,8 @@ msgstr "Respostas não vá no documento original \"linha de discussão. Isto tem
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Você está usando Odoo diariamente?"
+msgid "Are you using Modoo on a daily basis?"
+msgstr "Você está usando Modoo diariamente?"
 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
@@ -663,7 +663,7 @@ msgstr "Contém o resumo da conversação (número de mensagens, ...). Este resu
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
+msgid "How do you contribute or plan to contribute to Modoo?"
 msgstr "Como você contribui ou pretende contribuir para Openerp?"
 
 #. module: survey
@@ -698,8 +698,8 @@ msgstr "Eu participo de discussão e fóruns"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "Eu uso o Github, como todos os projetos oficiais do Odoo"
+msgid "I use Launchpad, like all official Modoo projects"
+msgstr "Eu uso o Github, como todos os projetos oficiais do Modoo"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -708,8 +708,8 @@ msgstr "Eu uso um outro sistema de repositório (SourceForge ...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Eu uso a ajuda contextual no Odoo"
+msgid "I use the contextual help in Modoo"
+msgstr "Eu uso a ajuda contextual no Modoo"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -1825,8 +1825,8 @@ msgstr "Eles são úteis no uso diário"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Eles ajudam novos usuários a entender o Odoo"
+msgid "They help new users to understand Modoo"
+msgstr "Eles ajudam novos usuários a entender o Modoo"
 
 #. module: survey
 #: code:addons/survey/survey.py:700
@@ -2082,7 +2082,7 @@ msgstr "O que você acha sobre os grupos de usuários?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of Modoo, available in the web "
 "client ?"
 msgstr "O Que rápido você acha Sobre os pontos de vista do Processo de OpenERP, disponivel no Cliente web?"
 
@@ -2119,8 +2119,8 @@ msgstr "Sim, eu uso a versão 7.0, instalado localmente"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Sim, eu uso a versão online do Odoo"
+msgid "Yes, I use the online version of Modoo"
+msgstr "Sim, eu uso a versão online do Modoo"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -11,12 +11,12 @@
 # niulinlnc <admin@niulin.net>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-08-24 20:43+0000\n"
 "Last-Translator: 珠海-老天 <liangjia@qq.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/modoo/modoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -861,7 +861,7 @@ msgstr "如果选中该项，业务伙伴们将收到邮件提醒他们已经被
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Modoo server, "
 "enter the domain name here."
 msgstr "如果你设置了电子邮件域名重定向到这个Odoo服务器，请在这里输入域名。"
 
@@ -1599,8 +1599,8 @@ msgstr "已发送"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "使用 %(odoo)s 发自 %(company)s "
+msgid "Sent by %(company)s using %(modoo)s"
+msgstr "使用 %(modoo)s 发自 %(company)s "
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1720,7 +1720,7 @@ msgstr "关联这个群组的email地址。收到新的email将自动创建一�
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Modoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr "相应于这个别名对应的模型(Odoo的文件种类)。任何一封不属于对某个已存在的记录的到来邮件，将导致此模块中新记录的创建(例如，一个新的项目任务)。"
@@ -1729,8 +1729,8 @@ msgstr "相应于这个别名对应的模型(Odoo的文件种类)。任何一封
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.odoo.com> 的电子邮件,别名就要被设为：\"jobs\""
+"<jobs@example.modoo.com>"
+msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.modoo.com> 的电子邮件,别名就要被设为：\"jobs\""
 
 #. module: mail
 #: help:mail.alias,alias_user_id:0
@@ -2047,8 +2047,8 @@ msgstr "更多."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.modoo.com"
+msgstr "mycompany.modoo.com"
 
 #. module: mail
 #. openerp-web

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet
 # 
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-24 10:03+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-8/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/modoo/modoo-8/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -48,7 +48,7 @@ msgid ""
 "<p>\n"
 "                No activity yet on this contract.\n"
 "              </p><p>\n"
-"                In Odoo, contracts and projects are implemented using\n"
+"                In Modoo, contracts and projects are implemented using\n"
 "                analytic account. So, you can track costs and revenues to analyse\n"
 "                your margins easily.\n"
 "              </p><p>\n"
@@ -539,9 +539,9 @@ msgstr ""
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
 msgid ""
 "You should create an analytic account structure depending on your needs to "
-"analyse costs and revenues. In Odoo, analytic accounts are also used to "
+"analyse costs and revenues. In Modoo, analytic accounts are also used to "
 "track customer contracts."
-msgstr "Mali by ste vytvoriť štruktúru analytického účtu v závislosti na vašich potrebách na analýzu nákladov a výnosov. V Odoo, analytické účty sú tiež používané na sledovanie zákazníckych zmlúv."
+msgstr "Mali by ste vytvoriť štruktúru analytického účtu v závislosti na vašich potrebách na analýzu nákladov a výnosov. V Modoo, analytické účty sú tiež používané na sledovanie zákazníckych zmlúv."
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search

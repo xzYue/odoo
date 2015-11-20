@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -11,12 +11,12 @@
 # Svante Suominen <svante.suominen@web-veistamo.fi>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-27 11:58+0000\n"
 "Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
-"Language-Team: Finnish (http://www.transifex.com/odoo/odoo-8/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/modoo/modoo-8/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -114,7 +114,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n            Klikkaa luodaksesi u
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
 "<p>\n"
-"                Odoo helps you track applicants in the recruitment\n"
+"                Modoo helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
 "                Applicants and their attached CV are created automatically when an email is sent.\n"
@@ -122,13 +122,13 @@ msgid ""
 "                so that you can easily search through their content.\n"
 "              </p>\n"
 "         "
-msgstr "<p>\n                Odoo auttaa sinua seuraamaan hakijoita rekrytointiprosessissa ja organisoimaan kaikki toimenpiteet: tapaamiset, haastattelut, jne.\n              </p><p>\n                Työnhakijoiden hakemukset ja ansioluettelot tallennetaan järjestelmään automaattisesti vastaanotetuista sähköposteista.\n               Jos asennat dokumentinhallinnan, kaikki ansioluettelot ja liitteet indeksoidaan automaattisesti, jolloin niiden sisältämä teksti on haettavissa Odoon hakutyökaluilla.\n              </p>\n         "
+msgstr "<p>\n                Modoo auttaa sinua seuraamaan hakijoita rekrytointiprosessissa ja organisoimaan kaikki toimenpiteet: tapaamiset, haastattelut, jne.\n              </p><p>\n                Työnhakijoiden hakemukset ja ansioluettelot tallennetaan järjestelmään automaattisesti vastaanotetuista sähköposteista.\n               Jos asennat dokumentinhallinnan, kaikki ansioluettelot ja liitteet indeksoidaan automaattisesti, jolloin niiden sisältämä teksti on haettavissa Odoon hakutyökaluilla.\n              </p>\n         "
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
 "<p>\n"
-"                Odoo helps you track applicants in the recruitment\n"
+"                Modoo helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
 "                Applicants and their attached CV are created automatically when an email is sent.\n"
@@ -136,7 +136,7 @@ msgid ""
 "                so that you can easily search through their content.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Odoo auttaa sinua seuraamaan hakijoita rekrytointiprosessissa ja organisoimaan kaikki toimenpiteet: tapaamiset, haastattelut, jne.\n              </p><p>\n                Työnhakijoiden hakemukset ja ansioluettelot tallennetaan järjestelmään automaattisesti vastaanotetuista sähköposteista.\n               Jos asennat dokumentinhallinnan, kaikki ansioluettelot ja liitteet indeksoidaan automaattisesti, jolloin niiden sisältämä teksti on haettavissa Odoon hakutyökaluilla.\n              </p>"
+msgstr "<p>\n                Modoo auttaa sinua seuraamaan hakijoita rekrytointiprosessissa ja organisoimaan kaikki toimenpiteet: tapaamiset, haastattelut, jne.\n              </p><p>\n                Työnhakijoiden hakemukset ja ansioluettelot tallennetaan järjestelmään automaattisesti vastaanotetuista sähköposteista.\n               Jos asennat dokumentinhallinnan, kaikki ansioluettelot ja liitteet indeksoidaan automaattisesti, jolloin niiden sisältämä teksti on haettavissa Odoon hakutyökaluilla.\n              </p>"
 
 #. module: hr_recruitment
 #: model:survey.page,description:hr_recruitment.recruitment_1

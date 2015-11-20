@@ -6,12 +6,12 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
 "POT-Creation-Date: 2011-01-11 11:14:36+0000\n"
 "PO-Revision-Date: 2015-10-02 04:39+0000\n"
 "Last-Translator: Khwunchai Jaengsawang <khwunchai.j@ku.th>\n"
-"Language-Team: Thai (http://www.transifex.com/odoo/odoo-8/language/th/)\n"
+"Language-Team: Thai (http://www.transifex.com/modoo/modoo-8/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -77,7 +77,7 @@ msgstr "ติดตามและจัดการค่าใช้จ่า
 msgid ""
 "GTD is a methodology to efficiently organise yourself and your tasks. This "
 "module fully integrates GTD principle with OpenERP's project management."
-msgstr "GTD เป็นวิธีการที่มีประสิทธิภาพจัดระเบียบตัวเองและงานของคุณ โมดูลนี้ทำงานด้วยหลักการ GTD กับการบริหารจัดการโครงการของ Odoo"
+msgstr "GTD เป็นวิธีการที่มีประสิทธิภาพจัดระเบียบตัวเองและงานของคุณ โมดูลนี้ทำงานด้วยหลักการ GTD กับการบริหารจัดการโครงการของ Modoo"
 
 #. module: association
 #: view:profile.association.config.install_modules_wizard:0

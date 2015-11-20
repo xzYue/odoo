@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -7,12 +7,12 @@
 # Goh Gangtai <gangtai.goh@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-03 15:25+0000\n"
 "PO-Revision-Date: 2015-10-30 02:53+0000\n"
 "Last-Translator: choijaeho <hwangtog@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/modoo/modoo-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -193,15 +193,15 @@ msgid ""
 "                Click to add a location.\n"
 "              </p><p>\n"
 "                Define your locations to reflect your warehouse structure and\n"
-"                organization. Odoo is able to manage physical locations\n"
+"                organization. Modoo is able to manage physical locations\n"
 "                (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "                suppliers) and virtual locations which are the counterpart of\n"
 "                the stock operations like the manufacturing orders\n"
 "                consumptions, inventories, etc.\n"
 "              </p><p>  \n"
-"                Every stock operation in Odoo moves the products from one\n"
+"                Every stock operation in Modoo moves the products from one\n"
 "                location to another one.  For instance, if you receive products\n"
-"                from a supplier, Odoo will move products from the Supplier\n"
+"                from a supplier, Modoo will move products from the Supplier\n"
 "                location to the Stock location. Each report can be performed on\n"
 "                physical, partner or virtual locations.\n"
 "              </p>\n"
@@ -213,7 +213,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                위치를 추가
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a reordering rule.\n"
-"              </p><p>You can define your minimum stock rules, so that Odoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Odoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
+"              </p><p>You can define your minimum stock rules, so that Modoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Modoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n                재주문 규칙을 추가합니다.\n              </p><p>Odoo는 재고 수준에 따라 견적 요청 또는 초안 재조 주문을 생성하도록 최소 재고 규칙을 정의할 수 있습니다. 제품(=모든 주문 및 예약 확인된 역할을 제외한 재고)의 가상 재고가 최소 수량 미만이 되면, Odoo는 최대량까지 재고를 증가시키기 위한 조달 요청을 생성합니다. </p>\n            "
 
@@ -279,7 +279,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a stock operation. \n"
 "              </p><p>\n"
-"                Most operations are prepared automatically by Odoo according\n"
+"                Most operations are prepared automatically by Modoo according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements.\n"
 "              </p>\n"
@@ -613,7 +613,7 @@ msgstr "대량 내용물"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"Modoo will not automatically generate a back order."
 msgstr "수량을 변경하면, 완전한 새로운 수량 허용 : Odoo는 다시 주문을 자동으로 생성하지 않습니다."
 
 #. module: stock
@@ -5368,14 +5368,14 @@ msgstr "방법이 고정되면, 제품을 저장하는데 사용될 위치이다
 #: help:stock.warehouse.orderpoint,product_min_qty:0
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" Modoo generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr "가상 재고가 필드에 지정된 최소 수량 이하가 되면, Odoo는 최대 수량에 예상 수량을 가지고 조달을 생성합니다."
 
 #. module: stock
 #: help:stock.warehouse.orderpoint,product_max_qty:0
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Modoo generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr "가상 재고가 최소 수량 이하가 될 때, Odoo는 최대 수량으로 지정된 수량에 예상 수량을 가지고 구매를 생성합니다."

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -7,12 +7,12 @@
 # MinGi KYUNG <moonend@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-21 10:59+0000\n"
 "Last-Translator: MinGi KYUNG <moonend@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/odoo/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/modoo/modoo-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -630,7 +630,7 @@ msgstr "이 분개에 점포판매시스템에 사용할 수 있는 결제 방�
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
+"mode. If unchecked, Modoo uses the normal cashier mode by default."
 msgstr "점포판매시스템에 자가 확인 모드를 기본적으로 열려면 이것은 선택하십시오. 선택하지 않으면 Odoo는 기본값으로 보통의 캐셔 모드를 사용합니다."
 
 #. module: point_of_sale
@@ -2048,8 +2048,8 @@ msgstr "거래 수"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo 점포판매시스템"
+msgid "Modoo POS"
+msgstr "Modoo 점포판매시스템"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3697,7 +3697,7 @@ msgstr "이 작업은 로컬 영구 저장소에서 모든 미전송 주문을 �
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Modoo but you can change it to "
 "customize the reference numbers of your orders."
 msgstr "이 순서는 Odoo에 의해 자동으로 생성되나, 주문의 참조 번호를 사용자 정의로 변경할 수 있습니다."
 

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * account_analytic_analysis
 # 
@@ -7,12 +7,12 @@
 # Mateus Cerqueira Lopes <mateus1@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-19 10:30+0000\n"
 "Last-Translator: Mateus Cerqueira Lopes <mateus1@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/odoo/odoo-8/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/modoo/modoo-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -79,7 +79,7 @@ msgid ""
 "\n"
 "<pre>\n"
 "-- \n"
-"Odoo Automatic Email\n"
+"Modoo Automatic Email\n"
 "</pre>\n"
 "\n"
 "            "
@@ -110,11 +110,11 @@ msgid ""
 "                    Click to create a new contract.\n"
 "                </p><p>\n"
 "                    Use contracts to follow tasks, issues, timesheets or invoicing based on\n"
-"                    work done, expenses and/or sales orders. Odoo will automatically manage\n"
+"                    work done, expenses and/or sales orders. Modoo will automatically manage\n"
 "                    the alerts for the renewal of the contracts to the right salesperson.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Clique para criar um novo contrato.\n                </p><p>\n                    Use os contratos para seguir tarefas, questões, planilhas de horas ou faturamento baseado no\n                    trabalho executado, despesas e ou pedidos de vendas. O Odoo irá gerenciar os alertas para a renovação do contrato para a pessoa responsável automaticamente.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Clique para criar um novo contrato.\n                </p><p>\n                    Use os contratos para seguir tarefas, questões, planilhas de horas ou faturamento baseado no\n                    trabalho executado, despesas e ou pedidos de vendas. O Modoo irá gerenciar os alertas para a renovação do contrato para a pessoa responsável automaticamente.\n                </p>\n            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_sales_order
@@ -139,12 +139,12 @@ msgid ""
 "                end date is passed or the working effort is higher than the\n"
 "                maximum authorized one.\n"
 "              </p><p>\n"
-"                Odoo automatically sets contracts to be renewed in a pending\n"
+"                Modoo automatically sets contracts to be renewed in a pending\n"
 "                state. After the negociation, the salesman should close or renew\n"
 "                pending contracts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para definir um novo contrato.\n              </p><p>\n                Aqui você irá encontrar os contratos a serem renovados por que a data de término foi ultrapassada\n                ou o tabalho executado é maior que o máximo autorizado.\n              </p><p>\n                O Odoo define os contratos a serem renovados como pendentes automaticamente.\n                Após a negociação, o vendedor deve finalizar ou renovar os contratos pendentes.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para definir um novo contrato.\n              </p><p>\n                Aqui você irá encontrar os contratos a serem renovados por que a data de término foi ultrapassada\n                ou o tabalho executado é maior que o máximo autorizado.\n              </p><p>\n                O Modoo define os contratos a serem renovados como pendentes automaticamente.\n                Após a negociação, o vendedor deve finalizar ou renovar os contratos pendentes.\n              </p>\n            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_hr_tree_invoiced_all
@@ -825,11 +825,11 @@ msgstr "Semana(s)"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid ""
-"When reinvoicing costs, Odoo uses the\n"
+"When reinvoicing costs, Modoo uses the\n"
 "                            pricelist of the contract which uses the price\n"
 "                            defined on the product related (e.g timesheet \n"
 "                            products are defined on each employee)."
-msgstr "Quanto refaturar os custos, O Odoo usa a lista de preços\n                            do contrato que usa o preço definido\n                            no produto relacionado (ex Produtos de planilha de hora \n                            são definidos em cada funcionário)."
+msgstr "Quanto refaturar os custos, O Modoo usa a lista de preços\n                            do contrato que usa o preço definido\n                            no produto relacionado (ex Produtos de planilha de hora \n                            são definidos em cada funcionário)."
 
 #. module: account_analytic_analysis
 #: selection:account.analytic.account,recurring_rule_type:0

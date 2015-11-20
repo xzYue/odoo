@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-03 15:25+0000\n"
 "PO-Revision-Date: 2015-09-04 23:21+0000\n"
 "Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
-"Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/odoo/odoo-8/language/es_DO/)\n"
+"Language-Team: Spanish (Dominican Republic) (http://www.transifex.com/modoo/modoo-8/language/es_DO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -193,29 +193,29 @@ msgid ""
 "                Click to add a location.\n"
 "              </p><p>\n"
 "                Define your locations to reflect your warehouse structure and\n"
-"                organization. Odoo is able to manage physical locations\n"
+"                organization. Modoo is able to manage physical locations\n"
 "                (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "                suppliers) and virtual locations which are the counterpart of\n"
 "                the stock operations like the manufacturing orders\n"
 "                consumptions, inventories, etc.\n"
 "              </p><p>  \n"
-"                Every stock operation in Odoo moves the products from one\n"
+"                Every stock operation in Modoo moves the products from one\n"
 "                location to another one.  For instance, if you receive products\n"
-"                from a supplier, Odoo will move products from the Supplier\n"
+"                from a supplier, Modoo will move products from the Supplier\n"
 "                location to the Stock location. Each report can be performed on\n"
 "                physical, partner or virtual locations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para añadir una ubicación.\n</p><p>\nDefina sus ubicaciones para reflejar la estructura y organización \nde su almacén. Odoo puede manejar ubicaciones físicas (almacenes, \nestanterías, contenedores, etc), ubicaciones de empresa (clientes, \nproveedores) y ubicaciones virtuales que son contrapartida de \noperaciones de existencias como los consumos de las órdenes de \nfabricación, inventarios, etc.\n</p><p>  \nCada operación de existencias en Odoo mueve el producto de una ubicación \na otra. Por ejemplo, si recibe productos de un proveedor, Odoo moverá \nlos productos de una ubicación de proveedor a la ubicación de existencias. \nCada informe puede realizarse sobre ubicaciones físicas, de empresa o virtuales.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para añadir una ubicación.\n</p><p>\nDefina sus ubicaciones para reflejar la estructura y organización \nde su almacén. Modoo puede manejar ubicaciones físicas (almacenes, \nestanterías, contenedores, etc), ubicaciones de empresa (clientes, \nproveedores) y ubicaciones virtuales que son contrapartida de \noperaciones de existencias como los consumos de las órdenes de \nfabricación, inventarios, etc.\n</p><p>  \nCada operación de existencias en Modoo mueve el producto de una ubicación \na otra. Por ejemplo, si recibe productos de un proveedor, Modoo moverá \nlos productos de una ubicación de proveedor a la ubicación de existencias. \nCada informe puede realizarse sobre ubicaciones físicas, de empresa o virtuales.\n</p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a reordering rule.\n"
-"              </p><p>You can define your minimum stock rules, so that Odoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Odoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
+"              </p><p>You can define your minimum stock rules, so that Modoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Modoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para añadir un regla de reabastecimiento.\n</p><p>\nPuede definir sus reglas de existencias mínimas, para que Odoo cree automáticamente órdenes de producción en borrador o solicitudes de presupuesto de acuerdo con los niveles de existencias. Una vez las existencias virtuales de un producto (= existencias disponibles menos todos los pedidos confirmados y las reservas) está por debajo de la cantidad mínima, Odoo generará una petición de abastecimiento para incrementar las existencias hasta la cantidad máxima.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para añadir un regla de reabastecimiento.\n</p><p>\nPuede definir sus reglas de existencias mínimas, para que Modoo cree automáticamente órdenes de producción en borrador o solicitudes de presupuesto de acuerdo con los niveles de existencias. Una vez las existencias virtuales de un producto (= existencias disponibles menos todos los pedidos confirmados y las reservas) está por debajo de la cantidad mínima, Modoo generará una petición de abastecimiento para incrementar las existencias hasta la cantidad máxima.\n</p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_production_lot_form
@@ -279,12 +279,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a stock operation. \n"
 "              </p><p>\n"
-"                Most operations are prepared automatically by Odoo according\n"
+"                Most operations are prepared automatically by Modoo according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para crear una operación de existencias.\n</p><p>\nLa mayoría de las operaciones se preparan automáticamente por Odoo\nde acuerdo con sus reglas logísticas preconfiguradas, pero puede \ntambién registrar movimientos de existencias manuales.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para crear una operación de existencias.\n</p><p>\nLa mayoría de las operaciones se preparan automáticamente por Modoo\nde acuerdo con sus reglas logísticas preconfiguradas, pero puede \ntambién registrar movimientos de existencias manuales.\n</p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_warehouse_form
@@ -613,8 +613,8 @@ msgstr "Contenido completo"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
-msgstr "Cambiando esta cantidad aquí, acepta la nueva cantidad como completa: Odoo no generará automáticamente una entrega parcial."
+"Modoo will not automatically generate a back order."
+msgstr "Cambiando esta cantidad aquí, acepta la nueva cantidad como completa: Modoo no generará automáticamente una entrega parcial."
 
 #. module: stock
 #: help:stock.move,procure_method:0
@@ -5368,17 +5368,17 @@ msgstr "Cuando el método es fijo, se usará esta ubicación para almacenar los 
 #: help:stock.warehouse.orderpoint,product_min_qty:0
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" Modoo generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
-msgstr "Cuando las existencias virtuales estén por debajo de la cantidad mínima especificada en este campo, Odoo generará un abastecimiento para llevar la cantidad prevista a la cantidad máxima."
+msgstr "Cuando las existencias virtuales estén por debajo de la cantidad mínima especificada en este campo, Modoo generará un abastecimiento para llevar la cantidad prevista a la cantidad máxima."
 
 #. module: stock
 #: help:stock.warehouse.orderpoint,product_max_qty:0
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, Modoo generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
-msgstr "Cuando las existencias virtuales estén por debajo de la cantidad, Odoo generará un abastecimiento para llevar la cantidad prevista a la cantidad especificada como aquí como máxima."
+msgstr "Cuando las existencias virtuales estén por debajo de la cantidad, Modoo generará un abastecimiento para llevar la cantidad prevista a la cantidad especificada como aquí como máxima."
 
 #. module: stock
 #: view:stock.change.product.qty:stock.view_change_product_quantity

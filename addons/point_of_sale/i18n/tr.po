@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -9,12 +9,12 @@
 # Saban Yildiz <sabany@projetgrup.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-10-31 19:37+0000\n"
 "Last-Translator: gezgin biri <gezginbiri@hotmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/odoo/odoo-8/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/modoo/modoo-8/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -632,8 +632,8 @@ msgstr "Bu Yevmiye defteri satış noktalarında kullanılabilecek bir ödeme y�
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
-msgstr "Satış noktası kendi kendine çıkış modunda varsayılan olarak açık olmalıdır, bu kontrol ediniz. Işaretlenmemiş ise, Odoo varsayılan normal kasiyer modunu kullanır."
+"mode. If unchecked, Modoo uses the normal cashier mode by default."
+msgstr "Satış noktası kendi kendine çıkış modunda varsayılan olarak açık olmalıdır, bu kontrol ediniz. Işaretlenmemiş ise, Modoo varsayılan normal kasiyer modunu kullanır."
 
 #. module: point_of_sale
 #: help:pos.config,group_by:0
@@ -2050,8 +2050,8 @@ msgstr "İşlem Numarası"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo POS"
+msgid "Modoo POS"
+msgstr "Modoo POS"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3699,9 +3699,9 @@ msgstr "Bu işlem yerel depolama alanından tüm gönderilmeyen siparişleri yok
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by Modoo but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "Sıralama Odoo tarafından otomatik olarak yaratılmaktadır ancak siparişlerinizin referans numaralarını özelleştirmek için değiştirlebilirsiniz."
+msgstr "Sıralama Modoo tarafından otomatik olarak yaratılmaktadır ancak siparişlerinizin referans numaralarını özelleştirmek için değiştirlebilirsiniz."
 
 #. module: point_of_sale
 #: help:product.template,pos_categ_id:0

@@ -57,13 +57,13 @@ function connect () {
 
 	if [ $? -eq 124 ] && [ -z "${NO_AP}" ] ; then
 		logger -t posbox_connect_to_wifi "Failed to connect, forcing Posbox AP"
-		sudo /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
+		sudo /home/pi/modoo/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
 	else
-		logger -t posbox_connect_to_wifi "Restarting odoo"
-		sudo service odoo restart
+		logger -t posbox_connect_to_wifi "Restarting modoo"
+		sudo service modoo restart
 
 		logger -t posbox_connect_to_wifi "Starting wifi keep alive script"
-		/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
+		/home/pi/modoo/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
 	fi
 }
 
