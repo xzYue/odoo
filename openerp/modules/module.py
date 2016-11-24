@@ -65,7 +65,7 @@ class AddonsImportHook(object):
     thus `import openerp.addons.module`.
     """
 
-    def find_module(self, module_name, package_path):
+    def find_module(self, module_name, package_path=None):
         module_parts = module_name.split('.')
         if len(module_parts) == 3 and module_name.startswith('openerp.addons.'):
             return self # We act as a loader too.
@@ -121,7 +121,7 @@ def get_module_path(module, downloaded=False, display_warning=True):
     """
     initialize_sys_path()
     for adp in ad_paths:
-        if os.path.exists(opj(adp, module)) or os.path.exists(opj(adp, '%s.zip' % module)):
+        if os.path.exists(opj(adp, module, MANIFEST)) or os.path.exists(opj(adp, '%s.zip' % module)):
             return opj(adp, module)
 
     if downloaded:
