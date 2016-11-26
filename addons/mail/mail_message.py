@@ -848,7 +848,7 @@ class mail_message(osv.Model):
             Call mail_notification.notify to manage the email sending
         """
         notification_obj = self.pool.get('mail.notification')
-        message = self.browse(cr, uid, newid, context=context)
+        message = self.browse(cr, SUPERUSER_ID, newid, context=context)
         partners_to_notify = set([])
 
         # all followers of the mail.message document have to be added as partners and notified if a subtype is defined (otherwise: log message)
@@ -879,16 +879,20 @@ class mail_message(osv.Model):
             cr, uid, newid, partners_to_notify=list(partners_to_notify), context=context,
             force_send=force_send, user_signature=user_signature
         )
-        message.refresh()
 
         # An error appear when a user receive a notification without notifying
         # the parent message -> add a read notification for the parent
         if message.parent_id:
-            # all notified_partner_ids of the mail.message have to be notified for the parented messages
-            partners_to_parent_notify = set(message.notified_partner_ids).difference(message.parent_id.notified_partner_ids)
-            for partner in partners_to_parent_notify:
-                notification_obj.create(cr, uid, {
-                        'message_id': message.parent_id.id,
-                        'partner_id': partner.id,
-                        'is_read': True,
-                    }, context=context)
+            parent_id = message.parent_id
+            check = set()
+            while parent_id and parent_id not in check:
+                # all notified_partner_ids of the mail.message have to be notified for the parented messages
+                partners_to_parent_notify = set(message.notified_partner_ids).difference(parent_id.notified_partner_ids)
+                for partner in partners_to_parent_notify:
+                    notification_obj.create(cr, uid, {
+                            'message_id': parent_id.id,
+                            'partner_id': partner.id,
+                            'is_read': True,
+                        }, context=context)
+                check.add(parent_id)
+                parent_id = parent_id.parent_id

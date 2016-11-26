@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-10-17 13:27+0000\n"
+"PO-Revision-Date: 2016-09-24 04:31+0000\n"
 "Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>\n"
 "Language-Team: Japanese (http://www.transifex.com/modoo/modoo-8/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1697,7 +1697,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:3399
 #, python-format
 msgid "No results to show..."
-msgstr ""
+msgstr "該当結果なし..."
 
 #. module: web
 #. openerp-web
@@ -2105,7 +2105,7 @@ msgstr "%(field)s を検索：%(value)s"
 #: code:addons/web/static/src/xml/base.xml:1564
 #, python-format
 msgid "Search Again"
-msgstr ""
+msgstr "もう一度検索する"
 
 #. module: web
 #. openerp-web
@@ -2290,7 +2290,7 @@ msgstr "引き続き読込中...<br />今しばらくお待ちください。"
 #: code:addons/web/static/src/js/core.js:706
 #, python-format
 msgid "Take a minute to get a coffee,<br />because it's loading..."
-msgstr ""
+msgstr "ロード中です。<br />コーヒーでも飲んでお待ちください。"
 
 #. module: web
 #. openerp-web
@@ -2403,7 +2403,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:5622
 #, python-format
 msgid "There was a problem while uploading your file"
-msgstr ""
+msgstr "ファイルのアップロード中に問題が発生しました"
 
 #. module: web
 #. openerp-web
@@ -2621,7 +2621,7 @@ msgstr "項目のビュー"
 #: code:addons/web/static/src/xml/base.xml:539
 #, python-format
 msgid "View Metadata"
-msgstr ""
+msgstr "メタデータ照会"
 
 #. module: web
 #. openerp-web
@@ -2710,7 +2710,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You may not believe it,<br />but the application is actually loading..."
-msgstr ""
+msgstr "信じられないかもしれませんが、<br />アプリケーションはロード中です..."
 
 #. module: web
 #. openerp-web
@@ -2731,7 +2731,7 @@ msgstr "最低限1レコード選択して下さい。"
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
 msgid "Your Modoo session expired. Please refresh the current web page."
-msgstr ""
+msgstr "Odooのセッションが無効になりました。画面をリフレッシュしてください。"
 
 #. module: web
 #. openerp-web
@@ -2865,7 +2865,7 @@ msgstr "は次と一致しない"
 #: code:addons/web/static/src/js/search.js:2286
 #, python-format
 msgid "is not set"
-msgstr ""
+msgstr "設定なし"
 
 #. module: web
 #. openerp-web
@@ -2876,7 +2876,7 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2285
 #, python-format
 msgid "is set"
-msgstr ""
+msgstr "設定あり"
 
 #. module: web
 #. openerp-web

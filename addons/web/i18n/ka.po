@@ -4,14 +4,15 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
-# Temur Vibliani, 2015
+# Temur, 2016
+# Temur, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-10-20 11:37+0000\n"
-"Last-Translator: Temur Vibliani\n"
+"PO-Revision-Date: 2016-08-17 13:22+0000\n"
+"Last-Translator: Temur\n"
 "Language-Team: Georgian (http://www.transifex.com/modoo/modoo-8/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -578,7 +579,7 @@ msgstr "გასუფთავება"
 #: code:addons/web/static/src/xml/base.xml:465
 #, python-format
 msgid "Click here to change your user's timezone."
-msgstr ""
+msgstr "დააჭირეთ აქ რომ შეცვალოთ თქვენი მომხმარებლის დროის სარტყელი"
 
 #. module: web
 #. openerp-web
@@ -932,7 +933,7 @@ msgstr "დომენი:"
 #: code:addons/web/static/src/js/core.js:704
 #, python-format
 msgid "Don't leave yet,<br />it's still loading..."
-msgstr ""
+msgstr "ნუ წახვალთ ჯერ,<br />ეს ისევ იტვირთება..."
 
 #. module: web
 #. openerp-web
@@ -1555,7 +1556,7 @@ msgstr "მთავარი პაროლი"
 #: code:addons/web/static/src/js/core.js:707
 #, python-format
 msgid "Maybe you should consider reloading the application by pressing F5..."
-msgstr ""
+msgstr "იქნებ გეცადათ აპლიკაციის გადატვირთვა F5 ღილაკზე დაჭერის გზით..."
 
 #. module: web
 #. openerp-web
@@ -1612,7 +1613,7 @@ msgstr "მოდიფიკატორი:"
 #: code:addons/web/static/src/xml/base.xml:1289 view:website:web.menu
 #, python-format
 msgid "More"
-msgstr ""
+msgstr "მეტი"
 
 #. module: web
 #. openerp-web
@@ -2111,7 +2112,7 @@ msgstr ""
 #: code:addons/web/static/src/js/view_form.js:3365
 #, python-format
 msgid "Search More..."
-msgstr ""
+msgstr "მეტის ძებნა..."
 
 #. module: web
 #. openerp-web
@@ -2275,21 +2276,21 @@ msgstr "სპეციალური:"
 #: code:addons/web/static/src/js/core.js:702
 #, python-format
 msgid "Still loading..."
-msgstr ""
+msgstr "ჯერ კიდევ იტვირთება..."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core.js:703
 #, python-format
 msgid "Still loading...<br />Please be patient."
-msgstr ""
+msgstr "ჯერ კიდევ იტვირთება... <br />გთხოვთ გამოიჩინოთ მოთმინება."
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core.js:706
 #, python-format
 msgid "Take a minute to get a coffee,<br />because it's loading..."
-msgstr ""
+msgstr "შეგიძლიათ ყავა მიირთვათ ერთი წუთით, <br />რადგან ეს ისევ იტვირთება..."
 
 #. module: web
 #. openerp-web
@@ -2440,14 +2441,14 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome.js:1331
 #, python-format
 msgid "Timezone Mismatch"
-msgstr ""
+msgstr "დროის სარტყელის აცდენა"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:469
 #, python-format
 msgid "Timezone mismatch"
-msgstr ""
+msgstr "დროის სარტყელის აცდენა"
 
 #. module: web
 #. openerp-web
@@ -2709,7 +2710,7 @@ msgstr "თქვენ არ შეგიძლიათ დატოვოთ
 #, python-format
 msgid ""
 "You may not believe it,<br />but the application is actually loading..."
-msgstr ""
+msgstr "თქვენ იქნებ არ გჯერათ ეს, <br />მაგრამ აპლიკაცია ამჟამად იტვირთება..."
 
 #. module: web
 #. openerp-web
@@ -2737,7 +2738,7 @@ msgstr "თქვენი Modoo სესის დრო ამოიწურ
 #: code:addons/web/static/src/xml/base.xml:456
 #, python-format
 msgid "Your user's preference timezone does not match your browser timezone:"
-msgstr ""
+msgstr "თქვენი მომხმარებლის კონფიგურაციაში მითითებული დროის სარტყელი არ ემთხვევა თქვენი ბრაუზერის დროის სარტყელს:"
 
 #. module: web
 #. openerp-web

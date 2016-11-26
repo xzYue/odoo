@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-10-21 13:44+0000\n"
-"Last-Translator: Martin Trigaux\n"
+"PO-Revision-Date: 2016-09-29 12:40+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/modoo/modoo-8/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -181,7 +181,7 @@ msgstr ""
 #. module: mrp
 #: help:mrp.bom,product_efficiency:0
 msgid "A factor of 0.9 means a loss of 10% during the production process."
-msgstr ""
+msgstr "Koeficijent od 0.9 znači gubitak od 10% u procesu proizvodnje."
 
 #. module: mrp
 #: help:mrp.bom.line,product_efficiency:0
@@ -518,7 +518,7 @@ msgstr "Postava"
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
 #: view:mrp.config.settings:mrp.view_mrp_config
 msgid "Configure Manufacturing"
-msgstr ""
+msgstr "Postavke proizvodnje"
 
 #. module: mrp
 #: view:mrp.product.produce:mrp.view_mrp_product_produce_wizard
@@ -781,7 +781,7 @@ msgstr "Definira poredak radnih naloga u popisu."
 #. module: mrp
 #: help:mrp.bom.line,sequence:0
 msgid "Gives the sequence order when displaying."
-msgstr ""
+msgstr "Određuje redosljed stavaka u prikazu."
 
 #. module: mrp
 #: view:mrp.property:mrp.view_mrp_property_search
@@ -990,7 +990,7 @@ msgstr "Proizvodno pravilo"
 #. module: mrp
 #: field:stock.warehouse,manufacture_to_resupply:0
 msgid "Manufacture in this Warehouse"
-msgstr ""
+msgstr "Proizvodnja u ovom skladištu"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_manufacturing
@@ -1477,7 +1477,7 @@ msgstr "Napredak proizvodnje"
 #. module: mrp
 #: view:mrp.production:mrp.view_mrp_production_filter
 msgid "Production started late"
-msgstr ""
+msgstr "Proizvodnja je kasno započeta"
 
 #. module: mrp
 #: view:mrp.production:mrp.view_production_gantt
@@ -1854,7 +1854,7 @@ msgstr ""
 #. module: mrp
 #: help:stock.move,consumed_for:0
 msgid "Technical field used to make the traceability of produced products"
-msgstr ""
+msgstr "Tehničko polje za praćenje proizvodenih proizvoda"
 
 #. module: mrp
 #: code:addons/mrp/mrp.py:333 code:addons/mrp/mrp.py:421
