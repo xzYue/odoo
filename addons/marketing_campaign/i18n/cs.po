@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Ladislav Tomm <tomm@helemik.cz>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
-"PO-Revision-Date: 2015-11-02 16:06+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Czech (http://www.transifex.com/modoo/modoo-8/language/cs/)\n"
+"PO-Revision-Date: 2016-11-24 08:50+0000\n"
+"Last-Translator: Ladislav Tomm <tomm@helemik.cz>\n"
+"Language-Team: Czech (http://www.transifex.com/odoo/odoo-8/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -29,7 +30,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to create a marketing campaign.\n"
 "          </p><p>\n"
-"            Modoo's marketing campaign allows you to automate communication\n"
+"            Odoo's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) on\n"
 "            your leads and partners to fullfil the campaign.\n"
 "          </p><p>\n"
@@ -39,7 +40,7 @@ msgid ""
 "            contact, if a lead is not closed yet, etc.\n"
 "          </p>\n"
 "        "
-msgstr ""
+msgstr "<p class=\"oe_view_nocontent_create\">\nKlikněte pro vytvoření marketingové kampaně.\n</p><p>\nOdoo marketingová kampaň vám umožní automatizovat komunikaci s možnými zákazníky. Můžete definovat segment (nastavením různých podmínek) partnerů a iniciativ pro splnění cílů kampaně.\n</p><p>\nKampaň může obsahovat mnoho aktivit jako odesílání emailů, tisk dopisů, přidělování různých týmů atd. Tyto aktivity jsou spouštěny na základě specifických (dle nastavení) situací jako: vyplnění kontaktního formuláře, 10 dní od prvního kontaktu, pokud cíl kampaně není ještě ukončen atd.\n</p>"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,server_action_id:0
@@ -1076,8 +1077,8 @@ msgstr "Variabilní náklady"
 
 #. module: marketing_campaign
 #: model:email.template,subject:marketing_campaign.email_template_1
-msgid "Welcome to the Modoo Partner Channel!"
-msgstr "Vítejte do Modoo partnerského kanálu!"
+msgid "Welcome to the Odoo Partner Channel!"
+msgstr "Vítejte do Odoo partnerského kanálu!"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0

@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-19 06:31+0000\n"
-"PO-Revision-Date: 2016-11-19 21:34+0000\n"
+"PO-Revision-Date: 2016-11-21 20:17+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Bosnian (http://www.transifex.com/modoo/modoo-8/language/bs/)\n"
+"Language-Team: Bosnian (http://www.transifex.com/odoo/odoo-8/language/bs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -105,7 +105,7 @@ msgid ""
 "\n"
 "* Fiscal positions '内税' and '外税' have been added to handle special requirements which might arise from POS implementation. [1]  You may not need to use these at all under normal circumstances.\n"
 "\n"
-"[1] See https://github.com/modoo/modoo/pull/6470 for detail.\n"
+"[1] See https://github.com/odoo/odoo/pull/6470 for detail.\n"
 "\n"
 "    "
 msgstr ""
@@ -1795,7 +1795,7 @@ msgstr ""
 #: model:ir.module.module,description:base.module_l10n_sa
 msgid ""
 "\n"
-"Modoo Arabic localization for most arabic countries and Saudi Arabia.\n"
+"Odoo Arabic localization for most arabic countries and Saudi Arabia.\n"
 "\n"
 "This initially includes chart of accounts of USA translated to Arabic.\n"
 "\n"
@@ -1806,10 +1806,10 @@ msgstr ""
 #: model:ir.module.module,description:base.module_im_odoo_support
 msgid ""
 "\n"
-"Modoo Live Support\n"
+"Odoo Live Support\n"
 "=================\n"
 "\n"
-"Ask your functionnal question directly to the Modoo Operators with the livechat support.\n"
+"Ask your functionnal question directly to the Odoo Operators with the livechat support.\n"
 "\n"
 "        "
 msgstr ""
@@ -1818,9 +1818,9 @@ msgstr ""
 #: model:ir.module.module,description:base.module_website_livechat
 msgid ""
 "\n"
-"Modoo Website LiveChat\n"
+"Odoo Website LiveChat\n"
 "========================\n"
-"For website built with Modoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
+"For website built with Odoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
 "        "
 msgstr ""
 
@@ -2406,7 +2406,7 @@ msgid ""
 "``l10n_ch_payment_slip``\n"
 "  Support of ESR/BVR payment slip report and reconciliation.\n"
 "\n"
-"``l10n_ch`` is located in the core Modoo modules. The other modules are in:\n"
+"``l10n_ch`` is located in the core Odoo modules. The other modules are in:\n"
 "https://github.com/OCA/l10n-switzerland\n"
 msgstr ""
 
@@ -2843,7 +2843,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla modoo 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla odoo 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 "    "
 msgstr ""
@@ -3817,7 +3817,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Modoo helps you managing all your vehicles, the\n"
+"With this module, Odoo helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, fuel log\n"
 "entries, costs and many other features necessary to the management \n"
 "of your fleet of vehicle(s)\n"
@@ -4179,7 +4179,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Modoo helps you easily track all activities related to\n"
+"                Odoo helps you easily track all activities related to\n"
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4192,7 +4192,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Modoo helps you easily track all activities related to\n"
+"                Odoo helps you easily track all activities related to\n"
 "                a customer; discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4205,7 +4205,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Modoo helps you easily track all activities related to\n"
+"                Odoo helps you easily track all activities related to\n"
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4222,7 +4222,7 @@ msgid ""
 "                You can reorder bank accounts from the list view.\n"
 "              </p>\n"
 "              <p>\n"
-"                If you use the accounting application of Modoo, journals and accounts will be created automatically based on these data.\n"
+"                If you use the accounting application of Odoo, journals and accounts will be created automatically based on these data.\n"
 "              </p>  \n"
 "            "
 msgstr ""
@@ -4596,7 +4596,7 @@ msgstr "Aktivnost"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale_delivery
 msgid "Add Delivery Costs to Online Sales"
-msgstr ""
+msgstr "Dodaj troškove isporuke online prodaji"
 
 #. module: base
 #: field:ir.actions.report.xml,header:0
@@ -5792,7 +5792,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_im_odoo_support
-msgid "Chat with the Modoo collaborators"
+msgid "Chat with the Odoo collaborators"
 msgstr ""
 
 #. module: base
@@ -6520,7 +6520,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_company_form
 msgid ""
-"Create and manage the companies that will be managed by Modoo from here. "
+"Create and manage the companies that will be managed by Odoo from here. "
 "Shops or subsidiaries can be created and maintained from here."
 msgstr ""
 
@@ -7251,7 +7251,7 @@ msgstr "Model dokumenta"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_forum_doc
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_documentation_examples
@@ -8012,7 +8012,7 @@ msgstr "Za akcije, jedan od mogućih slotova akcije: \n  - client_action_multi\n
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
-"For more details about translating Modoo in your language, please refer to "
+"For more details about translating Odoo in your language, please refer to "
 "the"
 msgstr ""
 
@@ -8195,7 +8195,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_gamification
 msgid "Gamification"
-msgstr ""
+msgstr "Gejmifikacija"
 
 #. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
@@ -8287,7 +8287,7 @@ msgstr ""
 #: code:addons/base/res/res_config.py:705
 #, python-format
 msgid "Go to the configuration panel"
-msgstr ""
+msgstr "Idite na panel konfiguracije"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_4
@@ -8932,7 +8932,7 @@ msgstr "Ako omogućite ovu opciju, postojeći prevodi (uključujući korisničke
 #: help:ir.ui.menu,groups_id:0
 msgid ""
 "If you have groups, the visibility of this menu will be based on these "
-"groups. If this field is empty, Modoo will compute visibility based on the "
+"groups. If this field is empty, Odoo will compute visibility based on the "
 "related object's read access."
 msgstr ""
 
@@ -9607,7 +9607,7 @@ msgstr "Oznake"
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_landed_costs
 msgid "Landed Costs"
-msgstr ""
+msgstr "Troškovi nabavke"
 
 #. module: base
 #: field:base.language.export,lang:0 field:base.language.install,lang:0
@@ -9884,7 +9884,7 @@ msgstr "Dozvoljava Vam instalaciju različitih interesantnih alata kao što su A
 #. module: base
 #: model:ir.module.category,description:base.module_category_report_designer
 msgid ""
-"Lets you install various tools to simplify and enhance Modoo's report "
+"Lets you install various tools to simplify and enhance Odoo's report "
 "creation."
 msgstr ""
 
@@ -9964,7 +9964,7 @@ msgstr "Litvanijski / Lietuvių kalba"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_livechat
 msgid "Live Chat"
-msgstr ""
+msgstr "Razgovor u živo"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_im_livechat
@@ -10004,7 +10004,7 @@ msgstr "Lokalizacija"
 #. module: base
 #: view:ir.logging:base.ir_logging_form_view
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_logging_all_act
@@ -10097,7 +10097,7 @@ msgstr "Gospođa"
 #: code:addons/base/ir/ir_mail_server.py:503
 #, python-format
 msgid "Mail Delivery Failed"
-msgstr ""
+msgstr "Isporuka mail-a neuspješna"
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:499
@@ -10165,7 +10165,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
-"Manage and customize the items available and displayed in your Modoo system "
+"Manage and customize the items available and displayed in your Odoo system "
 "menu. You can delete an item by clicking on the box at the beginning of each"
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
@@ -11127,18 +11127,18 @@ msgstr "Objekat:"
 #. openerp-web
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
-msgid "Modoo Apps will be available soon"
+msgid "Odoo Apps will be available soon"
 msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_odoo_support
-msgid "Modoo Live Support"
+msgid "Odoo Live Support"
 msgstr ""
 
 #. module: base
 #: help:ir.sequence,padding:0
 msgid ""
-"Modoo will automatically adds some '0' on the left of the 'Next Number' to "
+"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
 msgstr ""
 
@@ -11548,7 +11548,7 @@ msgstr "Roditelj desno"
 #. module: base
 #: field:res.partner,parent_name:0
 msgid "Parent name"
-msgstr ""
+msgstr "Naziv roditelja"
 
 #. module: base
 #: field:ir.actions.report.xml,parser:0
@@ -11571,7 +11571,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_mass_mail
 msgid "Partner Mass Mailing"
-msgstr ""
+msgstr "Masovna pošta partnera"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_partner
@@ -11634,12 +11634,12 @@ msgstr "Enkripcija šifre"
 #. module: base
 #: field:ir.logging,path:0 field:res.font,path:0
 msgid "Path"
-msgstr ""
+msgstr "Putanja"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_payment
 msgid "Payment Acquirer"
-msgstr ""
+msgstr "Posrednik plaćanja"
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment
@@ -11803,7 +11803,7 @@ msgstr "Molimo da provjerite da radna stavka nije povezana sa nekom od aktivnost
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "Please set the Base Model before setting the action details."
-msgstr ""
+msgstr "Molimo vas da postavite bazni model prije nego što postavite detalje akcije."
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -11898,7 +11898,7 @@ msgstr "Portal Zalihe"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Modoo groups."
+"                They usually do not belong to the usual Odoo groups."
 msgstr ""
 
 #. module: base
@@ -12002,7 +12002,7 @@ msgstr "Naručivanja"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_email_template
 msgid "Product Email Template"
-msgstr ""
+msgstr "Email template za proizvod"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_extended
@@ -12097,7 +12097,7 @@ msgstr ""
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Modoo groups."
+"                They usually do not belong to the usual Odoo groups."
 msgstr ""
 
 #. module: base
@@ -12180,7 +12180,7 @@ msgstr "Python Kod"
 #. module: base
 #: selection:ir.server.object.lines,type:0
 msgid "Python expression"
-msgstr ""
+msgstr "Python ekspresija"
 
 #. module: base
 #: view:ir.ui.view:base.view_view_search selection:ir.ui.view,type:0
@@ -12215,7 +12215,7 @@ msgstr "RML  (zastarjelo - koristite Report)"
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_view
 msgid "RML Configuration"
-msgstr ""
+msgstr "RML konfiguracija"
 
 #. module: base
 #: field:ir.actions.report.xml,report_rml_content:0
@@ -12284,7 +12284,7 @@ msgstr "Samo za čitanje"
 #. module: base
 #: field:ir.actions.server,id_object:0
 msgid "Record"
-msgstr ""
+msgstr "Zapis"
 
 #. module: base
 #: code:addons/models.py:4769
@@ -12395,7 +12395,7 @@ msgstr "Povezani partner"
 #. module: base
 #: field:ir.server.object.lines,server_id:0
 msgid "Related Server Action"
-msgstr ""
+msgstr "Povezana serverska akcija"
 
 #. module: base
 #: field:ir.actions.server,wkf_field_id:0
@@ -12416,12 +12416,12 @@ msgstr "Ponovno učitaj iz Zakačke"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "Remove from the 'More' menu"
-msgstr ""
+msgstr "Ukloni iz menija 'Više'"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "Remove the contextual action related to this server action"
-msgstr ""
+msgstr "Ukloni kontekstnu akciju povezanu sa ovom serverskom akcijom"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:421
@@ -12470,7 +12470,7 @@ msgstr "Podnožje izvještaja"
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_search_view
 msgid "Report Model"
-msgstr ""
+msgstr "Model izvještaja"
 
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_search_view
@@ -12528,13 +12528,13 @@ msgstr "Zahtijevano"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_crm_partner_assign
 msgid "Resellers"
-msgstr ""
+msgstr "Preprodavači"
 
 #. module: base
 #: code:addons/models.py:1085
 #, python-format
 msgid "Resolve other errors first"
-msgstr ""
+msgstr "Rješi prvo ostale greške"
 
 #. module: base
 #: field:ir.exports,resource:0
@@ -12579,12 +12579,12 @@ msgstr ""
 #. module: base
 #: selection:ir.model.fields,on_delete:0
 msgid "Restrict"
-msgstr ""
+msgstr "Ograniči"
 
 #. module: base
 #: field:ir.actions.act_window,multi:0
 msgid "Restrict to lists"
-msgstr ""
+msgstr "Ograniči na liste"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_16
@@ -12655,7 +12655,7 @@ msgstr "Pravila ne mogu biti primjenjena na modelu Pravila Zapisa."
 #: code:addons/base/ir/ir_actions.py:809
 #, python-format
 msgid "Run %s"
-msgstr ""
+msgstr "Pokrenit %s"
 
 #. module: base
 #: model:ir.actions.server,name:base.action_run_ir_action_todo
@@ -12965,12 +12965,12 @@ msgstr "Odaberite ciljno polje iz povezanog modela dokumenta.\nAko je ovo relaci
 #. module: base
 #: help:ir.actions.server,action_id:0
 msgid "Select the client action that has to be executed."
-msgstr ""
+msgstr "Odaberi klijentsku akciju koja mora biti izvršena."
 
 #. module: base
 #: help:ir.actions.server,wkf_transition_id:0
 msgid "Select the workflow signal to trigger."
-msgstr ""
+msgstr "Odaberi signal radnog toka za okidanje"
 
 #. module: base
 #: help:res.partner,use_parent_address:0
@@ -13097,7 +13097,7 @@ msgstr ""
 #. module: base
 #: selection:ir.logging,type:0
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -13204,7 +13204,7 @@ msgstr "Signal (podtok.*)"
 #. module: base
 #: field:ir.actions.server,wkf_transition_id:0
 msgid "Signal to Trigger"
-msgstr ""
+msgstr "Signal za okidanje"
 
 #. module: base
 #: field:res.users,signature:0
@@ -13351,7 +13351,7 @@ msgstr "Oprostite, nije Vam dozvoljeno mijenjanje ovog dokumenta."
 #: code:addons/models.py:4618
 #, python-format
 msgid "Sorting field %s not found on model %s"
-msgstr ""
+msgstr "Polje sortiranja %s nije pronađeno na modelu %s"
 
 #. module: base
 #: field:ir.translation,source:0
@@ -13821,7 +13821,7 @@ msgstr "TGZ arhiva"
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
 "TGZ format: this is a compressed archive containing a PO file, directly suitable\n"
-"                                for uploading to Modoo's translation platform,"
+"                                for uploading to Odoo's translation platform,"
 msgstr ""
 
 #. module: base
@@ -13876,12 +13876,12 @@ msgstr ""
 #: field:ir.actions.server,use_relational_model:0
 #: field:ir.actions.server,wkf_model_id:0
 msgid "Target Model"
-msgstr ""
+msgstr "Ciljani model"
 
 #. module: base
 #: field:ir.actions.server,wkf_model_name:0
 msgid "Target Model Name"
-msgstr ""
+msgstr "Ime ciljanog modela"
 
 #. module: base
 #: field:ir.actions.act_window,target:0
@@ -14094,7 +14094,7 @@ msgstr "Kompanija gdje trenutno radi ovaj korisnik."
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
 msgid ""
 "The configuration wizards are used to help you configure a new instance of "
-"Modoo. They are launched during the installation of new modules, but you can "
+"Odoo. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
 msgstr ""
 
@@ -14333,7 +14333,7 @@ msgstr "Korisnik kojem ovaj filter pripada. Ako se ostavi prazno filter je javan
 #: code:addons/models.py:6079
 #, python-format
 msgid "The value for the field '%s' already exists."
-msgstr ""
+msgstr "Vrijednost za polje '%s' već postoji."
 
 #. module: base
 #: code:addons/base/ir/ir_filters.py:97
@@ -14951,7 +14951,7 @@ msgstr "Nadogradi listu modula"
 #. module: base
 #: field:ir.actions.server,use_write:0
 msgid "Update Policy"
-msgstr ""
+msgstr "Ažuriraj pravilo"
 
 #. module: base
 #: view:res.lang:base.res_lang_tree
@@ -14961,12 +14961,12 @@ msgstr "Ažuriraj izraze"
 #. module: base
 #: selection:ir.actions.server,use_write:0
 msgid "Update a record linked to the current record using python"
-msgstr ""
+msgstr "Ažuriraj zapis povezan sa trenutnim zapisom koristeći python"
 
 #. module: base
 #: selection:ir.actions.server,use_write:0
 msgid "Update the current record"
-msgstr ""
+msgstr "Ažuriraj trenutni zapis"
 
 #. module: base
 #: model:ir.actions.client,name:base.modules_updates_act_cl
@@ -15139,7 +15139,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_vat
 msgid "VAT Number Validation"
-msgstr ""
+msgstr "Validacija PDV broja"
 
 #. module: base
 #: field:ir.config_parameter,value:0 field:ir.property,value_binary:0
@@ -15255,7 +15255,7 @@ msgstr "Vrsta pregleda"
 #. module: base
 #: field:ir.ui.view,mode:0
 msgid "View inheritance mode"
-msgstr ""
+msgstr "Mod nasljeđivanja pogleda"
 
 #. module: base
 #: help:ir.actions.act_window,view_type:0
@@ -15280,7 +15280,7 @@ msgstr "Pogledi"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_ui_view
 msgid ""
-"Views allows you to personalize each view of Modoo. You can add new fields, "
+"Views allows you to personalize each view of Odoo. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
 msgstr ""
 
@@ -15522,7 +15522,7 @@ msgid ""
 "arrow, but rather add new nodes or arrows. If you absolutly need to modify a"
 " node or arrow, you can only change fields that are empty or set to the "
 "default value. If you don't do that, your customization will be overwrited "
-"at the next update or upgrade to a future version of Modoo."
+"at the next update or upgrade to a future version of Odoo."
 msgstr ""
 
 #. module: base
@@ -15748,7 +15748,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
-"created by Modoo (updates, module installation, ...)"
+"created by Odoo (updates, module installation, ...)"
 msgstr ""
 
 #. module: base
@@ -15903,7 +15903,7 @@ msgstr "odaberi"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "condition: True"
-msgstr ""
+msgstr "uslov: Tačno"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -15972,13 +15972,13 @@ msgstr "npr.: bs_BA"
 #. module: base
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
-msgid "e.g. www.modoo.com"
-msgstr ""
+msgid "e.g. www.odoo.com"
+msgstr "npr. www.odoo.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale
 msgid "eCommerce"
-msgstr ""
+msgstr "eProdaja"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale_delivery
@@ -16148,7 +16148,7 @@ msgstr ""
 #: code:addons/mail.py:285
 #, python-format
 msgid "read more"
-msgstr ""
+msgstr "pročitaj više"
 
 #. module: base
 #: view:res.config:base.res_config_view_base

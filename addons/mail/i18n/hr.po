@@ -1,4 +1,4 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2016-08-19 14:57+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Croatian (http://www.transifex.com/modoo/modoo-8/language/hr/)\n"
+"PO-Revision-Date: 2016-12-02 12:25+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-8/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,7 +49,7 @@ msgstr "(nema e-mail adrese)"
 #, python-format
 msgid ""
 "<div><p>Hello,</p><p>%s invited you to follow %s document: %s.</p></div>"
-msgstr ""
+msgstr "<div><p>Pozdrav,</p><p>%s vas poziva da pratite %s dokument: %s.</p></div>"
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:47
@@ -570,14 +570,14 @@ msgstr "Obavljeno"
 #: code:addons/mail/static/src/js/mail_followers.js:100
 #, python-format
 msgid "Edit Subscription of "
-msgstr ""
+msgstr "Uredi pretplatu "
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail_followers.xml:40
 #, python-format
 msgid "Edit subscription"
-msgstr ""
+msgstr "Uredi pretplatu "
 
 #. module: mail
 #: selection:mail.compose.message,type:0 view:mail.mail:mail.view_mail_search
@@ -809,7 +809,7 @@ msgstr "Skriven"
 #. module: mail
 #: help:mail.message.subtype,hidden:0
 msgid "Hide the subtype in the follower options"
-msgstr ""
+msgstr "Sakrij podtip u opcijama pratitelja"
 
 #. module: mail
 #: help:mail.group,message_summary:0 help:mail.thread,message_summary:0
@@ -856,7 +856,7 @@ msgstr "Ako je označeno, partneri će primiti e-mail upozorenje da su dodani u 
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Modoo server, "
+"If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
 
@@ -871,7 +871,7 @@ msgstr ""
 #: code:addons/mail/mail_alias.py:144
 #, python-format
 msgid "Inactive Alias"
-msgstr ""
+msgstr "Neaktivni alias"
 
 #. module: mail
 #: model:ir.actions.client,name:mail.action_mail_inbox_feeds
@@ -1594,7 +1594,7 @@ msgstr "Poslano"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(modoo)s"
+msgid "Sent by %(company)s using %(odoo)s"
 msgstr ""
 
 #. module: mail
@@ -1715,17 +1715,17 @@ msgstr "Adresa e-pošte povezana s ovom grupom. Novoprimljene poruke automatski 
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Modoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "Model (Modoo vrsta dokumenta) na koje se ovaj alias odgovara. Svaki dolazni e-mail koji ne odgovara na postojeći zapis uzrokovati će stvaranje novog zapisa ovog modela (npr. projektni zadatak)"
+msgstr "Model (Odoo vrsta dokumenta) na koje se ovaj alias odgovara. Svaki dolazni e-mail koji ne odgovara na postojeći zapis uzrokovati će stvaranje novog zapisa ovog modela (npr. projektni zadatak)"
 
 #. module: mail
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.modoo.com>"
-msgstr "Ime e-mail aliasa, npr. 'poslovi' ako žele uhvatiti e-poštu za  <poslovi@primjer.modoo.com>"
+"<jobs@example.odoo.com>"
+msgstr "Ime e-mail aliasa, npr. 'poslovi' ako žele uhvatiti e-poštu za  <poslovi@primjer.odoo.com>"
 
 #. module: mail
 #: help:mail.alias,alias_user_id:0
@@ -2042,8 +2042,8 @@ msgstr "više."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.modoo.com"
-msgstr "mycompany.modoo.com"
+msgid "mycompany.odoo.com"
+msgstr "mycompany.odoo.com"
 
 #. module: mail
 #. openerp-web

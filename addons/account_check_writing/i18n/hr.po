@@ -1,17 +1,18 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_check_writing
 # 
 # Translators:
+# Bole <bole@dajmi5.com>, 2016
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2016-09-30 06:47+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Croatian (http://www.transifex.com/modoo/modoo-8/language/hr/)\n"
+"PO-Revision-Date: 2016-11-28 09:47+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/odoo/odoo-8/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,7 +27,7 @@ msgid ""
 "              </p><p>\n"
 "                The check payment form allows you to track the payment you do\n"
 "                to your suppliers using checks. When you select a supplier, the\n"
-"                payment method and an amount for the payment, Modoo will\n"
+"                payment method and an amount for the payment, Odoo will\n"
 "                propose to reconcile your payment with the open supplier\n"
 "                invoices or bills.\n"
 "              </p>\n"
@@ -41,12 +42,12 @@ msgstr "Knjigovodstveni vaučer"
 #. module: account_check_writing
 #: field:account.voucher,allow_check:0
 msgid "Allow Check Writing"
-msgstr ""
+msgstr "Omogući ispis čekova"
 
 #. module: account_check_writing
 #: field:account.journal,allow_check_writing:0
 msgid "Allow Check writing"
-msgstr ""
+msgstr "Omogući ispis čekova"
 
 #. module: account_check_writing
 #: field:account.voucher,amount_in_word:0
@@ -211,7 +212,7 @@ msgstr ""
 #: code:addons/account_check_writing/account_voucher.py:77
 #, python-format
 msgid "Printing error"
-msgstr ""
+msgstr "Greška ispisa"
 
 #. module: account_check_writing
 #: help:account.check.write,check_number:0

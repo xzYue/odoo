@@ -1,18 +1,19 @@
-# Translation of Modoo Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
 # Translators:
 # Arminas Grigonis <arminas@versada.lt>, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# Naglis Jonaitis, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Modoo 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2016-04-22 08:17+0000\n"
-"Last-Translator: Martin Trigaux\n"
-"Language-Team: Lithuanian (http://www.transifex.com/modoo/modoo-8/language/lt/)\n"
+"PO-Revision-Date: 2016-12-03 17:19+0000\n"
+"Last-Translator: Naglis Jonaitis\n"
+"Language-Team: Lithuanian (http://www.transifex.com/odoo/odoo-8/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -800,7 +801,7 @@ msgstr "Turi priedų"
 #. module: mail
 #: view:mail.mail:mail.view_mail_form field:mail.mail,headers:0
 msgid "Headers"
-msgstr ""
+msgstr "Antraštės"
 
 #. module: mail
 #: field:mail.message.subtype,hidden:0
@@ -857,7 +858,7 @@ msgstr ""
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Modoo server, "
+"If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
 
@@ -1595,7 +1596,7 @@ msgstr "Išsiųsta"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(modoo)s"
+msgid "Sent by %(company)s using %(odoo)s"
 msgstr ""
 
 #. module: mail
@@ -1716,7 +1717,7 @@ msgstr ""
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Modoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -1725,7 +1726,7 @@ msgstr ""
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.modoo.com>"
+"<jobs@example.odoo.com>"
 msgstr ""
 
 #. module: mail
@@ -2043,7 +2044,7 @@ msgstr ""
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.modoo.com"
+msgid "mycompany.odoo.com"
 msgstr ""
 
 #. module: mail
