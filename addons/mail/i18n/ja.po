@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of Modoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -7,12 +7,12 @@
 # Yoshi Tashiro <tashiro@roomsfor.hk>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: Modoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2016-12-03 10:03+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Japanese (http://www.transifex.com/odoo/odoo-8/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/modoo/modoo-8/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -857,7 +857,7 @@ msgstr ""
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Modoo server, "
 "enter the domain name here."
 msgstr ""
 
@@ -1595,7 +1595,7 @@ msgstr "送信済"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
+msgid "Sent by %(company)s using %(modoo)s"
 msgstr ""
 
 #. module: mail
@@ -1716,7 +1716,7 @@ msgstr ""
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Modoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr "このエイリアスに対応した(Odooドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
@@ -1725,8 +1725,8 @@ msgstr "このエイリアスに対応した(Odooドキュメント種別)モデ
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "eメールのエイリアス.例えば<jjobs@example.odoo.com>のメールを受け取りたい場合'jobs’を選択"
+"<jobs@example.modoo.com>"
+msgstr "eメールのエイリアス.例えば<jjobs@example.modoo.com>のメールを受け取りたい場合'jobs’を選択"
 
 #. module: mail
 #: help:mail.alias,alias_user_id:0
@@ -2043,8 +2043,8 @@ msgstr ""
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.modoo.com"
+msgstr "mycompany.modoo.com"
 
 #. module: mail
 #. openerp-web

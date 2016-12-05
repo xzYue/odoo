@@ -482,7 +482,7 @@ msgid ""
 "                the column names, Modoo can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
-msgstr "ファイルにカラム名が含まれている場合\nOdoo は、自動的にフィールドに関連するカラムを自動認識します。\nこの機能により、カラムが多いファイルのインポートでも簡単に\n作業ができます。"
+msgstr "ファイルにカラム名が含まれている場合\nModoo は、自動的にフィールドに関連するカラムを自動認識します。\nこの機能により、カラムが多いファイルのインポートでも簡単に\n作業ができます。"
 
 #. module: base_import
 #. openerp-web

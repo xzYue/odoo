@@ -54,7 +54,7 @@ msgid ""
 "                (reparation, insurances, periodic maintenance).\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKliknutím vytvoříte novou smlouvu.\n</p><p>\nSpravujte všechny své smlouvy (leasing, pojištění, apod.) a všechny přidružené služby a náklady. Odoo vás automaticky upozorní, když je potřeba nějakou smlouvu obnovit.\n</p><p>\nKaždá smlouva (např. leasing) může obsahovat několik služeb (odškodnění, pojištění, pravidelnou údržbu).\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nKliknutím vytvoříte novou smlouvu.\n</p><p>\nSpravujte všechny své smlouvy (leasing, pojištění, apod.) a všechny přidružené služby a náklady. Modoo vás automaticky upozorní, když je potřeba nějakou smlouvu obnovit.\n</p><p>\nKaždá smlouva (např. leasing) může obsahovat několik služeb (odškodnění, pojištění, pravidelnou údržbu).\n</p>"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
@@ -67,7 +67,7 @@ msgid ""
 "                contracts (fixed or recurring) and fuel logs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKlikněte pro vytvoření nového nákladu.\n</p><p>\nOdoo vám pomůže spravovat náklady na různá vozidla. Náklady jsou vypočítávány automaticky ze služeb, smluv (jednorázových nebo periodických) a nákladů na pohonné hmoty.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nKlikněte pro vytvoření nového nákladu.\n</p><p>\nModoo vám pomůže spravovat náklady na různá vozidla. Náklady jsou vypočítávány automaticky ze služeb, smluv (jednorázových nebo periodických) a nákladů na pohonné hmoty.\n</p>"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_fuel_act
@@ -118,7 +118,7 @@ msgid ""
 "                repair, fixed maintenance, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKlikněte pro přidání dalšího záznamu o údržbě.\n</p><p>\nOdoo vám pomáhá udržet přehled o servisování vozidel.\nMůže se jednat o různé druhy servisu: neplánovaná oprava, údržba atd.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nKlikněte pro přidání dalšího záznamu o údržbě.\n</p><p>\nModoo vám pomáhá udržet přehled o servisování vozidel.\nMůže se jednat o různé druhy servisu: neplánovaná oprava, údržba atd.\n</p>"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_act
@@ -145,7 +145,7 @@ msgid ""
 "                renewed.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nKliknutím přidáte nové vozidlo.\n</p><p>\nMáte možnost spravovat svou flotilu a udržovat přehled o smlouvách, službách, jednorázových a periodických nákladech, počtu najetých kilometrů a nákladů na phm pro každé vozidlo.\n</p><p>\nOdoo vás upozorní, kdykoliv je nutné nějakou smlouvu či službu obnovit.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nKliknutím přidáte nové vozidlo.\n</p><p>\nMáte možnost spravovat svou flotilu a udržovat přehled o smlouvách, službách, jednorázových a periodických nákladech, počtu najetých kilometrů a nákladů na phm pro každé vozidlo.\n</p><p>\nModoo vás upozorní, kdykoliv je nutné nějakou smlouvu či službu obnovit.\n</p>"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_state_act
@@ -172,7 +172,7 @@ msgid ""
 "          costs, sort them by type and by vehicle.\n"
 "        </p>\n"
 "      "
-msgstr "<p>\nOdoo vám pomáhá spravovat náklady pro různá vozidla.\nNáklady jsou vytvářeny ze služeb a smluv a zobrazují se zde.\n</p>\n<p>\nDíky různým filtrům, může Odoo tisknout pouze aktuální náklady roztříděné dle typu nákladů a pro určité vozidlo.\n</p>"
+msgstr "<p>\nModoo vám pomáhá spravovat náklady pro různá vozidla.\nNáklady jsou vytvářeny ze služeb a smluv a zobrazují se zde.\n</p>\n<p>\nDíky různým filtrům, může Modoo tisknout pouze aktuální náklady roztříděné dle typu nákladů a pro určité vozidlo.\n</p>"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_1
